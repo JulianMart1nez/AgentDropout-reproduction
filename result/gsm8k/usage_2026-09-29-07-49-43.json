@@ -1,0 +1,3519 @@
+{
+ "by_phase": {
+  "eval": {
+   "prompt_tokens": 522114,
+   "completion_tokens": 97495,
+   "calls": 500,
+   "cost_usd": 0.20579692000000033
+  }
+ },
+ "total": {
+  "prompt_tokens": 522114,
+  "completion_tokens": 97495,
+  "calls": 500,
+  "cost_usd": 0.20579692000000033,
+  "total_tokens": 619609
+ },
+ "calls": [
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 995,
+   "completion_tokens": 100,
+   "cost": 0.00022975
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 956,
+   "completion_tokens": 91,
+   "cost": 0.0002197
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 965,
+   "completion_tokens": 102,
+   "cost": 0.00022333
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 980,
+   "completion_tokens": 160,
+   "cost": 0.0002938
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1038,
+   "completion_tokens": 203,
+   "cost": 0.00034812
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 744,
+   "completion_tokens": 294,
+   "cost": 0.00045876
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 696,
+   "completion_tokens": 159,
+   "cost": 0.000333
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 901,
+   "completion_tokens": 111,
+   "cost": 0.00031614
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 890,
+   "completion_tokens": 265,
+   "cost": 0.00046804
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 715,
+   "completion_tokens": 202,
+   "cost": 0.00038075
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 723,
+   "completion_tokens": 56,
+   "cost": 0.00023675
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 786,
+   "completion_tokens": 80,
+   "cost": 0.0002385
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1022,
+   "completion_tokens": 113,
+   "cost": 0.00033304
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 788,
+   "completion_tokens": 269,
+   "cost": 0.000466
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 743,
+   "completion_tokens": 427,
+   "cost": 0.00067921
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 593,
+   "completion_tokens": 112,
+   "cost": 0.00028813
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 926,
+   "completion_tokens": 93,
+   "cost": 0.00029392
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 861,
+   "completion_tokens": 197,
+   "cost": 0.00041225
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 509,
+   "completion_tokens": 331,
+   "cost": 0.00045825
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1002,
+   "completion_tokens": 158,
+   "cost": 0.0004085
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 972,
+   "completion_tokens": 109,
+   "cost": 0.000352
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 748,
+   "completion_tokens": 204,
+   "cost": 0.000391
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 964,
+   "completion_tokens": 115,
+   "cost": 0.00023786
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1046,
+   "completion_tokens": 181,
+   "cost": 0.00032536
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 993,
+   "completion_tokens": 99,
+   "cost": 0.00032742
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 964,
+   "completion_tokens": 99,
+   "cost": 0.00034
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1038,
+   "completion_tokens": 133,
+   "cost": 0.00026832
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 992,
+   "completion_tokens": 204,
+   "cost": 0.00035896
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 956,
+   "completion_tokens": 92,
+   "cost": 0.00022084
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 980,
+   "completion_tokens": 167,
+   "cost": 0.00030178
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 826,
+   "completion_tokens": 177,
+   "cost": 0.00034916
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 852,
+   "completion_tokens": 207,
+   "cost": 0.00042
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 880,
+   "completion_tokens": 282,
+   "cost": 0.000502
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1060,
+   "completion_tokens": 273,
+   "cost": 0.00050342
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1141,
+   "completion_tokens": 86,
+   "cost": 0.00035124
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1043,
+   "completion_tokens": 57,
+   "cost": 0.00029833
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1335,
+   "completion_tokens": 115,
+   "cost": 0.0004239
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1478,
+   "completion_tokens": 113,
+   "cost": 0.00046528
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 993,
+   "completion_tokens": 315,
+   "cost": 0.00055491
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 908,
+   "completion_tokens": 236,
+   "cost": 0.00052084
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1056,
+   "completion_tokens": 196,
+   "cost": 0.00046
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1308,
+   "completion_tokens": 354,
+   "cost": 0.00063252
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1458,
+   "completion_tokens": 97,
+   "cost": 0.00045276
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 972,
+   "completion_tokens": 139,
+   "cost": 0.00027906
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1451,
+   "completion_tokens": 203,
+   "cost": 0.00064069
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 979,
+   "completion_tokens": 111,
+   "cost": 0.0002811
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1009,
+   "completion_tokens": 133,
+   "cost": 0.0003081
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1400,
+   "completion_tokens": 192,
+   "cost": 0.000542
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1054,
+   "completion_tokens": 219,
+   "cost": 0.00038252
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1002,
+   "completion_tokens": 189,
+   "cost": 0.00035682
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 987,
+   "completion_tokens": 151,
+   "cost": 0.00028557
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 982,
+   "completion_tokens": 156,
+   "cost": 0.00032232
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 971,
+   "completion_tokens": 96,
+   "cost": 0.00021823
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 993,
+   "completion_tokens": 205,
+   "cost": 0.00036906
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1030,
+   "completion_tokens": 235,
+   "cost": 0.00040494
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 788,
+   "completion_tokens": 346,
+   "cost": 0.0005308
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 716,
+   "completion_tokens": 218,
+   "cost": 0.000364
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 850,
+   "completion_tokens": 337,
+   "cost": 0.000527
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 916,
+   "completion_tokens": 533,
+   "cost": 0.0007811
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1001,
+   "completion_tokens": 122,
+   "cost": 0.00034873
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 801,
+   "completion_tokens": 90,
+   "cost": 0.00025425
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 788,
+   "completion_tokens": 321,
+   "cost": 0.000518
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 618,
+   "completion_tokens": 131,
+   "cost": 0.00031704
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 975,
+   "completion_tokens": 91,
+   "cost": 0.0003159
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1316,
+   "completion_tokens": 254,
+   "cost": 0.00057904
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 852,
+   "completion_tokens": 337,
+   "cost": 0.00061974
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1053,
+   "completion_tokens": 145,
+   "cost": 0.00040825
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 979,
+   "completion_tokens": 139,
+   "cost": 0.00026957
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 798,
+   "completion_tokens": 202,
+   "cost": 0.0004015
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 995,
+   "completion_tokens": 185,
+   "cost": 0.00032665
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 971,
+   "completion_tokens": 120,
+   "cost": 0.00024559
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1299,
+   "completion_tokens": 383,
+   "cost": 0.00077877
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 928,
+   "completion_tokens": 217,
+   "cost": 0.000449
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 990,
+   "completion_tokens": 177,
+   "cost": 0.00034314
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 987,
+   "completion_tokens": 126,
+   "cost": 0.00025707
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 982,
+   "completion_tokens": 151,
+   "cost": 0.00031782
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1038,
+   "completion_tokens": 247,
+   "cost": 0.00041766
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1003,
+   "completion_tokens": 252,
+   "cost": 0.00040535
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1030,
+   "completion_tokens": 224,
+   "cost": 0.00036816
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 995,
+   "completion_tokens": 209,
+   "cost": 0.00035401
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 976,
+   "completion_tokens": 288,
+   "cost": 0.000532
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1466,
+   "completion_tokens": 101,
+   "cost": 0.00041586
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 873,
+   "completion_tokens": 204,
+   "cost": 0.00038205
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1178,
+   "completion_tokens": 542,
+   "cost": 0.00083278
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1175,
+   "completion_tokens": 90,
+   "cost": 0.00036271
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 950,
+   "completion_tokens": 307,
+   "cost": 0.0005445
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 2133,
+   "completion_tokens": 167,
+   "cost": 0.00071679
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1411,
+   "completion_tokens": 181,
+   "cost": 0.00053375
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1485,
+   "completion_tokens": 126,
+   "cost": 0.00049365
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1101,
+   "completion_tokens": 97,
+   "cost": 0.00037225
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1484,
+   "completion_tokens": 128,
+   "cost": 0.00054172
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 998,
+   "completion_tokens": 202,
+   "cost": 0.00036756
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 987,
+   "completion_tokens": 140,
+   "cost": 0.00028455
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1003,
+   "completion_tokens": 143,
+   "cost": 0.00029261
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 2303,
+   "completion_tokens": 359,
+   "cost": 0.00093475
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1048,
+   "completion_tokens": 257,
+   "cost": 0.0004241
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1095,
+   "completion_tokens": 454,
+   "cost": 0.00072775
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1769,
+   "completion_tokens": 161,
+   "cost": 0.00062743
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1825,
+   "completion_tokens": 291,
+   "cost": 0.00074725
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1011,
+   "completion_tokens": 176,
+   "cost": 0.00032103
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 988,
+   "completion_tokens": 146,
+   "cost": 0.00028016
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 992,
+   "completion_tokens": 163,
+   "cost": 0.0003007
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 980,
+   "completion_tokens": 180,
+   "cost": 0.0003166
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 997,
+   "completion_tokens": 151,
+   "cost": 0.00028847
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 989,
+   "completion_tokens": 341,
+   "cost": 0.00050275
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 783,
+   "completion_tokens": 269,
+   "cost": 0.00044157
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 798,
+   "completion_tokens": 277,
+   "cost": 0.00045504
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 804,
+   "completion_tokens": 356,
+   "cost": 0.00054684
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 810,
+   "completion_tokens": 423,
+   "cost": 0.00062496
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 919,
+   "completion_tokens": 74,
+   "cost": 0.00027023
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 979,
+   "completion_tokens": 396,
+   "cost": 0.00064319
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 942,
+   "completion_tokens": 157,
+   "cost": 0.00038304
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1027,
+   "completion_tokens": 138,
+   "cost": 0.00037451
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 722,
+   "completion_tokens": 156,
+   "cost": 0.00036418
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1099,
+   "completion_tokens": 182,
+   "cost": 0.00045675
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1242,
+   "completion_tokens": 155,
+   "cost": 0.0004655
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 996,
+   "completion_tokens": 133,
+   "cost": 0.00027918
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 824,
+   "completion_tokens": 200,
+   "cost": 0.000406
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 988,
+   "completion_tokens": 130,
+   "cost": 0.00026192
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 891,
+   "completion_tokens": 283,
+   "cost": 0.00050575
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 951,
+   "completion_tokens": 255,
+   "cost": 0.00045129
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1005,
+   "completion_tokens": 183,
+   "cost": 0.00032727
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1125,
+   "completion_tokens": 310,
+   "cost": 0.00059125
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1011,
+   "completion_tokens": 281,
+   "cost": 0.00053375
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1000,
+   "completion_tokens": 197,
+   "cost": 0.0003533
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1355,
+   "completion_tokens": 63,
+   "cost": 0.00038413
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 988,
+   "completion_tokens": 185,
+   "cost": 0.00033614
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 992,
+   "completion_tokens": 179,
+   "cost": 0.00031894
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1243,
+   "completion_tokens": 172,
+   "cost": 0.00055655
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 997,
+   "completion_tokens": 263,
+   "cost": 0.00043919
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 997,
+   "completion_tokens": 354,
+   "cost": 0.00051989
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1004,
+   "completion_tokens": 153,
+   "cost": 0.0003043
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 980,
+   "completion_tokens": 165,
+   "cost": 0.0002995
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1099,
+   "completion_tokens": 269,
+   "cost": 0.00051017
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 351,
+   "cost": 0.00058074
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 989,
+   "completion_tokens": 346,
+   "cost": 0.00050845
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1525,
+   "completion_tokens": 161,
+   "cost": 0.00054515
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1013,
+   "completion_tokens": 395,
+   "cost": 0.00062887
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1588,
+   "completion_tokens": 238,
+   "cost": 0.00072032
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1711,
+   "completion_tokens": 147,
+   "cost": 0.00059465
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1362,
+   "completion_tokens": 447,
+   "cost": 0.00078936
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1606,
+   "completion_tokens": 138,
+   "cost": 0.0005395
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1013,
+   "completion_tokens": 159,
+   "cost": 0.00031375
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1792,
+   "completion_tokens": 251,
+   "cost": 0.0007943
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 2086,
+   "completion_tokens": 217,
+   "cost": 0.0007832
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1627,
+   "completion_tokens": 192,
+   "cost": 0.00056328
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 996,
+   "completion_tokens": 222,
+   "cost": 0.00038064
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 2207,
+   "completion_tokens": 393,
+   "cost": 0.00107653
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1008,
+   "completion_tokens": 179,
+   "cost": 0.0003351
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1005,
+   "completion_tokens": 383,
+   "cost": 0.00056679
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 980,
+   "completion_tokens": 89,
+   "cost": 0.0002359
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 959,
+   "completion_tokens": 126,
+   "cost": 0.00027199
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 995,
+   "completion_tokens": 210,
+   "cost": 0.00037819
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 141,
+   "cost": 0.00030678
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 984,
+   "completion_tokens": 166,
+   "cost": 0.00032484
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 718,
+   "completion_tokens": 191,
+   "cost": 0.00032228
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 772,
+   "completion_tokens": 53,
+   "cost": 0.00023298
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 810,
+   "completion_tokens": 348,
+   "cost": 0.00053946
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 799,
+   "completion_tokens": 379,
+   "cost": 0.00056009
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 854,
+   "completion_tokens": 573,
+   "cost": 0.0007972
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1024,
+   "completion_tokens": 113,
+   "cost": 0.000369
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1290,
+   "completion_tokens": 153,
+   "cost": 0.0004473
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1044,
+   "completion_tokens": 134,
+   "cost": 0.000395
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 733,
+   "completion_tokens": 251,
+   "cost": 0.00043425
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 863,
+   "completion_tokens": 177,
+   "cost": 0.00036642
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 555,
+   "completion_tokens": 297,
+   "cost": 0.00043575
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 853,
+   "completion_tokens": 86,
+   "cost": 0.00029925
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 903,
+   "completion_tokens": 288,
+   "cost": 0.00047592
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1028,
+   "completion_tokens": 207,
+   "cost": 0.0003613
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1175,
+   "completion_tokens": 190,
+   "cost": 0.00048375
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 988,
+   "completion_tokens": 133,
+   "cost": 0.00027686
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 666,
+   "completion_tokens": 104,
+   "cost": 0.00025344
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 996,
+   "completion_tokens": 177,
+   "cost": 0.00032934
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 173,
+   "cost": 0.00032022
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 980,
+   "completion_tokens": 86,
+   "cost": 0.00020944
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1003,
+   "completion_tokens": 239,
+   "cost": 0.00040205
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 967,
+   "completion_tokens": 161,
+   "cost": 0.00030269
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 984,
+   "completion_tokens": 169,
+   "cost": 0.00030522
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 995,
+   "completion_tokens": 164,
+   "cost": 0.00030271
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 841,
+   "completion_tokens": 164,
+   "cost": 0.00031565
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 959,
+   "completion_tokens": 123,
+   "cost": 0.00025705
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 360,
+   "cost": 0.000591
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1075,
+   "completion_tokens": 52,
+   "cost": 0.00032075
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1005,
+   "completion_tokens": 281,
+   "cost": 0.00049659
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 895,
+   "completion_tokens": 245,
+   "cost": 0.00042365
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1055,
+   "completion_tokens": 561,
+   "cost": 0.00083029
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1607,
+   "completion_tokens": 102,
+   "cost": 0.00050375
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1542,
+   "completion_tokens": 146,
+   "cost": 0.00050148
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1571,
+   "completion_tokens": 167,
+   "cost": 0.00052734
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1272,
+   "completion_tokens": 93,
+   "cost": 0.000411
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1571,
+   "completion_tokens": 182,
+   "cost": 0.00054084
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 2068,
+   "completion_tokens": 153,
+   "cost": 0.00067
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 928,
+   "completion_tokens": 217,
+   "cost": 0.000449
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1008,
+   "completion_tokens": 151,
+   "cost": 0.00030318
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1202,
+   "completion_tokens": 114,
+   "cost": 0.00039108
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 996,
+   "completion_tokens": 155,
+   "cost": 0.00030426
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1034,
+   "completion_tokens": 235,
+   "cost": 0.0004059
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 2123,
+   "completion_tokens": 207,
+   "cost": 0.00069582
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 974,
+   "completion_tokens": 182,
+   "cost": 0.0004255
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1010,
+   "completion_tokens": 249,
+   "cost": 0.0005015
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 966,
+   "completion_tokens": 97,
+   "cost": 0.00021792
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 986,
+   "completion_tokens": 111,
+   "cost": 0.00023968
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 975,
+   "completion_tokens": 112,
+   "cost": 0.00026067
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 967,
+   "completion_tokens": 137,
+   "cost": 0.00026381
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 712,
+   "completion_tokens": 195,
+   "cost": 0.0003251
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 737,
+   "completion_tokens": 210,
+   "cost": 0.00036097
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 753,
+   "completion_tokens": 274,
+   "cost": 0.00042705
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 747,
+   "completion_tokens": 320,
+   "cost": 0.00047775
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 894,
+   "completion_tokens": 75,
+   "cost": 0.00026412
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 774,
+   "completion_tokens": 95,
+   "cost": 0.00025212
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 810,
+   "completion_tokens": 84,
+   "cost": 0.00027
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 988,
+   "completion_tokens": 204,
+   "cost": 0.00036696
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 930,
+   "completion_tokens": 136,
+   "cost": 0.0003456
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 624,
+   "completion_tokens": 117,
+   "cost": 0.000273
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 844,
+   "completion_tokens": 469,
+   "cost": 0.00068726
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 983,
+   "completion_tokens": 130,
+   "cost": 0.00027199
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 697,
+   "completion_tokens": 394,
+   "cost": 0.00056825
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 595,
+   "completion_tokens": 312,
+   "cost": 0.00046075
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 975,
+   "completion_tokens": 111,
+   "cost": 0.00023649
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1180,
+   "completion_tokens": 179,
+   "cost": 0.00046562
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 975,
+   "completion_tokens": 147,
+   "cost": 0.00027753
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 974,
+   "completion_tokens": 141,
+   "cost": 0.0002704
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 967,
+   "completion_tokens": 175,
+   "cost": 0.00030713
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 966,
+   "completion_tokens": 91,
+   "cost": 0.00021108
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 796,
+   "completion_tokens": 390,
+   "cost": 0.000589
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1083,
+   "completion_tokens": 222,
+   "cost": 0.00045972
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 840,
+   "completion_tokens": 192,
+   "cost": 0.00034728
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 994,
+   "completion_tokens": 147,
+   "cost": 0.00028304
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1107,
+   "completion_tokens": 95,
+   "cost": 0.00033717
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 885,
+   "completion_tokens": 212,
+   "cost": 0.00043325
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 998,
+   "completion_tokens": 254,
+   "cost": 0.00040618
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 986,
+   "completion_tokens": 111,
+   "cost": 0.00023968
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1188,
+   "completion_tokens": 83,
+   "cost": 0.00038
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 964,
+   "completion_tokens": 256,
+   "cost": 0.000497
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1041,
+   "completion_tokens": 201,
+   "cost": 0.00043074
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 895,
+   "completion_tokens": 296,
+   "cost": 0.00048179
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 990,
+   "completion_tokens": 311,
+   "cost": 0.00046884
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 982,
+   "completion_tokens": 101,
+   "cost": 0.00023864
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1390,
+   "completion_tokens": 95,
+   "cost": 0.0004425
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1103,
+   "completion_tokens": 176,
+   "cost": 0.00045175
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 991,
+   "completion_tokens": 94,
+   "cost": 0.00023327
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1368,
+   "completion_tokens": 111,
+   "cost": 0.000453
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1375,
+   "completion_tokens": 74,
+   "cost": 0.00041775
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1193,
+   "completion_tokens": 585,
+   "cost": 0.00090919
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 2128,
+   "completion_tokens": 165,
+   "cost": 0.00072458
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1002,
+   "completion_tokens": 130,
+   "cost": 0.0002775
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1274,
+   "completion_tokens": 220,
+   "cost": 0.00050376
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 983,
+   "completion_tokens": 184,
+   "cost": 0.00033355
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 2220,
+   "completion_tokens": 312,
+   "cost": 0.000867
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1006,
+   "completion_tokens": 269,
+   "cost": 0.00043712
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 976,
+   "completion_tokens": 136,
+   "cost": 0.00035664
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 986,
+   "completion_tokens": 114,
+   "cost": 0.00025462
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 998,
+   "completion_tokens": 139,
+   "cost": 0.00027508
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 994,
+   "completion_tokens": 158,
+   "cost": 0.00031862
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 994,
+   "completion_tokens": 170,
+   "cost": 0.00030926
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 750,
+   "completion_tokens": 271,
+   "cost": 0.00043428
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 813,
+   "completion_tokens": 325,
+   "cost": 0.00050259
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 782,
+   "completion_tokens": 201,
+   "cost": 0.0003417
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 884,
+   "completion_tokens": 95,
+   "cost": 0.00029766
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 801,
+   "completion_tokens": 536,
+   "cost": 0.00075117
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 763,
+   "completion_tokens": 267,
+   "cost": 0.00045775
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 854,
+   "completion_tokens": 81,
+   "cost": 0.00025936
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1005,
+   "completion_tokens": 111,
+   "cost": 0.00036225
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1203,
+   "completion_tokens": 99,
+   "cost": 0.00039975
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 712,
+   "completion_tokens": 235,
+   "cost": 0.00045134
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 899,
+   "completion_tokens": 93,
+   "cost": 0.00031775
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 994,
+   "completion_tokens": 135,
+   "cost": 0.00026936
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 717,
+   "completion_tokens": 115,
+   "cost": 0.00027558
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1030,
+   "completion_tokens": 151,
+   "cost": 0.0004085
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 846,
+   "completion_tokens": 256,
+   "cost": 0.0004675
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 986,
+   "completion_tokens": 117,
+   "cost": 0.00024652
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 661,
+   "completion_tokens": 356,
+   "cost": 0.00052125
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 984,
+   "completion_tokens": 162,
+   "cost": 0.0003282
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1002,
+   "completion_tokens": 220,
+   "cost": 0.0003801
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1002,
+   "completion_tokens": 217,
+   "cost": 0.00036516
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1006,
+   "completion_tokens": 138,
+   "cost": 0.00027626
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 904,
+   "completion_tokens": 266,
+   "cost": 0.00043868
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 976,
+   "completion_tokens": 146,
+   "cost": 0.00031188
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 994,
+   "completion_tokens": 179,
+   "cost": 0.00031952
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 998,
+   "completion_tokens": 139,
+   "cost": 0.00027508
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 994,
+   "completion_tokens": 170,
+   "cost": 0.00030926
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1318,
+   "completion_tokens": 95,
+   "cost": 0.00040182
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 338,
+   "cost": 0.00054288
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 945,
+   "completion_tokens": 276,
+   "cost": 0.00044832
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1017,
+   "completion_tokens": 426,
+   "cost": 0.00066537
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 959,
+   "completion_tokens": 234,
+   "cost": 0.00041388
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1259,
+   "completion_tokens": 139,
+   "cost": 0.00042726
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1370,
+   "completion_tokens": 108,
+   "cost": 0.000426
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1563,
+   "completion_tokens": 127,
+   "cost": 0.00051775
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1277,
+   "completion_tokens": 81,
+   "cost": 0.00034747
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1002,
+   "completion_tokens": 158,
+   "cost": 0.00030942
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1858,
+   "completion_tokens": 102,
+   "cost": 0.0005665
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1321,
+   "completion_tokens": 148,
+   "cost": 0.00047825
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1185,
+   "completion_tokens": 137,
+   "cost": 0.00043325
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1554,
+   "completion_tokens": 193,
+   "cost": 0.0005815
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1010,
+   "completion_tokens": 174,
+   "cost": 0.00031846
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1014,
+   "completion_tokens": 157,
+   "cost": 0.00030024
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 992,
+   "completion_tokens": 181,
+   "cost": 0.00040098
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1805,
+   "completion_tokens": 384,
+   "cost": 0.0007788
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1010,
+   "completion_tokens": 243,
+   "cost": 0.00039712
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 971,
+   "completion_tokens": 96,
+   "cost": 0.00021823
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 971,
+   "completion_tokens": 117,
+   "cost": 0.00024217
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 966,
+   "completion_tokens": 162,
+   "cost": 0.00031506
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 958,
+   "completion_tokens": 168,
+   "cost": 0.00030806
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 737,
+   "completion_tokens": 223,
+   "cost": 0.00036427
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 988,
+   "completion_tokens": 163,
+   "cost": 0.00038382
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 776,
+   "completion_tokens": 336,
+   "cost": 0.00051592
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 827,
+   "completion_tokens": 96,
+   "cost": 0.00028015
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 715,
+   "completion_tokens": 154,
+   "cost": 0.00033275
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 978,
+   "completion_tokens": 137,
+   "cost": 0.0003815
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 737,
+   "completion_tokens": 97,
+   "cost": 0.00028125
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 802,
+   "completion_tokens": 253,
+   "cost": 0.0004535
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 651,
+   "completion_tokens": 238,
+   "cost": 0.00040075
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 774,
+   "completion_tokens": 413,
+   "cost": 0.0006065
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 924,
+   "completion_tokens": 86,
+   "cost": 0.00028536
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 564,
+   "completion_tokens": 97,
+   "cost": 0.000238
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 979,
+   "completion_tokens": 123,
+   "cost": 0.00025133
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1056,
+   "completion_tokens": 58,
+   "cost": 0.000322
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 979,
+   "completion_tokens": 134,
+   "cost": 0.00026387
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 739,
+   "completion_tokens": 211,
+   "cost": 0.00043181
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 971,
+   "completion_tokens": 120,
+   "cost": 0.00024559
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 845,
+   "completion_tokens": 184,
+   "cost": 0.00039525
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 971,
+   "completion_tokens": 96,
+   "cost": 0.00021823
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 998,
+   "completion_tokens": 178,
+   "cost": 0.00031954
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 844,
+   "completion_tokens": 239,
+   "cost": 0.00045
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 894,
+   "completion_tokens": 226,
+   "cost": 0.0004017
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 974,
+   "completion_tokens": 187,
+   "cost": 0.00033436
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1223,
+   "completion_tokens": 98,
+   "cost": 0.00037423
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 990,
+   "completion_tokens": 155,
+   "cost": 0.000291
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 966,
+   "completion_tokens": 190,
+   "cost": 0.00032394
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 966,
+   "completion_tokens": 156,
+   "cost": 0.00028518
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 848,
+   "completion_tokens": 154,
+   "cost": 0.000366
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 958,
+   "completion_tokens": 172,
+   "cost": 0.00031262
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1167,
+   "completion_tokens": 240,
+   "cost": 0.00053175
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 994,
+   "completion_tokens": 240,
+   "cost": 0.0004885
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1038,
+   "completion_tokens": 97,
+   "cost": 0.0003565
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1370,
+   "completion_tokens": 83,
+   "cost": 0.00041128
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 987,
+   "completion_tokens": 120,
+   "cost": 0.00026175
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 984,
+   "completion_tokens": 394,
+   "cost": 0.0006078
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 969,
+   "completion_tokens": 319,
+   "cost": 0.00056125
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 985,
+   "completion_tokens": 152,
+   "cost": 0.00039825
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1672,
+   "completion_tokens": 62,
+   "cost": 0.00048
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1289,
+   "completion_tokens": 164,
+   "cost": 0.00048625
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1503,
+   "completion_tokens": 110,
+   "cost": 0.00045972
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 987,
+   "completion_tokens": 157,
+   "cost": 0.00030393
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1006,
+   "completion_tokens": 202,
+   "cost": 0.00036074
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1504,
+   "completion_tokens": 196,
+   "cost": 0.000572
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 982,
+   "completion_tokens": 214,
+   "cost": 0.00036746
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1543,
+   "completion_tokens": 484,
+   "cost": 0.00080592
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 974,
+   "completion_tokens": 214,
+   "cost": 0.00036514
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 980,
+   "completion_tokens": 141,
+   "cost": 0.00029518
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 973,
+   "completion_tokens": 146,
+   "cost": 0.00027581
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 974,
+   "completion_tokens": 158,
+   "cost": 0.00031282
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 991,
+   "completion_tokens": 174,
+   "cost": 0.00031295
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1003,
+   "completion_tokens": 227,
+   "cost": 0.00037685
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 770,
+   "completion_tokens": 280,
+   "cost": 0.00045034
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 768,
+   "completion_tokens": 255,
+   "cost": 0.00042126
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 781,
+   "completion_tokens": 275,
+   "cost": 0.00044783
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 814,
+   "completion_tokens": 457,
+   "cost": 0.00066488
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 879,
+   "completion_tokens": 367,
+   "cost": 0.00058113
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 890,
+   "completion_tokens": 97,
+   "cost": 0.00029956
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 923,
+   "completion_tokens": 94,
+   "cost": 0.00030571
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 913,
+   "completion_tokens": 85,
+   "cost": 0.00029562
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1113,
+   "completion_tokens": 165,
+   "cost": 0.00043023
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1134,
+   "completion_tokens": 149,
+   "cost": 0.00040626
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 715,
+   "completion_tokens": 161,
+   "cost": 0.00033975
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1003,
+   "completion_tokens": 337,
+   "cost": 0.00054402
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 981,
+   "completion_tokens": 182,
+   "cost": 0.00031917
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1015,
+   "completion_tokens": 243,
+   "cost": 0.00049675
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 973,
+   "completion_tokens": 157,
+   "cost": 0.00028835
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 730,
+   "completion_tokens": 377,
+   "cost": 0.0005595
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1011,
+   "completion_tokens": 244,
+   "cost": 0.00039855
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 745,
+   "completion_tokens": 422,
+   "cost": 0.00060825
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 988,
+   "completion_tokens": 167,
+   "cost": 0.00031562
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 999,
+   "completion_tokens": 195,
+   "cost": 0.00033921
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 962,
+   "completion_tokens": 235,
+   "cost": 0.00043168
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1003,
+   "completion_tokens": 224,
+   "cost": 0.00037343
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 980,
+   "completion_tokens": 139,
+   "cost": 0.00026986
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 991,
+   "completion_tokens": 168,
+   "cost": 0.00030611
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1332,
+   "completion_tokens": 97,
+   "cost": 0.0004047
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 982,
+   "completion_tokens": 184,
+   "cost": 0.00033326
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1140,
+   "completion_tokens": 353,
+   "cost": 0.00061782
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 946,
+   "completion_tokens": 354,
+   "cost": 0.0005627
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1277,
+   "completion_tokens": 245,
+   "cost": 0.00063811
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 331,
+   "cost": 0.00056946
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 974,
+   "completion_tokens": 154,
+   "cost": 0.00028522
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 989,
+   "completion_tokens": 148,
+   "cost": 0.00029425
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1459,
+   "completion_tokens": 85,
+   "cost": 0.00044975
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 972,
+   "completion_tokens": 272,
+   "cost": 0.00048828
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1685,
+   "completion_tokens": 144,
+   "cost": 0.000534
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1739,
+   "completion_tokens": 166,
+   "cost": 0.00060075
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1399,
+   "completion_tokens": 94,
+   "cost": 0.00043223
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1378,
+   "completion_tokens": 141,
+   "cost": 0.00045762
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1727,
+   "completion_tokens": 166,
+   "cost": 0.00056388
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 996,
+   "completion_tokens": 188,
+   "cost": 0.00034188
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1007,
+   "completion_tokens": 216,
+   "cost": 0.00037699
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1337,
+   "completion_tokens": 278,
+   "cost": 0.00061225
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1821,
+   "completion_tokens": 276,
+   "cost": 0.00073125
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 990,
+   "completion_tokens": 209,
+   "cost": 0.00036408
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1019,
+   "completion_tokens": 228,
+   "cost": 0.00038263
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 978,
+   "completion_tokens": 105,
+   "cost": 0.00025356
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1012,
+   "completion_tokens": 118,
+   "cost": 0.00027824
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1056,
+   "completion_tokens": 124,
+   "cost": 0.00029784
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 984,
+   "completion_tokens": 145,
+   "cost": 0.0003009
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1003,
+   "completion_tokens": 195,
+   "cost": 0.00036341
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 733,
+   "completion_tokens": 188,
+   "cost": 0.00033473
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 779,
+   "completion_tokens": 225,
+   "cost": 0.00039025
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 829,
+   "completion_tokens": 264,
+   "cost": 0.00044921
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 784,
+   "completion_tokens": 58,
+   "cost": 0.00024036
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 779,
+   "completion_tokens": 287,
+   "cost": 0.00046093
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 847,
+   "completion_tokens": 508,
+   "cost": 0.00073259
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 867,
+   "completion_tokens": 74,
+   "cost": 0.00027468
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 956,
+   "completion_tokens": 73,
+   "cost": 0.00029514
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 572,
+   "completion_tokens": 88,
+   "cost": 0.000231
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 932,
+   "completion_tokens": 127,
+   "cost": 0.00036
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 671,
+   "completion_tokens": 118,
+   "cost": 0.00028575
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1221,
+   "completion_tokens": 116,
+   "cost": 0.00042125
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 984,
+   "completion_tokens": 128,
+   "cost": 0.0002976
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 978,
+   "completion_tokens": 88,
+   "cost": 0.00021114
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 134,
+   "cost": 0.00027576
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 759,
+   "completion_tokens": 264,
+   "cost": 0.00045375
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1012,
+   "completion_tokens": 129,
+   "cost": 0.00026774
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 858,
+   "completion_tokens": 210,
+   "cost": 0.00038454
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 788,
+   "completion_tokens": 185,
+   "cost": 0.000382
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1064,
+   "completion_tokens": 160,
+   "cost": 0.00031816
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1133,
+   "completion_tokens": 58,
+   "cost": 0.00032412
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 945,
+   "completion_tokens": 201,
+   "cost": 0.00038799
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1067,
+   "completion_tokens": 325,
+   "cost": 0.00059175
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 992,
+   "completion_tokens": 221,
+   "cost": 0.00037834
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1011,
+   "completion_tokens": 190,
+   "cost": 0.00033699
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1250,
+   "completion_tokens": 74,
+   "cost": 0.0003865
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 998,
+   "completion_tokens": 89,
+   "cost": 0.0003385
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 984,
+   "completion_tokens": 168,
+   "cost": 0.00032712
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1055,
+   "completion_tokens": 134,
+   "cost": 0.00039775
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 994,
+   "completion_tokens": 117,
+   "cost": 0.00027188
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1003,
+   "completion_tokens": 200,
+   "cost": 0.00034607
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1143,
+   "completion_tokens": 115,
+   "cost": 0.00037782
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 984,
+   "completion_tokens": 333,
+   "cost": 0.0005613
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1028,
+   "completion_tokens": 133,
+   "cost": 0.00027694
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1001,
+   "completion_tokens": 275,
+   "cost": 0.00051163
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1084,
+   "completion_tokens": 517,
+   "cost": 0.00078854
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1483,
+   "completion_tokens": 120,
+   "cost": 0.00049075
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1419,
+   "completion_tokens": 84,
+   "cost": 0.00043875
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1988,
+   "completion_tokens": 116,
+   "cost": 0.000613
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1479,
+   "completion_tokens": 186,
+   "cost": 0.00055575
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1324,
+   "completion_tokens": 110,
+   "cost": 0.000441
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1000,
+   "completion_tokens": 151,
+   "cost": 0.00030086
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1072,
+   "completion_tokens": 139,
+   "cost": 0.00029654
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1973,
+   "completion_tokens": 199,
+   "cost": 0.00069225
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1019,
+   "completion_tokens": 171,
+   "cost": 0.00031765
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 973,
+   "completion_tokens": 137,
+   "cost": 0.00028859
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 977,
+   "completion_tokens": 167,
+   "cost": 0.00032395
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 967,
+   "completion_tokens": 116,
+   "cost": 0.00026291
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 139,
+   "cost": 0.0003045
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1022,
+   "completion_tokens": 159,
+   "cost": 0.00032788
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 759,
+   "completion_tokens": 267,
+   "cost": 0.00043233
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 732,
+   "completion_tokens": 253,
+   "cost": 0.00040854
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 808,
+   "completion_tokens": 259,
+   "cost": 0.00043742
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 794,
+   "completion_tokens": 390,
+   "cost": 0.0005827
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 830,
+   "completion_tokens": 409,
+   "cost": 0.0006148
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 851,
+   "completion_tokens": 79,
+   "cost": 0.00029175
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 934,
+   "completion_tokens": 84,
+   "cost": 0.0002975
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 655,
+   "completion_tokens": 114,
+   "cost": 0.0002598
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 889,
+   "completion_tokens": 94,
+   "cost": 0.00029796
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1102,
+   "completion_tokens": 163,
+   "cost": 0.00041118
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 975,
+   "completion_tokens": 169,
+   "cost": 0.00032565
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1051,
+   "completion_tokens": 143,
+   "cost": 0.00039869
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 967,
+   "completion_tokens": 152,
+   "cost": 0.00030395
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 998,
+   "completion_tokens": 216,
+   "cost": 0.00052414
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 745,
+   "completion_tokens": 149,
+   "cost": 0.00037439
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 921,
+   "completion_tokens": 237,
+   "cost": 0.00043359
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 715,
+   "completion_tokens": 263,
+   "cost": 0.00044175
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1030,
+   "completion_tokens": 202,
+   "cost": 0.00035618
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1028,
+   "completion_tokens": 178,
+   "cost": 0.00032824
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1290,
+   "completion_tokens": 79,
+   "cost": 0.0004015
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 981,
+   "completion_tokens": 157,
+   "cost": 0.00030219
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 922,
+   "completion_tokens": 325,
+   "cost": 0.0005555
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1022,
+   "completion_tokens": 183,
+   "cost": 0.0003322
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1020,
+   "completion_tokens": 145,
+   "cost": 0.0002883
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 973,
+   "completion_tokens": 141,
+   "cost": 0.00027011
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 985,
+   "completion_tokens": 183,
+   "cost": 0.00034451
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1051,
+   "completion_tokens": 413,
+   "cost": 0.00066041
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 990,
+   "completion_tokens": 256,
+   "cost": 0.00045222
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 937,
+   "completion_tokens": 288,
+   "cost": 0.00049637
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 977,
+   "completion_tokens": 165,
+   "cost": 0.00031015
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1385,
+   "completion_tokens": 84,
+   "cost": 0.00039373
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1197,
+   "completion_tokens": 247,
+   "cost": 0.00054625
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1371,
+   "completion_tokens": 94,
+   "cost": 0.00043675
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 983,
+   "completion_tokens": 123,
+   "cost": 0.00026401
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 996,
+   "completion_tokens": 371,
+   "cost": 0.00059658
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1297,
+   "completion_tokens": 138,
+   "cost": 0.00043548
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1752,
+   "completion_tokens": 163,
+   "cost": 0.000601
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1036,
+   "completion_tokens": 148,
+   "cost": 0.00029636
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1637,
+   "completion_tokens": 143,
+   "cost": 0.00054559
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1829,
+   "completion_tokens": 160,
+   "cost": 0.00061725
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1038,
+   "completion_tokens": 188,
+   "cost": 0.00034254
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1308,
+   "completion_tokens": 272,
+   "cost": 0.00055872
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1671,
+   "completion_tokens": 223,
+   "cost": 0.00060174
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 989,
+   "completion_tokens": 141,
+   "cost": 0.00028627
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 993,
+   "completion_tokens": 164,
+   "cost": 0.00031365
+  }
+ ]
+}

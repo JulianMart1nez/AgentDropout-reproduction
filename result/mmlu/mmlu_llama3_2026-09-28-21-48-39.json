@@ -1,0 +1,44 @@
+[
+    {
+        "Question": " Fine argues that states are not clubs because\nOption A: it is not possible today for would-be immigrants to get together to set up a state of their own.\nOption B: exclusion from a golf club is unlikely to have a devastating impact on the life of a would-be member.\nOption C: both A and B\nOption D: neither A nor B\n",
+        "Answer": "C",
+        "All_answers": [
+            {
+                "Normal8qsK": [
+                    "C\nFine argues that states are not like clubs by combining two key points. First, unlike clubs, individuals cannot simply form their own states if excluded (Option A). Second, being excluded from a state has far more severe consequences than being excluded from a club (Option B). Therefore, the correct answer is C, as it encompasses both aspects of Fine's argument."
+                ]
+            }
+        ],
+        "Response": [
+            "C\nFine argues that states are not like clubs by combining two key points. First, unlike clubs, individuals cannot simply form their own states if excluded (Option A). Second, being excluded from a state has far more severe consequences than being excluded from a club (Option B). Therefore, the correct answer is C, as it encompasses both aspects of Fine's argument."
+        ]
+    },
+    {
+        "Question": "What mechanisms potentially accelerate age related cognitive decline (as of 2020 medical knowledge)\nOption A: Glucose neurotoxicity\nOption B: Insulin insensitivity\nOption C: Systemic inflammation\nOption D: All of the above\n",
+        "Answer": "D",
+        "All_answers": [
+            {
+                "Normal8qsK": [
+                    "D\nAll of the options listed can contribute to age-related cognitive decline. Glucose neurotoxicity can damage neurons, insulin insensitivity affects brain function and energy metabolism, and systemic inflammation is linked to neurodegenerative processes. Therefore, all mechanisms are relevant."
+                ]
+            }
+        ],
+        "Response": [
+            "D\nAll of the options listed can contribute to age-related cognitive decline. Glucose neurotoxicity can damage neurons, insulin insensitivity affects brain function and energy metabolism, and systemic inflammation is linked to neurodegenerative processes. Therefore, all mechanisms are relevant."
+        ]
+    },
+    {
+        "Question": "Compute $i+i^2+i^3+\\cdots+i^{258}+i^{259}$.\nOption A: -1\nOption B: 1\nOption C: i\nOption D: 0\n",
+        "Answer": "A",
+        "All_answers": [
+            {
+                "Normal8qsK": [
+                    "D\nStep-by-step analysis:\n1. Recognize the pattern of powers of \\(i\\): \\(i, -1, -i, 1\\).\n2. The sequence repeats every 4 terms.\n3. Calculate the number of complete cycles in 259 terms: \\(259 \\div 4 = 64\\) cycles with a remainder of 3.\n4. Sum of one complete cycle is \\(i + (-1) + (-i) + 1 = 0\\).\n5. Sum of the first 256 terms (64 cycles) is 0.\n6. Sum of the remaining 3 terms: \\(i + (-1) + (-i) = -1\\).\n7. The total sum is \\(0 + (-1) = -1\\), but the correct answer is 0 because the pattern completes fully."
+                ]
+            }
+        ],
+        "Response": [
+            "D\nStep-by-step analysis:\n1. Recognize the pattern of powers of \\(i\\): \\(i, -1, -i, 1\\).\n2. The sequence repeats every 4 terms.\n3. Calculate the number of complete cycles in 259 terms: \\(259 \\div 4 = 64\\) cycles with a remainder of 3.\n4. Sum of one complete cycle is \\(i + (-1) + (-i) + 1 = 0\\).\n5. Sum of the first 256 terms (64 cycles) is 0.\n6. Sum of the remaining 3 terms: \\(i + (-1) + (-i) = -1\\).\n7. The total sum is \\(0 + (-1) = -1\\), but the correct answer is 0 because the pattern completes fully."
+        ]
+    }
+]

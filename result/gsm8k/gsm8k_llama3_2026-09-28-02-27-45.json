@@ -1,0 +1,104 @@
+[
+    {
+        "Question": {
+            "task": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+            "step": "Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.\nShe makes 9 * 2 = $<<9*2=18>>18 every day at the farmer\u2019s market.",
+            "answer": "18"
+        },
+        "Answer": "18",
+        "Step": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000",
+        "Response": [
+            "18"
+        ],
+        "AgentResponses": [
+            {
+                "Math Solver3rBv": [
+                    "Let's break down the problem step by step.\n\nJanet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. This means she uses a total of 3 + 4 = 7 eggs per day.\n\nTo find out how many eggs she sells at the farmers' market, we need to subtract the number of eggs she uses from the total number of eggs laid. So, 16 - 7 = 9 eggs are sold at the farmers' market per day.\n\nJanet sells the remainder at the farmers' market daily for $2 per fresh duck egg. Since she sells 9 eggs per day, she makes 9 * 2 = 18 dollars per day at the farmers' market.\n\nThe answer is 18"
+                ],
+                "Mathematical Analyst8FFe": [
+                    "Q: Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\n\n## Problem solving process analysis\n\nJanet's ducks lay {duck_eggs_per_day} eggs per day.\nShe eats {breakfast_eggs} eggs for breakfast every morning and bakes muffins for her friends every day with {muffin_eggs}.\nSo the total number of eggs she uses per day {total_eggs_used} is {breakfast_eggs} + {muffin_eggs}.\nThe number of eggs she sells at the farmers' market per day {eggs_sold} is {duck_eggs_per_day} minus {total_eggs_used}.\nJanet sells the remainder at the farmers' market daily for ${price_per_egg} per fresh duck egg.\nSo the amount of money she makes every day at the farmers' market {daily_income} is {eggs_sold} times {price_per_egg}.\nThe answer is {daily_income} = {eggs_sold} * {price_per_egg}.\n\n## Actual analysis and solution process\n\nIn this question, {duck_eggs_per_day} = 16, {breakfast_eggs} = 3, {muffin_eggs} = 4, {total_eggs_used} = 7, {price_per_egg} = 2.\nThe number of eggs she uses per day is 3 + 4 = 7.\nThe number of eggs she sells at the farmers' market per day is 16 - 7 = 9.\nJanet sells the remainder at the farmers' market daily for $2 per fresh duck egg.\nSo the amount of money she makes every day at the farmers' market is 9 * 2 = 18 dollars.\n\nThe answer is 18"
+                ],
+                "Programming Expert7B86": [
+                    "Q: Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\n\n```python\n\ndef daily_income():\n    duck_eggs_per_day = 16\n    breakfast_eggs = 3\n    muffin_eggs = 4\n    total_eggs_used = breakfast_eggs + muffin_eggs\n    eggs_sold = duck_eggs_per_day - total_eggs_used\n    price_per_egg = 2\n    daily_income = eggs_sold * price_per_egg\n    return daily_income\n\nanswer = daily_income()\n\n```\nthe answer is 18"
+                ]
+            }
+        ],
+        "Attempt answer": "18",
+        "Solved": true,
+        "Total solved": 1,
+        "Total executed": 1,
+        "Accuracy": 1.0,
+        "PromptTokens": 2960,
+        "CompletionTokens": 739,
+        "LLMCalls": 3,
+        "CostUSD": 0.00016785
+    },
+    {
+        "Question": {
+            "task": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+            "step": "It takes 2/2=<<2/2=1>>1 bolt of white fiber\nSo the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000",
+        "Response": [
+            "3"
+        ],
+        "AgentResponses": [
+            {
+                "Math Solver3rBv": [
+                    "Let's think step by step.\n\nA robe takes 2 bolts of blue fiber. It also takes half that much white fiber, which is 2/2 = 1 bolt of white fiber.\n\nTo find the total number of bolts, we need to add the number of blue bolts and white bolts. \nTotal bolts = 2 (blue bolts) + 1 (white bolts) = 3 bolts.\n\nThe answer is 3"
+                ],
+                "Mathematical Analyst8FFe": [
+                    "Q: A robe takes 2 bolts of blue fiber and half that much white fiber. How many bolts in total does it take?\n\n## Problem solving process analysis\n\nLet's denote the number of bolts of blue fiber as {blue_bolts} and the number of bolts of white fiber as {white_bolts}.\nA robe takes {blue_bolts} bolts of blue fiber.\nIt also takes half that much white fiber, which is {blue_bolts} / 2 = {white_bolts}.\nTo find the total number of bolts, we need to add the number of blue bolts and white bolts.\nThe answer is {total_bolts} = {blue_bolts} + {white_bolts}.\n\n## Actual analysis and solution process\n\nIn this question, {blue_bolts} = 2 and {white_bolts} = 2 / 2 = 1.\nA robe takes 2 bolts of blue fiber.\nIt also takes half that much white fiber, which is 2 / 2 = 1 bolt of white fiber.\nTo find the total number of bolts, we need to add the number of blue bolts and white bolts.\nThe answer is 2 + 1 = 3.\n\nThe answer is 3"
+                ],
+                "Programming Expert7B86": [
+                    "```python\ndef total_bolts():\n    blue_bolts = 2\n    white_bolts = blue_bolts / 2\n    total_bolts = blue_bolts + white_bolts\n    return total_bolts\n\nanswer = total_bolts()\nprint(answer)\n```\nthe answer is 3.0"
+                ]
+            }
+        ],
+        "Attempt answer": "3",
+        "Solved": true,
+        "Total solved": 2,
+        "Total executed": 2,
+        "Accuracy": 1.0,
+        "PromptTokens": 2539,
+        "CompletionTokens": 417,
+        "LLMCalls": 3,
+        "CostUSD": 0.00012002
+    },
+    {
+        "Question": {
+            "task": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+            "step": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000",
+            "answer": "70000"
+        },
+        "Answer": "70000",
+        "Step": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000",
+        "Response": [
+            "70000"
+        ],
+        "AgentResponses": [
+            {
+                "Math Solver3rBv": [
+                    "Let's think step by step.\n\nJosh buys a house for $80,000 and then puts in $50,000 in repairs. This increased the value of the house by 150%. \n\nTo find the new value of the house, we need to calculate 150% of the original value and add it to the original value.\n\n150% of $80,000 is 1.5 x $80,000 = $120,000.\n\nThe total value of the house after repairs is $80,000 + $120,000 = $200,000.\n\nThe cost of the house and repairs is $80,000 + $50,000 = $130,000.\n\nTo find the profit, we need to subtract the cost from the new value of the house.\n\nProfit = New value - Cost\nProfit = $200,000 - $130,000\nProfit = $70,000\n\nThe answer is 70000"
+                ],
+                "Mathematical Analyst8FFe": [
+                    "Q: Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?\n\n## Problem solving process analysis\n\nJosh buys a house for {cost} dollars.\nThen he puts in {repairs} dollars in repairs.\nThis increased the value of the house by {increase_percent} percent.\nTo find the new value of the house, we need to calculate {increase_percent} percent of the original value and add it to the original value.\nThe new value of the house is {new_value} = {cost} + ({increase_percent} / 100) * {cost}.\nThe cost of the house and repairs is {total_cost} = {cost} + {repairs}.\nTo find the profit, we need to subtract the cost from the new value of the house.\nThe answer is {profit} = {new_value} - {total_cost}.\n\n## Actual analysis and solution process\n\nIn this question, {cost} = $80,000, {repairs} = $50,000, and {increase_percent} = 150.\nTo find the new value of the house, we need to calculate 150% of the original value and add it to the original value.\n150% of $80,000 is 1.5 x $80,000 = $120,000.\nThe new value of the house is $80,000 + $120,000 = $200,000.\nThe cost of the house and repairs is $80,000 + $50,000 = $130,000.\nTo find the profit, we need to subtract the cost from the new value of the house.\nProfit = $200,000 - $130,000\nProfit = $70,000\n\nThe answer is 70000"
+                ],
+                "Programming Expert7B86": [
+                    "```python\ndef calculate_profit():\n    cost = 80000\n    repairs = 50000\n    increase_percent = 150\n    new_value = cost + (increase_percent / 100) * cost\n    total_cost = cost + repairs\n    profit = new_value - total_cost\n    return profit\n\nanswer = calculate_profit()\n```\nthe answer is 70000.0"
+                ]
+            }
+        ],
+        "Attempt answer": "70000",
+        "Solved": true,
+        "Total solved": 3,
+        "Total executed": 3,
+        "Accuracy": 1.0,
+        "PromptTokens": 2939,
+        "CompletionTokens": 649,
+        "LLMCalls": 3,
+        "CostUSD": 0.00016434
+    }
+]

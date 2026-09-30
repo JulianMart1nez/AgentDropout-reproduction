@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+
+# Misc runtime junk
+tmp*/
+*.egg-info/
+
+# Local scratch
+_setup_leftovers/
+
+# Unused bulk data (not referenced by any loader; only dev/val/test are used)
+datasets/MMLU/data/auxiliary_train/

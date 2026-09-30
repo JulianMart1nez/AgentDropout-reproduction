@@ -1,0 +1,86 @@
+[
+    {
+        "Question": {
+            "task": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+            "step": "Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.\nShe makes 9 * 2 = $<<9*2=18>>18 every day at the farmer\u2019s market.",
+            "answer": "18"
+        },
+        "Answer": "18",
+        "Step": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000",
+        "Response": [
+            "Janet's ducks lay 16 eggs per day. She uses 3 eggs for breakfast and 4 eggs for baking muffins, which totals 3 + 4 = 7 eggs used daily.\nThe remaining eggs available for sale are 16 - 7 = 9 eggs.\nShe sells these eggs at the farmers' market for $2 each, so her daily earnings are 9 * 2 = 18 dollars.\nThe answer is 18"
+        ],
+        "AgentResponses": [
+            {
+                "Math Solver4SAM": [
+                    "Janet's ducks lay 16 eggs per day. She uses 3 eggs for breakfast and 4 eggs for baking muffins, which totals 3 + 4 = 7 eggs used daily.\nThe remaining eggs available for sale are 16 - 7 = 9 eggs.\nShe sells these eggs at the farmers' market for $2 each, so her daily earnings are 9 * 2 = 18 dollars.\nThe answer is 18"
+                ]
+            }
+        ],
+        "Attempt answer": "18",
+        "Solved": true,
+        "Total solved": 1,
+        "Total executed": 1,
+        "Accuracy": 1.0,
+        "PromptTokens": 1100,
+        "CompletionTokens": 96,
+        "LLMCalls": 1,
+        "CostUSD": 0.0004564
+    },
+    {
+        "Question": {
+            "task": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+            "step": "It takes 2/2=<<2/2=1>>1 bolt of white fiber\nSo the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000",
+        "Response": [
+            "A robe takes 2 bolts of blue fiber and half that much white fiber. Let's break this down step by step:\n\n1. The robe requires 2 bolts of blue fiber.\n2. The robe requires half as many bolts of white fiber as blue fiber. Since it needs 2 bolts of blue fiber, it will need 2 / 2 = 1 bolt of white fiber.\n\nNow, we add the bolts of blue fiber and white fiber together to find the total number of bolts needed:\n2 bolts (blue) + 1 bolt (white) = 3 bolts in total.\n\nThe answer is 3"
+        ],
+        "AgentResponses": [
+            {
+                "Math Solver4SAM": [
+                    "A robe takes 2 bolts of blue fiber and half that much white fiber. Let's break this down step by step:\n\n1. The robe requires 2 bolts of blue fiber.\n2. The robe requires half as many bolts of white fiber as blue fiber. Since it needs 2 bolts of blue fiber, it will need 2 / 2 = 1 bolt of white fiber.\n\nNow, we add the bolts of blue fiber and white fiber together to find the total number of bolts needed:\n2 bolts (blue) + 1 bolt (white) = 3 bolts in total.\n\nThe answer is 3"
+                ]
+            }
+        ],
+        "Attempt answer": "3",
+        "Solved": true,
+        "Total solved": 2,
+        "Total executed": 2,
+        "Accuracy": 1.0,
+        "PromptTokens": 1060,
+        "CompletionTokens": 125,
+        "LLMCalls": 1,
+        "CostUSD": 0.0004316
+    },
+    {
+        "Question": {
+            "task": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+            "step": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000",
+            "answer": "70000"
+        },
+        "Answer": "70000",
+        "Step": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000",
+        "Response": [
+            "Josh buys a house for $80,000 and spends $50,000 on repairs. The total investment is $80,000 + $50,000 = $130,000.\n\nThe repairs increase the value of the house by 150% of the original value. The original value of the house is $80,000. \n\n150% of $80,000 is calculated as:\n150/100 * $80,000 = 1.5 * $80,000 = $120,000.\n\nSo, the new value of the house is the original value plus the increase:\n$80,000 + $120,000 = $200,000.\n\nTo find the profit, we subtract the total investment from the new value of the house:\n$200,000 - $130,000 = $70,000.\n\nThe answer is 70000"
+        ],
+        "AgentResponses": [
+            {
+                "Math Solver4SAM": [
+                    "Josh buys a house for $80,000 and spends $50,000 on repairs. The total investment is $80,000 + $50,000 = $130,000.\n\nThe repairs increase the value of the house by 150% of the original value. The original value of the house is $80,000. \n\n150% of $80,000 is calculated as:\n150/100 * $80,000 = 1.5 * $80,000 = $120,000.\n\nSo, the new value of the house is the original value plus the increase:\n$80,000 + $120,000 = $200,000.\n\nTo find the profit, we subtract the total investment from the new value of the house:\n$200,000 - $130,000 = $70,000.\n\nThe answer is 70000"
+                ]
+            }
+        ],
+        "Attempt answer": "70000",
+        "Solved": true,
+        "Total solved": 3,
+        "Total executed": 3,
+        "Accuracy": 1.0,
+        "PromptTokens": 1092,
+        "CompletionTokens": 237,
+        "LLMCalls": 1,
+        "CostUSD": 0.00050976
+    }
+]

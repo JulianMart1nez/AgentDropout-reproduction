@@ -1,0 +1,852 @@
+[
+    {
+        "Question": {
+            "task": " Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? ",
+            "step": "",
+            "answer": "10"
+        },
+        "Answer": "10",
+        "Step": "",
+        "Response": [
+            "Let's think step by step for the given problem.\n\nPaige had 11 songs on her mp3 player. \nIf she deleted 9 old songs from it, she will have 11 - 9 = 2 songs left.\nThen, she added 8 new songs, so the total number of songs will be 2 + 8 = 10.\n\nThe answer is 10"
+        ],
+        "Attempt answer": "10",
+        "Solved": true,
+        "Total solved": 1,
+        "Total executed": 1,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? ",
+            "step": "",
+            "answer": "17"
+        },
+        "Answer": "17",
+        "Step": "",
+        "Response": [
+            "Q: There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut?\n\nLet's think step by step.\n\nFirst, we need to find the total number of students trying out for the basketball team. \nThere were 39 girls and 4 boys, so the total number of students is 39 + 4 = 43.\n\nIf only 26 of them got called back, we need to find the number of students who didn't make the cut. \nTo do this, we subtract the number of students who got called back from the total number of students: \n43 - 26 = 17.\n\nThe answer is 17"
+        ],
+        "Attempt answer": "17",
+        "Solved": true,
+        "Total solved": 2,
+        "Total executed": 2,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? ",
+            "step": "",
+            "answer": "79"
+        },
+        "Answer": "79",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nFaye initially had 34 coloring books. \nShe gave away 3 of them, so she has 34 - 3 = 31 coloring books left.\nThen, she bought 48 more coloring books.\nTo find the total number of coloring books she has now, we add the number of coloring books she had left to the number of coloring books she bought: 31 + 48 = 79.\n\nThe answer is 79"
+        ],
+        "Attempt answer": "79",
+        "Solved": true,
+        "Total solved": 3,
+        "Total executed": 3,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "Q: The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have?\n\nLet's think step by step.\n\n1. The school cafeteria initially had 23 apples.\n2. They used 20 apples to make lunch for the students, so they were left with 23 - 20 = 3 apples.\n3. Then, they bought 6 more apples, so the total number of apples they have now is 3 + 6 = 9.\n\nThe answer is 9"
+        ],
+        "Attempt answer": "9",
+        "Solved": true,
+        "Total solved": 4,
+        "Total executed": 4,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn? ",
+            "step": "",
+            "answer": "72"
+        },
+        "Answer": "72",
+        "Step": "",
+        "Response": [
+            "Q: In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn?\n\nLet's think step by step.\n\nFirst, we need to find out how many enemies were defeated. Since there are 11 enemies in total and 3 were not defeated, the number of enemies defeated is 11 - 3 = 8.\n\nNow, we need to calculate the total points earned. Since each enemy defeated gives 9 points, the total points earned is 8 * 9 = 72.\n\nThe answer is 72"
+        ],
+        "Attempt answer": "72",
+        "Solved": true,
+        "Total solved": 5,
+        "Total executed": 5,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? ",
+            "step": "",
+            "answer": "72"
+        },
+        "Answer": "72",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 5,
+        "Total executed": 6,
+        "Accuracy": 0.8333333333333334
+    },
+    {
+        "Question": {
+            "task": " April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn? ",
+            "step": "",
+            "answer": "36"
+        },
+        "Answer": "36",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nThey have 2 chapters of their textbook to study and 4 worksheets to memorize. \nThey figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. \nIf they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, \ninclude 3 10-minute snack breaks each day, and 30 minutes for lunch each day?\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 5,
+        "Total executed": 7,
+        "Accuracy": 0.7142857142857143
+    },
+    {
+        "Question": {
+            "task": " Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+            "step": "",
+            "answer": "1"
+        },
+        "Answer": "1",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 5,
+        "Total executed": 8,
+        "Accuracy": 0.625
+    },
+    {
+        "Question": {
+            "task": " A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need? ",
+            "step": "",
+            "answer": "8"
+        },
+        "Answer": "8",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nWe know that 47 people were invited, but 7 of them didn't show up. So, the number of people who actually attended the luncheon is 47 - 7 = 40.\n\nWe also know that the tables they had held 5 people each. To find out how many tables they need, we need to divide the total number of people who attended by the number of people each table can hold.\n\nSo, the number of tables they need is 40 / 5 = 8.\n\nThe answer is 8"
+        ],
+        "Attempt answer": "8",
+        "Solved": true,
+        "Total solved": 6,
+        "Total executed": 9,
+        "Accuracy": 0.6666666666666666
+    },
+    {
+        "Question": {
+            "task": " Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? ",
+            "step": "",
+            "answer": "39"
+        },
+        "Answer": "39",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nTom had 5 books initially. He sold 4 of them, so he is left with 5 - 4 = 1 book.\n\nHe used the money he earned from selling the books to buy 38 new books. So, now he has 1 (initial book) + 38 (new books) = 39 books.\n\nThe answer is 39"
+        ],
+        "Attempt answer": "39",
+        "Solved": true,
+        "Total solved": 7,
+        "Total executed": 10,
+        "Accuracy": 0.7
+    },
+    {
+        "Question": {
+            "task": " For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nJerry has a total of 41 + 22 = 63 sodas.\n\nSince his fridge can hold 9 sodas on each shelf, we need to divide the total number of sodas by 9 to find out how many shelves he needs.\n\n63 \u00f7 9 = 7\n\nHowever, this is not the final answer because we need to consider the fact that Jerry can't fill a shelf with a fraction of a soda. So, we need to round up to the nearest whole number.\n\n7 is already a whole number, so Jerry will need 7 shelves.\n\nThe answer is 7"
+        ],
+        "Attempt answer": "7",
+        "Solved": true,
+        "Total solved": 8,
+        "Total executed": 11,
+        "Accuracy": 0.7272727272727273
+    },
+    {
+        "Question": {
+            "task": " For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? ",
+            "step": "",
+            "answer": "39"
+        },
+        "Answer": "39",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nQ: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week.\n\nStep 1: Calculate the total hours needed to study the textbook and worksheets.\nThey have 2 chapters of their textbook to study and 4 worksheets to memorize. \nThey figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet.\nTotal hours for textbook = 3 hours/chapter * 2 chapters = 6 hours\nTotal hours for worksheets = 1.5 hours/worksheet * 4 worksheets = 6 hours\nTotal hours needed to study = 6 hours (textbook) + 6 hours (worksheets) = 12 hours\n\nStep 2: Calculate the total hours needed to study including breaks and lunch.\nEvery hour they want to include a 10-minute break, so 12 total hours * 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 * 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nTotal hours needed to study including breaks and lunch = 12 hours (study) + 3 hours (breaks and lunch) = 15 hours\n\nStep 3: Calculate the number of days needed to study.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nSince they can't study a fraction of a day, they will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 8,
+        "Total executed": 12,
+        "Accuracy": 0.6666666666666666
+    },
+    {
+        "Question": {
+            "task": " Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? ",
+            "step": "",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 8,
+        "Total executed": 13,
+        "Accuracy": 0.6153846153846154
+    },
+    {
+        "Question": {
+            "task": " For Halloween Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? ",
+            "step": "",
+            "answer": "2"
+        },
+        "Answer": "2",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nEmily received 5 pieces of candy from neighbors and 13 pieces from her older sister, so the total number of candies she received is 5 + 13 = 18.\n\nShe ate 9 pieces a day, so to find out how long the candy will last, we need to divide the total number of candies by the number of candies she eats per day: 18 / 9 = 2.\n\nThe answer is 2"
+        ],
+        "Attempt answer": "2",
+        "Solved": true,
+        "Total solved": 9,
+        "Total executed": 14,
+        "Accuracy": 0.6428571428571429
+    },
+    {
+        "Question": {
+            "task": " Mike is at the library helping put away books. There are 82 book to put away total but a librarian takes 10 of them and leaves Mike with the rest. If he can fit 9 books on a shelf, how many shelves will he need? ",
+            "step": "",
+            "answer": "8"
+        },
+        "Answer": "8",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nQ: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week.\n\nWe know the Answer Hints: 4. With the Answer Hints: 4, we will answer the question.\n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 9,
+        "Total executed": 15,
+        "Accuracy": 0.6
+    },
+    {
+        "Question": {
+            "task": " While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+            "step": "",
+            "answer": "19"
+        },
+        "Answer": "19",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nQ: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week.\n\nWe know the total hours they need to study is 12 hours (6 hours for chapters + 6 hours for worksheets). They want to study no more than 4 hours each day, but they also need to include time for breaks and lunch.\n\nEvery hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks. They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes. And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\n\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total. They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75. However, since they can't study a fraction of a day, they will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 9,
+        "Total executed": 16,
+        "Accuracy": 0.5625
+    },
+    {
+        "Question": {
+            "task": " A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? ",
+            "step": "",
+            "answer": "48"
+        },
+        "Answer": "48",
+        "Step": "",
+        "Response": [
+            "Q: A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest?\n\nLet's think step by step.\n\nThe builder needs to install 14 - 8 = 6 windows.\n\nIt takes 8 hours to install each window, so the total time to install the rest of the windows is 6 * 8 = 48 hours.\n\nThe answer is 48"
+        ],
+        "Attempt answer": "48",
+        "Solved": true,
+        "Total solved": 10,
+        "Total executed": 17,
+        "Accuracy": 0.5882352941176471
+    },
+    {
+        "Question": {
+            "task": " A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? ",
+            "step": "",
+            "answer": "36"
+        },
+        "Answer": "36",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nQ: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week.\n\nWe know the Answer Hints: 4. With the Answer Hints: 4, we will answer the question.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\nThe answer is 4\n\nQ: Bella has two times as many marbles as frisbees. She also has 20 more frisbees than deck cards. If she buys 2/5 times more of each item, what would be the total number of the items she will have if she currently has 60 marbles?\n\nWe know the Answer Hints: 160, 145. With the Answer Hints: 160, 145, we will answer the question.\n\nLet's think step by step\nWhen Bella buys 2/5 times more marbles, she'll have increased the number of marbles by 2/5*60 = 24\nThe total number of marbles she'll have is 60+24 = 84\nIf Bella currently has 60 marbles, and she has two times as many marbles as frisbees, she has 60/2 = 30 frisbees.\nIf Bella buys 2/5 times more frisbees, she'll have 2/5*30 = 12 more frisbees.\nThe total number of frisbees she'll have will increase to 30+12 = 42\nBella also has 20 more frisbees than deck cards, meaning she has 30-20 = 10 deck cards\nIf she buys 2/5 times more deck cards, she'll have 2/5*10 = 4 more deck cards.\nThe total number of deck cards she'll have is 10+4 = 14\nTogether, Bella will have a total of 14+42+84 = 140 items\nThe answer is 140\n\nQ: A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin?\n\nLet's think step by step.\n\nThe store initially had 40 oranges.\nThey threw away 25 oranges, leaving 40 - 25 = 15 oranges.\nThen they added 21 new oranges to the bin.\nSo the total number of oranges in the bin is 15 + 21 = 36.\n\nThe answer is 36"
+        ],
+        "Attempt answer": "36",
+        "Solved": true,
+        "Total solved": 11,
+        "Total executed": 18,
+        "Accuracy": 0.6111111111111112
+    },
+    {
+        "Question": {
+            "task": " At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? ",
+            "step": "",
+            "answer": "6"
+        },
+        "Answer": "6",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nQ: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week.\n\nThey have 2 chapters of their textbook to study and 4 worksheets to memorize. \nThey figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. \nIf they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, \ninclude 3 10-minute snack breaks each day, and 30 minutes for lunch each day?\n\nLet's break it down step by step:\n\n1. Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\n2. For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\n3. Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\n4. However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \n   so 12 total hours x 10 minutes = 120 extra minutes for breaks.\n5. They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\n6. And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\n7. So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\n8. They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\n9. They will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 11,
+        "Total executed": 19,
+        "Accuracy": 0.5789473684210527
+    },
+    {
+        "Question": {
+            "task": " For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now? ",
+            "step": "",
+            "answer": "62"
+        },
+        "Answer": "62",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 11,
+        "Total executed": 20,
+        "Accuracy": 0.55
+    },
+    {
+        "Question": {
+            "task": " A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? ",
+            "step": "",
+            "answer": "4"
+        },
+        "Answer": "4",
+        "Step": "",
+        "Response": [
+            "Q: A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get?\n\nLet's think step by step.\n\nThe chef initially had 9 chicken wings cooked. Then, he cooked 7 more for the group. To find the total number of chicken wings, we add 9 and 7, which equals 16.\n\nSince there are 4 friends, and they each got the same amount, we need to divide the total number of chicken wings by 4. \n\n16 / 4 = 4\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": true,
+        "Total solved": 12,
+        "Total executed": 21,
+        "Accuracy": 0.5714285714285714
+    },
+    {
+        "Question": {
+            "task": " John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? ",
+            "step": "",
+            "answer": "64"
+        },
+        "Answer": "64",
+        "Step": "",
+        "Response": [
+            "Q: John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn?\n\nLet's think step by step.\n\nJohn had 15 lawns to mow, but he forgot to mow 7 of them. So, he actually mowed 15 - 7 = 8 lawns.\n\nHe earned 8 dollars for each lawn he mowed. Since he mowed 8 lawns, he earned 8 * 8 = 64 dollars.\n\nThe answer is 64"
+        ],
+        "Attempt answer": "64",
+        "Solved": true,
+        "Total solved": 13,
+        "Total executed": 22,
+        "Accuracy": 0.5909090909090909
+    },
+    {
+        "Question": {
+            "task": " A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+            "step": "",
+            "answer": "5"
+        },
+        "Answer": "5",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nInitially, the pet shelter had 5 puppies. Then, 35 more puppies were brought in, so the total number of puppies is 5 + 35 = 40.\n\nEvery day, 8 puppies are adopted. To find out how many days it will take to adopt all the puppies, we need to divide the total number of puppies by the number of puppies adopted per day.\n\n40 puppies / 8 puppies per day = 5 days\n\nThe answer is 5"
+        ],
+        "Attempt answer": "5",
+        "Solved": true,
+        "Total solved": 14,
+        "Total executed": 23,
+        "Accuracy": 0.6086956521739131
+    },
+    {
+        "Question": {
+            "task": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+            "step": "",
+            "answer": "18"
+        },
+        "Answer": "18",
+        "Step": "",
+        "Response": [
+            "Q: A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest?\n\nLet's think step by step.\n\nThe builder needs to install 9 - 6 = 3 more windows.\nIt takes 6 hours to install each window, so the total time to install the rest of the windows is 3 * 6 = 18 hours.\n\nThe answer is 18"
+        ],
+        "Attempt answer": "18",
+        "Solved": true,
+        "Total solved": 15,
+        "Total executed": 24,
+        "Accuracy": 0.625
+    },
+    {
+        "Question": {
+            "task": " A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? ",
+            "step": "",
+            "answer": "63"
+        },
+        "Answer": "63",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nInitially, the teacher had 34 worksheets to grade. She graded 7, so the number of worksheets left to grade is 34 - 7 = 27.\n\nThen, 36 more worksheets were turned in. So, the total number of worksheets the teacher has to grade is 27 + 36 = 63.\n\nThe answer is 63"
+        ],
+        "Attempt answer": "63",
+        "Solved": true,
+        "Total solved": 16,
+        "Total executed": 25,
+        "Accuracy": 0.64
+    },
+    {
+        "Question": {
+            "task": " While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\nHowever, they will not be able to study 4 days, because they will run out of time on the 4th day. \nThey will be able to study 3 full days, and 3 hours on the 4th day. \nSo they will be able to study 3*4 + 3 = 15 hours.\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 16,
+        "Total executed": 26,
+        "Accuracy": 0.6153846153846154
+    },
+    {
+        "Question": {
+            "task": " At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? ",
+            "step": "",
+            "answer": "28"
+        },
+        "Answer": "28",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nWe know that each adult meal costs $7 and kids eat free. \nThere are 13 people in total, and 9 of them are kids. \nSo, the number of adults is 13 - 9 = 4.\n\nThe cost for the group to eat will be the cost of the adult meals, which is 4 * $7 = $28.\n\nThe answer is 28"
+        ],
+        "Attempt answer": "28",
+        "Solved": true,
+        "Total solved": 17,
+        "Total executed": 27,
+        "Accuracy": 0.6296296296296297
+    },
+    {
+        "Question": {
+            "task": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ",
+            "step": "",
+            "answer": "11"
+        },
+        "Answer": "11",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nThey have 2 chapters of their textbook to study and 4 worksheets to memorize. \nThey figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. \nIf they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, \ninclude 3 10-minute snack breaks each day, and 30 minutes for lunch each day?\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 17,
+        "Total executed": 28,
+        "Accuracy": 0.6071428571428571
+    },
+    {
+        "Question": {
+            "task": " Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? ",
+            "step": "",
+            "answer": "63"
+        },
+        "Answer": "63",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 17,
+        "Total executed": 29,
+        "Accuracy": 0.5862068965517241
+    },
+    {
+        "Question": {
+            "task": " A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? ",
+            "step": "",
+            "answer": "26"
+        },
+        "Answer": "26",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nQ: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week.\n\nWe know the total hours they need to study is 12 hours (6 hours for chapters and 6 hours for worksheets). They want to study no more than 4 hours each day.\n\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\n\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 17,
+        "Total executed": 30,
+        "Accuracy": 0.5666666666666667
+    },
+    {
+        "Question": {
+            "task": " A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? ",
+            "step": "",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nWe know that the toy store initially had 17 giant stuffed bears in stock. They received another shipment with 10 bears in it. So, the total number of bears they have now is 17 + 10 = 27.\n\nThey want to put the bears onto shelves with 9 bears on each shelf. To find out how many shelves they used, we need to divide the total number of bears by the number of bears per shelf.\n\n27 bears / 9 bears per shelf = 3 shelves\n\nHowever, since we cannot have a fraction of a shelf, we need to round up to the nearest whole number. In this case, we can fit 27 bears into 3 shelves with 0 bears left over, so we don't need to round up.\n\nThe answer is 3"
+        ],
+        "Attempt answer": "3",
+        "Solved": true,
+        "Total solved": 18,
+        "Total executed": 31,
+        "Accuracy": 0.5806451612903226
+    },
+    {
+        "Question": {
+            "task": " Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total? ",
+            "step": "",
+            "answer": "32"
+        },
+        "Answer": "32",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nWe know that Gwen had 5 shelves of mystery books and 3 shelves of picture books. Each shelf had exactly 4 books on it.\n\nTo find the total number of books, we need to multiply the number of shelves by the number of books on each shelf.\n\nFor mystery books: 5 shelves * 4 books/shelf = 20 books\nFor picture books: 3 shelves * 4 books/shelf = 12 books\n\nNow, we need to find the total number of books. We can do this by adding the number of mystery books and picture books.\n\nTotal number of books = 20 + 12 = 32\n\nThe answer is 32"
+        ],
+        "Attempt answer": "32",
+        "Solved": true,
+        "Total solved": 19,
+        "Total executed": 32,
+        "Accuracy": 0.59375
+    },
+    {
+        "Question": {
+            "task": " Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nWe know that Wendy uploaded 79 pictures to Facebook, and she put 44 pics into one album. To find out how many pictures were in each of the 5 different albums, we need to subtract the number of pictures in the first album from the total number of pictures.\n\n79 (total pictures) - 44 (pictures in the first album) = 35 pictures left\n\nSince Wendy put the rest of the pictures into 5 different albums, we need to divide the remaining pictures by 5.\n\n35 pictures / 5 albums = 7 pictures per album\n\nThe answer is 7"
+        ],
+        "Attempt answer": "7",
+        "Solved": true,
+        "Total solved": 20,
+        "Total executed": 33,
+        "Accuracy": 0.6060606060606061
+    },
+    {
+        "Question": {
+            "task": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ",
+            "step": "",
+            "answer": "5"
+        },
+        "Answer": "5",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nWe know that the debate team has 5 boys and 40 girls. To find the total number of students, we add the number of boys and girls: 5 + 40 = 45.\n\nThe team wants to split into groups of 9. To find the number of groups, we divide the total number of students by the number of students per group: 45 / 9 = 5.\n\nHowever, we need to consider if there are any remainders. Since 45 is exactly divisible by 9, there are no remainders.\n\nThe answer is 5"
+        ],
+        "Attempt answer": "5",
+        "Solved": true,
+        "Total solved": 21,
+        "Total executed": 34,
+        "Accuracy": 0.6176470588235294
+    },
+    {
+        "Question": {
+            "task": " April's discount flowers was having a sale where each rose was 7 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn? ",
+            "step": "",
+            "answer": "35"
+        },
+        "Answer": "35",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 21,
+        "Total executed": 35,
+        "Accuracy": 0.6
+    },
+    {
+        "Question": {
+            "task": " A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? ",
+            "step": "",
+            "answer": "45"
+        },
+        "Answer": "45",
+        "Step": "",
+        "Response": [
+            "Q: A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total?\n\nLet's think step by step.\n\nThe team had 11 members initially, but 6 members didn't show up. So, the number of members who showed up is 11 - 6 = 5.\n\nEach member who showed up scored 9 points. To find the total points scored, we multiply the number of members who showed up by the points scored by each member: 5 * 9 = 45.\n\nThe answer is 45"
+        ],
+        "Attempt answer": "45",
+        "Solved": true,
+        "Total solved": 22,
+        "Total executed": 36,
+        "Accuracy": 0.6111111111111112
+    },
+    {
+        "Question": {
+            "task": " A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left? ",
+            "step": "",
+            "answer": "8"
+        },
+        "Answer": "8",
+        "Step": "",
+        "Response": [
+            "Q: A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left?\n\nLet's think step by step.\n\nFirst, we need to find the total number of cats the pet store had initially. \nThey had 13 siamese cats and 5 house cats, so the total number of cats is 13 + 5 = 18.\n\nDuring the sale, they sold 10 cats. To find the number of cats they have left, we need to subtract the number of cats sold from the total number of cats.\n18 (total cats) - 10 (cats sold) = 8\n\nThe answer is 8"
+        ],
+        "Attempt answer": "8",
+        "Solved": true,
+        "Total solved": 23,
+        "Total executed": 37,
+        "Accuracy": 0.6216216216216216
+    },
+    {
+        "Question": {
+            "task": " Victor was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 5 hours and on Tuesday he worked 5 hours. How much money did Victor make in those two days? ",
+            "step": "",
+            "answer": "60"
+        },
+        "Answer": "60",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 23,
+        "Total executed": 38,
+        "Accuracy": 0.6052631578947368
+    },
+    {
+        "Question": {
+            "task": " Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? ",
+            "step": "",
+            "answer": "4"
+        },
+        "Answer": "4",
+        "Step": "",
+        "Response": [
+            "Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week.\n\nLet's think step by step.\n\nAngelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\nFor the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \nso 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": true,
+        "Total solved": 24,
+        "Total executed": 39,
+        "Accuracy": 0.6153846153846154
+    },
+    {
+        "Question": {
+            "task": " There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+            "step": "",
+            "answer": "24"
+        },
+        "Answer": "24",
+        "Step": "",
+        "Response": [
+            "Q: There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total?\n\nLet's think step by step.\n\nInitially, there were 2 friends playing the game, so they had 2 * 6 = 12 lives.\n\nThen, 2 more players joined the game, so they had 2 * 6 = 12 lives each.\n\nThe total number of players is now 2 (initial friends) + 2 (new players) = 4.\n\nThe total number of lives is now 12 (initial friends) + 12 (new players) = 24.\n\nThe answer is 24"
+        ],
+        "Attempt answer": "24",
+        "Solved": true,
+        "Total solved": 25,
+        "Total executed": 40,
+        "Accuracy": 0.625
+    },
+    {
+        "Question": {
+            "task": " Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? ",
+            "step": "",
+            "answer": "43"
+        },
+        "Answer": "43",
+        "Step": "",
+        "Response": [
+            "Q: Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have?\n\nLet's think step by step.\n\nSam initially had 10 socks. \nHe threw away 3 old ones, so he has 10 - 3 = 7 socks left.\nThen, he bought 36 new ones. \nTo find the total number of socks he has now, we add the socks he had left to the new ones: 7 + 36 = 43.\n\nThe answer is 43"
+        ],
+        "Attempt answer": "43",
+        "Solved": true,
+        "Total solved": 26,
+        "Total executed": 41,
+        "Accuracy": 0.6341463414634146
+    },
+    {
+        "Question": {
+            "task": " Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "Let's break down the problem step by step.\n\nWendy initially picked 103 flowers, but 47 wilted before the wedding. To find out how many flowers are left, we subtract the wilted flowers from the total:\n\n103 - 47 = 56\n\nNow, we need to find out how many bouquets Wendy can make with the remaining flowers. Each bouquet requires 8 flowers, so we divide the remaining flowers by 8:\n\n56 \u00f7 8 = 7\n\nThe answer is 7"
+        ],
+        "Attempt answer": "7",
+        "Solved": true,
+        "Total solved": 27,
+        "Total executed": 42,
+        "Accuracy": 0.6428571428571429
+    },
+    {
+        "Question": {
+            "task": " Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have? ",
+            "step": "",
+            "answer": "67"
+        },
+        "Answer": "67",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nAdam had 48 books initially. If he sold 19 of them, he would be left with 48 - 19 = 29 books.\n\nThen, he used the money he earned to buy 38 new books. So, the total number of books he would have now is 29 + 38 = 67.\n\nThe answer is 67"
+        ],
+        "Attempt answer": "67",
+        "Solved": true,
+        "Total solved": 28,
+        "Total executed": 43,
+        "Accuracy": 0.6511627906976745
+    },
+    {
+        "Question": {
+            "task": " Nancy's class is going on a field trip to the zoo. If each van can hold 5 people and there are 12 students and 3 adults going, how many vans will they need? ",
+            "step": "",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nWe know that there are 12 students and 3 adults going on the field trip, so the total number of people is 12 + 3 = 15.\n\nEach van can hold 5 people, so we need to divide the total number of people by 5 to find out how many vans are needed.\n\n15 / 5 = 3\n\nHowever, this is not the final answer because we need to consider the fact that the vans will not be completely filled. To be safe, we should round up to the nearest whole number.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 28,
+        "Total executed": 44,
+        "Accuracy": 0.6363636363636364
+    },
+    {
+        "Question": {
+            "task": " For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? ",
+            "step": "",
+            "answer": "8"
+        },
+        "Answer": "8",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nTom bought 4 regular sodas and 52 diet sodas, so he has a total of 4 + 52 = 56 sodas.\n\nSince his fridge can hold 7 sodas on each shelf, we need to divide the total number of sodas by 7 to find out how many shelves he will fill up.\n\n56 / 7 = 8\n\nHowever, since Tom has 56 sodas and each shelf can hold 7, he will fill up 8 shelves with 0 sodas left over, but he will also have 4 regular sodas left over.\n\nBut the problem is asking how many shelves he will fill up, not how many sodas he will have left over.\n\nSo, the answer is 8"
+        ],
+        "Attempt answer": "8",
+        "Solved": true,
+        "Total solved": 29,
+        "Total executed": 45,
+        "Accuracy": 0.6444444444444445
+    },
+    {
+        "Question": {
+            "task": " The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have? ",
+            "step": "",
+            "answer": "46"
+        },
+        "Answer": "46",
+        "Step": "",
+        "Response": [
+            "Q: The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have?\n\nLet's think step by step.\n\nThe school cafeteria initially had 38 apples. They used 20 apples to make lunch for the students, so they were left with 38 - 20 = 18 apples.\n\nThen, they bought 28 more apples. To find the total number of apples they have now, we add the remaining apples to the new apples: 18 + 28 = 46.\n\nThe answer is 46"
+        ],
+        "Attempt answer": "46",
+        "Solved": true,
+        "Total solved": 30,
+        "Total executed": 46,
+        "Accuracy": 0.6521739130434783
+    },
+    {
+        "Question": {
+            "task": " Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "Q: Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make?\n\nLet's think step by step.\n\nFirst, we need to find the total number of trays Luke needs to pick up. \n20 trays from one table + 16 trays from another = 36 trays.\n\nSince Luke can only carry 4 trays at a time, we need to divide the total number of trays by 4 to find the number of trips he will make.\n36 trays / 4 trays per trip = 9 trips.\n\nThe answer is 9"
+        ],
+        "Attempt answer": "9",
+        "Solved": true,
+        "Total solved": 31,
+        "Total executed": 47,
+        "Accuracy": 0.6595744680851063
+    },
+    {
+        "Question": {
+            "task": " The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nQ: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. \n\nThey have 2 chapters of their textbook to study and 4 worksheets to memorize. \nThey figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. \nIf they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, \ninclude 3 10-minute snack breaks each day, and 30 minutes for lunch each day?\n\nLet's follow the steps from the given solution:\n1. Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.\n2. For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\n3. Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\n4. However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, \n   so 12 total hours x 10 minutes = 120 extra minutes for breaks.\n5. They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\n6. And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\n7. So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\n8. They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\n9. They will need to plan to study 4 days to allow for all the time they need.\n\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": false,
+        "Total solved": 31,
+        "Total executed": 48,
+        "Accuracy": 0.6458333333333334
+    },
+    {
+        "Question": {
+            "task": " Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? ",
+            "step": "",
+            "answer": "30"
+        },
+        "Answer": "30",
+        "Step": "",
+        "Response": [
+            "Let's think step by step to solve the problem.\n\nHenry currently has 3 action figures, but he needs 8 total for a complete collection. To find out how many more action figures he needs, we subtract the number he has from the total number he needs: 8 - 3 = 5.\n\nEach action figure costs $6, so to find out how much money Henry needs to finish his collection, we multiply the number of action figures he needs by the cost of each one: 5 x 6 = 30.\n\nThe answer is 30"
+        ],
+        "Attempt answer": "30",
+        "Solved": true,
+        "Total solved": 32,
+        "Total executed": 49,
+        "Accuracy": 0.6530612244897959
+    },
+    {
+        "Question": {
+            "task": " Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? ",
+            "step": "",
+            "answer": "5"
+        },
+        "Answer": "5",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nFrank initially had $3. He received another $37 for his allowance, so he now has $3 + $37 = $40.\n\nTo find out how many 8-dollar toys he can buy, we need to divide the total amount of money he has ($40) by the cost of each toy ($8).\n\n$40 \u00f7 $8 = 5\n\nThe answer is 5"
+        ],
+        "Attempt answer": "5",
+        "Solved": true,
+        "Total solved": 33,
+        "Total executed": 50,
+        "Accuracy": 0.66
+    }
+]

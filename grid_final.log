@@ -1,0 +1,5 @@
+Grid: 105 total cells, 100 already done, 5 to run.
+Concurrency: up to 5 cells at once, batch_size=5 per cell (~25 concurrent HTTP calls at peak).
+[101/105 done, 4 in flight] deepseek/deepseek-chat-v3-0324 / MMLU / MAS_roundT -- 50.0% (25/50), $0.3262, 24.4m
+[102/105 done, 3 in flight] deepseek/deepseek-chat-v3-0324 / MMLU / AgentDropout -- 82.0% (41/50), $0.5546, 32.5m
+[103/105 done, 2 in flight] deepseek/deepseek-chat-v3-0324 / MMLU / AgentPrune -- 68.0% (34/50), $0.4980, 35.2m

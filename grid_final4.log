@@ -1,0 +1,2 @@
+Grid: 105 total cells, 104 already done, 1 to run.
+Concurrency: up to 5 cells at once, batch_size=5 per cell (~25 concurrent HTTP calls at peak).

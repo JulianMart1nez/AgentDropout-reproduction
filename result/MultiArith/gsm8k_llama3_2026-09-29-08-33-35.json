@@ -1,0 +1,852 @@
+[
+    {
+        "Question": {
+            "task": " Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? ",
+            "step": "",
+            "answer": "10"
+        },
+        "Answer": "10",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nPaige initially had 11 songs on her mp3 player.\nShe deleted 9 old songs, so she now has 11 - 9 = 2 songs left.\nAfter deleting, she added 8 new songs, so the total number of songs becomes 2 + 8 = 10.\n\nThe answer is 10"
+        ],
+        "Attempt answer": "10",
+        "Solved": true,
+        "Total solved": 1,
+        "Total executed": 1,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? ",
+            "step": "",
+            "answer": "17"
+        },
+        "Answer": "17",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\n1. First, find the total number of students trying out for the basketball team: 39 girls + 4 boys = 43 students.\n2. Next, subtract the number of students who got called back from the total number of students: 43 students - 26 called back = 17 students.\n3. Therefore, 17 students didn't make the cut.\n\nThe answer is 17"
+        ],
+        "Attempt answer": "17",
+        "Solved": true,
+        "Total solved": 2,
+        "Total executed": 2,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? ",
+            "step": "",
+            "answer": "79"
+        },
+        "Answer": "79",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nFaye initially has 34 coloring books.\nShe gave away 3 of them, so she has 34 - 3 = 31 coloring books left.\nThen she bought 48 more coloring books, so she has 31 + 48 = 79 coloring books in total.\n\nThe answer is 79"
+        ],
+        "Attempt answer": "79",
+        "Solved": true,
+        "Total solved": 3,
+        "Total executed": 3,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nThe school cafeteria initially had 23 apples.\nThey used 20 apples to make lunch, so they have 23 - 20 = 3 apples left.\nAfter using the apples, they bought 6 more, so they now have 3 + 6 = 9 apples.\n\nThe answer is 9"
+        ],
+        "Attempt answer": "9",
+        "Solved": true,
+        "Total solved": 4,
+        "Total executed": 4,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn? ",
+            "step": "",
+            "answer": "72"
+        },
+        "Answer": "72",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\n1. The level has a total of 11 enemies.\n2. You destroy all but 3 enemies, so you destroy 11 - 3 = 8 enemies.\n3. Each enemy defeated gives you 9 points.\n4. Therefore, the total points earned would be 8 enemies * 9 points per enemy = 72 points.\n\nThe answer is 72"
+        ],
+        "Attempt answer": "72",
+        "Solved": true,
+        "Total solved": 5,
+        "Total executed": 5,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? ",
+            "step": "",
+            "answer": "72"
+        },
+        "Answer": "72",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nMegan had a total of 14 bags of cans. She didn't recycle 5 of them, so she recycled 14 - 5 = 9 bags.\n\nShe earns 8 points for each bag she recycles, so for 9 bags, she would earn 9 * 8 = 72 points.\n\nThe answer is 72"
+        ],
+        "Attempt answer": "72",
+        "Solved": true,
+        "Total solved": 6,
+        "Total executed": 6,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn? ",
+            "step": "",
+            "answer": "36"
+        },
+        "Answer": "36",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nApril started with 13 roses and had 4 roses left, so she sold 13 - 4 = 9 roses.\nEach rose was sold for 4 dollars, so the total money she earned is 9 * 4 = 36 dollars.\nThe answer is 36"
+        ],
+        "Attempt answer": "36",
+        "Solved": true,
+        "Total solved": 7,
+        "Total executed": 7,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+            "step": "",
+            "answer": "1"
+        },
+        "Answer": "1",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nNed had to wash a total of 9 short sleeve shirts + 21 long sleeve shirts = 30 shirts.\nHe washed 29 of them by the time school started.\nTo find out how many he did not wash, we subtract the number of shirts he washed from the total number of shirts: 30 - 29 = 1.\nThe answer is 1"
+        ],
+        "Attempt answer": "1",
+        "Solved": true,
+        "Total solved": 8,
+        "Total executed": 8,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need? ",
+            "step": "",
+            "answer": "8"
+        },
+        "Answer": "8",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe company invited 47 people to a luncheon, but 7 of them didn't show up, so the number of people who attended is 47 - 7 = 40.\nEach table holds 5 people, so the number of tables needed is 40 / 5 = 8.\nThe answer is 8"
+        ],
+        "Attempt answer": "8",
+        "Solved": true,
+        "Total solved": 9,
+        "Total executed": 9,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? ",
+            "step": "",
+            "answer": "39"
+        },
+        "Answer": "39",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\n1. Tom initially has 5 books.\n2. He sells 4 of them, so he now has 5 - 4 = 1 book left.\n3. With the money from selling the 4 books, he buys 38 new books.\n4. Adding the new books to the remaining book, Tom now has 1 + 38 = 39 books.\n\nThe answer is 39"
+        ],
+        "Attempt answer": "39",
+        "Solved": true,
+        "Total solved": 10,
+        "Total executed": 10,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: 7. With the Answer Hints: 7, we will answer the question.\nLet's think step by step.\nJerry bought a total of 41 regular sodas + 22 diet sodas = 63 sodas.\nHis fridge can hold 9 sodas on each shelf.\nTo find out how many shelves he would fill up, we divide the total number of sodas by the number of sodas per shelf: 63 sodas / 9 sodas per shelf = 7 shelves.\nThe answer is 7"
+        ],
+        "Attempt answer": "7",
+        "Solved": true,
+        "Total solved": 11,
+        "Total executed": 11,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? ",
+            "step": "",
+            "answer": "39"
+        },
+        "Answer": "39",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nDebby had 32 pieces of candy and her sister had 42 pieces. Combined, they had 32 + 42 = 74 pieces of candy.\nThey ate 35 pieces the first night, so the number of pieces left is 74 - 35 = 39.\n\nThe answer is 39"
+        ],
+        "Attempt answer": "39",
+        "Solved": true,
+        "Total solved": 12,
+        "Total executed": 12,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? ",
+            "step": "",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nEmily started with a total of 41 seeds.\nShe planted 29 seeds in the big garden, so the remaining seeds are 41 - 29 = 12.\nShe planted 4 seeds in each small garden, so the number of small gardens is 12 / 4 = 3.\nThe answer is 3"
+        ],
+        "Attempt answer": "3",
+        "Solved": true,
+        "Total solved": 13,
+        "Total executed": 13,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " For Halloween Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? ",
+            "step": "",
+            "answer": "2"
+        },
+        "Answer": "2",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nEmily received 5 pieces of candy from neighbors and 13 pieces from her older sister, so she has a total of 5 + 13 = 18 pieces of candy.\nIf she eats 9 pieces of candy a day, the candy would last her 18 / 9 = 2 days.\nThe answer is 2"
+        ],
+        "Attempt answer": "2",
+        "Solved": true,
+        "Total solved": 14,
+        "Total executed": 14,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Mike is at the library helping put away books. There are 82 book to put away total but a librarian takes 10 of them and leaves Mike with the rest. If he can fit 9 books on a shelf, how many shelves will he need? ",
+            "step": "",
+            "answer": "8"
+        },
+        "Answer": "8",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: none. With the Answer Hints: none, we will answer the question.\nLet's think step by step.\nMike starts with 82 books to put away.\nA librarian takes 10 books, leaving Mike with 82 - 10 = 72 books.\nMike can fit 9 books on a shelf.\nTo find out how many shelves he needs, we divide the number of books by the number of books per shelf: 72 / 9 = 8 shelves.\nThe answer is 8"
+        ],
+        "Attempt answer": "8",
+        "Solved": true,
+        "Total solved": 15,
+        "Total executed": 15,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+            "step": "",
+            "answer": "19"
+        },
+        "Answer": "19",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: none. With the Answer Hints: none, we will answer the question.\nLet's think step by step.\nNancy took 49 pictures at the zoo and 8 at the museum, so she took a total of 49 + 8 = 57 pictures.\nShe later deleted 38 of the pictures, so the number of pictures she still has is 57 - 38 = 19.\nThe answer is 19"
+        ],
+        "Attempt answer": "19",
+        "Solved": true,
+        "Total solved": 16,
+        "Total executed": 16,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? ",
+            "step": "",
+            "answer": "48"
+        },
+        "Answer": "48",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe builder needs to install a total of 14 windows.\nHe has already installed 8 windows, so he has 14 - 8 = 6 windows left to install.\nIt takes 8 hours to install each window, so the time required to install the remaining windows is 6 windows * 8 hours per window = 48 hours.\nThe answer is 48"
+        ],
+        "Attempt answer": "48",
+        "Solved": true,
+        "Total solved": 17,
+        "Total executed": 17,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? ",
+            "step": "",
+            "answer": "36"
+        },
+        "Answer": "36",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe store initially has 40 oranges in the bin.\nThey throw away 25 of the old oranges, so the number of oranges left is 40 - 25 = 15.\nThen, they put 21 new oranges into the bin, so the total number of oranges becomes 15 + 21 = 36.\nThe answer is 36"
+        ],
+        "Attempt answer": "36",
+        "Solved": true,
+        "Total solved": 18,
+        "Total executed": 18,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? ",
+            "step": "",
+            "answer": "6"
+        },
+        "Answer": "6",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: 6. With the Answer Hints: 6, we will answer the question.\nLet's think step by step.\nThe waiter had 7 customers in total.\nOut of these, 5 customers did not leave a tip.\nThis means the number of customers who did leave a tip is 7 - 5 = 2.\nEach of these 2 customers left a tip of $3.\nSo, the total amount of money the waiter earned from tips is 2 * $3 = $6.\nThe answer is 6"
+        ],
+        "Attempt answer": "6",
+        "Solved": true,
+        "Total solved": 19,
+        "Total executed": 19,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now? ",
+            "step": "",
+            "answer": "62"
+        },
+        "Answer": "62",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nFaye initially had 47 pieces of candy.\nShe ate 25 pieces the first night, so she had 47 - 25 = 22 pieces left.\nHer sister then gave her 40 more pieces, so she now has 22 + 40 = 62 pieces.\nThe answer is 62"
+        ],
+        "Attempt answer": "62",
+        "Solved": true,
+        "Total solved": 20,
+        "Total executed": 20,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? ",
+            "step": "",
+            "answer": "4"
+        },
+        "Answer": "4",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: 4. With the Answer Hints: 4, we will answer the question.\nLet's think step by step.\nThe chef initially had 9 chicken wings cooked.\nThe chef then cooked 7 more chicken wings for the group, making the total number of wings 9 + 7 = 16.\nThere are 4 friends in the group, and they each get the same amount of wings.\nTo find out how many wings each person gets, we divide the total number of wings by the number of friends: 16 / 4 = 4.\nEach person would get 4 chicken wings.\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": true,
+        "Total solved": 21,
+        "Total executed": 21,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? ",
+            "step": "",
+            "answer": "64"
+        },
+        "Answer": "64",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nJohn had 15 lawns to mow but forgot to mow 7 of them, so he actually mowed 15 - 7 = 8 lawns.\nHe earned 8 dollars for each lawn he mowed, so his total earnings are 8 lawns * 8 dollars = 64 dollars.\nThe answer is 64"
+        ],
+        "Attempt answer": "64",
+        "Solved": true,
+        "Total solved": 22,
+        "Total executed": 22,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+            "step": "",
+            "answer": "5"
+        },
+        "Answer": "5",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe pet shelter initially had 5 puppies. When another 35 were brought in, the total number of puppies became 5 + 35 = 40.\nIf 8 puppies are adopted each day, the number of days it would take for all of them to be adopted is 40 / 8 = 5.\nThe answer is 5"
+        ],
+        "Attempt answer": "5",
+        "Solved": true,
+        "Total solved": 23,
+        "Total executed": 23,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+            "step": "",
+            "answer": "18"
+        },
+        "Answer": "18",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: none. With the Answer Hints: none, we will answer the question.\nLet's think step by step.\nThe builder needs to install a total of 9 windows.\nHe has already installed 6 windows, so he has 9 - 6 = 3 windows left to install.\nIt takes 6 hours to install each window, so for the remaining 3 windows, it will take 3 * 6 = 18 hours.\nThe answer is 18"
+        ],
+        "Attempt answer": "18",
+        "Solved": true,
+        "Total solved": 24,
+        "Total executed": 24,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? ",
+            "step": "",
+            "answer": "63"
+        },
+        "Answer": "63",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe teacher initially had 34 worksheets to grade.\nShe graded 7 of them, so she has 34 - 7 = 27 worksheets left to grade.\nThen, another 36 worksheets were turned in, so the total number of worksheets to grade now is 27 + 36 = 63.\nThe answer is 63"
+        ],
+        "Attempt answer": "63",
+        "Solved": true,
+        "Total solved": 25,
+        "Total executed": 25,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: 7. With the Answer Hints: 7, we will answer the question.\nLet's think step by step.\nFrank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball', so he has a total of 33 + 9 = 42 tickets.\nThe candy costs 6 tickets per piece, so Frank can buy 42 / 6 = 7 pieces of candy.\nThe answer is 7"
+        ],
+        "Attempt answer": "7",
+        "Solved": true,
+        "Total solved": 26,
+        "Total executed": 26,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? ",
+            "step": "",
+            "answer": "28"
+        },
+        "Answer": "28",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe group consists of 13 people in total, and 9 of them are kids. \nSince kids eat free, we only need to calculate the cost for the adults.\nThe number of adults in the group is 13 - 9 = 4.\nEach adult meal costs $7, so the total cost for the adults is 4 * 7 = 28.\nThe answer is 28"
+        ],
+        "Attempt answer": "28",
+        "Solved": true,
+        "Total solved": 27,
+        "Total executed": 27,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ",
+            "step": "",
+            "answer": "11"
+        },
+        "Answer": "11",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\nPaige had 43 math problems and 12 science problems for homework, so the total number of problems she had was 43 + 12 = 55 problems.\nShe finished 44 of the problems at school, so the number of problems she had to do for homework is 55 - 44 = 11 problems.\nThe answer is 11"
+        ],
+        "Attempt answer": "11",
+        "Solved": true,
+        "Total solved": 28,
+        "Total executed": 28,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? ",
+            "step": "",
+            "answer": "63"
+        },
+        "Answer": "63",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: none. With the Answer Hints: none, we will answer the question.\nLet's think step by step.\nRachel scores 9 points for each treasure she finds. On the first level, she found 5 treasures, so she scored 9 points x 5 treasures = 45 points.\nOn the second level, she found 2 treasures, so she scored 9 points x 2 treasures = 18 points.\nTo find her total score, we add the points from both levels: 45 points + 18 points = 63 points.\nThe answer is 63"
+        ],
+        "Attempt answer": "63",
+        "Solved": true,
+        "Total solved": 29,
+        "Total executed": 29,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? ",
+            "step": "",
+            "answer": "26"
+        },
+        "Answer": "26",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step\nThe waiter initially had 26 customers to wait on.\nDuring the lunch rush, he added another 27 customers, so the total number of customers he served is 26 + 27 = 53.\nOut of these 53 customers, 27 did not leave a tip.\nTherefore, the number of customers who left a tip is 53 - 27 = 26.\nThe answer is 26"
+        ],
+        "Attempt answer": "26",
+        "Solved": true,
+        "Total solved": 30,
+        "Total executed": 30,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? ",
+            "step": "",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: 3. With the Answer Hints: 3, we will answer the question.\nLet's think step by step.\nThe toy store initially had 17 giant stuffed bears in stock.\nThey received another shipment with 10 bears, so the total number of bears is 17 + 10 = 27.\nThey put the bears onto shelves with 9 on each shelf, so the number of shelves used is 27 / 9 = 3.\nThe answer is 3"
+        ],
+        "Attempt answer": "3",
+        "Solved": true,
+        "Total solved": 31,
+        "Total executed": 31,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total? ",
+            "step": "",
+            "answer": "32"
+        },
+        "Answer": "32",
+        "Step": "",
+        "Response": [
+            "Let's think step by step.\n\nGwen has 5 shelves of mystery books, and each shelf has 4 books. So, the total number of mystery books is 5 shelves * 4 books/shelf = 20 books.\n\nShe also has 3 shelves of picture books, and each shelf has 4 books. So, the total number of picture books is 3 shelves * 4 books/shelf = 12 books.\n\nTo find the total number of books Gwen has, we add the mystery books and picture books together: 20 books + 12 books = 32 books.\n\nThe answer is 32"
+        ],
+        "Attempt answer": "32",
+        "Solved": true,
+        "Total solved": 32,
+        "Total executed": 32,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "We know the Answer Hints: near to. With the Answer Hints: near to, we will answer the question.\nLet's think step by step.\nWendy uploaded a total of 79 pictures to Facebook.\nShe put 44 pictures into one album, so the remaining pictures are 79 - 44 = 35.\nShe then put the remaining 35 pictures into 5 different albums.\nTo find out how many pictures are in each of the 5 albums, we divide the remaining pictures by the number of albums: 35 / 5 = 7.\nThe answer is 7"
+        ],
+        "Attempt answer": "7",
+        "Solved": true,
+        "Total solved": 33,
+        "Total executed": 33,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ",
+            "step": "",
+            "answer": "5"
+        },
+        "Answer": "5",
+        "Step": "",
+        "Response": [
+            "We know the Answer Hints: 5. With the Answer Hints: 5, we will answer the question.\nLet's think step by step.\nThe debate team has 5 boys and 40 girls, so the total number of members is 5 + 40 = 45.\nThey want to split into groups of 9, so we divide the total number of members by the group size: 45 / 9 = 5.\nThey can make 5 groups of 9 members each.\nThe answer is 5"
+        ],
+        "Attempt answer": "5",
+        "Solved": true,
+        "Total solved": 34,
+        "Total executed": 34,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " April's discount flowers was having a sale where each rose was 7 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn? ",
+            "step": "",
+            "answer": "35"
+        },
+        "Answer": "35",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: 35. With the Answer Hints: 35, we will answer the question.\nLet's think step by step.\nApril started with 9 roses and had 4 roses left, so she sold 9 - 4 = 5 roses.\nEach rose was sold for 7 dollars, so she earned 5 roses * 7 dollars = 35 dollars.\nThe answer is 35"
+        ],
+        "Attempt answer": "35",
+        "Solved": true,
+        "Total solved": 35,
+        "Total executed": 35,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? ",
+            "step": "",
+            "answer": "45"
+        },
+        "Answer": "45",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe trivia team had 11 members total, but 6 members didn't show up, so 11 - 6 = 5 members showed up.\nEach member that showed up scored 9 points, so the total points scored is 5 members * 9 points = 45 points.\nThe answer is 45"
+        ],
+        "Attempt answer": "45",
+        "Solved": true,
+        "Total solved": 36,
+        "Total executed": 36,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left? ",
+            "step": "",
+            "answer": "8"
+        },
+        "Answer": "8",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe pet store initially had 13 siamese cats and 5 house cats, so the total number of cats was 13 + 5 = 18.\nDuring the sale, they sold 10 cats.\nTo find out how many cats they have left, subtract the number of cats sold from the initial total: 18 - 10 = 8.\nThe answer is 8"
+        ],
+        "Attempt answer": "8",
+        "Solved": true,
+        "Total solved": 37,
+        "Total executed": 37,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Victor was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 5 hours and on Tuesday he worked 5 hours. How much money did Victor make in those two days? ",
+            "step": "",
+            "answer": "60"
+        },
+        "Answer": "60",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nVictor makes 6 dollars per hour.\nOn Monday, he worked 5 hours, so he made 6 * 5 = 30 dollars.\nOn Tuesday, he also worked 5 hours, so he made another 6 * 5 = 30 dollars.\nIn total, Victor made 30 + 30 = 60 dollars in those two days.\nThe answer is 60"
+        ],
+        "Attempt answer": "60",
+        "Solved": true,
+        "Total solved": 38,
+        "Total executed": 38,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? ",
+            "step": "",
+            "answer": "4"
+        },
+        "Answer": "4",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: 4. With the Answer Hints: 4, we will answer the question.\nLet's think step by step.\nMegan baked 71 cupcakes initially.\nHer brother, Todd, ate 43 of them, so the remaining cupcakes are 71 - 43 = 28.\nMegan wants to put 7 cupcakes in each package.\nTo find out how many packages she can make, we divide the remaining cupcakes by the number per package: 28 / 7 = 4.\nThe answer is 4"
+        ],
+        "Attempt answer": "4",
+        "Solved": true,
+        "Total solved": 39,
+        "Total executed": 39,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+            "step": "",
+            "answer": "24"
+        },
+        "Answer": "24",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nInitially, there were 2 friends playing the game, and then 2 more players joined, making the total number of players 2 + 2 = 4.\nEach player has 6 lives, so the total number of lives is 4 players * 6 lives per player = 24 lives.\nThe answer is 24"
+        ],
+        "Attempt answer": "24",
+        "Solved": true,
+        "Total solved": 40,
+        "Total executed": 40,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? ",
+            "step": "",
+            "answer": "43"
+        },
+        "Answer": "43",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: none. With the Answer Hints: none, we will answer the question.\nLet's think step by step.\nSam initially had 10 socks.\nHe threw away 3 old ones, so he has 10 - 3 = 7 socks left.\nHe then bought 36 new socks, so he has 7 + 36 = 43 socks now.\nThe answer is 43"
+        ],
+        "Attempt answer": "43",
+        "Solved": true,
+        "Total solved": 41,
+        "Total executed": 41,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: 7. With the Answer Hints: 7, we will answer the question.\nLet's think step by step.\nWendy initially picked 103 flowers for the wedding bouquets.\nHowever, 47 of the flowers wilted before the wedding, so the number of usable flowers is 103 - 47 = 56.\nEach bouquet requires 8 flowers, so the number of bouquets she can make is 56 / 8 = 7.\nThe answer is 7"
+        ],
+        "Attempt answer": "7",
+        "Solved": true,
+        "Total solved": 42,
+        "Total executed": 42,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have? ",
+            "step": "",
+            "answer": "67"
+        },
+        "Answer": "67",
+        "Step": "",
+        "Response": [
+            "We know the Answer Hints: near to. With the Answer Hints: near to, we will answer the question.\nLet's think step by step.\nAdam initially has 48 books.\nHe sold 19 of them, so he has 48 - 19 = 29 books left.\nWith the money he earned from selling the books, he buys 38 new books.\nNow, Adam has 29 + 38 = 67 books.\nThe answer is 67"
+        ],
+        "Attempt answer": "67",
+        "Solved": true,
+        "Total solved": 43,
+        "Total executed": 43,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Nancy's class is going on a field trip to the zoo. If each van can hold 5 people and there are 12 students and 3 adults going, how many vans will they need? ",
+            "step": "",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThere are 12 students and 3 adults going on the field trip, so the total number of people is 12 + 3 = 15.\nEach van can hold 5 people, so to find out how many vans are needed, we divide the total number of people by the capacity of one van: 15 / 5 = 3.\nTherefore, they will need 3 vans for the trip.\nThe answer is 3"
+        ],
+        "Attempt answer": "3",
+        "Solved": true,
+        "Total solved": 44,
+        "Total executed": 44,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? ",
+            "step": "",
+            "answer": "8"
+        },
+        "Answer": "8",
+        "Step": "",
+        "Response": [
+            "A: Let's think step by step.\nTom bought a total of 4 regular sodas + 52 diet sodas = 56 sodas.\nHis fridge can hold 7 sodas on each shelf.\nTo find out how many shelves he will fill up, divide the total number of sodas by the number of sodas per shelf: 56 / 7 = 8 shelves.\nThe answer is 8"
+        ],
+        "Attempt answer": "8",
+        "Solved": true,
+        "Total solved": 45,
+        "Total executed": 45,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have? ",
+            "step": "",
+            "answer": "46"
+        },
+        "Answer": "46",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe school cafeteria initially had 38 apples.\nThey used 20 apples to make lunch for the students, so they have 38 - 20 = 18 apples left.\nAfter using the apples, they bought 28 more apples, so they now have 18 + 28 = 46 apples.\nThe answer is 46"
+        ],
+        "Attempt answer": "46",
+        "Solved": true,
+        "Total solved": 46,
+        "Total executed": 46,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "A: Let's think step by step.\nLuke needs to pick up a total of 20 trays from the first table and 16 trays from the second table, so 20 + 16 = 36 trays in total.\nSince Luke can only carry 4 trays at a time, we divide the total number of trays by the number he can carry per trip: 36 / 4 = 9 trips.\nThe answer is 9"
+        ],
+        "Attempt answer": "9",
+        "Solved": true,
+        "Total solved": 47,
+        "Total executed": 47,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nThe cafeteria started with 96 apples.\nThey handed out 42 apples to students, so they have 96 - 42 = 54 apples left.\nEach pie requires 6 apples, so they can make 54 / 6 = 9 pies.\nThe answer is 9"
+        ],
+        "Attempt answer": "9",
+        "Solved": true,
+        "Total solved": 48,
+        "Total executed": 48,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? ",
+            "step": "",
+            "answer": "30"
+        },
+        "Answer": "30",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step.\nHenry currently has 3 action figures but needs a total of 8 for a complete collection.\nTo find out how many more action figures he needs, we subtract the number he already has from the total needed: 8 - 3 = 5 action figures.\nEach action figure costs $6, so the total cost for the additional action figures is 5 * $6 = $30.\nThe answer is 30"
+        ],
+        "Attempt answer": "30",
+        "Solved": true,
+        "Total solved": 49,
+        "Total executed": 49,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? ",
+            "step": "",
+            "answer": "5"
+        },
+        "Answer": "5",
+        "Step": "",
+        "Response": [
+            "A: We know the Answer Hints: . With the Answer Hints: , we will answer the question.\nLet's think step by step\nFrank initially had 3 dollars saved up.\nHe received an additional 37 dollars for his allowance, so his total money now is 3 + 37 = 40 dollars.\nEach toy costs 8 dollars, so the number of toys he can buy is 40 / 8 = 5.\nThe answer is 5"
+        ],
+        "Attempt answer": "5",
+        "Solved": true,
+        "Total solved": 50,
+        "Total executed": 50,
+        "Accuracy": 1.0
+    }
+]

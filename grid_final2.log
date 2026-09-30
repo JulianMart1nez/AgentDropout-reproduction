@@ -1,0 +1,8 @@
+Grid: 105 total cells, 103 already done, 2 to run.
+Concurrency: up to 5 cells at once, batch_size=5 per cell (~25 concurrent HTTP calls at peak).
+[retry 1/3] meta-llama/llama-3.1-8b-instruct / HumanEval / MAS_roundT failed: timed out after 5400s -- retrying in 15s
+[retry 1/3] meta-llama/llama-3.1-8b-instruct / HumanEval / AgentDropout failed: timed out after 5400s -- retrying in 12s
+[104/105 done, 1 in flight] meta-llama/llama-3.1-8b-instruct / HumanEval / AgentDropout -- 74.0% (37.0/50), $0.0249, 150.8m
+[retry 2/3] meta-llama/llama-3.1-8b-instruct / HumanEval / MAS_roundT failed: timed out after 5400s -- retrying in 37s
+[FAILED after 3 attempts] meta-llama/llama-3.1-8b-instruct / HumanEval / MAS_roundT: timed out after 5400s
+Grid complete. 104/105 done, 1 failed.

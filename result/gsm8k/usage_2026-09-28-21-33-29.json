@@ -1,0 +1,40 @@
+{
+ "by_phase": {
+  "eval": {
+   "prompt_tokens": 3216,
+   "completion_tokens": 586,
+   "calls": 3,
+   "cost_usd": 0.00141376
+  }
+ },
+ "total": {
+  "prompt_tokens": 3216,
+  "completion_tokens": 586,
+  "calls": 3,
+  "cost_usd": 0.00141376,
+  "total_tokens": 3802
+ },
+ "calls": [
+  {
+   "tag": "eval:0:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1048,
+   "completion_tokens": 81,
+   "cost": 0.00040968
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1088,
+   "completion_tokens": 193,
+   "cost": 0.00046888
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1080,
+   "completion_tokens": 312,
+   "cost": 0.0005352
+  }
+ ]
+}
