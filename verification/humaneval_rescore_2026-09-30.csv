@@ -1,0 +1,51 @@
+stamp,model,method,n_recs,orig,rescored,unclosed,nofence,med_len,max_len,reasons
+09-29 09:17,deepseek,Vanilla,50,49,49,0,50,430,1289,{'RuntimeError': 1}
+09-29 09:19,deepseek,MAS_round1,50,36,50,14,36,484,1391,{}
+09-29 09:21,deepseek,MAS_roundT,50,33,49,17,33,494,1298,{'AssertionError': 1}
+09-29 09:24,deepseek,AgentPrune,90,21,50,29,21,679,1792,{}
+09-29 09:29,deepseek,AgentDropout,130,24,50,26,24,659,1731,{}
+09-28 22:45,llama,?,10,10,7,0,10,239,751,{'AssertionError': 3}
+09-28 22:48,llama,?,50,50,44,0,50,280,1642,"{'AssertionError': 5, 'NameError': 1}"
+09-28 22:58,llama,?,50,49,40,0,50,393,1921,"{'AssertionError': 6, 'KeyError': 1, 'ZeroDivisionError': 1}"
+09-28 22:59,llama,?,50,50,42,0,50,405,1442,"{'AssertionError': 6, 'IndexError': 1, 'NameError': 1}"
+09-28 23:00,llama,?,50,49,40,0,50,378,1310,"{'AssertionError': 8, 'ValueError': 1, 'Timeout': 1}"
+09-28 23:01,llama,?,90,49,42,0,50,569,2748,"{'AssertionError': 3, 'NameError': 2, 'ValueError': 2}"
+09-28 23:07,llama,?,50,50,42,0,50,270,1535,"{'AssertionError': 6, 'KeyError': 1, 'NameError': 1}"
+09-28 23:08,llama,?,205,50,35,0,50,446,1628,"{'AssertionError': 7, 'NameError': 4, 'Timeout': 3}"
+09-28 23:33,llama,?,120,50,34,0,50,368,1188,"{'AssertionError': 9, 'NameError': 5, 'IndexError': 1}"
+09-28 23:42,llama,?,90,50,41,0,50,596,2182,"{'AssertionError': 8, 'NameError': 1}"
+09-28 23:42,llama,?,30,30,28,0,30,647,1538,"{'NameError': 1, 'AssertionError': 1}"
+09-28 23:59,llama,?,110,50,43,0,50,508,1168,"{'AssertionError': 5, 'NameError': 2}"
+09-28 23:59,llama,?,45,43,34,0,45,386,1010,"{'AssertionError': 7, 'NameError': 2, 'SyntaxError': 1}"
+09-29 00:19,llama,?,260,50,36,0,50,602,1679,"{'AssertionError': 9, 'ValueError': 3, 'NameError': 1}"
+09-29 01:49,llama,?,110,48,40,0,50,750,2427,"{'AssertionError': 4, 'NameError': 2, 'ValueError': 2}"
+09-29 03:20,llama,?,90,47,36,0,50,647,1986,"{'AssertionError': 6, 'NameError': 4, 'ValueError': 2}"
+09-29 03:20,llama,?,80,50,32,0,50,446,2635,"{'AssertionError': 9, 'NameError': 4, 'ValueError': 2}"
+09-29 03:58,llama,Vanilla,50,40,40,0,50,295,1420,"{'AssertionError': 9, 'NameError': 1}"
+09-29 04:00,llama,Vanilla,50,40,40,0,50,295,1514,"{'AssertionError': 8, 'SyntaxError': 1, 'NameError': 1}"
+09-29 04:02,llama,AgentPrune,180,36,35,0,50,557,1477,"{'AssertionError': 8, 'NameError': 4, 'ValueError': 2}"
+09-29 04:09,llama,AgentPrune,80,36,36,0,50,598,2070,"{'AssertionError': 9, 'NameError': 3, 'ValueError': 1}"
+09-29 05:33,llama,?,60,39,39,0,50,341,1384,"{'AssertionError': 8, 'KeyError': 1, 'IndexError': 1}"
+09-29 07:17,llama,?,180,34,33,0,50,829,1629,"{'AssertionError': 10, 'ValueError': 5, 'NameError': 1}"
+09-29 08:47,llama,?,90,36,35,0,50,511,1616,"{'AssertionError': 9, 'NameError': 3, 'ValueError': 2}"
+09-29 11:21,llama,?,115,42,41,0,50,398,1114,"{'AssertionError': 5, 'NameError': 3, 'Timeout': 1}"
+09-29 12:03,llama,?,165,37,34,0,50,458,1548,"{'NameError': 6, 'AssertionError': 6, 'ValueError': 2}"
+09-29 15:46,llama,AgentDropout,120,39,39,0,50,502,1650,"{'AssertionError': 6, 'ValueError': 2, 'SyntaxError': 1}"
+09-29 17:58,llama,?,175,36,36,0,50,666,1771,"{'AssertionError': 9, 'ValueError': 3, 'TypeError': 1}"
+09-29 20:08,llama,?,50,40,39,0,50,361,1290,"{'AssertionError': 5, 'NameError': 3, 'IndexError': 2}"
+09-29 21:31,llama,?,50,36,35,0,50,332,1339,"{'AssertionError': 10, 'NameError': 4, 'Timeout': 1}"
+09-29 22:01,llama,?,35,29,29,0,35,360,1004,"{'AssertionError': 4, 'NameError': 2}"
+09-29 23:01,llama,?,50,39,39,0,50,364,1336,"{'AssertionError': 8, 'NameError': 3}"
+09-30 00:32,llama,?,50,37,37,0,50,343,1445,"{'AssertionError': 8, 'NameError': 3, 'ValueError': 2}"
+09-30 02:03,llama,?,45,30,30,0,45,359,1018,"{'AssertionError': 11, 'NameError': 3, 'ValueError': 1}"
+09-30 03:35,llama,?,50,40,40,0,50,349,1415,"{'AssertionError': 6, 'NameError': 2, 'TypeError': 1}"
+09-29 03:43,qwen,?,50,50,47,0,50,290,1404,"{'AssertionError': 2, 'UnboundLocalError': 1}"
+09-29 03:45,qwen,?,50,50,47,0,50,244,1112,"{'AssertionError': 2, 'NameError': 1}"
+09-29 03:48,qwen,?,50,50,48,0,50,269,1112,{'AssertionError': 2}
+09-29 03:55,qwen,?,85,50,47,0,50,291,1200,"{'NameError': 1, 'IndexError': 1, 'AssertionError': 1}"
+09-29 03:58,qwen,?,70,45,45,0,50,266,994,"{'AssertionError': 3, 'NameError': 1, 'IndexError': 1}"
+09-29 04:24,qwen,Vanilla,50,49,49,0,50,292,1294,{'AssertionError': 1}
+09-29 04:25,qwen,MAS_round1,50,47,47,0,50,264,1309,"{'AssertionError': 2, 'NameError': 1}"
+09-29 04:28,qwen,MAS_roundT,50,48,48,0,50,246,860,"{'AssertionError': 1, 'NameError': 1}"
+09-29 04:35,qwen,AgentPrune,90,50,49,0,50,264,1246,{'NameError': 1}
+09-29 04:43,qwen,AgentDropout,130,47,47,0,50,343,1296,{'AssertionError': 3}
