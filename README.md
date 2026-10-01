@@ -314,7 +314,206 @@ All raw results, per-cell token/cost breakdowns, and per-question output are
 in `result/full_grid_results.csv` and the per-dataset result directories
 under `result/`.
 
-## 7. Running it
+## 7. Secondary analyses
+
+Three additional analyses from the paper, run after the main grid was
+complete and verified.
+
+### 7.1 Token efficiency (mirrors Appendix A.3)
+
+The honest version of this section starts with a limitation, not a result:
+per-question token logging (`PromptTokens`/`CompletionTokens` on each saved
+record) was only ever added to `run_gsm8k.py` — not to the other five
+dataset scripts. That means for GSM8K, eval-only token counts can be
+recovered exactly by summing just the last 50 records of each result file
+(AgentDropout's runs write 130 records total: 40 node-dropout training + 40
+edge-optimization training + 50 eval). For the other five datasets, only
+the whole-process total (training + eval combined) exists in
+`full_grid_results.csv`.
+
+That distinction matters a lot here: `MAS_roundT` has no training phase at
+all, while `AgentPrune`/`AgentDropout` run two training phases before
+evaluating. Comparing AgentDropout's *whole-process* total against
+`MAS_roundT`'s *eval-only* total naively suggests AgentDropout costs
+40–320% **more** tokens, across every single dataset and model — which
+would directly contradict the paper's efficiency claim. That comparison is
+just measuring the wrong thing (130-ish questions' worth of work vs. 50),
+not a real finding.
+
+**True eval-only comparison, GSM8K** (the only dataset where this is
+recoverable with confidence — Llama's matching result file couldn't be
+identified reliably among files from an earlier, noisier point in the
+session, so it's reported as not recoverable rather than guessed):
+
+| Model | Prompt tokens (MAS_roundT) | Prompt tokens (AgentDropout) | Reduction | Completion tokens (MAS_roundT) | Completion tokens (AgentDropout) | Reduction |
+|---|---|---|---|---|---|---|
+| Qwen-2.5-72B | 594,113 | 362,672 | **39.0%** | 118,370 | 77,181 | **34.8%** |
+| DeepSeek-V3 | 522,114 | 359,673 | **31.1%** | 97,495 | 79,773 | **18.2%** |
+| Llama-3.1-8B | — | — | not recoverable | — | — | not recoverable |
+
+This is the result that actually matches the paper's direction: real,
+substantial inference-time token savings (~30–40% on prompt tokens) once
+training overhead is excluded from the comparison.
+
+**Whole-process totals** (training + eval combined for AgentDropout,
+eval-only for MAS_roundT — included for completeness, but explicitly *not*
+a measure of inference-time efficiency) ranged from a 37–58% increase on
+MMLU/HumanEval up to a 260–320% increase on the shorter math datasets
+(MultiArith/AQuA/SVAMP), consistent across all three models. MMLU and
+HumanEval show the smallest whole-process increase because their questions
+are inherently longer, so the fixed ~80-question training overhead is a
+smaller fraction of the total — the same pattern noted earlier where
+MMLU/HumanEval behave differently from the short math datasets.
+
+**Takeaway:** the paper's token-efficiency claim held up when measured the
+way the paper actually measures it (inference-time only). The apparent
+"AgentDropout costs more" result is an artifact of comparing training+eval
+against eval-only, not a real finding about the method. Recovering true
+eval-only numbers for the other five datasets would need per-question token
+logging added to those scripts and a rerun.
+
+### 7.2 Case study (mirrors Appendix A.2)
+
+Pulled from a GSM8K/AgentDropout run's saved per-question `AgentResponses`.
+One structural finding first: **which agent gets dropped is a property of
+the trained graph, not a per-question decision** — the exact same agent
+(or agents, one per round) was dropped on every single one of the 50 eval
+questions within a run. Llama and Qwen's training both settled on dropping
+"Mathematical Analyst" in both rounds; DeepSeek's training dropped
+"Programming Expert" in round 0 and "Inspector" in round 1. This makes
+sense given how node dropout works (`update_masks_dec` picks the lowest
+weighted-degree node once, during training, and that choice is then fixed
+for the whole eval set) — but it does mean "dropout" here is really a
+single upfront decision about team composition, not a runtime adaptation
+per question.
+
+**Example 1 — dropped agent's absence clearly didn't hurt** (Q0, DeepSeek):
+
+> Janet's ducks lay 16 eggs per day. She eats three for breakfast every
+> morning and bakes muffins for her friends every day with four. She sells
+> the remainder at the farmers' market daily for $2 per fresh duck egg. How
+> much in dollars does she make every day at the farmers' market?
+
+True answer: 18. Round 0 dropped `Programming Expert`; round 1 dropped
+`Inspector`. The four surviving agents in each round independently reached
+9 × $2 = $18 and stated it plainly ("The answer is 18"). Nothing about the
+missing agent's specialty (code execution / adversarial review) was needed
+for a question this straightforward — a clean example of dropout removing
+redundant capacity rather than useful signal.
+
+**Example 2 — dropout active, answer still correct, but worth noting
+*why*** (same run, most of the other 49 questions): the surviving
+Math Solver / Mathematical Analyst agents reliably converge on matching
+answers even before the vote, so the "which agent dropped" question rarely
+ends up mattering for the ones this model family gets right anyway — the
+redundancy in a 5-agent team on a benchmark this easy is real, which is
+exactly the premise dropout is built on.
+
+**Example 3 — the one failure case, and a genuine finding about it**
+(Q12, common across models):
+
+> Carlos is planting a lemon tree. The tree will cost $90 to plant. Each
+> year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3
+> a year to water and feed the tree. How many years will it take before he
+> starts earning money on the lemon tree?
+
+True answer: 13. Predicted: 12. Checking the raw per-agent output for this
+question (DeepSeek's run): every single surviving agent, in both rounds
+— Math Solver, Mathematical Analyst, Inspector (round 0), Programming
+Expert (round 1) — independently computed 90 / 7.5 = 12 and stopped there.
+That's the break-even year; "starts earning money" requires one more year
+past break-even (year 13), a classic off-by-one in how the question gets
+interpreted. Because every surviving agent made the *same* misinterpretation
+independently, there's no reason to think the dropped agent (Programming
+Expert in round 0, Inspector in round 1) would have caught it — this
+failure isn't attributable to dropout. It's a shared reasoning error the
+whole team made together, which dropout had no opportunity to fix since
+none of the four remaining agents flagged the ambiguity either.
+
+No example of dropout *causing* a wrong answer (i.e., a case where a kept
+agent's vote lost only because a specific dropped agent's would-have-been
+vote was needed) turned up in this sample.
+
+### 7.3 Effect of dropout rate (mirrors Section 4.3)
+
+AgentDropout swept across `--pruning_rate` ∈ {0.05, 0.10, 0.15, 0.20, 0.30}
+on 2 models × 2 datasets (Llama-3.1-8B and Qwen-2.5-72B, on GSM8K and
+MMLU), 50 questions each — 20 new cells, logged separately in
+`result/pruning_rate_sweep.csv` so the main grid's results file was never
+touched.
+
+**A data-integrity note first:** the sweep's orchestrator process ended up
+running the full 20-cell list twice, in parallel, for its entire ~3-hour
+runtime — confirmed by every one of the 20 (model, dataset, rate)
+combinations having exactly two logged rows with interleaved timestamps
+spanning the whole run, not just a brief overlap at startup. The cause
+wasn't tracked down (a dead-process check that should have caught this
+passed cleanly beforehand). The one silver lining: having two independent
+samples per cell makes the run-to-run spread at n=50 visible rather than
+hidden, which is reported below. One pair was genuinely corrupted — the
+account's prepaid credit went negative partway through the run (see below),
+and `qwen-72B / GSM8K / rate=0.15` landed one run at a real 36% and the
+other at exactly 0/50, the same below-random-chance signature as the
+`FinalMajorVote` empty-vote bug (fixed, see 3.15) — consistent with every
+agent call failing outright at that point. The 0% value is dropped; the 36%
+is kept.
+
+**Cost note:** the account's actual prepaid balance ran out partway through
+Qwen's cells (a different thing from the $40 cap configured on the API key
+itself, which doesn't reflect real funds available). The run was allowed to
+continue per instruction, and every cell still completed — OpenRouter
+appears to allow some operation past a zero balance rather than hard-blocking
+instantly. Total actual spend for the (accidentally doubled) sweep was
+**$7.27**.
+
+### Accuracy by pruning rate (average of the two runs; range shown where they differed)
+
+**GSM8K**
+
+| Model | 0.05 | 0.10 | 0.15 | 0.20 | 0.30 |
+|---|---|---|---|---|---|
+| Llama-3.1-8B | 83% (78–88) | 82% | 91% (88–94) | 86% (84–88) | 79% (74–84) |
+| Qwen-2.5-72B | 94% (90–98) | 83% (78–88) | 36%¹ | 34% (26–42) | 54% (50–58) |
+
+**MMLU**
+
+| Model | 0.05 | 0.10 | 0.15 | 0.20 | 0.30 |
+|---|---|---|---|---|---|
+| Llama-3.1-8B | 43% (36–50) | 44% (38–50) | 50% | 38% (34–42) | 33% (32–34) |
+| Qwen-2.5-72B | 33% (30–36) | 56% (54–58) | 66% (64–68) | 55% (46–64) | 63% (60–66) |
+
+¹ one run of this cell scored 0/50 — a credit-exhaustion artifact, excluded (see note above)
+
+### Average cost per cell by pruning rate
+
+| Model / Dataset | 0.05 | 0.10 | 0.15 | 0.20 | 0.30 |
+|---|---|---|---|---|---|
+| Llama / GSM8K | $0.055 | $0.054 | $0.055 | $0.053 | $0.053 |
+| Qwen / GSM8K | $0.454 | $0.461 | $0.318 | $0.175 | $0.112 |
+| Llama / MMLU | $0.036 | $0.034 | $0.032 | $0.033 | $0.033 |
+| Qwen / MMLU | $0.108 | $0.321 | $0.414 | $0.414 | $0.422 |
+
+**Reading this:** the classic tradeoff curve shows up clearly for Qwen on
+GSM8K — cost drops monotonically as pruning increases (fewer edges, fewer
+tokens, as expected), and accuracy drops sharply too (94%→54%), though not
+monotonically, with the 0.15 data point too compromised by the credit issue
+to trust. Llama on both datasets is comparatively flat across all five
+rates — within the noise band a 50-question sample would produce on its
+own, suggesting Llama's team composition is more robust to the specific
+degree of pruning tested here, or that these rates are all still well
+inside a "safe" range for it. MMLU doesn't show the simple
+cost-decreases-with-rate pattern GSM8K does for Qwen — cost actually
+*rises* with rate there — which doesn't have a clean explanation from this
+run alone and would need a clean (non-duplicated, non-interrupted) rerun to
+trust.
+
+**Bottom line:** given the duplication and the one corrupted cell, this
+sweep is good enough to show that pruning rate *does* matter and that its
+effect is model- and dataset-dependent (Qwen/GSM8K is clearly sensitive;
+Llama is comparatively flat), but the specific curve shape shouldn't be
+treated as precise without a clean rerun.
+
+## 8. Running it
 
 ```shell
 python3.11 -m venv .venv

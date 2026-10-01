@@ -1,0 +1,22 @@
+Sweep: 20 total cells, 0 already done, 20 to run.
+[1/20] meta-llama/llama-3.1-8b-instruct / GSM8K / rate=0.15 -- 94.0% (47.0/50), $0.0554, 13.5m
+[2/20] meta-llama/llama-3.1-8b-instruct / GSM8K / rate=0.2 -- 84.0% (42.0/50), $0.0545, 25.5m
+[3/20] meta-llama/llama-3.1-8b-instruct / GSM8K / rate=0.1 -- 82.0% (41.0/50), $0.0536, 28.2m
+[4/20] meta-llama/llama-3.1-8b-instruct / GSM8K / rate=0.05 -- 78.0% (39.0/50), $0.0564, 36.0m
+[5/20] meta-llama/llama-3.1-8b-instruct / GSM8K / rate=0.3 -- 84.0% (42.0/50), $0.0521, 39.1m
+[6/20] meta-llama/llama-3.1-8b-instruct / MMLU / rate=0.05 -- 50.0% (25/50), $0.0370, 44.5m
+[7/20] meta-llama/llama-3.1-8b-instruct / MMLU / rate=0.1 -- 38.0% (19/50), $0.0372, 50.4m
+[8/20] meta-llama/llama-3.1-8b-instruct / MMLU / rate=0.15 -- 50.0% (25/50), $0.0329, 43.2m
+[9/20] meta-llama/llama-3.1-8b-instruct / MMLU / rate=0.2 -- 34.0% (17/50), $0.0347, 38.8m
+[10/20] qwen/qwen-2.5-72b-instruct / GSM8K / rate=0.05 -- 98.0% (49.0/50), $0.4558, 30.4m
+[11/20] meta-llama/llama-3.1-8b-instruct / MMLU / rate=0.3 -- 32.0% (16/50), $0.0358, 39.4m
+[12/20] qwen/qwen-2.5-72b-instruct / GSM8K / rate=0.1 -- 78.0% (39.0/50), $0.4580, 32.8m
+[13/20] qwen/qwen-2.5-72b-instruct / GSM8K / rate=0.15 -- 36.0% (18.0/50), $0.3566, 23.8m
+[14/20] qwen/qwen-2.5-72b-instruct / GSM8K / rate=0.2 -- 42.0% (21.0/50), $0.1412, 20.9m
+[15/20] qwen/qwen-2.5-72b-instruct / GSM8K / rate=0.3 -- 50.0% (25.0/50), $0.1272, 21.0m
+[16/20] qwen/qwen-2.5-72b-instruct / MMLU / rate=0.05 -- 36.0% (18/50), $0.1212, 30.9m
+[17/20] qwen/qwen-2.5-72b-instruct / MMLU / rate=0.1 -- 54.0% (27/50), $0.2238, 45.8m
+[18/20] qwen/qwen-2.5-72b-instruct / MMLU / rate=0.2 -- 64.0% (32/50), $0.3789, 44.5m
+[19/20] qwen/qwen-2.5-72b-instruct / MMLU / rate=0.15 -- 64.0% (32/50), $0.4133, 46.1m
+[20/20] qwen/qwen-2.5-72b-instruct / MMLU / rate=0.3 -- 66.0% (33/50), $0.4210, 50.5m
+Sweep complete. 20/20 done, 0 failed.
