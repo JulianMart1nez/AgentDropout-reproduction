@@ -1,0 +1,7 @@
+model,dataset,method,mode,accuracy,correct,total,eval_prompt_tokens,eval_completion_tokens,all_prompt_tokens,all_completion_tokens,cost,failed_node_calls,providers,minutes,log,completed_at
+meta-llama/llama-3.1-8b-instruct,GSM8K,MAS_roundT,Random,0.8200,41.0,50,515329,145497,515329,145497,0.0161,0,DeepInfra:500,30.1,llama-3.1-8b-instruct_GSM8K_MAS_roundT_Random_20261008-113120.log,2026-10-08T11:31:20
+meta-llama/llama-3.1-8b-instruct,GSM8K,AgentDropout,Random,0.8200,41.0,50,265083,120303,802507,309968,0.0284,0,DeepInfra:1040,44.4,llama-3.1-8b-instruct_GSM8K_AgentDropout_Random_20261008-114543.log,2026-10-08T11:45:43
+meta-llama/llama-3.1-8b-instruct,GSM8K,AgentPrune,Random,0.8400,42.0,50,420090,152077,804964,273520,0.0270,0,DeepInfra:900,49.2,llama-3.1-8b-instruct_GSM8K_AgentPrune_Random_20261008-115029.log,2026-10-08T11:50:29
+meta-llama/llama-3.1-8b-instruct,AQuA,MAS_roundT,Random,0.6600,33.0,50,223376,218641,223376,218641,0.0132,0,DeepInfra:500,38.0,llama-3.1-8b-instruct_AQuA_MAS_roundT_Random_20261008-120922.log,2026-10-08T12:09:22
+meta-llama/llama-3.1-8b-instruct,AQuA,AgentPrune,Random,0.7400,37.0,50,270320,212158,394139,295214,0.0197,0,DeepInfra:700,42.6,llama-3.1-8b-instruct_AQuA_AgentPrune_Random_20261008-122818.log,2026-10-08T12:28:18
+meta-llama/llama-3.1-8b-instruct,MultiArith,MAS_roundT,Random,1.0000,50.0,50,408905,135601,408905,135601,0.0136,0,DeepInfra:500,29.1,llama-3.1-8b-instruct_MultiArith_MAS_roundT_Random_20261008-123831.log,2026-10-08T12:38:31

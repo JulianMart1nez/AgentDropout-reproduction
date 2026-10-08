@@ -1,0 +1,577 @@
+****************
+Normal
+
+    I will ask you a question and 4 answers enumerated as A, B, C and D.
+    Only one answer out of the offered 4 is correct.
+    Using the reasoning from other agents as additional advice with critical thinking, can you give an updated answer?
+    You are strictly prohibited from imitating the analysis process of other agents
+    Your reply must be less than 100 words but include your answer and a brief step by step analysis of the question.
+    The first line of your reply must contain only one letter(for example : A, B, C or D)
+    
+****************
+Normal
+
+    I will ask you a question and 4 answers enumerated as A, B, C and D.
+    Only one answer out of the offered 4 is correct.
+    Using the reasoning from other agents as additional advice with critical thinking, can you give an updated answer?
+    You are strictly prohibited from imitating the analysis process of other agents
+    Your reply must be less than 100 words but include your answer and a brief step by step analysis of the question.
+    The first line of your reply must contain only one letter(for example : A, B, C or D)
+    
+****************
+Normal
+
+    I will ask you a question and 4 answers enumerated as A, B, C and D.
+    Only one answer out of the offered 4 is correct.
+    Using the reasoning from other agents as additional advice with critical thinking, can you give an updated answer?
+    You are strictly prohibited from imitating the analysis process of other agents
+    Your reply must be less than 100 words but include your answer and a brief step by step analysis of the question.
+    The first line of your reply must contain only one letter(for example : A, B, C or D)
+    
+****************
+Normal
+
+    I will ask you a question and 4 answers enumerated as A, B, C and D.
+    Only one answer out of the offered 4 is correct.
+    Using the reasoning from other agents as additional advice with critical thinking, can you give an updated answer?
+    You are strictly prohibited from imitating the analysis process of other agents
+    Your reply must be less than 100 words but include your answer and a brief step by step analysis of the question.
+    The first line of your reply must contain only one letter(for example : A, B, C or D)
+    
+****************
+Normal
+
+    I will ask you a question and 4 answers enumerated as A, B, C and D.
+    Only one answer out of the offered 4 is correct.
+    Using the reasoning from other agents as additional advice with critical thinking, can you give an updated answer?
+    You are strictly prohibited from imitating the analysis process of other agents
+    Your reply must be less than 100 words but include your answer and a brief step by step analysis of the question.
+    The first line of your reply must contain only one letter(for example : A, B, C or D)
+    
+[['obr7', 'obr7'], ['obr7', 'KA6x'], ['obr7', 'uHVq'], ['obr7', '7HxP'], ['obr7', 'oELE'], ['KA6x', 'obr7'], ['KA6x', 'KA6x'], ['KA6x', 'uHVq'], ['KA6x', '7HxP'], ['KA6x', 'oELE'], ['uHVq', 'obr7'], ['uHVq', 'KA6x'], ['uHVq', 'uHVq'], ['uHVq', '7HxP'], ['uHVq', 'oELE'], ['7HxP', 'obr7'], ['7HxP', 'KA6x'], ['7HxP', 'uHVq'], ['7HxP', '7HxP'], ['7HxP', 'oELE'], ['oELE', 'obr7'], ['oELE', 'KA6x'], ['oELE', 'uHVq'], ['oELE', '7HxP'], ['oELE', 'oELE']]
+Number of topics:  57
+Total number of questions:  285
+Number of topics:  57
+Total number of questions:  1531
+Final spatial logits:  Parameter containing:
+tensor([10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10.,
+        10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10.])
+Final temporal logits:  Parameter containing:
+tensor([10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10.,
+        10., 10., 10., 10., 10., 10., 10., 10., 10., 10., 10.])
+Final spatial masks:  Parameter containing:
+tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0])
+Final temporal masks:  Parameter containing:
+tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0])
+Final spatial sparsity: tensor(0.)
+Final temporal sparsity: tensor(0.)
+Evaluating AgentDropout on MMLUDataset split val
+  0%|          | 0/10 [00:00<?, ?it/s]--------------------------------------------------------------------------------
+C
+C
+C
+C
+A
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+A
+C
+A
+A
+A
+C
+C
+C
+C
+C
+Batch time 56.997
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 100.0% (1/1)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 100.0% (2/2)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: A
+Accuracy: 100.0% (3/3)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: C
+Accuracy: 75.0% (3/4)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 80.0% (4/5)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 10%|█         | 1/10 [00:57<08:33, 57.02s/it]--------------------------------------------------------------------------------
+C
+A
+A
+A
+C
+C
+C
+A
+C
+C
+D
+D
+D
+C
+A
+C
+C
+A
+C
+C
+C
+C
+A
+A
+A
+Batch time 27.479
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: B
+Accuracy: 66.7% (4/6)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 71.4% (5/7)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 62.5% (5/8)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: A
+Accuracy: 66.7% (6/9)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 60.0% (6/10)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 20%|██        | 2/10 [01:24<05:17, 39.64s/it]--------------------------------------------------------------------------------
+A
+A
+A
+C
+A
+C
+C
+C
+C
+C
+A
+D
+A
+A
+A
+C
+D
+D
+A
+D
+A
+C
+C
+C
+C
+Batch time 27.564
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: A
+Accuracy: 63.6% (7/11)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: B
+Accuracy: 58.3% (7/12)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: A
+Accuracy: 53.8% (7/13)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 50.0% (7/14)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 46.7% (7/15)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 30%|███       | 3/10 [01:52<03:58, 34.13s/it]--------------------------------------------------------------------------------
+A
+C
+C
+C
+C
+D
+C
+C
+B
+C
+C
+C
+C
+C
+C
+D
+A
+D
+D
+D
+A
+A
+D
+A
+D
+Batch time 25.727
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: C
+Accuracy: 43.8% (7/16)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: B
+Accuracy: 41.2% (7/17)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: C
+Accuracy: 38.9% (7/18)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 36.8% (7/19)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 40.0% (8/20)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 40%|████      | 4/10 [02:17<03:04, 30.82s/it]--------------------------------------------------------------------------------
+C
+A
+C
+C
+C
+A
+C
+A
+C
+C
+D
+D
+A
+D
+D
+A
+A
+A
+A
+A
+D
+A
+D
+D
+A
+Batch time 32.801
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: A
+Accuracy: 38.1% (8/21)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: B
+Accuracy: 36.4% (8/22)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 39.1% (9/23)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 41.7% (10/24)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: B
+Accuracy: 40.0% (10/25)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 50%|█████     | 5/10 [02:50<02:37, 31.53s/it]--------------------------------------------------------------------------------
+C
+C
+C
+C
+C
+A
+C
+C
+C
+C
+A
+A
+A
+A
+C
+D
+D
+D
+D
+D
+A
+C
+C
+C
+A
+Batch time 42.660
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: A
+Accuracy: 38.5% (10/26)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 37.0% (10/27)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 39.3% (11/28)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: D
+Accuracy: 37.9% (11/29)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 40.0% (12/30)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 60%|██████    | 6/10 [03:33<02:21, 35.32s/it]--------------------------------------------------------------------------------
+C
+C
+C
+C
+C
+D
+D
+D
+D
+D
+A
+D
+C
+C
+C
+C
+C
+C
+C
+C
+C
+A
+D
+C
+D
+Batch time 24.959
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 38.7% (12/31)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 40.6% (13/32)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 39.4% (13/33)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 41.2% (14/34)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 42.9% (15/35)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 70%|███████   | 7/10 [03:58<01:35, 31.93s/it]--------------------------------------------------------------------------------
+A
+A
+A
+C
+A
+D
+A
+A
+D
+A
+D
+D
+A
+C
+A
+C
+C
+C
+C
+C
+D
+A
+A
+A
+A
+Batch time 25.944
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: C
+Accuracy: 41.7% (15/36)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 43.2% (16/37)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: C
+Accuracy: 42.1% (16/38)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: B
+Accuracy: 41.0% (16/39)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: D
+Accuracy: 40.0% (16/40)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 80%|████████  | 8/10 [04:24<01:00, 30.03s/it]--------------------------------------------------------------------------------
+C
+C
+C
+C
+C
+C
+A
+A
+A
+C
+C
+A
+A
+D
+C
+D
+D
+D
+D
+D
+C
+C
+C
+A
+B
+Batch time 21.048
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: C
+Accuracy: 39.0% (16/41)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: C
+Accuracy: 38.1% (16/42)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 39.5% (17/43)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 40.9% (18/44)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: B
+Accuracy: 40.0% (18/45)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 90%|█████████ | 9/10 [04:45<00:27, 27.22s/it]--------------------------------------------------------------------------------
+D
+A
+D
+D
+A
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+A
+A
+A
+D
+C
+C
+C
+C
+C
+Batch time 25.839
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 41.3% (19/46)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: C
+Accuracy: 40.4% (19/47)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 41.7% (20/48)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: B
+Accuracy: 40.8% (20/49)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 42.0% (21/50)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+100%|██████████| 10/10 [05:11<00:00, 26.79s/it]100%|██████████| 10/10 [05:11<00:00, 31.11s/it]
+Accuracy: 42.0% (21/50)
+Done!
+Score: 0.42
+USAGE[eval]: prompt=57960 completion=29605 total=87565 calls=250 cost=$0.0023
+USAGE[ALL]: prompt=57960 completion=29605 total=87565 calls=250 cost=$0.0023
+USAGE[TOTAL]: prompt=57960 completion=29605 total=87565 calls=250 cost=$0.0023

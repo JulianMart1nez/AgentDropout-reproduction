@@ -1,0 +1,11 @@
+table2: balance at start $22.00
+DONE llama-3.1-8b-instruct  GSM8K      SC_CoT        SelfConsistency  84.0% (42.0/50)  $0.0079  failed 0  DeepInfra:250  17.9 min
+DONE llama-3.1-8b-instruct  GSM8K      AgentDropout  FullConnected  82.0% (41.0/50)  $0.0343  failed 0  DeepInfra:1040  34.5 min
+SKIP meta-llama/llama-3.1-8b-instruct SVAMP AgentDropout: already started under tag table2 (use --redo to rerun)
+SKIP meta-llama/llama-3.1-8b-instruct SVAMP SC_CoT: already started under tag table2 (use --redo to rerun)
+SKIP meta-llama/llama-3.1-8b-instruct MMLU AgentPrune: already started under tag table2 (use --redo to rerun)
+SKIP meta-llama/llama-3.1-8b-instruct MMLU AgentDropout: already started under tag table2 (use --redo to rerun)
+DONE llama-3.1-8b-instruct  MMLU       SC_CoT        SelfConsistency  42.0% (21/50)  $0.0023  failed 0  DeepInfra:250  5.4 min
+DONE llama-3.1-8b-instruct  GSM8K      AgentPrune    FullConnected  76.0% (38.0/50)  $0.0303  failed 0  DeepInfra:900  40.5 min
+DONE llama-3.1-8b-instruct  SVAMP      AgentPrune    FullConnected  76.0% (38.0/50)  $0.0177  failed 0  DeepInfra:500  23.2 min
+table2: balance at end $21.86

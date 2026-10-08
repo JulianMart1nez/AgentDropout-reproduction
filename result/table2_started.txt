@@ -1,0 +1,17 @@
+meta-llama/llama-3.1-8b-instruct|AQuA|AgentPrune|
+meta-llama/llama-3.1-8b-instruct|AQuA|AgentDropout|
+meta-llama/llama-3.1-8b-instruct|AQuA|SC_CoT|
+meta-llama/llama-3.1-8b-instruct|MultiArith|AgentPrune|
+meta-llama/llama-3.1-8b-instruct|MultiArith|AgentDropout|
+meta-llama/llama-3.1-8b-instruct|HumanEval|AgentPrune|
+meta-llama/llama-3.1-8b-instruct|HumanEval|AgentDropout|
+meta-llama/llama-3.1-8b-instruct|MMLU|AgentPrune|
+meta-llama/llama-3.1-8b-instruct|MMLU|AgentDropout|
+meta-llama/llama-3.1-8b-instruct|GSM8K|AgentPrune|
+meta-llama/llama-3.1-8b-instruct|GSM8K|AgentDropout|
+meta-llama/llama-3.1-8b-instruct|GSM8K|SC_CoT|
+meta-llama/llama-3.1-8b-instruct|MultiArith|SC_CoT|
+meta-llama/llama-3.1-8b-instruct|SVAMP|AgentPrune|
+meta-llama/llama-3.1-8b-instruct|SVAMP|AgentDropout|
+meta-llama/llama-3.1-8b-instruct|SVAMP|SC_CoT|
+meta-llama/llama-3.1-8b-instruct|MMLU|SC_CoT|

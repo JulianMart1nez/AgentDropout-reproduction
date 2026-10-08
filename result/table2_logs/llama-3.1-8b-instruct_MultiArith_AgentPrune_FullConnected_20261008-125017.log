@@ -1,0 +1,841 @@
+2026-10-08 12:18:03.985 | INFO     | AgentDropout.tools.reader.readers:parse_file:85 - Reading JSON file from datasets/MultiArith/test_50.json.
+2026-10-08 12:18:03.985 | INFO     | AgentDropout.tools.reader.readers:parse_file:85 - Reading JSON file from datasets/MultiArith/train.json.
+[['9VpR', '9VpR'], ['9VpR', 'wPMa'], ['9VpR', 'nuRx'], ['9VpR', 'utd6'], ['9VpR', 'o2FT'], ['wPMa', '9VpR'], ['wPMa', 'wPMa'], ['wPMa', 'nuRx'], ['wPMa', 'utd6'], ['wPMa', 'o2FT'], ['nuRx', '9VpR'], ['nuRx', 'wPMa'], ['nuRx', 'nuRx'], ['nuRx', 'utd6'], ['nuRx', 'o2FT'], ['utd6', '9VpR'], ['utd6', 'wPMa'], ['utd6', 'nuRx'], ['utd6', 'utd6'], ['utd6', 'o2FT'], ['o2FT', '9VpR'], ['o2FT', 'wPMa'], ['o2FT', 'nuRx'], ['o2FT', 'utd6'], ['o2FT', 'o2FT']]
+Train batch 0 --------------------------------------------------------------------------------
+27
+8
+6
+6
+6
+6
+6
+6666
+4
+4
+4
+4
+4
+8
+16
+39
+8
+16
+16
+27
+6
+8
+27
+27
+7
+7
+7
+7
+7
+59
+59
+6
+59
+59
+59
+16
+80
+80
+80
+80
+80
+80
+16
+16
+16
+12
+16
+4
+6
+6
+2
+2
+4
+-23
+3
+0
+3
+##########Final Log:{"Question": {"task": " There are 64 students trying out for the school's trivia teams. If 36 of them didn't get picked for the team and the rest were put into 4 groups, how many students would be in each group? ", "step": "", "answer": "7"}, "Answer": "7", "Step": "", "Response": ["7"], "Attempt answer": "7", "Solved": true, "Total solved": 1, "Total executed": 1, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " Nancy uploaded 41 pictures to Facebook. She put 37 pics into one album and put the rest into 2 different albums. How many pictures were in each album? ", "step": "", "answer": "2"}, "Answer": "2", "Step": "", "Response": ["6"], "Attempt answer": "6", "Solved": false, "Total solved": 1, "Total executed": 2, "Accuracy": 0.5}
+##########Final Log:{"Question": {"task": " A magician was selling magic card decks for 2 dollars each. If he started with 5 decks and by the end of the day he had 3 left, how much money did he earn? ", "step": "", "answer": "4"}, "Answer": "4", "Step": "", "Response": ["4"], "Attempt answer": "4", "Solved": true, "Total solved": 2, "Total executed": 3, "Accuracy": 0.6666666666666666}
+##########Final Log:{"Question": {"task": " Will bought 7 boxes of chocolate candy and gave 3 to his little brother. If each box has 4 pieces inside it, how many pieces did Will still have? ", "step": "", "answer": "16"}, "Answer": "16", "Step": "", "Response": ["16"], "Attempt answer": "16", "Solved": true, "Total solved": 3, "Total executed": 4, "Accuracy": 0.75}
+##########Final Log:{"Question": {"task": " Olivia was making baggies of cookies with 9 cookies in each bag. If she had 13 chocolate chip cookies and 41 oatmeal cookies, how many baggies could she make? ", "step": "", "answer": "6"}, "Answer": "6", "Step": "", "Response": ["6"], "Attempt answer": "6", "Solved": true, "Total solved": 4, "Total executed": 5, "Accuracy": 0.8}
+##########Final Log:{"Question": {"task": " Each chocolate bar in a box cost $4. If a box had 11 bars total and Vanessa sold all but 7 bars, how much money would she have made? ", "step": "", "answer": "16"}, "Answer": "16", "Step": "", "Response": ["16"], "Attempt answer": "16", "Solved": true, "Total solved": 5, "Total executed": 6, "Accuracy": 0.8333333333333334}
+##########Final Log:{"Question": {"task": " Bianca had 45 coloring books. If she gave away 6 of them, but then bought 20 more, how many would she have total? ", "step": "", "answer": "59"}, "Answer": "59", "Step": "", "Response": ["59"], "Attempt answer": "59", "Solved": true, "Total solved": 6, "Total executed": 7, "Accuracy": 0.8571428571428571}
+##########Final Log:{"Question": {"task": " Cody bought 7 boxes of chocolate candy and 3 boxes of caramel candy. If each box has 8 pieces inside it, how much candy did he have total? ", "step": "", "answer": "80"}, "Answer": "80", "Step": "", "Response": ["80"], "Attempt answer": "80", "Solved": true, "Total solved": 7, "Total executed": 8, "Accuracy": 0.875}
+##########Final Log:{"Question": {"task": " April's discount flowers was having a sale where each rose was 9 dollars. If April started with 11 roses and had 8 roses left, how much money did she earn? ", "step": "", "answer": "27"}, "Answer": "27", "Step": "", "Response": ["27"], "Attempt answer": "27", "Solved": true, "Total solved": 8, "Total executed": 9, "Accuracy": 0.8888888888888888}
+##########Final Log:{"Question": {"task": " Roger was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 10 trays from one table and 2 trays from another, how many trips will he make? ", "step": "", "answer": "3"}, "Answer": "3", "Step": "", "Response": ["3"], "Attempt answer": "3", "Solved": true, "Total solved": 9, "Total executed": 10, "Accuracy": 0.9}
+Batch time 153.620
+Accuracy: 0.9
+utilities: [True, False, True, True, True, True, True, True, True, True]
+loss: 41.78074264526367
+Spatial logits: ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Spatial probs: [tensor([0.4750, 0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.4750,
+        0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250,
+        0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250, 0.4750],
+       grad_fn=<SigmoidBackward0>), tensor([0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250,
+        0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.4750, 0.5250, 0.5250, 0.5250,
+        0.4750, 0.4750, 0.5250, 0.4750, 0.5250, 0.5250, 0.4750],
+       grad_fn=<SigmoidBackward0>)]
+Temporal probs: [tensor([0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250, 0.4750, 0.4750, 0.5250,
+        0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250,
+        0.4750, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250, 0.4750],
+       grad_fn=<SigmoidBackward0>)]
+Spatial masks: ParameterList(
+    (0): Parameter containing: [torch.int64 of size 25]
+    (1): Parameter containing: [torch.int64 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.int64 of size 25])
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Train batch 1 --------------------------------------------------------------------------------
+Error during execution of node utd6: RetryError[<Future at 0x1e0755c0c20 state=finished raised RuntimeError>]
+9
+Error during execution of node utd6: RetryError[<Future at 0x1e075614920 state=finished raised RuntimeError>]
+9
+9
+9
+9
+9
+48
+56
+56
+56
+56
+56
+4
+28
+28
+28
+28
+32
+6
+32
+32
+32
+45
+59
+6
+59
+59
+59
+9.0
+9
+9
+9
+9
+9
+0
+6
+6
+6
+4
+4
+48
+48
+6
+48
+45
+45
+45
+45
+45
+9
+4
+9
+9
+9
+##########Final Log:{"Question": {"task": " Rachel bought two coloring books. One had 24 pictures and the other had 39. After one week she had already colored 4 of the pictures. How many pictures does she still have to color? ", "step": "", "answer": "59"}, "Answer": "59", "Step": "", "Response": ["59"], "Attempt answer": "59", "Solved": true, "Total solved": 10, "Total executed": 11, "Accuracy": 0.9090909090909091}
+##########Final Log:{"Question": {"task": " Tiffany was playing a video game where she scores 6 points for each treasure she finds. If she found 3 treasures on the first level and 5 on the second, what would her score be? ", "step": "", "answer": "48"}, "Answer": "48", "Step": "", "Response": ["48"], "Attempt answer": "48", "Solved": true, "Total solved": 11, "Total executed": 12, "Accuracy": 0.9166666666666666}
+##########Final Log:{"Question": {"task": " Megan baked 68 cupcakes for her school's bake sale. If her brother, Todd, ate 32 of them how many packages could she make if she put 6 cupcake in each package? ", "step": "", "answer": "6"}, "Answer": "6", "Step": "", "Response": ["6"], "Attempt answer": "6", "Solved": true, "Total solved": 12, "Total executed": 13, "Accuracy": 0.9230769230769231}
+##########Final Log:{"Question": {"task": " A new building needed 11 windows. The builder had already installed 4 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? ", "step": "", "answer": "56"}, "Answer": "56", "Step": "", "Response": ["56"], "Attempt answer": "56", "Solved": true, "Total solved": 13, "Total executed": 14, "Accuracy": 0.9285714285714286}
+##########Final Log:{"Question": {"task": " Olivia was playing a video game where she scores 8 points for each treasure she finds. If she found 2 treasures on the first level and 2 on the second, what would her score be? ", "step": "", "answer": "32"}, "Answer": "32", "Step": "", "Response": ["32"], "Attempt answer": "32", "Solved": true, "Total solved": 14, "Total executed": 15, "Accuracy": 0.9333333333333333}
+##########Final Log:{"Question": {"task": " A waiter had 33 customers to wait on. If 31 customers left and he got another 26 customers, how many customers would he have? ", "step": "", "answer": "28"}, "Answer": "28", "Step": "", "Response": ["28"], "Attempt answer": "28", "Solved": true, "Total solved": 15, "Total executed": 16, "Accuracy": 0.9375}
+##########Final Log:{"Question": {"task": " A magician was selling magic card decks for 9 dollars each. If he started with 12 decks and by the end of the day he had 7 left, how much money did he earn? ", "step": "", "answer": "45"}, "Answer": "45", "Step": "", "Response": ["45"], "Attempt answer": "45", "Solved": true, "Total solved": 16, "Total executed": 17, "Accuracy": 0.9411764705882353}
+##########Final Log:{"Question": {"task": " Katie uploaded 30 pictures from her phone and 51 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ", "step": "", "answer": "9"}, "Answer": "9", "Step": "", "Response": ["9"], "Attempt answer": "9", "Solved": true, "Total solved": 17, "Total executed": 18, "Accuracy": 0.9444444444444444}
+##########Final Log:{"Question": {"task": " Will had 83 dollars. If he spent 47 bucks on a new game, how many 4 dollar toys could he buy with the money he had left? ", "step": "", "answer": "9"}, "Answer": "9", "Step": "", "Response": ["9"], "Attempt answer": "9", "Solved": true, "Total solved": 18, "Total executed": 19, "Accuracy": 0.9473684210526315}
+##########Final Log:{"Question": {"task": " Haley and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Haley recycled 11 pounds and her friends recycled 16 pounds, how many points did they earn? ", "step": "", "answer": "9"}, "Answer": "9", "Step": "", "Response": ["9"], "Attempt answer": "9", "Solved": true, "Total solved": 19, "Total executed": 20, "Accuracy": 0.95}
+Batch time 206.567
+Accuracy: 0.95
+utilities: [True, True, True, True, True, True, True, True, True, True]
+loss: 45.13097381591797
+Spatial logits: ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Spatial probs: [tensor([0.4678, 0.4899, 0.5458, 0.5213, 0.5278, 0.5227, 0.4712, 0.5497, 0.4575,
+        0.5442, 0.5334, 0.5458, 0.4685, 0.5497, 0.5213, 0.5496, 0.5095, 0.5305,
+        0.4678, 0.5369, 0.5234, 0.5324, 0.5077, 0.5284, 0.4685],
+       grad_fn=<SigmoidBackward0>), tensor([0.4678, 0.5322, 0.5385, 0.5437, 0.5469, 0.5233, 0.4641, 0.5381, 0.5496,
+        0.5152, 0.5334, 0.5339, 0.4685, 0.5105, 0.4922, 0.5228, 0.5216, 0.5383,
+        0.4685, 0.4845, 0.5458, 0.4914, 0.5332, 0.5324, 0.4712],
+       grad_fn=<SigmoidBackward0>)]
+Temporal probs: [tensor([0.4732, 0.5468, 0.5140, 0.5211, 0.5453, 0.5469, 0.4786, 0.4918, 0.5465,
+        0.5220, 0.5108, 0.5158, 0.4685, 0.5092, 0.5442, 0.4571, 0.5101, 0.5422,
+        0.4732, 0.5174, 0.5218, 0.4914, 0.5115, 0.5386, 0.4722],
+       grad_fn=<SigmoidBackward0>)]
+Spatial masks: ParameterList(
+    (0): Parameter containing: [torch.int64 of size 25]
+    (1): Parameter containing: [torch.int64 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.int64 of size 25])
+spatial masks: ParameterList(
+    (0): Parameter containing: [torch.int64 of size 25]
+    (1): Parameter containing: [torch.int64 of size 25]
+)
+temporal masks: ParameterList(  (0): Parameter containing: [torch.int64 of size 25])
+spatial sparsity: tensor(0.6000)
+temporal sparsity: tensor(0.7600)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Train batch 2 --------------------------------------------------------------------------------
+3.75
+54
+24
+The answer is 30
+0
+30
+30
+30
+30
+24
+54
+54
+54
+54
+54
+7
+7
+7
+7
+7
+7
+8
+5
+6
+8
+5
+5
+64
+6
+64
+64
+4
+81
+81
+40
+81
+81
+81
+24
+24
+24
+24
+4
+3
+3
+3
+3
+3
+6
+6
+6
+6
+6
+35
+49
+49
+49
+14
+##########Final Log:{"Question": {"task": " Roger had 68 dollars. If he spent 47 bucks on a new game, how many 7 dollar toys could he buy with the money he had left? ", "step": "", "answer": "3"}, "Answer": "3", "Step": "", "Response": ["3"], "Attempt answer": "3", "Solved": true, "Total solved": 20, "Total executed": 21, "Accuracy": 0.9523809523809523}
+##########Final Log:{"Question": {"task": " Mike invited 13 friends to a birthday party, but 7 couldn't come. If he wanted to buy enough cupcakes so each person could have exactly 4, how many should he buy? ", "step": "", "answer": "24"}, "Answer": "24", "Step": "", "Response": ["24"], "Attempt answer": "24", "Solved": true, "Total solved": 21, "Total executed": 22, "Accuracy": 0.9545454545454546}
+##########Final Log:{"Question": {"task": " Maria was making baggies of cookies with 5 cookies in each bag. If she had 33 chocolate chip cookies and 2 oatmeal cookies, how many baggies could she make? ", "step": "", "answer": "7"}, "Answer": "7", "Step": "", "Response": ["7"], "Attempt answer": "7", "Solved": true, "Total solved": 22, "Total executed": 23, "Accuracy": 0.9565217391304348}
+##########Final Log:{"Question": {"task": " Tom bought 12 boxes of chocolate candy and gave 7 to his little brother. If each box has 6 pieces inside it, how many pieces did Tom still have? ", "step": "", "answer": "30"}, "Answer": "30", "Step": "", "Response": ["30"], "Attempt answer": "30", "Solved": true, "Total solved": 23, "Total executed": 24, "Accuracy": 0.9583333333333334}
+##########Final Log:{"Question": {"task": " Chloe was playing a video game where she scores 9 points for each treasure she finds. If she found 6 treasures on the first level and 3 on the second, what would her score be? ", "step": "", "answer": "81"}, "Answer": "81", "Step": "", "Response": ["81"], "Attempt answer": "81", "Solved": true, "Total solved": 24, "Total executed": 25, "Accuracy": 0.96}
+##########Final Log:{"Question": {"task": " A painter needed to paint 12 rooms in a building. Each room takes 7 hours to paint. If he already painted 5 rooms, how much longer will he take to paint the rest? ", "step": "", "answer": "49"}, "Answer": "49", "Step": "", "Response": ["49"], "Attempt answer": "49", "Solved": true, "Total solved": 25, "Total executed": 26, "Accuracy": 0.9615384615384616}
+##########Final Log:{"Question": {"task": " Bianca's team won their dodgeball game and scored 75 points total. If Bianca scored 45 of the points and everyone else scored 6 points each, how many players were on her team? ", "step": "", "answer": "5"}, "Answer": "5", "Step": "", "Response": ["5"], "Attempt answer": "5", "Solved": true, "Total solved": 26, "Total executed": 27, "Accuracy": 0.9629629629629629}
+##########Final Log:{"Question": {"task": " Megan's class is going on a field trip to the zoo. If each van can hold 5 people and there are 25 students and 5 adults going, how many vans will they need? ", "step": "", "answer": "6"}, "Answer": "6", "Step": "", "Response": ["6"], "Attempt answer": "6", "Solved": true, "Total solved": 27, "Total executed": 28, "Accuracy": 0.9642857142857143}
+##########Final Log:{"Question": {"task": " Tom and his friend were buying trick decks from the magic shop for 8 dollars each. How much did they spend if Tom bought 3 decks and his friend bought 5 decks? ", "step": "", "answer": "64"}, "Answer": "64", "Step": "", "Response": ["64"], "Attempt answer": "64", "Solved": true, "Total solved": 28, "Total executed": 29, "Accuracy": 0.9655172413793104}
+##########Final Log:{"Question": {"task": " A pet store had 41 siamese cats and 28 house cats. During a sale they sold 15 cats. How many cats do they have left? ", "step": "", "answer": "54"}, "Answer": "54", "Step": "", "Response": ["54"], "Attempt answer": "54", "Solved": true, "Total solved": 29, "Total executed": 30, "Accuracy": 0.9666666666666667}
+Batch time 131.718
+Accuracy: 0.9666666666666667
+utilities: [True, True, True, True, True, True, True, True, True, True]
+loss: 39.981605529785156
+Spatial logits: ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Spatial probs: [tensor([0.4702, 0.5064, 0.5462, 0.5090, 0.5263, 0.5151, 0.4769, 0.5386, 0.4556,
+        0.5454, 0.5467, 0.5614, 0.4692, 0.5458, 0.5054, 0.5677, 0.4916, 0.5373,
+        0.4704, 0.5302, 0.5100, 0.5349, 0.4876, 0.5144, 0.4722],
+       grad_fn=<SigmoidBackward0>), tensor([0.4683, 0.5298, 0.5428, 0.5641, 0.5416, 0.5155, 0.4645, 0.5495, 0.5390,
+        0.4987, 0.5202, 0.5213, 0.4708, 0.5003, 0.5073, 0.5140, 0.5154, 0.5403,
+        0.4719, 0.4969, 0.5672, 0.5087, 0.5212, 0.5392, 0.4773],
+       grad_fn=<SigmoidBackward0>)]
+Temporal probs: [tensor([0.4777, 0.5376, 0.5061, 0.5100, 0.5546, 0.5392, 0.4889, 0.5108, 0.5381,
+        0.5165, 0.5049, 0.5149, 0.4747, 0.4914, 0.5359, 0.4722, 0.5199, 0.5359,
+        0.4781, 0.5028, 0.5331, 0.5117, 0.5048, 0.5339, 0.4798],
+       grad_fn=<SigmoidBackward0>)]
+Spatial masks: ParameterList(
+    (0): Parameter containing: [torch.int64 of size 25]
+    (1): Parameter containing: [torch.int64 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.int64 of size 25])
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Train batch 3 --------------------------------------------------------------------------------
+22
+8
+68
+22
+22
+22
+22
+22
+22
+68
+56
+56
+56
+56
+56
+36
+6
+36
+36
+36
+48
+48
+48
+48
+48
+5
+6
+6
+5
+6
+5
+72
+72
+72
+72
+72
+72
+The answer is 3
+8.0
+8
+8
+8
+8
+8
+68
+4
+68
+68
+4
+310
+9
+3
+9
+9
+3
+6
+8
+3
+3
+##########Final Log:{"Question": {"task": " John made 6 dollars mowing lawns and 18 dollars weed eating. If he only spent 3 dollar a week, how long would the money last him? ", "step": "", "answer": "8"}, "Answer": "8", "Step": "", "Response": ["8"], "Attempt answer": "8", "Solved": true, "Total solved": 30, "Total executed": 31, "Accuracy": 0.967741935483871}
+##########Final Log:{"Question": {"task": " Edward was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 3 hours and on Tuesday he worked 5 hours. How much money did Edward make in those two days? ", "step": "", "answer": "48"}, "Answer": "48", "Step": "", "Response": ["48"], "Attempt answer": "48", "Solved": true, "Total solved": 31, "Total executed": 32, "Accuracy": 0.96875}
+##########Final Log:{"Question": {"task": " Luke made 9 dollars mowing lawns and 18 dollars weed eating. If he only spent 3 dollar a week, how long would the money last him? ", "step": "", "answer": "9"}, "Answer": "9", "Step": "", "Response": ["9"], "Attempt answer": "9", "Solved": true, "Total solved": 32, "Total executed": 33, "Accuracy": 0.9696969696969697}
+##########Final Log:{"Question": {"task": " A pet store has 8 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total? ", "step": "", "answer": "72"}, "Answer": "72", "Step": "", "Response": ["72"], "Attempt answer": "72", "Solved": true, "Total solved": 33, "Total executed": 34, "Accuracy": 0.9705882352941176}
+##########Final Log:{"Question": {"task": " While on vacation, Debby took 24 pictures at the zoo and 12 at the museum. If she later deleted 14 of the pictures, how many pictures from her vacation did she still have? ", "step": "", "answer": "22"}, "Answer": "22", "Step": "", "Response": ["22"], "Attempt answer": "22", "Solved": true, "Total solved": 34, "Total executed": 35, "Accuracy": 0.9714285714285714}
+##########Final Log:{"Question": {"task": " Robin's class is going on a field trip to the zoo. If each van can hold 8 people and there are 22 students and 2 adults going, how many vans will they need? ", "step": "", "answer": "3"}, "Answer": "3", "Step": "", "Response": ["3"], "Attempt answer": "3", "Solved": true, "Total solved": 35, "Total executed": 36, "Accuracy": 0.9722222222222222}
+##########Final Log:{"Question": {"task": " A vase can hold 5 flowers. If you had 6 carnations and 19 roses, how many vases would you need to hold the flowers? ", "step": "", "answer": "5"}, "Answer": "5", "Step": "", "Response": ["6"], "Attempt answer": "6", "Solved": false, "Total solved": 35, "Total executed": 37, "Accuracy": 0.9459459459459459}
+##########Final Log:{"Question": {"task": " A magician was selling magic card decks for 7 dollars each. If he started with 16 decks and by the end of the day he had 8 left, how much money did he earn? ", "step": "", "answer": "56"}, "Answer": "56", "Step": "", "Response": ["56"], "Attempt answer": "56", "Solved": true, "Total solved": 36, "Total executed": 38, "Accuracy": 0.9473684210526315}
+##########Final Log:{"Question": {"task": " Adam bought 13 boxes of chocolate candy and gave 7 to his little brother. If each box has 6 pieces inside it, how many pieces did Adam still have? ", "step": "", "answer": "36"}, "Answer": "36", "Step": "", "Response": ["36"], "Attempt answer": "36", "Solved": true, "Total solved": 37, "Total executed": 39, "Accuracy": 0.9487179487179487}
+##########Final Log:{"Question": {"task": " Zoe bought two coloring books. One had 44 pictures and the other had 44. After one week she had already colored 20 of the pictures. How many pictures does she still have to color? ", "step": "", "answer": "68"}, "Answer": "68", "Step": "", "Response": ["68"], "Attempt answer": "68", "Solved": true, "Total solved": 38, "Total executed": 40, "Accuracy": 0.95}
+Batch time 168.661
+Accuracy: 0.95
+utilities: [True, True, True, True, True, True, False, True, True, True]
+loss: 36.00356674194336
+Spatial logits: ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Spatial probs: [tensor([0.4767, 0.5199, 0.5355, 0.4934, 0.5310, 0.5238, 0.4799, 0.5375, 0.4674,
+        0.5385, 0.5563, 0.5603, 0.4741, 0.5420, 0.5015, 0.5544, 0.4857, 0.5362,
+        0.4736, 0.5319, 0.5045, 0.5243, 0.4752, 0.5202, 0.4812],
+       grad_fn=<SigmoidBackward0>), tensor([0.4733, 0.5217, 0.5376, 0.5726, 0.5307, 0.5082, 0.4728, 0.5443, 0.5296,
+        0.4838, 0.5028, 0.5115, 0.4775, 0.4996, 0.5125, 0.5007, 0.5101, 0.5352,
+        0.4808, 0.5098, 0.5702, 0.5220, 0.5052, 0.5392, 0.4871],
+       grad_fn=<SigmoidBackward0>)]
+Temporal probs: [tensor([0.4897, 0.5285, 0.5121, 0.4936, 0.5473, 0.5255, 0.5030, 0.5181, 0.5221,
+        0.5090, 0.4931, 0.5094, 0.4851, 0.4957, 0.5232, 0.4884, 0.5248, 0.5214,
+        0.4903, 0.4917, 0.5361, 0.5210, 0.5029, 0.5256, 0.4926],
+       grad_fn=<SigmoidBackward0>)]
+Spatial masks: ParameterList(
+    (0): Parameter containing: [torch.int64 of size 25]
+    (1): Parameter containing: [torch.int64 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.int64 of size 25])
+spatial masks: ParameterList(
+    (0): Parameter containing: [torch.int64 of size 25]
+    (1): Parameter containing: [torch.int64 of size 25]
+)
+temporal masks: ParameterList(  (0): Parameter containing: [torch.int64 of size 25])
+spatial sparsity: tensor(0.4400)
+temporal sparsity: tensor(0.5600)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 0 --------------------------------------------------------------------------------
+11111111
+22222222
+72
+79
+79
+79
+79
+2
+79
+17
+17
+17
+17
+17
+17
+72
+72
+72
+72
+72
+72
+9
+9
+9
+9
+9
+10
+10
+10
+10
+10
+4
+33333333
+##########Final Log:{"Question": {"task": " Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? ", "step": "", "answer": "10"}, "Answer": "10", "Step": "", "Response": ["10"], "Attempt answer": "10", "Solved": true, "Total solved": 1, "Total executed": 1, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? ", "step": "", "answer": "17"}, "Answer": "17", "Step": "", "Response": ["17"], "Attempt answer": "17", "Solved": true, "Total solved": 2, "Total executed": 2, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? ", "step": "", "answer": "79"}, "Answer": "79", "Step": "", "Response": ["79"], "Attempt answer": "79", "Solved": true, "Total solved": 3, "Total executed": 3, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? ", "step": "", "answer": "9"}, "Answer": "9", "Step": "", "Response": ["9"], "Attempt answer": "9", "Solved": true, "Total solved": 4, "Total executed": 4, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn? ", "step": "", "answer": "72"}, "Answer": "72", "Step": "", "Response": ["72"], "Attempt answer": "72", "Solved": true, "Total solved": 5, "Total executed": 5, "Accuracy": 1.0}
+Batch time 131.546
+Accuracy: 1.0
+utilities: [True, True, True, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 1 --------------------------------------------------------------------------------
+11111111
+22222222
+36
+39
+72
+72
+72
+72
+72
+72
+1
+1
+1
+1
+1
+4
+36
+36
+36
+36
+39
+39
+39
+38
+39
+4
+6
+3.75
+8
+8
+33333333
+##########Final Log:{"Question": {"task": " Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? ", "step": "", "answer": "72"}, "Answer": "72", "Step": "", "Response": ["72"], "Attempt answer": "72", "Solved": true, "Total solved": 6, "Total executed": 6, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn? ", "step": "", "answer": "36"}, "Answer": "36", "Step": "", "Response": ["36"], "Attempt answer": "36", "Solved": true, "Total solved": 7, "Total executed": 7, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ", "step": "", "answer": "1"}, "Answer": "1", "Step": "", "Response": ["1"], "Attempt answer": "1", "Solved": true, "Total solved": 8, "Total executed": 8, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need? ", "step": "", "answer": "8"}, "Answer": "8", "Step": "", "Response": ["8"], "Attempt answer": "8", "Solved": true, "Total solved": 9, "Total executed": 9, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? ", "step": "", "answer": "39"}, "Answer": "39", "Step": "", "Response": ["39"], "Attempt answer": "39", "Solved": true, "Total solved": 10, "Total executed": 10, "Accuracy": 1.0}
+Batch time 149.584
+Accuracy: 1.0
+utilities: [True, True, True, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 2 --------------------------------------------------------------------------------
+11111111
+22222222
+3.0
+8.0
+3
+3
+3
+3
+3
+8
+8
+6
+8
+8
+8
+2
+2
+2
+2
+2
+7
+7
+7
+7
+7
+39
+4
+39
+39
+39
+33333333
+##########Final Log:{"Question": {"task": " For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? ", "step": "", "answer": "7"}, "Answer": "7", "Step": "", "Response": ["7"], "Attempt answer": "7", "Solved": true, "Total solved": 11, "Total executed": 11, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? ", "step": "", "answer": "39"}, "Answer": "39", "Step": "", "Response": ["39"], "Attempt answer": "39", "Solved": true, "Total solved": 12, "Total executed": 12, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? ", "step": "", "answer": "3"}, "Answer": "3", "Step": "", "Response": ["3"], "Attempt answer": "3", "Solved": true, "Total solved": 13, "Total executed": 13, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " For Halloween Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? ", "step": "", "answer": "2"}, "Answer": "2", "Step": "", "Response": ["2"], "Attempt answer": "2", "Solved": true, "Total solved": 14, "Total executed": 14, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " Mike is at the library helping put away books. There are 82 book to put away total but a librarian takes 10 of them and leaves Mike with the rest. If he can fit 9 books on a shelf, how many shelves will he need? ", "step": "", "answer": "8"}, "Answer": "8", "Step": "", "Response": ["8"], "Attempt answer": "8", "Solved": true, "Total solved": 15, "Total executed": 15, "Accuracy": 1.0}
+Batch time 180.515
+Accuracy: 1.0
+utilities: [True, True, True, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 3 --------------------------------------------------------------------------------
+11111111
+22222222
+62
+36
+6
+62
+4
+62
+62
+62
+112
+6
+6
+6
+6
+6
+36
+36
+36
+36
+36
+33
+19
+19
+33
+19
+19
+48
+48
+48
+48
+48
+33333333
+##########Final Log:{"Question": {"task": " While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ", "step": "", "answer": "19"}, "Answer": "19", "Step": "", "Response": ["19"], "Attempt answer": "19", "Solved": true, "Total solved": 16, "Total executed": 16, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? ", "step": "", "answer": "48"}, "Answer": "48", "Step": "", "Response": ["48"], "Attempt answer": "48", "Solved": true, "Total solved": 17, "Total executed": 17, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? ", "step": "", "answer": "36"}, "Answer": "36", "Step": "", "Response": ["36"], "Attempt answer": "36", "Solved": true, "Total solved": 18, "Total executed": 18, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? ", "step": "", "answer": "6"}, "Answer": "6", "Step": "", "Response": ["6"], "Attempt answer": "6", "Solved": true, "Total solved": 19, "Total executed": 19, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now? ", "step": "", "answer": "62"}, "Answer": "62", "Step": "", "Response": ["62"], "Attempt answer": "62", "Solved": true, "Total solved": 20, "Total executed": 20, "Accuracy": 1.0}
+Batch time 124.728
+Accuracy: 1.0
+utilities: [True, True, True, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 4 --------------------------------------------------------------------------------
+11111111
+22222222
+63
+63
+63
+63
+63
+63
+18
+18
+6
+18
+18
+18
+4
+6
+4
+6
+4
+5.0
+4.375
+5
+5
+4.375
+4.375
+64
+6
+64
+8
+64
+33333333
+##########Final Log:{"Question": {"task": " A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? ", "step": "", "answer": "4"}, "Answer": "4", "Step": "", "Response": ["4"], "Attempt answer": "4", "Solved": true, "Total solved": 21, "Total executed": 21, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? ", "step": "", "answer": "64"}, "Answer": "64", "Step": "", "Response": ["64"], "Attempt answer": "64", "Solved": true, "Total solved": 22, "Total executed": 22, "Accuracy": 1.0}
+##########Final Log:{"Question": {"task": " A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? ", "step": "", "answer": "5"}, "Answer": "5", "Step": "", "Response": ["4.375"], "Attempt answer": "4.375", "Solved": false, "Total solved": 22, "Total executed": 23, "Accuracy": 0.9565217391304348}
+##########Final Log:{"Question": {"task": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ", "step": "", "answer": "18"}, "Answer": "18", "Step": "", "Response": ["18"], "Attempt answer": "18", "Solved": true, "Total solved": 23, "Total executed": 24, "Accuracy": 0.9583333333333334}
+##########Final Log:{"Question": {"task": " A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? ", "step": "", "answer": "63"}, "Answer": "63", "Step": "", "Response": ["63"], "Attempt answer": "63", "Solved": true, "Total solved": 24, "Total executed": 25, "Accuracy": 0.96}
+Batch time 117.997
+Accuracy: 0.96
+utilities: [True, True, False, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 5 --------------------------------------------------------------------------------
+11111111
+22222222
+The final answer is 28
+11
+11
+11
+11
+11
+63
+4
+7
+9
+7
+7
+7
+63
+63
+63
+63
+63
+26
+60
+40
+26
+26
+4
+6
+8
+28
+28
+33333333
+##########Final Log:{"Question": {"task": " While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? ", "step": "", "answer": "7"}, "Answer": "7", "Step": "", "Response": ["7"], "Attempt answer": "7", "Solved": true, "Total solved": 25, "Total executed": 26, "Accuracy": 0.9615384615384616}
+##########Final Log:{"Question": {"task": " At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? ", "step": "", "answer": "28"}, "Answer": "28", "Step": "", "Response": ["28"], "Attempt answer": "28", "Solved": true, "Total solved": 26, "Total executed": 27, "Accuracy": 0.9629629629629629}
+##########Final Log:{"Question": {"task": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ", "step": "", "answer": "11"}, "Answer": "11", "Step": "", "Response": ["11"], "Attempt answer": "11", "Solved": true, "Total solved": 27, "Total executed": 28, "Accuracy": 0.9642857142857143}
+##########Final Log:{"Question": {"task": " Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? ", "step": "", "answer": "63"}, "Answer": "63", "Step": "", "Response": ["63"], "Attempt answer": "63", "Solved": true, "Total solved": 28, "Total executed": 29, "Accuracy": 0.9655172413793104}
+##########Final Log:{"Question": {"task": " A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? ", "step": "", "answer": "26"}, "Answer": "26", "Step": "", "Response": ["26"], "Attempt answer": "26", "Solved": true, "Total solved": 29, "Total executed": 30, "Accuracy": 0.9666666666666667}
+Batch time 122.645
+Accuracy: 0.9666666666666667
+utilities: [True, True, True, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 6 --------------------------------------------------------------------------------
+11111111
+22222222
+3
+3
+3
+3
+3
+777
+6
+7
+7
+7
+5
+6
+5
+5
+5
+32
+32
+32
+32
+32
+4
+6
+3.375
+35
+35
+33333333
+##########Final Log:{"Question": {"task": " A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? ", "step": "", "answer": "3"}, "Answer": "3", "Step": "", "Response": ["3"], "Attempt answer": "3", "Solved": true, "Total solved": 30, "Total executed": 31, "Accuracy": 0.967741935483871}
+##########Final Log:{"Question": {"task": " Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total? ", "step": "", "answer": "32"}, "Answer": "32", "Step": "", "Response": ["32"], "Attempt answer": "32", "Solved": true, "Total solved": 31, "Total executed": 32, "Accuracy": 0.96875}
+##########Final Log:{"Question": {"task": " Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ", "step": "", "answer": "7"}, "Answer": "7", "Step": "", "Response": ["7"], "Attempt answer": "7", "Solved": true, "Total solved": 32, "Total executed": 33, "Accuracy": 0.9696969696969697}
+##########Final Log:{"Question": {"task": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ", "step": "", "answer": "5"}, "Answer": "5", "Step": "", "Response": ["5"], "Attempt answer": "5", "Solved": true, "Total solved": 33, "Total executed": 34, "Accuracy": 0.9705882352941176}
+##########Final Log:{"Question": {"task": " April's discount flowers was having a sale where each rose was 7 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn? ", "step": "", "answer": "35"}, "Answer": "35", "Step": "", "Response": ["35"], "Attempt answer": "35", "Solved": true, "Total solved": 34, "Total executed": 35, "Accuracy": 0.9714285714285714}
+Batch time 138.439
+Accuracy: 0.9714285714285714
+utilities: [True, True, True, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 7 --------------------------------------------------------------------------------
+11111111
+22222222
+4
+8
+8
+8
+8
+8
+8
+8
+24
+6
+8
+24
+24
+45
+45
+8
+45
+45
+60
+60
+6
+60
+60
+60
+4
+4
+4
+4
+4
+4
+33333333
+##########Final Log:{"Question": {"task": " A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? ", "step": "", "answer": "45"}, "Answer": "45", "Step": "", "Response": ["45"], "Attempt answer": "45", "Solved": true, "Total solved": 35, "Total executed": 36, "Accuracy": 0.9722222222222222}
+##########Final Log:{"Question": {"task": " A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left? ", "step": "", "answer": "8"}, "Answer": "8", "Step": "", "Response": ["8"], "Attempt answer": "8", "Solved": true, "Total solved": 36, "Total executed": 37, "Accuracy": 0.972972972972973}
+##########Final Log:{"Question": {"task": " Victor was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 5 hours and on Tuesday he worked 5 hours. How much money did Victor make in those two days? ", "step": "", "answer": "60"}, "Answer": "60", "Step": "", "Response": ["60"], "Attempt answer": "60", "Solved": true, "Total solved": 37, "Total executed": 38, "Accuracy": 0.9736842105263158}
+##########Final Log:{"Question": {"task": " Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? ", "step": "", "answer": "4"}, "Answer": "4", "Step": "", "Response": ["4"], "Attempt answer": "4", "Solved": true, "Total solved": 38, "Total executed": 39, "Accuracy": 0.9743589743589743}
+##########Final Log:{"Question": {"task": " There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ", "step": "", "answer": "24"}, "Answer": "24", "Step": "", "Response": ["24"], "Attempt answer": "24", "Solved": true, "Total solved": 39, "Total executed": 40, "Accuracy": 0.975}
+Batch time 129.687
+Accuracy: 0.975
+utilities: [True, True, True, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 8 --------------------------------------------------------------------------------
+11111111
+22222222
+67
+43
+43
+43
+43
+43
+67
+6
+67
+67
+67
+7
+7
+7
+7
+7
+8
+8
+7
+8
+9
+8
+3
+4
+6
+3
+12
+4
+33333333
+##########Final Log:{"Question": {"task": " Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? ", "step": "", "answer": "43"}, "Answer": "43", "Step": "", "Response": ["43"], "Attempt answer": "43", "Solved": true, "Total solved": 40, "Total executed": 41, "Accuracy": 0.975609756097561}
+##########Final Log:{"Question": {"task": " Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? ", "step": "", "answer": "7"}, "Answer": "7", "Step": "", "Response": ["7"], "Attempt answer": "7", "Solved": true, "Total solved": 41, "Total executed": 42, "Accuracy": 0.9761904761904762}
+##########Final Log:{"Question": {"task": " Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have? ", "step": "", "answer": "67"}, "Answer": "67", "Step": "", "Response": ["67"], "Attempt answer": "67", "Solved": true, "Total solved": 42, "Total executed": 43, "Accuracy": 0.9767441860465116}
+##########Final Log:{"Question": {"task": " Nancy's class is going on a field trip to the zoo. If each van can hold 5 people and there are 12 students and 3 adults going, how many vans will they need? ", "step": "", "answer": "3"}, "Answer": "3", "Step": "", "Response": ["4"], "Attempt answer": "4", "Solved": false, "Total solved": 42, "Total executed": 44, "Accuracy": 0.9545454545454546}
+##########Final Log:{"Question": {"task": " For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? ", "step": "", "answer": "8"}, "Answer": "8", "Step": "", "Response": ["8"], "Attempt answer": "8", "Solved": true, "Total solved": 43, "Total executed": 45, "Accuracy": 0.9555555555555556}
+Batch time 93.825
+Accuracy: 0.9555555555555556
+utilities: [True, True, True, False, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Batch 9 --------------------------------------------------------------------------------
+11111111
+22222222
+30
+9
+9
+9
+9
+9
+30
+30
+6
+30
+30
+30
+46
+46
+46
+46
+46
+4
+9
+9
+8
+9
+9
+5
+5
+4
+5
+0.75
+5.75
+33333333
+##########Final Log:{"Question": {"task": " The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have? ", "step": "", "answer": "46"}, "Answer": "46", "Step": "", "Response": ["46"], "Attempt answer": "46", "Solved": true, "Total solved": 44, "Total executed": 46, "Accuracy": 0.9565217391304348}
+##########Final Log:{"Question": {"task": " Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make? ", "step": "", "answer": "9"}, "Answer": "9", "Step": "", "Response": ["9"], "Attempt answer": "9", "Solved": true, "Total solved": 45, "Total executed": 47, "Accuracy": 0.9574468085106383}
+##########Final Log:{"Question": {"task": " The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? ", "step": "", "answer": "9"}, "Answer": "9", "Step": "", "Response": ["9"], "Attempt answer": "9", "Solved": true, "Total solved": 46, "Total executed": 48, "Accuracy": 0.9583333333333334}
+##########Final Log:{"Question": {"task": " Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? ", "step": "", "answer": "30"}, "Answer": "30", "Step": "", "Response": ["30"], "Attempt answer": "30", "Solved": true, "Total solved": 47, "Total executed": 49, "Accuracy": 0.9591836734693877}
+##########Final Log:{"Question": {"task": " Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? ", "step": "", "answer": "5"}, "Answer": "5", "Step": "", "Response": ["5"], "Attempt answer": "5", "Solved": true, "Total solved": 48, "Total executed": 50, "Accuracy": 0.96}
+Batch time 83.142
+Accuracy: 0.96
+utilities: [True, True, True, True, True]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+USAGE[opt]: prompt=407197 completion=97342 total=504539 calls=400 cost=$0.0120
+USAGE[eval]: prompt=463057 completion=114140 total=577197 calls=500 cost=$0.0138
+USAGE[ALL]: prompt=870254 completion=211482 total=1081736 calls=900 cost=$0.0259
+USAGE[TOTAL]: prompt=870254 completion=211482 total=1081736 calls=900 cost=$0.0259
