@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import time
 import asyncio
+from AgentDropout.utils.usage_phases import tag_task, install as install_usage_phases
 from typing import List
 import copy
 import random
@@ -90,9 +91,9 @@ async def train(graph:Graph,
                 input_dict = dataset.record_to_input(record)
                 print(input_dict)
                 if args.dec:
-                    answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,num_rounds,skip=True)))
+                    answer_log_probs.append(asyncio.create_task(tag_task("dec", realized_graph.arun(input_dict,num_rounds,skip=True))))
                 else:
-                    answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,num_rounds)))
+                    answer_log_probs.append(asyncio.create_task(tag_task("opt", realized_graph.arun(input_dict,num_rounds))))
                 correct_answer = dataset.record_to_target_answer(record)
                 correct_answers.append(correct_answer)
                 add_losses.append(add_loss)
@@ -213,9 +214,9 @@ async def train(graph:Graph,
             input_dict = dataset.record_to_input(record)
             print(input_dict)
             if args.dec:
-                answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,num_rounds)))
+                answer_log_probs.append(asyncio.create_task(tag_task("opt", realized_graph.arun(input_dict,num_rounds))))
             else:
-                answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,num_rounds)))
+                answer_log_probs.append(asyncio.create_task(tag_task("opt", realized_graph.arun(input_dict,num_rounds))))
             correct_answer = dataset.record_to_target_answer(record)
             correct_answers.append(correct_answer)
             add_losses.append(add_loss)

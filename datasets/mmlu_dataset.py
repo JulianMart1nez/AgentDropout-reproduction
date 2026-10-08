@@ -1,5 +1,6 @@
 import glob
 import pandas as pd
+from AgentDropout.prompt.answer_parsing import parse_mmlu_letter
 from typing import Union, List, Literal, Any, Dict
 import numpy as np
 from abc import ABC
@@ -71,19 +72,8 @@ class MMLUDataset(ABC):
         return input_dict
 
     def postprocess_answer(self, answer: Union[str, List[str]]) -> str:
-        if isinstance(answer, list):
-            if len(answer) > 0:
-                answer = answer[0]
-            else:
-                answer = ""
-        if not isinstance(answer, str):
-            raise Exception("Expected string")
-        if len(answer) > 0:
-            ans_pos = answer.find("answer is")
-            if ans_pos != -1:
-                answer = answer[ans_pos+len("answer is"):].strip(":").strip().strip("Option").strip()
-            answer = answer[0] # Try to format the answer by taking the first letter
-        return answer
+        # Team 8: was 'take the first character'. Same strict parser as the vote.
+        return parse_mmlu_letter(answer)
 
     @staticmethod
     def record_to_target_answer(record: pd.DataFrame) -> str:

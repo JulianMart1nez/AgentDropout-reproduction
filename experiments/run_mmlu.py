@@ -3,6 +3,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.stdout.reconfigure(encoding='utf-8')
 
 import asyncio
+from AgentDropout.utils.usage_phases import install as install_usage_phases
 from typing import Union, Literal, List
 import argparse
 import random
@@ -66,6 +67,7 @@ def parse_args():
 
 async def main():
     args = parse_args()
+    install_usage_phases(f"{AgentPrune_ROOT}/result/mmlu")  # per-phase token report at exit
     
     mode = args.mode
     decision_method = args.decision_method

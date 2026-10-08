@@ -1,6 +1,7 @@
 from typing import Union, Dict, Any, List
 import itertools
 import re
+from AgentDropout.prompt.answer_parsing import parse_mmlu_letter
 
 from AgentDropout.prompt.prompt_set import PromptSet
 from AgentDropout.prompt.prompt_set_registry import PromptSetRegistry
@@ -89,6 +90,9 @@ You are a liar who only tell lies.
 }
 
 
+FORMAT_LINE = '\n    End your reply with a final line in exactly this form: Answer: <letter>\n    where <letter> is one of A, B, C or D.\n'
+
+
 @PromptSetRegistry.register('mmlu')
 class MMLUPromptSet(PromptSet):
     """
@@ -129,7 +133,11 @@ class MMLUPromptSet(PromptSet):
 # """
     @staticmethod
     def get_analyze_constraint(role):
-        return ROLE_DESCRIPTION[role] if role in ROLE_DESCRIPTION.keys() else """
+        # Team 8: role descriptions never asked for a letter, so majority votes over them parsed prose.
+        # Append the answer-format line to every role (same kind of change as the GSM8K 'The answer is' line).
+        if role in ROLE_DESCRIPTION.keys():
+            return ROLE_DESCRIPTION[role] + FORMAT_LINE
+        return """
     I will ask you a question and 4 answers enumerated as A, B, C and D.
     Only one answer out of the offered 4 is correct.
     Using the reasoning from other agents as additional advice with critical thinking, can you give an updated answer?
@@ -202,31 +210,6 @@ class MMLUPromptSet(PromptSet):
         return ""
     
     def postprocess_answer(self, answer: Union[str, List[str]]) -> str:
-        if isinstance(answer, list):
-            if len(answer) > 0:
-                answer = answer[0]
-            else:
-                answer = ""
-        if not isinstance(answer, str):
-            raise Exception("Expected string")
-        if len(answer) == 0:
-            return answer
-        # The original heuristic just took answer[0] (the very first character),
-        # which only works when the model's reply starts with a bare letter.
-        # It silently mis-extracts (e.g. gives '0.94's leading digit is wrong)
-        # for anything preceded by reasoning text, a CoT preamble, or another
-        # agent's aggregated multi-paragraph response -- exactly the cases that
-        # made MMLU's multi-agent methods score far below the single-agent
-        # Vanilla baseline. Prefer an explicit "answer is X" / "(X)" marker,
-        # then a standalone A-D letter, and fall back to the old first-char
-        # behavior only if nothing else matches.
-        m = re.search(r"(?:answer is|Answer:|final answer)\s*[:\-]?\s*\(?([A-D])\)?", answer, re.IGNORECASE)
-        if m:
-            return m.group(1).upper()
-        m = re.match(r"\s*\(?([A-D])\)?[\.\):]", answer)
-        if m:
-            return m.group(1).upper()
-        m = re.search(r"\b([A-D])\b", answer)
-        if m:
-            return m.group(1).upper()
-        return answer[0]
+        # Strict parser (answer_parsing.py): first-line letter, else last explicit
+        # answer statement, else abstain. No guessing from prose.
+        return parse_mmlu_letter(answer)

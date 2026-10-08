@@ -91,6 +91,7 @@ async def achat(model: str, msg: List[Dict], max_tokens: Optional[int] = None, t
                 "prompt_tokens": getattr(usage, "prompt_tokens", 0) or 0,
                 "completion_tokens": getattr(usage, "completion_tokens", 0) or 0,
                 "cost": getattr(usage, "cost", None),
+                "provider": getattr(completion, "provider", None),  # OpenRouter returns the serving provider
             })
 
         if isinstance(response_message, str):

@@ -11,6 +11,7 @@ from AgentDropout.utils.globals import Time
 from pathlib import Path
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from AgentDropout.utils.usage_phases import tag_task, install as install_usage_phases
 sys.stdout.reconfigure(encoding='utf-8')
 
 from AgentDropout.utils.const import AgentPrune_ROOT
@@ -71,7 +72,7 @@ async def evaluate(
             # if dec:
             #     answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,num_rounds,skip=False)))
             # else:
-            answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,num_rounds,case=True)))
+            answer_log_probs.append(asyncio.create_task(tag_task("eval", realized_graph.arun(input_dict,num_rounds,case=True))))
         raw_results = await asyncio.gather(*answer_log_probs)
         raw_answers, log_probs, all_answers = zip(*raw_results)
         

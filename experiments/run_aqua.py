@@ -12,6 +12,7 @@ import copy
 from typing import List,Union,Literal
 import random
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from AgentDropout.utils.usage_phases import tag_task, install as install_usage_phases
 sys.stdout.reconfigure(encoding='utf-8')
 
 from AgentDropout.utils.const import AgentPrune_ROOT
@@ -79,6 +80,7 @@ def parse_args():
 
 async def main():
     args = parse_args()
+    install_usage_phases(f"{AgentPrune_ROOT}/result/aqua")  # per-phase token report at exit
     result_file = None
     dataset = JSONLReader.parse_file(args.dataset_json)
     dataset = aqua_data_process(dataset)
@@ -162,7 +164,7 @@ async def main():
                 answer = record["answer"]
                 answers.append(answer)
                 input_dict = {"task": task}
-                answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,args.num_rounds,skip=True)))
+                answer_log_probs.append(asyncio.create_task(tag_task("dec", realized_graph.arun(input_dict,args.num_rounds,skip=True))))
                 add_losses.append(add_loss)
                 
             raw_results = await asyncio.gather(*answer_log_probs)
@@ -292,7 +294,7 @@ async def main():
                 answer = record["answer"]
                 answers.append(answer)
                 input_dict = {"task": task}
-                answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,args.num_rounds)))
+                answer_log_probs.append(asyncio.create_task(tag_task("opt", realized_graph.arun(input_dict,args.num_rounds))))
                 add_losses.append(add_loss)
                 
             raw_results = await asyncio.gather(*answer_log_probs)
@@ -438,8 +440,7 @@ async def main():
             answer = record["answer"]
             answers.append(answer)
             input_dict = {"task": task}
-            answer_log_probs.append(asyncio.create_task(realized_graph.arun(input_dict,args.num_rounds,case=True)))
-
+            answer_log_probs.append(asyncio.create_task(tag_task("eval", realized_graph.arun(input_dict,args.num_rounds,case=True))))
             add_losses.append(add_loss)
         
         print(22222222)
