@@ -5,7 +5,7 @@ FinalMajorVote, pruning rate 0.25, 2 rounds). Writes to result/mmlu_rerun.csv an
 full stdout log per cell in result/mmlu_rerun_logs/; never touches full_grid_results.csv.
 Before each cell it checks the OpenRouter balance and stops below --min_credit.
 
-Usage: python run_mmlu_rerun.py [--models llama qwen deepseek] [--concurrency 4] [--min_credit 15]
+Usage: python run_mmlu_rerun.py [--models llama qwen deepseek] [--methods ...] [--concurrency 4] [--min_credit 15]
 """
 import argparse
 import asyncio
@@ -94,12 +94,13 @@ async def run(model, method, args, sem, lock):
 async def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--models", nargs="+", default=list(MODELS), choices=list(MODELS))
+    ap.add_argument("--methods", nargs="+", default=METHODS, choices=METHODS)
     ap.add_argument("--concurrency", type=int, default=4)
     ap.add_argument("--min_credit", type=float, default=15.0)
     args = ap.parse_args()
     print(f"balance at start: ${balance():.2f}", flush=True)
     sem, lock = asyncio.Semaphore(args.concurrency), asyncio.Lock()
-    await asyncio.gather(*(run(MODELS[m], meth, args, sem, lock) for m in args.models for meth in METHODS))
+    await asyncio.gather(*(run(MODELS[m], meth, args, sem, lock) for m in args.models for meth in args.methods))
     print(f"balance at end: ${balance():.2f}", flush=True)
 
 

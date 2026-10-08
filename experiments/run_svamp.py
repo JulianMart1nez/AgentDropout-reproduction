@@ -49,7 +49,7 @@ def parse_args():
     parser.add_argument("--result_file", type=str, default=None)
     parser.add_argument("--llm_name", type=str, default="gpt-3.5-turbo")
     parser.add_argument('--mode', type=str, default='FullConnected',
-                        choices=['DirectAnswer', 'FullConnected', 'Random', 'Chain','Debate','Layered','Star'],
+                        choices=['DirectAnswer', 'SelfConsistency', 'FullConnected', 'Random', 'Chain','Debate','Layered','Star'],
                         help="Mode of operation. Default is 'FullConnected'.")
     parser.add_argument('--lr', type=float, default=0.1,help="learning rate")
     parser.add_argument('--delta', type=float, default=0.1, help="noise level")
@@ -539,6 +539,11 @@ def get_kwargs(mode:Union[Literal['DirectAnswer'],Literal['FullConnected'],Liter
         fixed_spatial_masks = [[0]]
         fixed_temporal_masks = [[0]]
         node_kwargs = [{'role':'Math Solver', 'cot': cot}]
+    elif mode == 'SelfConsistency':
+        # Team 8: SC (CoT) baseline -- N independent CoT agents, no edges, majority vote.
+        fixed_spatial_masks = [[0 for _ in range(N)] for _ in range(N)]
+        fixed_temporal_masks = [[0 for _ in range(N)] for _ in range(N)]
+        node_kwargs = [{'role': 'Math Solver', 'cot': True} for _ in range(N)]
     elif mode=='FullConnected':
         fixed_spatial_masks = [[1 if i!=j else 0 for i in range(N)] for j in range(N)]
         fixed_temporal_masks = [[1 for _ in range(N)] for _ in range(N)]

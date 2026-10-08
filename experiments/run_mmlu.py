@@ -24,7 +24,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Process some parameters.")
 
     parser.add_argument('--mode', type=str, default='FullConnected',
-                        choices=['DirectAnswer', 'FullConnected', 'Random', 'Chain', 'Debate', 'Layered','Star', 'Mesh',
+                        choices=['DirectAnswer', 'SelfConsistency', 'FullConnected', 'Random', 'Chain', 'Debate', 'Layered','Star', 'Mesh',
                                  'FakeFullConnected','FakeRandom','FakeChain','FakeStar','FakeMesh','FakeAGRandom','FakeAGFull'],
                         help="Mode of operation. Default is 'FullConnected'.")
     parser.add_argument('--lr', type=float, default=0.1,
@@ -162,6 +162,11 @@ def get_kwargs(mode:Union[Literal['DirectAnswer'],Literal['FullConnected'],Liter
         fixed_spatial_masks = [[0]]
         fixed_temporal_masks = [[0]]
         node_kwargs = [{'role':'Normal', 'cot': cot}]
+    elif mode == 'SelfConsistency':
+        # Team 8: SC (CoT) baseline -- N independent CoT agents, no edges, majority vote.
+        fixed_spatial_masks = [[0 for _ in range(N)] for _ in range(N)]
+        fixed_temporal_masks = [[0 for _ in range(N)] for _ in range(N)]
+        node_kwargs = [{'role': 'Normal', 'cot': True} for _ in range(N)]
     elif mode=='FullConnected' or mode == 'FakeFullConnected' or mode=='FakeAGFull':
         fixed_spatial_masks = [[1 if i!=j else 0 for i in range(N)] for j in range(N)]
         fixed_temporal_masks = [[1 for _ in range(N)] for _ in range(N)]

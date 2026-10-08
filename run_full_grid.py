@@ -127,6 +127,10 @@ def build_args(ds: DatasetConfig, method: str, model: str) -> list:
     elif method == "CoT":
         args += ["--mode", "DirectAnswer", "--agent_names", ds.direct_agent_name,
                   "--num_rounds", "1", "--decision_method", "FinalDirect", "--cot"]
+    elif method == "SC_CoT":
+        # Team 8: self-consistency over CoT, 5 independent samples (paper Sec. 4.1), majority vote.
+        args += ["--mode", "SelfConsistency", "--agent_names", ds.direct_agent_name,
+                 "--num_rounds", "1", "--decision_method", "FinalMajorVote", "--cot"]
     elif method == "MAS_round1":
         args += ["--mode", "FullConnected", "--agent_names", ds.agent_name,
                   "--num_rounds", "1", "--decision_method", ds.mas_decision_method]
