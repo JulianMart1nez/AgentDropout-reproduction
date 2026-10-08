@@ -235,7 +235,7 @@ class AQUAPromptSet(PromptSet):
         # Format the question for the AI assistant to answer
         prompt = f"{FEW_SHOT_DATA[role]}\n\nQ:{question}"
         if cot:
-            prompt += "\n\nLet's think step by step before giving the final answer."
+            prompt += ("\n\nSolve only the last question above (the one after the final Q:). Do not re-solve the worked examples. Let's think step by step before giving the final answer.")  # Team 8: the bare instruction made Llama re-solve the examples
         return prompt
 
     @staticmethod

@@ -1,0 +1,5 @@
+model,dataset,method,mode,accuracy,correct,total,eval_prompt_tokens,eval_completion_tokens,all_prompt_tokens,all_completion_tokens,cost,failed_node_calls,providers,minutes,log,completed_at
+meta-llama/llama-3.1-8b-instruct,MultiArith,CoT,DirectAnswer,0.9400,47.0,50,51601,5704,51601,5704,0.0013,0,DeepInfra:50,1.2,llama-3.1-8b-instruct_MultiArith_CoT_DirectAnswer_20261008-080544.log,2026-10-08T08:05:44
+meta-llama/llama-3.1-8b-instruct,GSM8K,CoT,DirectAnswer,0.7600,38.0,50,52449,11568,52449,11568,0.0015,0,DeepInfra:50,2.6,llama-3.1-8b-instruct_GSM8K_CoT_DirectAnswer_20261008-080704.log,2026-10-08T08:07:04
+meta-llama/llama-3.1-8b-instruct,SVAMP,CoT,DirectAnswer,0.7800,39.0,50,51669,10611,51669,10611,0.0015,0,DeepInfra:50,3.2,llama-3.1-8b-instruct_SVAMP_CoT_DirectAnswer_20261008-080743.log,2026-10-08T08:07:43
+meta-llama/llama-3.1-8b-instruct,AQuA,CoT,DirectAnswer,0.7000,35.0,50,9645,19674,9645,19674,0.0010,0,DeepInfra:50,3.8,llama-3.1-8b-instruct_AQuA_CoT_DirectAnswer_20261008-080815.log,2026-10-08T08:08:15

@@ -1,0 +1,6 @@
+cot_rerun: balance at start $22.93
+DONE llama-3.1-8b-instruct  MultiArith CoT           DirectAnswer   94.0% (47.0/50)  $0.0013  failed 0  DeepInfra:50  1.2 min
+DONE llama-3.1-8b-instruct  GSM8K      CoT           DirectAnswer   76.0% (38.0/50)  $0.0015  failed 0  DeepInfra:50  2.6 min
+DONE llama-3.1-8b-instruct  SVAMP      CoT           DirectAnswer   78.0% (39.0/50)  $0.0015  failed 0  DeepInfra:50  3.2 min
+DONE llama-3.1-8b-instruct  AQuA       CoT           DirectAnswer   70.0% (35.0/50)  $0.0010  failed 0  DeepInfra:50  3.8 min
+cot_rerun: balance at end $22.89
