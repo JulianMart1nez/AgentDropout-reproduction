@@ -8,6 +8,7 @@ from typing import List
 from AgentDropout.tools.coding.executor_utils import function_with_timeout
 from AgentDropout.tools.coding.executor_types import ExecuteResult, Executor
 import timeout_decorator
+import signal
 
 def get_call_str(assert_statement: str) -> str:
     ast_parsed = ast.parse(assert_statement)
@@ -29,8 +30,7 @@ def get_output(func: str, assert_statement: str, timeout: int = 5) -> str:
     except Exception as e:
         return str(e)
 
-@timeout_decorator.timeout(5, timeout_exception=StopIteration)
-def execute_code_get_return(code: str):
+def _execute_code_get_return(code: str):
     local_vars = {}
     try:
         exec(code, {}, local_vars)
@@ -88,3 +88,28 @@ check({name})
         except Exception:
             return False
         
+
+# Team 8 (Oct 2026): timeout_decorator's default uses signal.SIGALRM, which Windows lacks.
+if hasattr(signal, "SIGALRM"):
+    execute_code_get_return = timeout_decorator.timeout(5, timeout_exception=StopIteration)(_execute_code_get_return)
+else:
+    import threading
+
+    def execute_code_get_return(code: str):
+        # Daemon thread: a runaway program cannot block interpreter shutdown.
+        box = {}
+
+        def work():
+            try:
+                box["value"] = _execute_code_get_return(code)
+            except BaseException as e:  # keep parity with the signal path
+                box["error"] = e
+
+        t = threading.Thread(target=work, daemon=True, name="code-exec")
+        t.start()
+        t.join(5)
+        if t.is_alive():
+            raise StopIteration("code execution timed out after 5 s")
+        if "error" in box:
+            raise box["error"]
+        return box.get("value")

@@ -5,6 +5,7 @@ from AgentDropout.agents.agent_registry import AgentRegistry
 from AgentDropout.llm.llm_registry import LLMRegistry
 from AgentDropout.prompt.prompt_set_registry import PromptSetRegistry
 from AgentDropout.tools.coding.python_executor import execute_code_get_return
+from AgentDropout.tools.coding.extract_code import extract_python_code
 from datasets.aqua_dataset import aqua_get_predict
 
 @AgentRegistry.register('MathSolver_aqua')
@@ -72,6 +73,6 @@ class MathSolver_aqua(Node):
         message = [{'role':'system','content':system_prompt},{'role':'user','content':user_prompt}]
         response = await self.llm.agen(message)
         if self.role == "Programming Expert":
-            answer = execute_code_get_return(response.lstrip("```python\n").rstrip("\n```"))
+            answer = execute_code_get_return(extract_python_code(response))  # Team 8: lstrip() strips characters
             response += f"\nthe answer is {answer}"
         return response
