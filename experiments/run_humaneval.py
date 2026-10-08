@@ -18,6 +18,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 from AgentDropout.graph.graph import Graph
 from AgentDropout.tools.reader.readers import JSONLReader
 from AgentDropout.tools.coding.python_executor import PyExecutor
+from AgentDropout.tools.coding.extract_code import extract_python_code
 from AgentDropout.utils.globals import Time
 from AgentDropout.utils.const import AgentPrune_ROOT
 import AgentDropout.utils.usage_report  # noqa: prints USAGE[TOTAL] at exit
@@ -171,7 +172,7 @@ async def main():
             for task, answer, log_prob, add_loss, test, entry_point in zip(current_batch, raw_answers, log_probs, add_losses, tests, entry_points):
                 if not isinstance(answer,list):
                     raise TypeError(f"Expected a list for the answer, but got {type(answer).__name__}")
-                answer = answer[0].lstrip("```python\n").rstrip("\n```")
+                answer = extract_python_code(answer)  # Team 8: lstrip() strips characters, not a prefix
                 is_solved, _, _ = PyExecutor().execute(answer, [test + f"\ncheck({entry_point})"], timeout=5)
                 total_solved = total_solved + is_solved
                 total_executed = total_executed + 1
@@ -302,7 +303,7 @@ async def main():
             for task, answer, log_prob, add_loss, test, entry_point in zip(current_batch, raw_answers, log_probs, add_losses, tests, entry_points):
                 if not isinstance(answer,list):
                     raise TypeError(f"Expected a list for the answer, but got {type(answer).__name__}")
-                answer = answer[0].lstrip("```python\n").rstrip("\n```")
+                answer = extract_python_code(answer)  # Team 8: lstrip() strips characters, not a prefix
                 is_solved, _, _ = PyExecutor().execute(answer, [test + f"\ncheck({entry_point})"], timeout=100)
                 total_solved = total_solved + is_solved
                 total_executed = total_executed + 1
@@ -429,7 +430,7 @@ async def main():
         for task, answer, log_prob, add_loss, test, entry_point in zip(current_batch, raw_answers, log_probs, add_losses, tests, entry_points):
             if not isinstance(answer,list):
                 raise TypeError(f"Expected a list for the answer, but got {type(answer).__name__}")
-            answer = answer[0].lstrip("```python\n").rstrip("\n```")
+            answer = extract_python_code(answer)  # Team 8: lstrip() strips characters, not a prefix
             is_solved, _, _ = PyExecutor().execute(answer, [test + f"\ncheck({entry_point})"], timeout=100)
             total_solved = total_solved + is_solved
             total_executed = total_executed + 1

@@ -75,12 +75,32 @@ def _get_client() -> AsyncOpenAI:
     return _ACLIENT
 
 
+# Team 8 (Oct 2026): pin one OpenRouter provider per model. Unpinned, a single cell was served by
+# Novita, DeepInfra and Groq in turn, which may run different quantizations (and Novita caps context
+# at 16K tokens, too short for dense multi-agent prompts). No fallbacks: a pinned provider outage
+# fails loudly (the call is retried, then counted as an execution error) instead of silently
+# switching hardware mid-cell. Set OPENROUTER_PIN=0 to disable.
+PROVIDER_PINS = {
+    "meta-llama/llama-3.1-8b-instruct": "DeepInfra",   # fp8
+    "qwen/qwen-2.5-72b-instruct": "DeepInfra",         # fp8
+    "deepseek/deepseek-chat-v3-0324": "SiliconFlow",   # fp8 (DeepSeek-V3's native precision)
+}
+
+
+def _provider_routing(model):
+    pin = PROVIDER_PINS.get(model)
+    if not pin or os.getenv("OPENROUTER_PIN", "1") == "0":
+        return None
+    return {"provider": {"order": [pin], "allow_fallbacks": False}}
+
+
 @retry(wait=wait_random_exponential(max=100), stop=stop_after_attempt(3))
 async def achat(model: str, msg: List[Dict], max_tokens: Optional[int] = None, temperature: Optional[float] = None,):
     aclient = _get_client()
     try:
         async with async_timeout.timeout(1900):
-            completion = await aclient.chat.completions.create(model=model,messages=msg,max_tokens=max_tokens,temperature=temperature)
+            completion = await aclient.chat.completions.create(model=model,messages=msg,max_tokens=max_tokens,temperature=temperature,
+                                                                extra_body=_provider_routing(model))
         response_message = completion.choices[0].message.content
 
         usage = getattr(completion, "usage", None)
