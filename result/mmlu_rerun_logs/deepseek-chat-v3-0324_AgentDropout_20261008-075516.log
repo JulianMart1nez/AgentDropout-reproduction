@@ -1,0 +1,1111 @@
+****************
+Knowlegable Expert
+
+You are a knowlegable expert in question answering.
+Please give several key entities that need to be searched in wikipedia to solve the problem. 
+Key entities that need to be searched are included between two '@' when output, for example: @catfish effect@, @broken window effect@, @Shakespeare@.
+If there is no entity in the question that needs to be searched in Wikipedia, you don't have to provide it
+
+    End your reply with a final line in exactly this form: Answer: <letter>
+    where <letter> is one of A, B, C or D.
+
+****************
+Critic
+
+You are an excellent critic.
+Please point out potential issues in other agent's analysis point by point.
+
+    End your reply with a final line in exactly this form: Answer: <letter>
+    where <letter> is one of A, B, C or D.
+
+****************
+Mathematician
+
+You are a mathematician who is good at math games, arithmetic calculation, and long-term planning.
+
+    End your reply with a final line in exactly this form: Answer: <letter>
+    where <letter> is one of A, B, C or D.
+
+****************
+Psychologist
+
+You are a psychologist.
+You are good at psychology, sociology, and philosophy.
+You give people scientific suggestions that will make them feel better.
+
+    End your reply with a final line in exactly this form: Answer: <letter>
+    where <letter> is one of A, B, C or D.
+
+****************
+Historian
+
+You research and analyze cultural, economic, political, and social events in the past, collect data from primary sources and use it to develop theories about what happened during various periods of history.
+
+    End your reply with a final line in exactly this form: Answer: <letter>
+    where <letter> is one of A, B, C or D.
+
+[['yNpw', 'yNpw'], ['yNpw', 'euLi'], ['yNpw', 'RPTe'], ['yNpw', '9ZFS'], ['yNpw', 'urrH'], ['euLi', 'yNpw'], ['euLi', 'euLi'], ['euLi', 'RPTe'], ['euLi', '9ZFS'], ['euLi', 'urrH'], ['RPTe', 'yNpw'], ['RPTe', 'euLi'], ['RPTe', 'RPTe'], ['RPTe', '9ZFS'], ['RPTe', 'urrH'], ['9ZFS', 'yNpw'], ['9ZFS', 'euLi'], ['9ZFS', 'RPTe'], ['9ZFS', '9ZFS'], ['9ZFS', 'urrH'], ['urrH', 'yNpw'], ['urrH', 'euLi'], ['urrH', 'RPTe'], ['urrH', '9ZFS'], ['urrH', 'urrH']]
+Number of topics:  57
+Total number of questions:  285
+Number of topics:  57
+Total number of questions:  1531
+Train 0 --------------------------------------------------------------------------------
+{'task': 'The term "budget deficit" refers to the\nOption A: annual increase in federal spending on the military\nOption B: amount of interest on the national debt\nOption C: difference between the initial budget proposals made by the president and Congress\nOption D: amount the government spends in excess of its revenues\n'}
+{'task': 'A tank initially contains a salt solution of 3 grams of salt dissolved in 100 liters of water. A salt solution containing 0.02 grams of salt per liter of water is sprayed into the tank at a rate of 4 liters per minute. The sprayed solution is continually mixed with the salt solution in the tank, and the mixture flows out of the tank at a rate of 4 liters per minute. If the mixing is instantaneous, how many grams of salt are in the tank after 100 minutes have elapsed?\nOption A: 2\nOption B: 2 - e^-2\nOption C: 2 + e^-2\nOption D: 2 + e^-4\n'}
+{'task': 'A previously healthy 32-year-old woman comes to the physician 8 months after her husband was killed in a car crash. Since that time, she has had a decreased appetite and difficulty falling asleep. She states that she is often sad and cries frequently. She has been rechecking the door lock five times before leaving her house and has to count exactly five pieces of toilet paper before she uses it. She says that she has always been a perfectionist but these urges and rituals are new. Pharmacotherapy should be targeted to which of the following neurotransmitters?\nOption A: Dopamine\nOption B: Glutamate\nOption C: Norepinephrine\nOption D: Serotonin\n'}
+{'task': 'This question refers to the following information.\r\n"Society in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one; for when we suffer, or are exposed to the same miseries by a government, which we might expect in a country without government, our calamity is heightened by reflecting that we furnish the means by which we suffer. Government, like dress, is the badge of lost innocence; the palaces of kings are built on the ruins of the bowers of paradise. For were the impulses of conscience clear, uniform, and irresistibly obeyed, man would need no other lawgiver; but that not being the case, he finds it necessary to surrender up a part of his property to furnish means for the protection of the rest; and this he is induced to do by the same prudence which in every other case advises him out of two evils to choose the least. Wherefore, security being the true design and end of government, it unanswerably follows that whatever form thereof appears most likely to ensure it to us, with the least expense and greatest benefit, is preferable to all others."\r\nThomas Paine, Common Sense, 1776\r\nWhich of the following "miseries" alluded to above were most condemned by Anti-Federalists of the post-Revolutionary era?\nOption A: Organized response to Bacon\'s Rebellion\nOption B: Federal response to Shays\'s Rebellion\nOption C: Federal response to the Whiskey Rebellion\nOption D: Federal response to Pontiac\'s Rebellion\n'}
+{'task': 'Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?\nOption A: a*(c + d)+ b(c + d)\nOption B: a*(c + d)* + b(c + d)*\nOption C: a*(c + d)+ b*(c + d)\nOption D: (a + b)*c +(a + b)*d\n'}
+{'task': 'What is produced during photosynthesis?\nOption A: hydrogen\nOption B: nylon\nOption C: oxygen\nOption D: light\n'}
+{'task': 'According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nOption A: Give the child a trial period in the new environment\nOption B: Notify the parents in writing\nOption C: Obtain school board approval\nOption D: Obtain parental consent\n'}
+{'task': 'In order to become securitized, a threat must be presented in which of these ways?\nOption A: As an existential threat that requires immediate and extraordinary action, posing a threat to the survival of the state or to societal security.\nOption B: As requiring immediate and extraordinary action by the state, threatening the survival of a referent object and therefore warranting the use of measures not normally employed in the political realm.\nOption C: As an urgent threat to the survival of the referent object, so serious that it legitimises the employment of extraordinary action in response.\nOption D: As an urgent threat to the survival of the audience that requires extraordinary or emergency measures.\n'}
+{'task': 'Which of the following is an intrinsic good, according to Singer?\nOption A: being in the upper class\nOption B: the ability to learn and solve problems\nOption C: being more beautiful than most of the population\nOption D: being shorter than average\n'}
+{'task': 'If the government subsidizes producers in a perfectly competitive market, then\nOption A: the demand for the product will increase\nOption B: the demand for the product will decrease\nOption C: the consumer surplus will increase\nOption D: the consumer surplus will decrease\n'}
+{'task': 'Things that are equivalent according to the equivalence principle are\nOption A: space and time.\nOption B: a traveling twin and a stay-at-home twin.\nOption C: gravity and acceleration.\nOption D: mass and energy.\n'}
+{'task': 'Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nOption A: Externalities, Power, Independence\nOption B: Publicity, Insubstantial resources, Mutual dependence\nOption C: Publicity, Power, Independence\nOption D: Externalities, Power, Mutual dependence\n'}
+{'task': 'Morning sickness is typically a problem:\nOption A: during the first trimester\nOption B: during the second trimester\nOption C: during the third trimester\nOption D: all through the pregnancy\n'}
+{'task': 'What is ethical hacking?\nOption A: "Hacking" ethics so they justify unintended selfish behavior\nOption B: Hacking systems (e.g., during penetration testing) to expose vulnerabilities so they can be fixed, rather than exploited\nOption C: Hacking into systems run by those whose ethics you disagree with\nOption D: A slang term for rapid software development, e.g., as part of hackathons\n'}
+{'task': 'A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\nOption A: 0.500 mole\nOption B: 1.00 mole\nOption C: 2.00 mole\nOption D: 3.00 mole\n'}
+{'task': "Many Web browsers allow users to open anonymous windows. During a browsing session in an anonymous window, the browser does not record a browsing history or a list of downloaded files. When the anonymous window is exited, cookies created during the session are deleted. Which of the following statements about browsing sessions in an anonymous window is true?\nOption A: The activities of a user browsing in an anonymous window will not be visible to people who monitor the user's network, such as the system administrator.\nOption B: Items placed in a Web store's shopping cart for future purchase during the anonymous browsing session will not be saved on the user's computer.\nOption C: A user will not be able to log in to e-mail or social media accounts during the anonymous browsing session.\nOption D: A user browsing in an anonymous window will be protected from viruses launched from any web sites visited or files downloaded.\n"}
+{'task': 'Why is Mars red?\nOption A: Because the surface is covered with heavily oxidized ("rusted") minerals.\nOption B: Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light.\nOption C: Because Mars is covered with ancient lava flows which are red in color.\nOption D: Because flowing water on Mars\'s surface altered the surface minerals several billion years ago.\n'}
+{'task': 'Which of the following is the body cavity that contains the pituitary gland?\nOption A: Abdominal\nOption B: Cranial\nOption C: Pleural\nOption D: Spinal\n'}
+{'task': 'Exploitation of the Heartbleed bug permits\nOption A: overwriting cryptographic keys in memory\nOption B: a kind of code injection\nOption C: a read outside bounds of a buffer\nOption D: a format string attack\n'}
+{'task': 'In animal cells, which of the following represents the most likely pathway that a secretory protein takes as it is synthesized in a cell?\nOption A: Plasma membrane–Golgi apparatus–ribosome–secretory vesicle–rough ER\nOption B: Ribosome–Golgi apparatus–rough ER–secretory vesicle–plasma membrane\nOption C: Plasma membrane–Golgi apparatus–ribosome–secretory vesicle–rough ER\nOption D: Ribosome–rough ER–Golgi apparatus–secretory vesicle–plasma membrane\n'}
+C:\Users\jm970\Documents\CE 5388 Group Project\AgentDropout-reproduction\AgentDropout\graph\graph.py:435: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  p = torch.softmax(torch.tensor(log_list),dim=0)
+B
+
+B
+B
+B
+
+C
+C
+C
+C
+
+B
+B
+B
+B
+A
+A
+A
+
+A
+D
+D
+D
+D
+
+B
+B
+
+B
+B
+D
+
+D
+D
+D
+C
+
+C
+C
+C
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+A
+A
+
+A
+A
+
+B
+B
+B
+B
+B
+B
+B
+B
+
+D
+D
+
+D
+D
+B
+B
+
+B
+B
+D
+
+D
+D
+D
+D
+D
+
+D
+D
+D
+D
+D
+
+D
+B
+
+B
+B
+B
+C
+C
+C
+
+C
+correct answer:D
+correct answer:D
+correct answer:D
+correct answer:C
+correct answer:D
+correct answer:C
+correct answer:B
+correct answer:C
+correct answer:B
+correct answer:C
+correct answer:C
+correct answer:D
+correct answer:A
+correct answer:B
+correct answer:C
+correct answer:B
+correct answer:A
+correct answer:B
+correct answer:C
+correct answer:D
+raw_answers: (['D'], ['D'], ['D'], ['B'], ['D'], ['C'], ['B'], ['B'], ['B'], ['C'], ['C'], ['D'], ['A'], ['B'], ['C'], ['B'], ['A'], ['B'], ['C'], ['D'])
+answers: ['D', 'D', 'D', 'B', 'D', 'C', 'B', 'B', 'B', 'C', 'C', 'D', 'A', 'B', 'C', 'B', 'A', 'B', 'C', 'D']
+Batch time 100.565
+utilities: [1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+loss: 39.9252815246582
+Spatial logits Grad: tensor([ 0.0000,  0.1000,  0.3500,  0.3500, -0.2750,  0.0000,  0.0000,  0.1000,
+         0.1000, -0.5250,  0.0000,  0.0000,  0.0000,  0.3500, -0.2750,  0.0000,
+         0.0000,  0.0000,  0.0000, -0.2750,  0.0000,  0.0000,  0.0000,  0.0000,
+         0.0000])
+Spatial logits: ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Spatial probs: [tensor([0.5000, 0.4750, 0.4750, 0.4750, 0.5250, 0.5000, 0.5000, 0.4750, 0.4750,
+        0.5250, 0.5000, 0.5000, 0.5000, 0.4750, 0.5250, 0.5000, 0.5000, 0.5000,
+        0.5000, 0.5250, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000],
+       grad_fn=<SigmoidBackward0>), tensor([0.5000, 0.5250, 0.4750, 0.5250, 0.5250, 0.5000, 0.5000, 0.4750, 0.5250,
+        0.5250, 0.5000, 0.5000, 0.5000, 0.4750, 0.4750, 0.5000, 0.5000, 0.5000,
+        0.5000, 0.5250, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000],
+       grad_fn=<SigmoidBackward0>)]
+Temporal probs: [tensor([0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000,
+        0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000,
+        0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000],
+       grad_fn=<SigmoidBackward0>)]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Train 1 --------------------------------------------------------------------------------
+{'task': 'Which of the following is an example of the use of a device on the Internet of Things (IoT) ?\nOption A: A car alerts a driver that it is about to hit an object.\nOption B: A hiker uses a G P S watch to keep track of her position.\nOption C: A refrigerator orders milk from an online delivery service when the milk in the refrigerator is almost gone.\nOption D: A runner uses a watch with optical sensors to monitor his heart rate.\n'}
+{'task': ' What is the sign of the covenant for Jewish males?\nOption A: The rainbow\nOption B: Circumcision\nOption C: A son\nOption D: Bar mitzvah\n'}
+{'task': 'There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nOption A: less sensitive to extreme scores than the mean\nOption B: more useful for skewed distributions\nOption C: sensitive to extreme values and highly skewed distributions\nOption D: the most frequently occurring number\n'}
+{'task': 'Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\nOption A: 10000 times more\nOption B: 100 times more\nOption C: 1000 times more\nOption D: 10 times more\n'}
+{'task': 'This question refers to the following information.\r\n"The struggle against neo-colonialism is not aimed at excluding the capital of the developed world from operating in less developed countries. It is aimed at preventing the financial power of the developed countries being used in such a way as to impoverish the less developed.\r\nNon-alignment, as practiced by Ghana and many other countries, is based on co-operation with all States whether they be capitalist, socialist or have a mixed economy. Such a policy, therefore, involves foreign investment from capitalist countries, but it must be invested in accordance with a national plan drawn up by the government of the non-aligned State with its own interests in mind. The issue is not what return the foreign investor receives on his investments…The question is one of power. A State in the grip of neo-colonialism is not master of its own destiny."\r\nKwame Nkrumah, Neo-Colonialism, 1965\r\nWhich of the following provides the best context for Nkrumah\'s writings?\nOption A: The Industrial Revolution\nOption B: Decolonization\nOption C: Regional Free Trade Associations\nOption D: Autarky\n'}
+{'task': "Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nOption A: Non-violent direct action, Violent direct action, Indirect action, Boycott\nOption B: Indirect action, Instrumental action, Non-violent direct action, Information campaign\nOption C: Indirect action, Violent direct action, Non-violent direct-action Boycott\nOption D: Non-violent direct action, Instrumental action, Indirect action, Information campaign\n"}
+{'task': 'Joe was in charge of lights for a dance. The red light blinks every two seconds, the yellow light every three seconds, and the blue light every five seconds. If we include the very beginning and very end of the dance, how many times during a seven minute dance will all the lights come on at the same time? (Assume that all three lights blink simultaneously at the very beginning of the dance.)\nOption A: 3\nOption B: 15\nOption C: 6\nOption D: 5\n'}
+{'task': "Suppose now that a researcher wishes to use information criteria to determine the optimal lag length for a VAR. 500 observations are available for the bi-variate VAR, and the values of the determinant of the variance-covariance matrix of residuals are 0.0336, 0.0169, 0.0084, and 0.0062 for 1, 2, 3, and 4 lags respectively. What is the optimal model order according to Akaike's information criterion?\nOption A: 1 lag\nOption B: 2 lags\nOption C: 3 lags\nOption D: 4 lags\n"}
+{'task': 'The concentration ratio for a monopoly is\nOption A: 0\nOption B: 5\nOption C: 10\nOption D: 100\n'}
+{'task': "Box a nongovernmental not-for-profit organization had the following transactions during the year: Proceeds from sale of investments $80000 Purchase of property plant and equipment $10000 Proceeds from long-term debt $100000 Loss on sale of investment $5000 What amount should be reported as net cash provided by financing activities in Box's statement of cash flows?\nOption A: $70,000\nOption B: $75,000\nOption C: $80,000\nOption D: 100000\n"}
+{'task': 'In a cohort study, the risk ratio of developing diabetes was 0.86 when comparing consumers of tea (the exposed) to those who did not drink tea (the unexposed). Which one statement is correct (according to knowledge in 2020)?\n\nOption A: The tea drinkers have lower risk of developing diabetes.\nOption B: The tea drinkers have higher risk of developing diabetes.\nOption C: Based on the information given we cannot tell if the observed difference in disease risk is the result of chance.\nOption D: The risk ratio is close to the value one, so there is no difference in disease risk between the two groups.\n'}
+{'task': "The term 'hegemony' refers to:\nOption A: the tendency for the working class not to realize their own interests\nOption B: a dominant ideology that legitimates economic, political and cultural power\nOption C: a form of dual consciousness based on ideology and everyday experiences\nOption D: a mode of payment given for outstanding topiary\n"}
+{'task': 'For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I really loved my newborn baby boy. Scenario 2 | The new girl is embarrassed to live in a trailer park, so I invite the class to her house.\nOption A: Wrong, Wrong\nOption B: Wrong, Not wrong\nOption C: Not wrong, Wrong\nOption D: Not wrong, Not wrong\n'}
+{'task': 'The short-run Phillips curve indicates a\nOption A: direct relation between unemployment and inflation\nOption B: direct relation between price and quantity demanded\nOption C: inverse relation between price and quantity demanded\nOption D: inverse relation between unemployment and inflation\n'}
+{'task': "The nature of homosexual activities that occur during preadolescence include all but which of the following?\nOption A: sexual intercourse\nOption B: circle jerks\nOption C: exhibitionism\nOption D: touching each other's genitals\n"}
+{'task': 'Compared with the mass of a uranium atom undergoing fission, the combined masses of the products after fission are\nOption A: less\nOption B: more\nOption C: the same\nOption D: zero\n'}
+{'task': 'What is the embryological origin of the hyoid bone?\nOption A: The first pharyngeal arch\nOption B: The first and second pharyngeal arches\nOption C: The second pharyngeal arch\nOption D: The second and third pharyngeal arches\n'}
+{'task': 'A key factor facilitating the application of nested case-control studies from the MACS was:\nOption A: Data collection\nOption B: Establishment of a repository of biologic specimens\nOption C: Participant interest\nOption D: Administration of the questionnaire by staff\n'}
+{'task': 'Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nOption A: True, True\nOption B: False, False\nOption C: True, False\nOption D: False, True\n'}
+{'task': 'Which one of the following items is an example of nonmaterial culture?\nOption A: Dove soap\nOption B: Dove candy bar\nOption C: Dove symbol\nOption D: A dove (bird)\n'}
+
+D
+D
+D
+D
+A
+A
+A
+
+A
+D
+D
+
+D
+D
+B
+B
+B
+
+B
+D
+
+D
+D
+D
+D
+
+D
+D
+D
+A
+
+A
+A
+A
+
+B
+B
+B
+B
+A
+
+A
+A
+A
+A
+A
+A
+
+A
+
+C
+C
+C
+C
+B
+B
+B
+B
+
+C
+C
+C
+C
+
+D
+D
+C
+C
+
+
+D
+D
+D
+D
+B
+
+B
+B
+B
+C
+A
+A
+A
+
+
+A
+A
+A
+A
+B
+B
+
+B
+B
+B
+D
+D
+
+D
+correct answer:C
+correct answer:B
+correct answer:D
+correct answer:A
+correct answer:B
+correct answer:C
+correct answer:B
+correct answer:C
+correct answer:D
+correct answer:D
+correct answer:C
+correct answer:B
+correct answer:C
+correct answer:D
+correct answer:A
+correct answer:A
+correct answer:D
+correct answer:B
+correct answer:A
+correct answer:C
+raw_answers: (['C'], ['B'], ['D'], ['A'], ['B'], ['A'], ['B'], ['D'], ['D'], ['D'], ['A'], ['B'], ['D'], ['D'], ['A'], ['A'], ['D'], ['B'], ['A'], ['C'])
+answers: ['C', 'B', 'D', 'A', 'B', 'A', 'B', 'D', 'D', 'D', 'A', 'B', 'D', 'D', 'A', 'A', 'D', 'B', 'A', 'C']
+Batch time 124.629
+utilities: [1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+loss: 35.92810821533203
+Spatial logits Grad: tensor([ 0.0000, -0.4762, -0.4762,  0.0088,  0.3987,  0.0000,  0.0000, -0.5975,
+        -0.1124,  0.2699,  0.0000,  0.0000,  0.0000, -0.1124,  0.2699,  0.0000,
+         0.0000,  0.0000,  0.0000,  0.7849,  0.0000,  0.0000,  0.0000,  0.0000,
+         0.0000])
+Spatial logits: ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Spatial probs: [tensor([0.5000, 0.4898, 0.4801, 0.4579, 0.5192, 0.5000, 0.5000, 0.4906, 0.4778,
+        0.5313, 0.5000, 0.5000, 0.5000, 0.4648, 0.5239, 0.5000, 0.5000, 0.5000,
+        0.5000, 0.5130, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000],
+       grad_fn=<SigmoidBackward0>), tensor([0.5000, 0.5075, 0.4684, 0.5244, 0.5408, 0.5000, 0.5000, 0.4579, 0.5080,
+        0.5244, 0.5000, 0.5000, 0.5000, 0.4768, 0.4884, 0.5000, 0.5000, 0.5000,
+        0.5000, 0.5475, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000],
+       grad_fn=<SigmoidBackward0>)]
+Temporal probs: [tensor([0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000,
+        0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000,
+        0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000],
+       grad_fn=<SigmoidBackward0>)]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Train 0 --------------------------------------------------------------------------------
+{'task': 'The term "budget deficit" refers to the\nOption A: annual increase in federal spending on the military\nOption B: amount of interest on the national debt\nOption C: difference between the initial budget proposals made by the president and Congress\nOption D: amount the government spends in excess of its revenues\n'}
+{'task': 'A tank initially contains a salt solution of 3 grams of salt dissolved in 100 liters of water. A salt solution containing 0.02 grams of salt per liter of water is sprayed into the tank at a rate of 4 liters per minute. The sprayed solution is continually mixed with the salt solution in the tank, and the mixture flows out of the tank at a rate of 4 liters per minute. If the mixing is instantaneous, how many grams of salt are in the tank after 100 minutes have elapsed?\nOption A: 2\nOption B: 2 - e^-2\nOption C: 2 + e^-2\nOption D: 2 + e^-4\n'}
+{'task': 'A previously healthy 32-year-old woman comes to the physician 8 months after her husband was killed in a car crash. Since that time, she has had a decreased appetite and difficulty falling asleep. She states that she is often sad and cries frequently. She has been rechecking the door lock five times before leaving her house and has to count exactly five pieces of toilet paper before she uses it. She says that she has always been a perfectionist but these urges and rituals are new. Pharmacotherapy should be targeted to which of the following neurotransmitters?\nOption A: Dopamine\nOption B: Glutamate\nOption C: Norepinephrine\nOption D: Serotonin\n'}
+{'task': 'This question refers to the following information.\r\n"Society in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one; for when we suffer, or are exposed to the same miseries by a government, which we might expect in a country without government, our calamity is heightened by reflecting that we furnish the means by which we suffer. Government, like dress, is the badge of lost innocence; the palaces of kings are built on the ruins of the bowers of paradise. For were the impulses of conscience clear, uniform, and irresistibly obeyed, man would need no other lawgiver; but that not being the case, he finds it necessary to surrender up a part of his property to furnish means for the protection of the rest; and this he is induced to do by the same prudence which in every other case advises him out of two evils to choose the least. Wherefore, security being the true design and end of government, it unanswerably follows that whatever form thereof appears most likely to ensure it to us, with the least expense and greatest benefit, is preferable to all others."\r\nThomas Paine, Common Sense, 1776\r\nWhich of the following "miseries" alluded to above were most condemned by Anti-Federalists of the post-Revolutionary era?\nOption A: Organized response to Bacon\'s Rebellion\nOption B: Federal response to Shays\'s Rebellion\nOption C: Federal response to the Whiskey Rebellion\nOption D: Federal response to Pontiac\'s Rebellion\n'}
+{'task': 'Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?\nOption A: a*(c + d)+ b(c + d)\nOption B: a*(c + d)* + b(c + d)*\nOption C: a*(c + d)+ b*(c + d)\nOption D: (a + b)*c +(a + b)*d\n'}
+{'task': 'What is produced during photosynthesis?\nOption A: hydrogen\nOption B: nylon\nOption C: oxygen\nOption D: light\n'}
+{'task': 'According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nOption A: Give the child a trial period in the new environment\nOption B: Notify the parents in writing\nOption C: Obtain school board approval\nOption D: Obtain parental consent\n'}
+{'task': 'In order to become securitized, a threat must be presented in which of these ways?\nOption A: As an existential threat that requires immediate and extraordinary action, posing a threat to the survival of the state or to societal security.\nOption B: As requiring immediate and extraordinary action by the state, threatening the survival of a referent object and therefore warranting the use of measures not normally employed in the political realm.\nOption C: As an urgent threat to the survival of the referent object, so serious that it legitimises the employment of extraordinary action in response.\nOption D: As an urgent threat to the survival of the audience that requires extraordinary or emergency measures.\n'}
+{'task': 'Which of the following is an intrinsic good, according to Singer?\nOption A: being in the upper class\nOption B: the ability to learn and solve problems\nOption C: being more beautiful than most of the population\nOption D: being shorter than average\n'}
+{'task': 'If the government subsidizes producers in a perfectly competitive market, then\nOption A: the demand for the product will increase\nOption B: the demand for the product will decrease\nOption C: the consumer surplus will increase\nOption D: the consumer surplus will decrease\n'}
+C
+C
+
+C
+C
+D
+D
+
+D
+D
+B
+B
+
+B
+B
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+B
+B
+
+B
+B
+D
+D
+
+D
+D
+D
+D
+
+D
+D
+C
+C
+
+C
+C
+D
+D
+
+
+D
+correct answer:D
+correct answer:D
+correct answer:D
+correct answer:C
+correct answer:D
+correct answer:C
+correct answer:B
+correct answer:C
+correct answer:B
+correct answer:C
+raw_answers: (['D'], ['D'], ['D'], ['C'], ['D'], ['C'], ['B'], ['C'], ['B'], ['C'])
+answers: ['D', 'D', 'D', 'C', 'D', 'C', 'B', 'C', 'B', 'C']
+Batch time 111.823
+utilities: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+loss: 32.14599609375
+Spatial logits: ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Spatial probs: [tensor([0.4750, 0.5250, 0.4750, 0.5250, 0.4750, 0.5250, 0.4750, 0.5250, 0.5250,
+        0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250,
+        0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250, 0.4750],
+       grad_fn=<SigmoidBackward0>), tensor([0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250,
+        0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250,
+        0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250, 0.4750],
+       grad_fn=<SigmoidBackward0>)]
+Temporal probs: [tensor([0.4750, 0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250,
+        0.5250, 0.5250, 0.5250, 0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5250,
+        0.4750, 0.5250, 0.5250, 0.5250, 0.5250, 0.5068, 0.4750],
+       grad_fn=<SigmoidBackward0>)]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+Train 1 --------------------------------------------------------------------------------
+{'task': 'Things that are equivalent according to the equivalence principle are\nOption A: space and time.\nOption B: a traveling twin and a stay-at-home twin.\nOption C: gravity and acceleration.\nOption D: mass and energy.\n'}
+{'task': 'Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nOption A: Externalities, Power, Independence\nOption B: Publicity, Insubstantial resources, Mutual dependence\nOption C: Publicity, Power, Independence\nOption D: Externalities, Power, Mutual dependence\n'}
+{'task': 'Morning sickness is typically a problem:\nOption A: during the first trimester\nOption B: during the second trimester\nOption C: during the third trimester\nOption D: all through the pregnancy\n'}
+{'task': 'What is ethical hacking?\nOption A: "Hacking" ethics so they justify unintended selfish behavior\nOption B: Hacking systems (e.g., during penetration testing) to expose vulnerabilities so they can be fixed, rather than exploited\nOption C: Hacking into systems run by those whose ethics you disagree with\nOption D: A slang term for rapid software development, e.g., as part of hackathons\n'}
+{'task': 'A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\nOption A: 0.500 mole\nOption B: 1.00 mole\nOption C: 2.00 mole\nOption D: 3.00 mole\n'}
+{'task': "Many Web browsers allow users to open anonymous windows. During a browsing session in an anonymous window, the browser does not record a browsing history or a list of downloaded files. When the anonymous window is exited, cookies created during the session are deleted. Which of the following statements about browsing sessions in an anonymous window is true?\nOption A: The activities of a user browsing in an anonymous window will not be visible to people who monitor the user's network, such as the system administrator.\nOption B: Items placed in a Web store's shopping cart for future purchase during the anonymous browsing session will not be saved on the user's computer.\nOption C: A user will not be able to log in to e-mail or social media accounts during the anonymous browsing session.\nOption D: A user browsing in an anonymous window will be protected from viruses launched from any web sites visited or files downloaded.\n"}
+{'task': 'Why is Mars red?\nOption A: Because the surface is covered with heavily oxidized ("rusted") minerals.\nOption B: Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light.\nOption C: Because Mars is covered with ancient lava flows which are red in color.\nOption D: Because flowing water on Mars\'s surface altered the surface minerals several billion years ago.\n'}
+{'task': 'Which of the following is the body cavity that contains the pituitary gland?\nOption A: Abdominal\nOption B: Cranial\nOption C: Pleural\nOption D: Spinal\n'}
+{'task': 'Exploitation of the Heartbleed bug permits\nOption A: overwriting cryptographic keys in memory\nOption B: a kind of code injection\nOption C: a read outside bounds of a buffer\nOption D: a format string attack\n'}
+{'task': 'In animal cells, which of the following represents the most likely pathway that a secretory protein takes as it is synthesized in a cell?\nOption A: Plasma membrane–Golgi apparatus–ribosome–secretory vesicle–rough ER\nOption B: Ribosome–Golgi apparatus–rough ER–secretory vesicle–plasma membrane\nOption C: Plasma membrane–Golgi apparatus–ribosome–secretory vesicle–rough ER\nOption D: Ribosome–rough ER–Golgi apparatus–secretory vesicle–plasma membrane\n'}
+A
+A
+
+A
+A
+B
+B
+
+B
+B
+B
+B
+
+B
+B
+A
+A
+
+A
+A
+C
+C
+
+C
+C
+B
+B
+
+B
+B
+D
+D
+
+D
+D
+D
+D
+
+D
+D
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+correct answer:C
+correct answer:D
+correct answer:A
+correct answer:B
+correct answer:C
+correct answer:B
+correct answer:A
+correct answer:B
+correct answer:C
+correct answer:D
+raw_answers: (['C'], ['D'], ['A'], ['B'], ['C'], ['B'], ['A'], ['B'], ['C'], ['D'])
+answers: ['C', 'D', 'A', 'B', 'C', 'B', 'A', 'B', 'C', 'D']
+Batch time 100.912
+utilities: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+loss: 33.23821258544922
+Spatial logits: ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Temporal logits: ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Spatial probs: [tensor([0.4720, 0.5381, 0.4850, 0.5202, 0.4770, 0.5495, 0.4667, 0.5312, 0.5171,
+        0.5470, 0.5335, 0.5236, 0.4709, 0.5322, 0.5069, 0.5491, 0.5171, 0.5215,
+        0.4667, 0.5215, 0.5074, 0.5373, 0.5416, 0.5322, 0.4709],
+       grad_fn=<SigmoidBackward0>), tensor([0.4707, 0.5221, 0.5266, 0.5405, 0.5097, 0.5074, 0.4707, 0.5266, 0.5393,
+        0.5221, 0.5266, 0.5266, 0.4707, 0.5266, 0.5266, 0.5282, 0.5212, 0.5266,
+        0.4707, 0.5456, 0.5323, 0.5273, 0.5266, 0.5374, 0.4707],
+       grad_fn=<SigmoidBackward0>)]
+Temporal probs: [tensor([0.4871, 0.4889, 0.5188, 0.5235, 0.5282, 0.5130, 0.4731, 0.5329, 0.5497,
+        0.5485, 0.5174, 0.5194, 0.4747, 0.5167, 0.5350, 0.5361, 0.5229, 0.5213,
+        0.4761, 0.5172, 0.5396, 0.5334, 0.5175, 0.5254, 0.4765],
+       grad_fn=<SigmoidBackward0>)]
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+spatial masks: ParameterList(
+    (0): Parameter containing: [torch.int64 of size 25]
+    (1): Parameter containing: [torch.int64 of size 25]
+)
+temporal masks: ParameterList(  (0): Parameter containing: [torch.int64 of size 25])
+spatial sparsity: tensor(0.3600)
+temporal sparsity: tensor(0.4800)
+Final spatial logits:  ParameterList(
+    (0): Parameter containing: [torch.float32 of size 25]
+    (1): Parameter containing: [torch.float32 of size 25]
+)
+Final temporal logits:  ParameterList(  (0): Parameter containing: [torch.float32 of size 25])
+Final spatial masks:  ParameterList(
+    (0): Parameter containing: [torch.int64 of size 25]
+    (1): Parameter containing: [torch.int64 of size 25]
+)
+Final temporal masks:  ParameterList(  (0): Parameter containing: [torch.int64 of size 25])
+Spatial sparsity (mean): tensor(0.3600)
+Temporal sparsity (mean): tensor(0.4800)
+Evaluating AgentDropout on MMLUDataset split val
+  0%|          | 0/10 [00:00<?, ?it/s]--------------------------------------------------------------------------------
+C
+C
+
+C
+C
+D
+D
+
+D
+D
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+A
+A
+
+A
+A
+Batch time 83.031
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 100.0% (1/1)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 100.0% (2/2)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: A
+Accuracy: 100.0% (3/3)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 100.0% (4/4)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 100.0% (5/5)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 10%|█         | 1/10 [01:23<12:27, 83.03s/it]--------------------------------------------------------------------------------
+D
+D
+
+D
+D
+D
+D
+
+D
+D
+B
+B
+
+B
+B
+D
+D
+
+D
+D
+A
+A
+
+A
+A
+Batch time 69.248
+Raw answer: ['B']
+Postprocessed answer: B
+Correct answer: B
+Accuracy: 100.0% (6/6)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 100.0% (7/7)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 100.0% (8/8)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: A
+Accuracy: 100.0% (9/9)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 100.0% (10/10)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 20%|██        | 2/10 [02:32<09:59, 74.92s/it]--------------------------------------------------------------------------------
+C
+C
+
+C
+C
+A
+A
+
+A
+A
+A
+A
+
+A
+A
+A
+D
+
+D
+D
+A
+A
+
+A
+A
+Batch time 71.485
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: A
+Accuracy: 100.0% (11/11)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: B
+Accuracy: 91.7% (11/12)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: A
+Accuracy: 92.3% (12/13)
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: D
+Accuracy: 85.7% (12/14)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 86.7% (13/15)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 30%|███       | 3/10 [03:43<08:33, 73.35s/it]--------------------------------------------------------------------------------
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+B
+B
+
+B
+B
+D
+D
+
+D
+D
+Batch time 71.660
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 87.5% (14/16)
+Raw answer: ['B']
+Postprocessed answer: B
+Correct answer: B
+Accuracy: 88.2% (15/17)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 88.9% (16/18)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 89.5% (17/19)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 90.0% (18/20)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 40%|████      | 4/10 [04:55<07:16, 72.69s/it]--------------------------------------------------------------------------------
+A
+A
+
+A
+A
+B
+C
+
+B
+B
+B
+C
+
+C
+C
+C
+C
+
+C
+C
+D
+D
+
+D
+D
+Batch time 80.651
+Raw answer: ['A']
+Postprocessed answer: A
+Correct answer: A
+Accuracy: 90.5% (19/21)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: B
+Accuracy: 86.4% (19/22)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 87.0% (20/23)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 87.5% (21/24)
+Raw answer: ['B']
+Postprocessed answer: B
+Correct answer: B
+Accuracy: 88.0% (22/25)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 50%|█████     | 5/10 [06:16<06:17, 75.56s/it]--------------------------------------------------------------------------------
+D
+D
+
+D
+D
+C
+C
+
+C
+C
+D
+D
+
+D
+D
+D
+D
+
+D
+D
+D
+D
+
+D
+D
+Batch time 120.148
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: A
+Accuracy: 84.6% (22/26)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 85.2% (23/27)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 85.7% (24/28)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 86.2% (25/29)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 86.7% (26/30)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 60%|██████    | 6/10 [08:16<06:02, 90.72s/it]--------------------------------------------------------------------------------
+D
+D
+
+D
+D
+D
+C
+
+C
+D
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+D
+D
+
+D
+D
+Batch time 64.287
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: D
+Accuracy: 83.9% (26/31)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 84.4% (27/32)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 84.8% (28/33)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 85.3% (29/34)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 85.7% (30/35)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 70%|███████   | 7/10 [09:20<04:06, 82.08s/it]--------------------------------------------------------------------------------
+D
+D
+
+D
+D
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+B
+B
+
+B
+B
+Batch time 66.188
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 86.1% (31/36)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 86.5% (32/37)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 86.8% (33/38)
+Raw answer: ['B']
+Postprocessed answer: B
+Correct answer: B
+Accuracy: 87.2% (34/39)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 87.5% (35/40)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 80%|████████  | 8/10 [10:26<02:34, 77.02s/it]--------------------------------------------------------------------------------
+D
+D
+
+D
+D
+D
+C
+
+D
+D
+C
+D
+
+C
+D
+C
+C
+
+C
+C
+B
+B
+
+B
+B
+Batch time 81.267
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 87.8% (36/41)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: C
+Accuracy: 85.7% (36/42)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 86.0% (37/43)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 86.4% (38/44)
+Raw answer: ['B']
+Postprocessed answer: B
+Correct answer: B
+Accuracy: 86.7% (39/45)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+ 90%|█████████ | 9/10 [11:47<01:18, 78.35s/it]--------------------------------------------------------------------------------
+D
+D
+
+D
+D
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+C
+C
+
+C
+C
+B
+B
+
+B
+B
+Batch time 77.385
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 87.0% (40/46)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 87.2% (41/47)
+Raw answer: ['C']
+Postprocessed answer: C
+Correct answer: C
+Accuracy: 87.5% (42/48)
+Raw answer: ['B']
+Postprocessed answer: B
+Correct answer: B
+Accuracy: 87.8% (43/49)
+Raw answer: ['D']
+Postprocessed answer: D
+Correct answer: D
+Accuracy: 88.0% (44/50)
+Cost 0.0
+PromptTokens 0.0
+CompletionTokens 0.0
+100%|██████████| 10/10 [13:05<00:00, 78.06s/it]100%|██████████| 10/10 [13:05<00:00, 78.54s/it]
+Accuracy: 88.0% (44/50)
+Done!
+Score: 0.88
+USAGE[dec]: prompt=203069 completion=59221 total=262290 calls=320 cost=$0.1100
+USAGE[opt]: prompt=100179 completion=30531 total=130710 calls=160 cost=$0.0556
+USAGE[eval]: prompt=217048 completion=72617 total=289665 calls=400 cost=$0.1269
+USAGE[ALL]: prompt=520296 completion=162369 total=682665 calls=880 cost=$0.2924
+USAGE[TOTAL]: prompt=520296 completion=162369 total=682665 calls=880 cost=$0.2924

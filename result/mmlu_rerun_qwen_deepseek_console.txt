@@ -1,0 +1,7 @@
+balance at start: $24.95
+DONE qwen-2.5-72b-instruct    MAS_round1     80.0% (40/50)  $0.0692  failed calls 0  providers DeepInfra:250  10.5 min
+DONE deepseek-chat-v3-0324    MAS_round1     90.0% (45/50)  $0.0740  failed calls 0  providers SiliconFlow:250  9.5 min
+DONE qwen-2.5-72b-instruct    MAS_roundT     82.0% (41/50)  $0.1765  failed calls 0  providers DeepInfra:500  29.0 min
+DONE qwen-2.5-72b-instruct    AgentPrune     84.0% (42/50)  $0.2129  failed calls 0  providers DeepInfra:700  34.0 min
+DONE qwen-2.5-72b-instruct    AgentDropout   84.0% (42/50)  $0.2492  failed calls 0  providers DeepInfra:880  34.3 min
+DONE deepseek-chat-v3-0324    MAS_roundT     84.0% (42/50)  $0.1740  failed calls 0  providers SiliconFlow:500  17.1 min

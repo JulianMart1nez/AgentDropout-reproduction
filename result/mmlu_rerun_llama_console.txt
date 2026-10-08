@@ -1,0 +1,6 @@
+balance at start: $25.00
+DONE llama-3.1-8b-instruct    MAS_round1     58.0% (29/50)  $0.0064  failed calls 0  providers DeepInfra:250  8.9 min
+DONE llama-3.1-8b-instruct    MAS_roundT     62.0% (31/50)  $0.0146  failed calls 0  providers DeepInfra:500  15.6 min
+DONE llama-3.1-8b-instruct    AgentPrune     66.0% (33/50)  $0.0173  failed calls 0  providers DeepInfra:700  21.8 min
+DONE llama-3.1-8b-instruct    AgentDropout   76.0% (38/50)  $0.0169  failed calls 0  providers DeepInfra:880  23.3 min
+balance at end: $24.95

@@ -1,0 +1,4 @@
+balance at start: $23.43
+DONE deepseek-chat-v3-0324    AgentPrune     92.0% (46/50)  $0.2504  failed calls 0  providers SiliconFlow:700  23.1 min
+DONE deepseek-chat-v3-0324    AgentDropout   88.0% (44/50)  $0.2924  failed calls 0  providers SiliconFlow:880  20.6 min
+balance at end: $22.93

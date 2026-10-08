@@ -1,0 +1,5624 @@
+{
+ "by_phase": {
+  "opt": {
+   "prompt_tokens": 144604,
+   "completion_tokens": 34740,
+   "calls": 200,
+   "cost_usd": 0.06595344000000002
+  },
+  "eval": {
+   "prompt_tokens": 310935,
+   "completion_tokens": 87449,
+   "calls": 500,
+   "cost_usd": 0.14691619999999997
+  }
+ },
+ "total": {
+  "prompt_tokens": 455539,
+  "completion_tokens": 122189,
+  "calls": 700,
+  "cost_usd": 0.21286963999999997
+ },
+ "calls": [
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 202,
+   "completion_tokens": 12,
+   "cost": 7.752e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 133,
+   "completion_tokens": 22,
+   "cost": 5.668e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 286,
+   "completion_tokens": 82,
+   "cost": 0.00013576,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 98,
+   "completion_tokens": 103,
+   "cost": 7.648e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 210,
+   "completion_tokens": 12,
+   "cost": 8.04e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 184,
+   "completion_tokens": 61,
+   "cost": 9.064e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 280,
+   "completion_tokens": 27,
+   "cost": 0.0001116,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 231,
+   "completion_tokens": 227,
+   "cost": 0.00017396,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 248,
+   "completion_tokens": 103,
+   "cost": 0.00013048,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 423,
+   "completion_tokens": 12,
+   "cost": 0.00015708,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 125,
+   "completion_tokens": 336,
+   "cost": 0.0001794,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 205,
+   "completion_tokens": 297,
+   "cost": 0.0001926,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 559,
+   "completion_tokens": 35,
+   "cost": 0.00021524,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 362,
+   "completion_tokens": 122,
+   "cost": 0.00017912,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 327,
+   "completion_tokens": 12,
+   "cost": 0.00012252,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 549,
+   "completion_tokens": 68,
+   "cost": 0.00022484,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 260,
+   "completion_tokens": 222,
+   "cost": 0.0001824,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 539,
+   "completion_tokens": 90,
+   "cost": 0.00023004,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 278,
+   "cost": 0.00016196,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 176,
+   "completion_tokens": 261,
+   "cost": 0.00016776,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 272,
+   "completion_tokens": 79,
+   "cost": 0.00012952,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 476,
+   "completion_tokens": 74,
+   "cost": 0.00020096,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 396,
+   "completion_tokens": 448,
+   "cost": 0.00032176,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 392,
+   "completion_tokens": 44,
+   "cost": 0.00015872,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 161,
+   "completion_tokens": 498,
+   "cost": 0.00025716,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 942,
+   "completion_tokens": 27,
+   "cost": 0.00034992,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 601,
+   "completion_tokens": 76,
+   "cost": 0.00024676,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 592,
+   "completion_tokens": 86,
+   "cost": 0.00024752,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 677,
+   "completion_tokens": 297,
+   "cost": 0.00036252,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 464,
+   "completion_tokens": 35,
+   "cost": 0.00018104,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 843,
+   "completion_tokens": 70,
+   "cost": 0.00033148,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 711,
+   "completion_tokens": 272,
+   "cost": 0.00036476,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 496,
+   "completion_tokens": 77,
+   "cost": 0.00020936,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 496,
+   "completion_tokens": 221,
+   "cost": 0.00026696,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 916,
+   "completion_tokens": 153,
+   "cost": 0.00039096,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 436,
+   "completion_tokens": 63,
+   "cost": 0.00018216,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 545,
+   "completion_tokens": 101,
+   "cost": 0.0002366,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 431,
+   "completion_tokens": 432,
+   "cost": 0.00032796,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 269,
+   "completion_tokens": 525,
+   "cost": 0.00030684,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 217,
+   "completion_tokens": 809,
+   "cost": 0.00040172,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 654,
+   "completion_tokens": 33,
+   "cost": 0.00024864,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1055,
+   "completion_tokens": 70,
+   "cost": 0.0004078,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 587,
+   "completion_tokens": 227,
+   "cost": 0.00030212,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 392,
+   "completion_tokens": 336,
+   "cost": 0.00027552,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 176,
+   "completion_tokens": 39,
+   "cost": 7.896e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 689,
+   "completion_tokens": 500,
+   "cost": 0.00044804,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:5",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 829,
+   "completion_tokens": 62,
+   "cost": 0.00032324,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 567,
+   "completion_tokens": 70,
+   "cost": 0.00023212,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 836,
+   "completion_tokens": 24,
+   "cost": 0.00031056,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 711,
+   "completion_tokens": 177,
+   "cost": 0.00032676,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 585,
+   "completion_tokens": 92,
+   "cost": 0.0002474,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 825,
+   "completion_tokens": 114,
+   "cost": 0.0003426,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 457,
+   "completion_tokens": 66,
+   "cost": 0.00019092,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 882,
+   "completion_tokens": 27,
+   "cost": 0.00032832,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 980,
+   "completion_tokens": 269,
+   "cost": 0.0004604,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 697,
+   "completion_tokens": 147,
+   "cost": 0.00030972,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:6",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 850,
+   "completion_tokens": 65,
+   "cost": 0.000332,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1230,
+   "completion_tokens": 44,
+   "cost": 0.0004604,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1246,
+   "completion_tokens": 435,
+   "cost": 0.00062256,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 488,
+   "completion_tokens": 87,
+   "cost": 0.00021048,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 828,
+   "completion_tokens": 95,
+   "cost": 0.00033608,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 557,
+   "completion_tokens": 254,
+   "cost": 0.00030212,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 944,
+   "completion_tokens": 114,
+   "cost": 0.00038544,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 918,
+   "completion_tokens": 115,
+   "cost": 0.00037648,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1063,
+   "completion_tokens": 114,
+   "cost": 0.00042828,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 381,
+   "completion_tokens": 376,
+   "cost": 0.00028756,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1090,
+   "completion_tokens": 78,
+   "cost": 0.0004236,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 742,
+   "completion_tokens": 321,
+   "cost": 0.00039552,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1025,
+   "completion_tokens": 223,
+   "cost": 0.0004582,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 815,
+   "completion_tokens": 95,
+   "cost": 0.0003314,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1281,
+   "completion_tokens": 525,
+   "cost": 0.00067116,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1192,
+   "completion_tokens": 114,
+   "cost": 0.00047472,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:9",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 658,
+   "completion_tokens": 95,
+   "cost": 0.00027488,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1084,
+   "completion_tokens": 472,
+   "cost": 0.00057904,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1108,
+   "completion_tokens": 19,
+   "cost": 0.00040648,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1312,
+   "completion_tokens": 220,
+   "cost": 0.00056032,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 432,
+   "completion_tokens": 751,
+   "cost": 0.00045592,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1363,
+   "completion_tokens": 264,
+   "cost": 0.00059628,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 976,
+   "completion_tokens": 60,
+   "cost": 0.00037536,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 2019,
+   "completion_tokens": 127,
+   "cost": 0.00077764,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1173,
+   "completion_tokens": 114,
+   "cost": 0.00046788,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 692,
+   "completion_tokens": 79,
+   "cost": 0.00028072,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1686,
+   "completion_tokens": 145,
+   "cost": 0.00066496,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:8",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1402,
+   "completion_tokens": 78,
+   "cost": 0.00053592,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 936,
+   "completion_tokens": 220,
+   "cost": 0.00042496,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:7",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1215,
+   "completion_tokens": 66,
+   "cost": 0.0004638,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1222,
+   "completion_tokens": 83,
+   "cost": 0.00047312,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 998,
+   "completion_tokens": 418,
+   "cost": 0.00052648,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1880,
+   "completion_tokens": 134,
+   "cost": 0.0007304,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1322,
+   "completion_tokens": 115,
+   "cost": 0.00052192,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1301,
+   "completion_tokens": 529,
+   "cost": 0.00067996,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1184,
+   "completion_tokens": 114,
+   "cost": 0.00047184,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1127,
+   "completion_tokens": 333,
+   "cost": 0.00053892,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 887,
+   "completion_tokens": 431,
+   "cost": 0.00049172,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1622,
+   "completion_tokens": 417,
+   "cost": 0.00075072,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1640,
+   "completion_tokens": 345,
+   "cost": 0.0007284,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 2338,
+   "completion_tokens": 431,
+   "cost": 0.00101408,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 2257,
+   "completion_tokens": 498,
+   "cost": 0.00101172,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 2477,
+   "completion_tokens": 641,
+   "cost": 0.00114812,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:4",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1235,
+   "completion_tokens": 350,
+   "cost": 0.0005846,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 224,
+   "completion_tokens": 13,
+   "cost": 8.584e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 289,
+   "completion_tokens": 26,
+   "cost": 0.00011444,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 181,
+   "completion_tokens": 15,
+   "cost": 7.116e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 189,
+   "completion_tokens": 19,
+   "cost": 7.564e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 316,
+   "completion_tokens": 16,
+   "cost": 0.00012016,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 220,
+   "completion_tokens": 17,
+   "cost": 8.6e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 155,
+   "completion_tokens": 209,
+   "cost": 0.0001394,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 199,
+   "completion_tokens": 82,
+   "cost": 0.00010444,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 188,
+   "completion_tokens": 131,
+   "cost": 0.00012008,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 149,
+   "completion_tokens": 80,
+   "cost": 8.564e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 430,
+   "completion_tokens": 107,
+   "cost": 0.0001976,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 328,
+   "completion_tokens": 21,
+   "cost": 0.00012648,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 294,
+   "completion_tokens": 288,
+   "cost": 0.00022104,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 542,
+   "completion_tokens": 90,
+   "cost": 0.00023112,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 178,
+   "completion_tokens": 102,
+   "cost": 0.00010488,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 304,
+   "completion_tokens": 77,
+   "cost": 0.00014024,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 349,
+   "completion_tokens": 311,
+   "cost": 0.00025004,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 112,
+   "completion_tokens": 235,
+   "cost": 0.00013432,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 220,
+   "completion_tokens": 620,
+   "cost": 0.0003272,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 515,
+   "completion_tokens": 84,
+   "cost": 0.000219,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 597,
+   "completion_tokens": 33,
+   "cost": 0.00022812,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 291,
+   "completion_tokens": 238,
+   "cost": 0.00019996,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 113,
+   "completion_tokens": 263,
+   "cost": 0.00014588,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 565,
+   "completion_tokens": 341,
+   "cost": 0.0003398,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 407,
+   "completion_tokens": 140,
+   "cost": 0.00020252,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 585,
+   "completion_tokens": 113,
+   "cost": 0.0002558,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 116,
+   "completion_tokens": 346,
+   "cost": 0.00018016,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 296,
+   "completion_tokens": 336,
+   "cost": 0.00024096,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 560,
+   "completion_tokens": 24,
+   "cost": 0.0002112,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 474,
+   "completion_tokens": 25,
+   "cost": 0.00018064,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 285,
+   "completion_tokens": 251,
+   "cost": 0.000203,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 330,
+   "completion_tokens": 80,
+   "cost": 0.0001508,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 413,
+   "completion_tokens": 93,
+   "cost": 0.00018588,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 509,
+   "completion_tokens": 81,
+   "cost": 0.00021564,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 655,
+   "completion_tokens": 75,
+   "cost": 0.0002658,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 552,
+   "completion_tokens": 85,
+   "cost": 0.00023272,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 928,
+   "completion_tokens": 118,
+   "cost": 0.00038128,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 522,
+   "completion_tokens": 366,
+   "cost": 0.00033432,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 269,
+   "completion_tokens": 133,
+   "cost": 0.00015004,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 797,
+   "completion_tokens": 54,
+   "cost": 0.00030852,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1140,
+   "completion_tokens": 54,
+   "cost": 0.000432,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 171,
+   "completion_tokens": 61,
+   "cost": 8.596e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1129,
+   "completion_tokens": 25,
+   "cost": 0.00041644,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 259,
+   "completion_tokens": 85,
+   "cost": 0.00012724,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 417,
+   "completion_tokens": 110,
+   "cost": 0.00019412,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 726,
+   "completion_tokens": 21,
+   "cost": 0.00026976,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 179,
+   "completion_tokens": 68,
+   "cost": 9.164e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 245,
+   "completion_tokens": 87,
+   "cost": 0.000123,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 654,
+   "completion_tokens": 175,
+   "cost": 0.00030544,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 915,
+   "completion_tokens": 84,
+   "cost": 0.000363,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 228,
+   "completion_tokens": 351,
+   "cost": 0.00022248,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 955,
+   "completion_tokens": 124,
+   "cost": 0.0003934,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 305,
+   "completion_tokens": 62,
+   "cost": 0.0001346,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 414,
+   "completion_tokens": 76,
+   "cost": 0.00017944,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 468,
+   "completion_tokens": 74,
+   "cost": 0.00019808,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 793,
+   "completion_tokens": 24,
+   "cost": 0.00029508,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1083,
+   "completion_tokens": 245,
+   "cost": 0.00048788,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:13",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1105,
+   "completion_tokens": 81,
+   "cost": 0.0004302,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 705,
+   "completion_tokens": 16,
+   "cost": 0.0002602,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 548,
+   "completion_tokens": 75,
+   "cost": 0.00022728,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 546,
+   "completion_tokens": 74,
+   "cost": 0.00022616,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 911,
+   "completion_tokens": 158,
+   "cost": 0.00039116,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 524,
+   "completion_tokens": 142,
+   "cost": 0.00024544,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1334,
+   "completion_tokens": 68,
+   "cost": 0.00050744,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 621,
+   "completion_tokens": 56,
+   "cost": 0.00024596,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 750,
+   "completion_tokens": 461,
+   "cost": 0.0004544,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1423,
+   "completion_tokens": 105,
+   "cost": 0.00055428,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:15",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 769,
+   "completion_tokens": 65,
+   "cost": 0.00030284,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1111,
+   "completion_tokens": 48,
+   "cost": 0.00041916,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 711,
+   "completion_tokens": 107,
+   "cost": 0.00029876,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1182,
+   "completion_tokens": 15,
+   "cost": 0.00043152,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 676,
+   "completion_tokens": 383,
+   "cost": 0.00039656,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 675,
+   "completion_tokens": 293,
+   "cost": 0.0003602,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 973,
+   "completion_tokens": 108,
+   "cost": 0.00039348,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1418,
+   "completion_tokens": 58,
+   "cost": 0.00053368,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 294,
+   "completion_tokens": 295,
+   "cost": 0.00022384,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 678,
+   "completion_tokens": 18,
+   "cost": 0.00025128,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 611,
+   "completion_tokens": 463,
+   "cost": 0.00040516,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:16",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 589,
+   "completion_tokens": 421,
+   "cost": 0.00038044,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:17",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 705,
+   "completion_tokens": 108,
+   "cost": 0.000297,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 959,
+   "completion_tokens": 124,
+   "cost": 0.00039484,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 905,
+   "completion_tokens": 81,
+   "cost": 0.0003582,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1065,
+   "completion_tokens": 126,
+   "cost": 0.0004338,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1101,
+   "completion_tokens": 25,
+   "cost": 0.00040636,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 922,
+   "completion_tokens": 501,
+   "cost": 0.00053232,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 901,
+   "completion_tokens": 367,
+   "cost": 0.00047116,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 229,
+   "cost": 0.00045628,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:19",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1316,
+   "completion_tokens": 124,
+   "cost": 0.00052336,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 879,
+   "completion_tokens": 126,
+   "cost": 0.00036684,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 681,
+   "completion_tokens": 356,
+   "cost": 0.00038756,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1353,
+   "completion_tokens": 17,
+   "cost": 0.00049388,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:10",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 904,
+   "completion_tokens": 238,
+   "cost": 0.00042064,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:18",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1171,
+   "completion_tokens": 126,
+   "cost": 0.00047196,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 814,
+   "completion_tokens": 66,
+   "cost": 0.00031944,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1984,
+   "completion_tokens": 493,
+   "cost": 0.00091144,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:12",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 659,
+   "completion_tokens": 54,
+   "cost": 0.00025884,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 942,
+   "completion_tokens": 350,
+   "cost": 0.00047912,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 880,
+   "completion_tokens": 323,
+   "cost": 0.000446,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:11",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1788,
+   "completion_tokens": 174,
+   "cost": 0.00071328,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:14",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1792,
+   "completion_tokens": 132,
+   "cost": 0.00069792,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 185,
+   "completion_tokens": 10,
+   "cost": 7.06e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 233,
+   "completion_tokens": 12,
+   "cost": 8.868e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 192,
+   "completion_tokens": 31,
+   "cost": 8.152e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 153,
+   "completion_tokens": 109,
+   "cost": 9.868e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 282,
+   "completion_tokens": 90,
+   "cost": 0.00013752,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 116,
+   "completion_tokens": 180,
+   "cost": 0.00011376,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 124,
+   "completion_tokens": 78,
+   "cost": 7.584e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 123,
+   "completion_tokens": 323,
+   "cost": 0.00017348,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 325,
+   "completion_tokens": 42,
+   "cost": 0.0001338,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 522,
+   "completion_tokens": 69,
+   "cost": 0.00021552,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 231,
+   "completion_tokens": 118,
+   "cost": 0.00013036,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 207,
+   "completion_tokens": 222,
+   "cost": 0.00016332,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 483,
+   "completion_tokens": 95,
+   "cost": 0.00021188,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 120,
+   "completion_tokens": 508,
+   "cost": 0.0002464,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 265,
+   "completion_tokens": 314,
+   "cost": 0.000221,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 576,
+   "completion_tokens": 88,
+   "cost": 0.00024256,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 433,
+   "completion_tokens": 125,
+   "cost": 0.00020588,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 222,
+   "completion_tokens": 209,
+   "cost": 0.00016352,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 665,
+   "completion_tokens": 264,
+   "cost": 0.000345,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 481,
+   "completion_tokens": 65,
+   "cost": 0.00019916,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 282,
+   "completion_tokens": 96,
+   "cost": 0.00013992,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 461,
+   "completion_tokens": 43,
+   "cost": 0.00018316,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 721,
+   "completion_tokens": 91,
+   "cost": 0.00029596,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 339,
+   "completion_tokens": 14,
+   "cost": 0.00012764,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 738,
+   "completion_tokens": 26,
+   "cost": 0.00027608,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 432,
+   "completion_tokens": 352,
+   "cost": 0.00029632,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 447,
+   "completion_tokens": 57,
+   "cost": 0.00018372,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 395,
+   "completion_tokens": 74,
+   "cost": 0.0001718,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:24",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 573,
+   "completion_tokens": 66,
+   "cost": 0.00023268,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 216,
+   "completion_tokens": 487,
+   "cost": 0.00027256,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 323,
+   "completion_tokens": 101,
+   "cost": 0.00015668,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 555,
+   "completion_tokens": 295,
+   "cost": 0.0003178,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 733,
+   "completion_tokens": 82,
+   "cost": 0.00029668,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 678,
+   "completion_tokens": 82,
+   "cost": 0.00027688,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:21",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 785,
+   "completion_tokens": 24,
+   "cost": 0.0002922,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 524,
+   "completion_tokens": 245,
+   "cost": 0.00028664,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1257,
+   "completion_tokens": 446,
+   "cost": 0.00063092,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 626,
+   "completion_tokens": 466,
+   "cost": 0.00041176,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 481,
+   "completion_tokens": 75,
+   "cost": 0.00020316,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1181,
+   "completion_tokens": 80,
+   "cost": 0.00045716,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 604,
+   "completion_tokens": 372,
+   "cost": 0.00036624,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1032,
+   "completion_tokens": 266,
+   "cost": 0.00047792,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:20",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 808,
+   "completion_tokens": 80,
+   "cost": 0.00032288,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 496,
+   "completion_tokens": 252,
+   "cost": 0.00027936,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1332,
+   "completion_tokens": 7,
+   "cost": 0.00048232,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1231,
+   "completion_tokens": 446,
+   "cost": 0.00062156,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 588,
+   "completion_tokens": 272,
+   "cost": 0.00032048,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:23",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 246,
+   "cost": 0.00046668,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1346,
+   "completion_tokens": 666,
+   "cost": 0.00075096,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:22",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1804,
+   "completion_tokens": 304,
+   "cost": 0.00077104,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 195,
+   "completion_tokens": 24,
+   "cost": 7.98e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 243,
+   "completion_tokens": 43,
+   "cost": 0.00010468,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 228,
+   "completion_tokens": 249,
+   "cost": 0.00018168,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 126,
+   "completion_tokens": 355,
+   "cost": 0.00018736,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 189,
+   "completion_tokens": 89,
+   "cost": 0.00010364,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 174,
+   "completion_tokens": 428,
+   "cost": 0.00023384,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 127,
+   "completion_tokens": 280,
+   "cost": 0.00015772,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 652,
+   "completion_tokens": 66,
+   "cost": 0.00026112,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 648,
+   "completion_tokens": 64,
+   "cost": 0.00025888,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 110,
+   "completion_tokens": 386,
+   "cost": 0.000194,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 444,
+   "completion_tokens": 125,
+   "cost": 0.00020984,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 349,
+   "completion_tokens": 23,
+   "cost": 0.00013484,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 456,
+   "completion_tokens": 247,
+   "cost": 0.00026296,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 574,
+   "completion_tokens": 97,
+   "cost": 0.00024544,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 690,
+   "completion_tokens": 312,
+   "cost": 0.0003732,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 310,
+   "completion_tokens": 93,
+   "cost": 0.0001488,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 525,
+   "completion_tokens": 55,
+   "cost": 0.000211,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 443,
+   "completion_tokens": 147,
+   "cost": 0.00021828,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 612,
+   "completion_tokens": 57,
+   "cost": 0.00024312,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 265,
+   "completion_tokens": 26,
+   "cost": 0.0001058,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 334,
+   "completion_tokens": 141,
+   "cost": 0.00017664,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 646,
+   "completion_tokens": 61,
+   "cost": 0.00025696,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 525,
+   "completion_tokens": 57,
+   "cost": 0.0002118,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 533,
+   "completion_tokens": 87,
+   "cost": 0.00022668,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 330,
+   "completion_tokens": 228,
+   "cost": 0.00021,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 387,
+   "completion_tokens": 354,
+   "cost": 0.00028092,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 707,
+   "completion_tokens": 433,
+   "cost": 0.00042772,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1138,
+   "completion_tokens": 22,
+   "cost": 0.00041848,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 841,
+   "completion_tokens": 114,
+   "cost": 0.00034836,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 372,
+   "completion_tokens": 65,
+   "cost": 0.00015992,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1086,
+   "completion_tokens": 95,
+   "cost": 0.00042896,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 716,
+   "completion_tokens": 69,
+   "cost": 0.00028536,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 457,
+   "completion_tokens": 328,
+   "cost": 0.00029572,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:29",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 813,
+   "completion_tokens": 94,
+   "cost": 0.00033028,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1167,
+   "completion_tokens": 24,
+   "cost": 0.00042972,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 167,
+   "completion_tokens": 266,
+   "cost": 0.00016652,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:25",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 556,
+   "completion_tokens": 75,
+   "cost": 0.00023016,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 283,
+   "completion_tokens": 442,
+   "cost": 0.00027868,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1086,
+   "completion_tokens": 455,
+   "cost": 0.00057296,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 227,
+   "completion_tokens": 126,
+   "cost": 0.00013212,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 453,
+   "completion_tokens": 265,
+   "cost": 0.00026908,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 901,
+   "completion_tokens": 19,
+   "cost": 0.00033196,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1214,
+   "completion_tokens": 29,
+   "cost": 0.00044864,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1183,
+   "completion_tokens": 59,
+   "cost": 0.00044948,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:27",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1185,
+   "completion_tokens": 78,
+   "cost": 0.0004578,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 749,
+   "completion_tokens": 93,
+   "cost": 0.00030684,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:26",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1314,
+   "completion_tokens": 69,
+   "cost": 0.00050064,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1227,
+   "completion_tokens": 458,
+   "cost": 0.00062492,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1807,
+   "completion_tokens": 224,
+   "cost": 0.00074012,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:28",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1363,
+   "completion_tokens": 224,
+   "cost": 0.00058028,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 206,
+   "completion_tokens": 24,
+   "cost": 8.376e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 471,
+   "completion_tokens": 34,
+   "cost": 0.00018316,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 195,
+   "completion_tokens": 41,
+   "cost": 8.66e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 121,
+   "completion_tokens": 57,
+   "cost": 6.636e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 259,
+   "completion_tokens": 23,
+   "cost": 0.00010244,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 484,
+   "completion_tokens": 125,
+   "cost": 0.00022424,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 225,
+   "completion_tokens": 221,
+   "cost": 0.0001694,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 564,
+   "completion_tokens": 134,
+   "cost": 0.00025664,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 126,
+   "completion_tokens": 351,
+   "cost": 0.00018576,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 190,
+   "completion_tokens": 275,
+   "cost": 0.0001784,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 425,
+   "completion_tokens": 220,
+   "cost": 0.000241,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 137,
+   "completion_tokens": 407,
+   "cost": 0.00021212,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 526,
+   "completion_tokens": 79,
+   "cost": 0.00022096,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 126,
+   "completion_tokens": 122,
+   "cost": 9.416e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 571,
+   "completion_tokens": 62,
+   "cost": 0.00023036,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 137,
+   "completion_tokens": 112,
+   "cost": 9.412e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 134,
+   "completion_tokens": 100,
+   "cost": 8.824e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 112,
+   "completion_tokens": 70,
+   "cost": 6.832e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 717,
+   "completion_tokens": 91,
+   "cost": 0.00029452,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 580,
+   "completion_tokens": 95,
+   "cost": 0.0002468,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 365,
+   "completion_tokens": 75,
+   "cost": 0.0001614,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 405,
+   "completion_tokens": 302,
+   "cost": 0.0002666,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 904,
+   "completion_tokens": 23,
+   "cost": 0.00033464,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 305,
+   "completion_tokens": 95,
+   "cost": 0.0001478,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 703,
+   "completion_tokens": 542,
+   "cost": 0.00046988,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 393,
+   "completion_tokens": 57,
+   "cost": 0.00016428,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 392,
+   "completion_tokens": 80,
+   "cost": 0.00017312,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1120,
+   "completion_tokens": 106,
+   "cost": 0.0004456,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:32",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 247,
+   "completion_tokens": 73,
+   "cost": 0.00011812,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 724,
+   "completion_tokens": 272,
+   "cost": 0.00036944,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 495,
+   "completion_tokens": 276,
+   "cost": 0.0002886,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 448,
+   "completion_tokens": 334,
+   "cost": 0.00029488,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1051,
+   "completion_tokens": 57,
+   "cost": 0.00040116,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 735,
+   "completion_tokens": 399,
+   "cost": 0.0004242,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 495,
+   "completion_tokens": 223,
+   "cost": 0.0002674,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1102,
+   "completion_tokens": 137,
+   "cost": 0.00045152,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1471,
+   "completion_tokens": 59,
+   "cost": 0.00055316,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 856,
+   "completion_tokens": 100,
+   "cost": 0.00034816,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 600,
+   "completion_tokens": 359,
+   "cost": 0.0003596,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1030,
+   "completion_tokens": 38,
+   "cost": 0.000386,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 766,
+   "completion_tokens": 85,
+   "cost": 0.00030976,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 690,
+   "completion_tokens": 124,
+   "cost": 0.000298,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:30",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 509,
+   "completion_tokens": 118,
+   "cost": 0.00023044,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1109,
+   "completion_tokens": 286,
+   "cost": 0.00051364,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 893,
+   "completion_tokens": 391,
+   "cost": 0.00047788,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:31",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 985,
+   "completion_tokens": 101,
+   "cost": 0.000395,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:34",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1916,
+   "completion_tokens": 286,
+   "cost": 0.00080416,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1114,
+   "completion_tokens": 274,
+   "cost": 0.00051064,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1301,
+   "completion_tokens": 269,
+   "cost": 0.00057596,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:33",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1537,
+   "completion_tokens": 272,
+   "cost": 0.00066212,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 350,
+   "completion_tokens": 31,
+   "cost": 0.0001384,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 221,
+   "completion_tokens": 29,
+   "cost": 9.116e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 278,
+   "completion_tokens": 33,
+   "cost": 0.00011328,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 259,
+   "completion_tokens": 39,
+   "cost": 0.00010884,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 260,
+   "completion_tokens": 121,
+   "cost": 0.000142,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 143,
+   "completion_tokens": 261,
+   "cost": 0.00015588,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 277,
+   "completion_tokens": 101,
+   "cost": 0.00014012,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 152,
+   "completion_tokens": 298,
+   "cost": 0.00017392,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 383,
+   "completion_tokens": 92,
+   "cost": 0.00017468,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 209,
+   "completion_tokens": 367,
+   "cost": 0.00022204,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 229,
+   "completion_tokens": 109,
+   "cost": 0.00012604,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 524,
+   "completion_tokens": 78,
+   "cost": 0.00021984,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 281,
+   "completion_tokens": 514,
+   "cost": 0.00030676,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 433,
+   "completion_tokens": 280,
+   "cost": 0.00026788,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 654,
+   "completion_tokens": 135,
+   "cost": 0.00028944,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 532,
+   "completion_tokens": 86,
+   "cost": 0.00022592,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 440,
+   "completion_tokens": 138,
+   "cost": 0.0002136,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 580,
+   "completion_tokens": 76,
+   "cost": 0.0002392,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 469,
+   "completion_tokens": 198,
+   "cost": 0.00024804,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 438,
+   "completion_tokens": 43,
+   "cost": 0.00017488,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 814,
+   "completion_tokens": 197,
+   "cost": 0.00037184,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 351,
+   "completion_tokens": 349,
+   "cost": 0.00026596,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 730,
+   "completion_tokens": 183,
+   "cost": 0.000336,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 633,
+   "completion_tokens": 239,
+   "cost": 0.00032348,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1186,
+   "completion_tokens": 292,
+   "cost": 0.00054376,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1454,
+   "completion_tokens": 45,
+   "cost": 0.00054144,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 446,
+   "completion_tokens": 471,
+   "cost": 0.00034896,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 693,
+   "completion_tokens": 138,
+   "cost": 0.00030468,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 644,
+   "completion_tokens": 292,
+   "cost": 0.00034864,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 743,
+   "completion_tokens": 43,
+   "cost": 0.00028468,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 808,
+   "completion_tokens": 182,
+   "cost": 0.00036368,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 493,
+   "completion_tokens": 365,
+   "cost": 0.00032348,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1247,
+   "completion_tokens": 56,
+   "cost": 0.00047132,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 726,
+   "completion_tokens": 248,
+   "cost": 0.00036056,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1195,
+   "completion_tokens": 292,
+   "cost": 0.000547,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 293,
+   "completion_tokens": 144,
+   "cost": 0.00016308,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 900,
+   "completion_tokens": 82,
+   "cost": 0.0003568,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 561,
+   "completion_tokens": 463,
+   "cost": 0.00038716,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1492,
+   "completion_tokens": 34,
+   "cost": 0.00055072,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:37",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1214,
+   "completion_tokens": 78,
+   "cost": 0.00046824,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:39",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 777,
+   "completion_tokens": 136,
+   "cost": 0.00033412,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:35",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1206,
+   "completion_tokens": 242,
+   "cost": 0.00053096,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 414,
+   "completion_tokens": 104,
+   "cost": 0.00019064,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1080,
+   "completion_tokens": 103,
+   "cost": 0.00043,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 572,
+   "cost": 0.00059312,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 832,
+   "completion_tokens": 178,
+   "cost": 0.00037072,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1825,
+   "completion_tokens": 24,
+   "cost": 0.0006666,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:36",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 987,
+   "completion_tokens": 88,
+   "cost": 0.00039052,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 939,
+   "completion_tokens": 208,
+   "cost": 0.00042124,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:38",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1454,
+   "completion_tokens": 292,
+   "cost": 0.00064024,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 208,
+   "completion_tokens": 14,
+   "cost": 8.048e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 210,
+   "completion_tokens": 15,
+   "cost": 8.16e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 179,
+   "completion_tokens": 26,
+   "cost": 7.484e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 364,
+   "completion_tokens": 29,
+   "cost": 0.00014264,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 363,
+   "completion_tokens": 144,
+   "cost": 0.00018828,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 175,
+   "completion_tokens": 153,
+   "cost": 0.0001242,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 325,
+   "completion_tokens": 225,
+   "cost": 0.000207,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 291,
+   "cost": 0.00016716,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 372,
+   "completion_tokens": 237,
+   "cost": 0.00022872,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 291,
+   "completion_tokens": 352,
+   "cost": 0.00024556,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 139,
+   "completion_tokens": 405,
+   "cost": 0.00021204,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 580,
+   "completion_tokens": 462,
+   "cost": 0.0003936,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 833,
+   "completion_tokens": 116,
+   "cost": 0.00034628,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 509,
+   "completion_tokens": 291,
+   "cost": 0.00029964,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 539,
+   "completion_tokens": 17,
+   "cost": 0.00020084,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 561,
+   "completion_tokens": 433,
+   "cost": 0.00037516,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 533,
+   "completion_tokens": 295,
+   "cost": 0.00030988,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1210,
+   "completion_tokens": 122,
+   "cost": 0.0004844,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 774,
+   "completion_tokens": 106,
+   "cost": 0.00032104,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 787,
+   "completion_tokens": 39,
+   "cost": 0.00029892,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 508,
+   "completion_tokens": 241,
+   "cost": 0.00027928,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 620,
+   "completion_tokens": 338,
+   "cost": 0.0003584,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 449,
+   "completion_tokens": 26,
+   "cost": 0.00017204,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 972,
+   "completion_tokens": 121,
+   "cost": 0.00039832,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 688,
+   "completion_tokens": 115,
+   "cost": 0.00029368,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 611,
+   "completion_tokens": 282,
+   "cost": 0.00033276,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 530,
+   "completion_tokens": 38,
+   "cost": 0.000206,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 963,
+   "completion_tokens": 260,
+   "cost": 0.00045068,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1409,
+   "completion_tokens": 114,
+   "cost": 0.00055284,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1198,
+   "completion_tokens": 242,
+   "cost": 0.00052808,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 167,
+   "completion_tokens": 370,
+   "cost": 0.00020812,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 987,
+   "completion_tokens": 432,
+   "cost": 0.00052812,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 298,
+   "cost": 0.00016996,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1330,
+   "completion_tokens": 42,
+   "cost": 0.0004956,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:42",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 725,
+   "completion_tokens": 482,
+   "cost": 0.0004538,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 766,
+   "completion_tokens": 287,
+   "cost": 0.00039056,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 499,
+   "completion_tokens": 188,
+   "cost": 0.00025484,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 427,
+   "completion_tokens": 376,
+   "cost": 0.00030412,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 437,
+   "completion_tokens": 185,
+   "cost": 0.00023132,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 613,
+   "completion_tokens": 418,
+   "cost": 0.00038788,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 551,
+   "completion_tokens": 129,
+   "cost": 0.00024996,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:43",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1276,
+   "completion_tokens": 182,
+   "cost": 0.00053216,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1360,
+   "completion_tokens": 310,
+   "cost": 0.0006136,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1629,
+   "completion_tokens": 20,
+   "cost": 0.00059444,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 889,
+   "completion_tokens": 263,
+   "cost": 0.00042524,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1290,
+   "completion_tokens": 429,
+   "cost": 0.000636,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:44",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1433,
+   "completion_tokens": 101,
+   "cost": 0.00055628,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:41",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1347,
+   "completion_tokens": 290,
+   "cost": 0.00060092,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1536,
+   "completion_tokens": 406,
+   "cost": 0.00071536,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:40",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1607,
+   "completion_tokens": 94,
+   "cost": 0.00061612,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 251,
+   "completion_tokens": 20,
+   "cost": 9.836e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 157,
+   "completion_tokens": 109,
+   "cost": 0.00010012,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 181,
+   "completion_tokens": 70,
+   "cost": 9.316e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 355,
+   "completion_tokens": 19,
+   "cost": 0.0001354,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 321,
+   "completion_tokens": 120,
+   "cost": 0.00016356,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 241,
+   "completion_tokens": 269,
+   "cost": 0.00019436,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 148,
+   "completion_tokens": 302,
+   "cost": 0.00017408,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 112,
+   "completion_tokens": 311,
+   "cost": 0.00016472,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 421,
+   "completion_tokens": 297,
+   "cost": 0.00027036,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 250,
+   "completion_tokens": 224,
+   "cost": 0.0001796,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 487,
+   "completion_tokens": 229,
+   "cost": 0.00026692,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 496,
+   "completion_tokens": 70,
+   "cost": 0.00020656,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 538,
+   "completion_tokens": 229,
+   "cost": 0.00028528,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 316,
+   "completion_tokens": 17,
+   "cost": 0.00012056,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 805,
+   "completion_tokens": 51,
+   "cost": 0.0003102,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 596,
+   "completion_tokens": 66,
+   "cost": 0.00024096,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 662,
+   "completion_tokens": 119,
+   "cost": 0.00028592,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 388,
+   "completion_tokens": 228,
+   "cost": 0.00023088,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 435,
+   "completion_tokens": 336,
+   "cost": 0.000291,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 501,
+   "completion_tokens": 19,
+   "cost": 0.00018796,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 440,
+   "completion_tokens": 108,
+   "cost": 0.0002016,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1103,
+   "completion_tokens": 227,
+   "cost": 0.00048788,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 463,
+   "completion_tokens": 209,
+   "cost": 0.00025028,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 335,
+   "completion_tokens": 352,
+   "cost": 0.0002614,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 442,
+   "completion_tokens": 298,
+   "cost": 0.00027832,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 597,
+   "completion_tokens": 86,
+   "cost": 0.00024932,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1022,
+   "completion_tokens": 73,
+   "cost": 0.00039712,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 995,
+   "completion_tokens": 366,
+   "cost": 0.0005046,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:49",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 471,
+   "completion_tokens": 95,
+   "cost": 0.00020756,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 675,
+   "completion_tokens": 66,
+   "cost": 0.0002694,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 165,
+   "completion_tokens": 948,
+   "cost": 0.0004386,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:47",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 600,
+   "completion_tokens": 64,
+   "cost": 0.0002416,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 112,
+   "completion_tokens": 341,
+   "cost": 0.00017672,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 793,
+   "completion_tokens": 276,
+   "cost": 0.00039588,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1444,
+   "completion_tokens": 58,
+   "cost": 0.00054304,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 739,
+   "completion_tokens": 230,
+   "cost": 0.00035804,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1622,
+   "completion_tokens": 40,
+   "cost": 0.00059992,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1564,
+   "completion_tokens": 270,
+   "cost": 0.00067104,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 450,
+   "completion_tokens": 228,
+   "cost": 0.0002532,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1142,
+   "completion_tokens": 796,
+   "cost": 0.00072952,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:48",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1300,
+   "completion_tokens": 270,
+   "cost": 0.000576,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:45",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 985,
+   "completion_tokens": 229,
+   "cost": 0.0004462,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1150,
+   "completion_tokens": 451,
+   "cost": 0.0005944,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1970,
+   "completion_tokens": 796,
+   "cost": 0.0010276,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1523,
+   "completion_tokens": 36,
+   "cost": 0.00056268,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1194,
+   "completion_tokens": 804,
+   "cost": 0.00075144,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1960,
+   "completion_tokens": 796,
+   "cost": 0.001024,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 2339,
+   "completion_tokens": 383,
+   "cost": 0.00099524,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 3706,
+   "completion_tokens": 36,
+   "cost": 0.00134856,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:46",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 3767,
+   "completion_tokens": 453,
+   "cost": 0.00153732,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 210,
+   "completion_tokens": 28,
+   "cost": 8.68e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 247,
+   "completion_tokens": 30,
+   "cost": 0.00010092,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 187,
+   "completion_tokens": 29,
+   "cost": 7.892e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 178,
+   "completion_tokens": 74,
+   "cost": 9.368e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 217,
+   "completion_tokens": 84,
+   "cost": 0.00011172,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 182,
+   "completion_tokens": 17,
+   "cost": 7.232e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 123,
+   "completion_tokens": 44,
+   "cost": 6.188e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 256,
+   "completion_tokens": 20,
+   "cost": 0.00010016,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 187,
+   "completion_tokens": 251,
+   "cost": 0.00016772,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 113,
+   "completion_tokens": 211,
+   "cost": 0.00012508,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 306,
+   "completion_tokens": 114,
+   "cost": 0.00015576,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 161,
+   "completion_tokens": 22,
+   "cost": 6.676e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 361,
+   "completion_tokens": 78,
+   "cost": 0.00016116,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 395,
+   "completion_tokens": 108,
+   "cost": 0.0001854,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 425,
+   "completion_tokens": 111,
+   "cost": 0.0001974,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 407,
+   "completion_tokens": 92,
+   "cost": 0.00018332,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 325,
+   "completion_tokens": 17,
+   "cost": 0.0001238,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 178,
+   "completion_tokens": 371,
+   "cost": 0.00021248,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 222,
+   "completion_tokens": 294,
+   "cost": 0.00019752,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 270,
+   "completion_tokens": 78,
+   "cost": 0.0001284,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 552,
+   "completion_tokens": 116,
+   "cost": 0.00024512,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 186,
+   "completion_tokens": 150,
+   "cost": 0.00012696,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 451,
+   "completion_tokens": 110,
+   "cost": 0.00020636,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 547,
+   "completion_tokens": 229,
+   "cost": 0.00028852,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 741,
+   "completion_tokens": 133,
+   "cost": 0.00031996,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 737,
+   "completion_tokens": 95,
+   "cost": 0.00030332,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 345,
+   "completion_tokens": 336,
+   "cost": 0.0002586,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 621,
+   "completion_tokens": 24,
+   "cost": 0.00023316,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 707,
+   "completion_tokens": 62,
+   "cost": 0.00027932,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 789,
+   "completion_tokens": 126,
+   "cost": 0.00033444,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 507,
+   "completion_tokens": 452,
+   "cost": 0.00036332,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 647,
+   "completion_tokens": 49,
+   "cost": 0.00025252,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 507,
+   "completion_tokens": 96,
+   "cost": 0.00022092,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 631,
+   "completion_tokens": 112,
+   "cost": 0.00027196,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 550,
+   "completion_tokens": 81,
+   "cost": 0.0002304,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:50",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 937,
+   "completion_tokens": 60,
+   "cost": 0.00036132,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 415,
+   "completion_tokens": 264,
+   "cost": 0.000255,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:51",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 616,
+   "completion_tokens": 76,
+   "cost": 0.00025216,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 758,
+   "completion_tokens": 468,
+   "cost": 0.00046008,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 387,
+   "completion_tokens": 386,
+   "cost": 0.00029372,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 976,
+   "completion_tokens": 147,
+   "cost": 0.00041016,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 425,
+   "completion_tokens": 334,
+   "cost": 0.0002866,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 596,
+   "completion_tokens": 145,
+   "cost": 0.00027256,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 661,
+   "completion_tokens": 101,
+   "cost": 0.00027836,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 920,
+   "completion_tokens": 22,
+   "cost": 0.00034,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 816,
+   "completion_tokens": 459,
+   "cost": 0.00047736,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 202,
+   "completion_tokens": 120,
+   "cost": 0.00012072,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:54",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1113,
+   "completion_tokens": 145,
+   "cost": 0.00045868,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:53",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1282,
+   "completion_tokens": 107,
+   "cost": 0.00050432,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:52",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1596,
+   "completion_tokens": 388,
+   "cost": 0.00072976,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 240,
+   "completion_tokens": 14,
+   "cost": 9.2e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 207,
+   "completion_tokens": 32,
+   "cost": 8.732e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 198,
+   "completion_tokens": 15,
+   "cost": 7.728e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 181,
+   "completion_tokens": 33,
+   "cost": 7.836e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 171,
+   "completion_tokens": 311,
+   "cost": 0.00018596,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 138,
+   "completion_tokens": 325,
+   "cost": 0.00017968,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 209,
+   "completion_tokens": 86,
+   "cost": 0.00010964,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 300,
+   "completion_tokens": 104,
+   "cost": 0.0001496,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 184,
+   "completion_tokens": 77,
+   "cost": 9.704e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 139,
+   "completion_tokens": 246,
+   "cost": 0.00014844,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 217,
+   "completion_tokens": 68,
+   "cost": 0.00010532,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 676,
+   "completion_tokens": 232,
+   "cost": 0.00033616,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 300,
+   "completion_tokens": 296,
+   "cost": 0.0002264,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 129,
+   "completion_tokens": 313,
+   "cost": 0.00017164,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 511,
+   "completion_tokens": 307,
+   "cost": 0.00030676,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 510,
+   "completion_tokens": 78,
+   "cost": 0.0002148,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 405,
+   "completion_tokens": 371,
+   "cost": 0.0002942,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 850,
+   "completion_tokens": 54,
+   "cost": 0.0003276,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 561,
+   "completion_tokens": 80,
+   "cost": 0.00023396,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 617,
+   "completion_tokens": 80,
+   "cost": 0.00025412,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 286,
+   "completion_tokens": 79,
+   "cost": 0.00013456,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 489,
+   "completion_tokens": 15,
+   "cost": 0.00018204,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 586,
+   "completion_tokens": 69,
+   "cost": 0.00023856,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 566,
+   "completion_tokens": 313,
+   "cost": 0.00032896,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 516,
+   "completion_tokens": 196,
+   "cost": 0.00026416,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 290,
+   "completion_tokens": 89,
+   "cost": 0.00014,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 531,
+   "completion_tokens": 303,
+   "cost": 0.00031236,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 500,
+   "completion_tokens": 179,
+   "cost": 0.0002516,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 866,
+   "completion_tokens": 253,
+   "cost": 0.00041296,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 176,
+   "completion_tokens": 293,
+   "cost": 0.00018056,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 482,
+   "completion_tokens": 63,
+   "cost": 0.00019872,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 851,
+   "completion_tokens": 196,
+   "cost": 0.00038476,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1194,
+   "completion_tokens": 44,
+   "cost": 0.00044744,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 475,
+   "completion_tokens": 373,
+   "cost": 0.0003202,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 808,
+   "completion_tokens": 173,
+   "cost": 0.00036008,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 796,
+   "completion_tokens": 23,
+   "cost": 0.00029576,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 582,
+   "completion_tokens": 78,
+   "cost": 0.00024072,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 700,
+   "completion_tokens": 117,
+   "cost": 0.0002988,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:59",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 950,
+   "completion_tokens": 114,
+   "cost": 0.0003876,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:56",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1052,
+   "completion_tokens": 120,
+   "cost": 0.00042672,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 421,
+   "completion_tokens": 204,
+   "cost": 0.00023316,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 762,
+   "completion_tokens": 570,
+   "cost": 0.00050232,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1569,
+   "completion_tokens": 35,
+   "cost": 0.00057884,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1409,
+   "completion_tokens": 61,
+   "cost": 0.00053164,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:57",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 900,
+   "completion_tokens": 221,
+   "cost": 0.0004124,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1191,
+   "completion_tokens": 113,
+   "cost": 0.00047396,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1149,
+   "completion_tokens": 253,
+   "cost": 0.00051484,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:55",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 678,
+   "completion_tokens": 181,
+   "cost": 0.00031648,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 414,
+   "completion_tokens": 382,
+   "cost": 0.00030184,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:58",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1435,
+   "completion_tokens": 207,
+   "cost": 0.0005994,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 250,
+   "completion_tokens": 17,
+   "cost": 9.68e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 198,
+   "completion_tokens": 24,
+   "cost": 8.088e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 288,
+   "completion_tokens": 22,
+   "cost": 0.00011248,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 134,
+   "completion_tokens": 62,
+   "cost": 7.304e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 219,
+   "completion_tokens": 71,
+   "cost": 0.00010724,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 237,
+   "completion_tokens": 125,
+   "cost": 0.00013532,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 142,
+   "completion_tokens": 80,
+   "cost": 8.312e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 311,
+   "completion_tokens": 23,
+   "cost": 0.00012116,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 144,
+   "completion_tokens": 307,
+   "cost": 0.00017464,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 367,
+   "completion_tokens": 106,
+   "cost": 0.00017452,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 320,
+   "completion_tokens": 346,
+   "cost": 0.0002536,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 375,
+   "completion_tokens": 66,
+   "cost": 0.0001614,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 129,
+   "completion_tokens": 385,
+   "cost": 0.00020044,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 480,
+   "completion_tokens": 264,
+   "cost": 0.0002784,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 184,
+   "completion_tokens": 88,
+   "cost": 0.00010144,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 640,
+   "completion_tokens": 186,
+   "cost": 0.0003048,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 319,
+   "completion_tokens": 390,
+   "cost": 0.00027084,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 455,
+   "completion_tokens": 346,
+   "cost": 0.0003022,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 609,
+   "completion_tokens": 79,
+   "cost": 0.00025084,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 455,
+   "completion_tokens": 260,
+   "cost": 0.0002678,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 606,
+   "completion_tokens": 96,
+   "cost": 0.00025656,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 502,
+   "completion_tokens": 56,
+   "cost": 0.00020312,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 314,
+   "completion_tokens": 86,
+   "cost": 0.00014744,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 560,
+   "completion_tokens": 105,
+   "cost": 0.0002436,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 400,
+   "completion_tokens": 381,
+   "cost": 0.0002964,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1220,
+   "completion_tokens": 72,
+   "cost": 0.000468,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1122,
+   "completion_tokens": 99,
+   "cost": 0.00044352,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 608,
+   "completion_tokens": 98,
+   "cost": 0.00025808,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 518,
+   "completion_tokens": 38,
+   "cost": 0.00020168,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 915,
+   "completion_tokens": 82,
+   "cost": 0.0003622,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 591,
+   "completion_tokens": 125,
+   "cost": 0.00026276,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 500,
+   "completion_tokens": 23,
+   "cost": 0.0001892,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:63",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 847,
+   "completion_tokens": 81,
+   "cost": 0.00033732,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1320,
+   "completion_tokens": 99,
+   "cost": 0.0005148,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 643,
+   "completion_tokens": 87,
+   "cost": 0.00026628,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 663,
+   "completion_tokens": 304,
+   "cost": 0.00036028,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 909,
+   "completion_tokens": 24,
+   "cost": 0.00033684,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:61",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 776,
+   "completion_tokens": 367,
+   "cost": 0.00042616,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 502,
+   "completion_tokens": 310,
+   "cost": 0.00030472,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 566,
+   "completion_tokens": 416,
+   "cost": 0.00037016,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 520,
+   "completion_tokens": 22,
+   "cost": 0.000196,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 626,
+   "completion_tokens": 23,
+   "cost": 0.00023456,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 627,
+   "completion_tokens": 66,
+   "cost": 0.00025212,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 281,
+   "completion_tokens": 374,
+   "cost": 0.00025076,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:64",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 797,
+   "completion_tokens": 65,
+   "cost": 0.00031292,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 327,
+   "completion_tokens": 66,
+   "cost": 0.00014412,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:60",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 88,
+   "cost": 0.00040204,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1274,
+   "completion_tokens": 79,
+   "cost": 0.00049024,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1276,
+   "completion_tokens": 84,
+   "cost": 0.00049296,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:62",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1281,
+   "completion_tokens": 92,
+   "cost": 0.00049796,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 178,
+   "completion_tokens": 16,
+   "cost": 7.048e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 218,
+   "completion_tokens": 45,
+   "cost": 9.648e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 189,
+   "completion_tokens": 25,
+   "cost": 7.804e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 164,
+   "completion_tokens": 66,
+   "cost": 8.544e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 184,
+   "completion_tokens": 52,
+   "cost": 8.704e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 200,
+   "completion_tokens": 261,
+   "cost": 0.0001764,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 427,
+   "completion_tokens": 83,
+   "cost": 0.00018692,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 203,
+   "completion_tokens": 193,
+   "cost": 0.00015028,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 129,
+   "completion_tokens": 357,
+   "cost": 0.00018924,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 203,
+   "completion_tokens": 52,
+   "cost": 9.388e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 507,
+   "completion_tokens": 93,
+   "cost": 0.00021972,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 523,
+   "completion_tokens": 84,
+   "cost": 0.00022188,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 447,
+   "completion_tokens": 80,
+   "cost": 0.00019292,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 149,
+   "completion_tokens": 399,
+   "cost": 0.00021324,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 310,
+   "completion_tokens": 21,
+   "cost": 0.00012,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 552,
+   "completion_tokens": 59,
+   "cost": 0.00022232,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 272,
+   "completion_tokens": 73,
+   "cost": 0.00012712,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 585,
+   "completion_tokens": 196,
+   "cost": 0.000289,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 329,
+   "completion_tokens": 249,
+   "cost": 0.00021804,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 684,
+   "completion_tokens": 89,
+   "cost": 0.00028184,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 199,
+   "completion_tokens": 46,
+   "cost": 9.004e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 410,
+   "completion_tokens": 82,
+   "cost": 0.0001804,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 847,
+   "completion_tokens": 92,
+   "cost": 0.00034172,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 597,
+   "completion_tokens": 23,
+   "cost": 0.00022412,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 680,
+   "completion_tokens": 63,
+   "cost": 0.00027,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 515,
+   "completion_tokens": 92,
+   "cost": 0.0002222,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 103,
+   "completion_tokens": 317,
+   "cost": 0.00016388,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 701,
+   "completion_tokens": 101,
+   "cost": 0.00029276,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 586,
+   "completion_tokens": 25,
+   "cost": 0.00022096,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:69",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 373,
+   "completion_tokens": 49,
+   "cost": 0.00015388,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 457,
+   "completion_tokens": 201,
+   "cost": 0.00024492,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 401,
+   "completion_tokens": 18,
+   "cost": 0.00015156,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 791,
+   "completion_tokens": 88,
+   "cost": 0.00031996,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 298,
+   "completion_tokens": 350,
+   "cost": 0.00024728,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 952,
+   "completion_tokens": 38,
+   "cost": 0.00035792,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 500,
+   "completion_tokens": 117,
+   "cost": 0.0002268,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1078,
+   "completion_tokens": 82,
+   "cost": 0.00042088,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 340,
+   "completion_tokens": 256,
+   "cost": 0.0002248,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 842,
+   "completion_tokens": 65,
+   "cost": 0.00032912,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:68",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 906,
+   "completion_tokens": 81,
+   "cost": 0.00035856,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1058,
+   "completion_tokens": 86,
+   "cost": 0.00041528,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 580,
+   "completion_tokens": 215,
+   "cost": 0.0002948,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:65",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 439,
+   "completion_tokens": 362,
+   "cost": 0.00030284,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 681,
+   "completion_tokens": 81,
+   "cost": 0.00027756,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:66",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 755,
+   "completion_tokens": 75,
+   "cost": 0.0003018,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 513,
+   "completion_tokens": 289,
+   "cost": 0.00030028,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 463,
+   "completion_tokens": 127,
+   "cost": 0.00021748,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 111,
+   "completion_tokens": 103,
+   "cost": 8.116e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1152,
+   "completion_tokens": 39,
+   "cost": 0.00043032,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:67",
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "prompt_tokens": 1169,
+   "completion_tokens": 82,
+   "cost": 0.00045364,
+   "provider": "DeepInfra"
+  }
+ ]
+}

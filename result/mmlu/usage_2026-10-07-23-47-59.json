@@ -1,0 +1,2018 @@
+{
+ "by_phase": {
+  "eval": {
+   "prompt_tokens": 126364,
+   "completion_tokens": 42391,
+   "calls": 250,
+   "cost_usd": 0.07398199999999999
+  }
+ },
+ "total": {
+  "prompt_tokens": 126364,
+  "completion_tokens": 42391,
+  "calls": 250,
+  "cost_usd": 0.07398199999999999
+ },
+ "calls": [
+  {
+   "tag": "eval:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 224,
+   "completion_tokens": 8,
+   "cost": 6.4e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 177,
+   "completion_tokens": 31,
+   "cost": 7.525e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 176,
+   "completion_tokens": 17,
+   "cost": 6.1e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 205,
+   "completion_tokens": 13,
+   "cost": 6.425e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 195,
+   "completion_tokens": 158,
+   "cost": 0.00020675,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 156,
+   "completion_tokens": 166,
+   "cost": 0.000205,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 171,
+   "completion_tokens": 209,
+   "cost": 0.00025175,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 334,
+   "completion_tokens": 19,
+   "cost": 0.0001025,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 365,
+   "completion_tokens": 158,
+   "cost": 0.00024925,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 174,
+   "completion_tokens": 280,
+   "cost": 0.0003235,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 181,
+   "completion_tokens": 237,
+   "cost": 0.00028225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 376,
+   "completion_tokens": 93,
+   "cost": 0.000187,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 392,
+   "completion_tokens": 180,
+   "cost": 0.000278,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:4",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 492,
+   "completion_tokens": 19,
+   "cost": 0.000142,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 430,
+   "completion_tokens": 112,
+   "cost": 0.0002195,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 545,
+   "completion_tokens": 291,
+   "cost": 0.00042725,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 416,
+   "completion_tokens": 263,
+   "cost": 0.000367,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 565,
+   "completion_tokens": 90,
+   "cost": 0.00023125,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 594,
+   "completion_tokens": 182,
+   "cost": 0.0003305,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:3",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 859,
+   "completion_tokens": 54,
+   "cost": 0.00026875,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:1",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 798,
+   "completion_tokens": 52,
+   "cost": 0.0002515,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:0",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 678,
+   "completion_tokens": 90,
+   "cost": 0.0002595,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 691,
+   "completion_tokens": 367,
+   "cost": 0.00053975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1080,
+   "completion_tokens": 113,
+   "cost": 0.000383,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:2",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1216,
+   "completion_tokens": 363,
+   "cost": 0.000667,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:9",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 184,
+   "completion_tokens": 14,
+   "cost": 6e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:5",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 169,
+   "completion_tokens": 17,
+   "cost": 5.925e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:6",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 187,
+   "completion_tokens": 24,
+   "cost": 7.075e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:8",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 232,
+   "completion_tokens": 33,
+   "cost": 9.1e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:7",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 207,
+   "completion_tokens": 174,
+   "cost": 0.00022575,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:9",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 161,
+   "completion_tokens": 238,
+   "cost": 0.00027825,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:5",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 149,
+   "completion_tokens": 235,
+   "cost": 0.00027225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:6",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 174,
+   "completion_tokens": 238,
+   "cost": 0.0002815,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:8",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 228,
+   "completion_tokens": 288,
+   "cost": 0.000345,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:7",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 343,
+   "completion_tokens": 154,
+   "cost": 0.00023975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:6",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 424,
+   "completion_tokens": 65,
+   "cost": 0.000171,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:9",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 411,
+   "completion_tokens": 214,
+   "cost": 0.00031675,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:5",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 396,
+   "completion_tokens": 228,
+   "cost": 0.000327,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:6",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 512,
+   "completion_tokens": 117,
+   "cost": 0.000245,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:8",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 528,
+   "completion_tokens": 243,
+   "cost": 0.000375,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:7",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 509,
+   "completion_tokens": 231,
+   "cost": 0.00035825,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:9",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 647,
+   "completion_tokens": 198,
+   "cost": 0.00035975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:6",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 652,
+   "completion_tokens": 69,
+   "cost": 0.000232,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:7",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 762,
+   "completion_tokens": 202,
+   "cost": 0.0003925,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:9",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 867,
+   "completion_tokens": 214,
+   "cost": 0.00043075,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:8",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 793,
+   "completion_tokens": 275,
+   "cost": 0.00047325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:5",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 646,
+   "completion_tokens": 360,
+   "cost": 0.0005215,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:7",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 986,
+   "completion_tokens": 110,
+   "cost": 0.0003565,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:8",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1091,
+   "completion_tokens": 211,
+   "cost": 0.00048375,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:5",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1028,
+   "completion_tokens": 353,
+   "cost": 0.00061,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:10",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 186,
+   "completion_tokens": 27,
+   "cost": 7.35e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:12",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 164,
+   "completion_tokens": 29,
+   "cost": 7e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:11",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 193,
+   "completion_tokens": 31,
+   "cost": 7.925e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:14",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 473,
+   "completion_tokens": 48,
+   "cost": 0.00016625,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:13",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 215,
+   "completion_tokens": 72,
+   "cost": 0.00012575,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:12",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 156,
+   "completion_tokens": 216,
+   "cost": 0.000255,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:11",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 187,
+   "completion_tokens": 282,
+   "cost": 0.00032875,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:10",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 176,
+   "completion_tokens": 305,
+   "cost": 0.000349,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:13",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 250,
+   "completion_tokens": 271,
+   "cost": 0.0003335,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:14",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 484,
+   "completion_tokens": 267,
+   "cost": 0.000388,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:12",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 384,
+   "completion_tokens": 98,
+   "cost": 0.000194,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:11",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 481,
+   "completion_tokens": 203,
+   "cost": 0.00032325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:13",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 533,
+   "completion_tokens": 193,
+   "cost": 0.00032625,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:10",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 493,
+   "completion_tokens": 226,
+   "cost": 0.00034925,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:12",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 505,
+   "completion_tokens": 149,
+   "cost": 0.00027525,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:14",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 763,
+   "completion_tokens": 262,
+   "cost": 0.00045275,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:12",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 677,
+   "completion_tokens": 97,
+   "cost": 0.00026625,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:13",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 748,
+   "completion_tokens": 206,
+   "cost": 0.000393,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:10",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 741,
+   "completion_tokens": 137,
+   "cost": 0.00032225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:11",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 706,
+   "completion_tokens": 200,
+   "cost": 0.0003765,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:13",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 976,
+   "completion_tokens": 184,
+   "cost": 0.000428,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:14",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1047,
+   "completion_tokens": 323,
+   "cost": 0.00058475,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:11",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 929,
+   "completion_tokens": 220,
+   "cost": 0.00045225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:10",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 901,
+   "completion_tokens": 290,
+   "cost": 0.00051525,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:14",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1392,
+   "completion_tokens": 22,
+   "cost": 0.00037,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:15",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 202,
+   "completion_tokens": 10,
+   "cost": 6.05e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:16",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 250,
+   "completion_tokens": 17,
+   "cost": 7.95e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:17",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 211,
+   "completion_tokens": 28,
+   "cost": 8.075e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:18",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 340,
+   "completion_tokens": 60,
+   "cost": 0.000145,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:19",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 265,
+   "completion_tokens": 25,
+   "cost": 9.125e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:15",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 175,
+   "completion_tokens": 235,
+   "cost": 0.00027875,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:16",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 230,
+   "completion_tokens": 173,
+   "cost": 0.0002305,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:17",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 202,
+   "completion_tokens": 244,
+   "cost": 0.0002945,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:18",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 363,
+   "completion_tokens": 269,
+   "cost": 0.00035975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:19",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 253,
+   "completion_tokens": 274,
+   "cost": 0.00033725,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:16",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 415,
+   "completion_tokens": 141,
+   "cost": 0.00024475,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:15",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 422,
+   "completion_tokens": 206,
+   "cost": 0.0003115,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:17",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 458,
+   "completion_tokens": 148,
+   "cost": 0.0002625,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:19",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 539,
+   "completion_tokens": 193,
+   "cost": 0.00032775,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:16",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 578,
+   "completion_tokens": 158,
+   "cost": 0.0003025,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:17",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 629,
+   "completion_tokens": 249,
+   "cost": 0.00040625,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:18",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 645,
+   "completion_tokens": 306,
+   "cost": 0.00046725,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:19",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 754,
+   "completion_tokens": 216,
+   "cost": 0.0004045,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:15",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 650,
+   "completion_tokens": 254,
+   "cost": 0.0004165,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:16",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 758,
+   "completion_tokens": 69,
+   "cost": 0.0002585,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:17",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 900,
+   "completion_tokens": 188,
+   "cost": 0.000413,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:18",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 973,
+   "completion_tokens": 260,
+   "cost": 0.00050325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:15",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 926,
+   "completion_tokens": 223,
+   "cost": 0.0004545,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:19",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 992,
+   "completion_tokens": 208,
+   "cost": 0.000456,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:18",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1255,
+   "completion_tokens": 259,
+   "cost": 0.00057275,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:20",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 201,
+   "completion_tokens": 17,
+   "cost": 6.725e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:21",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 194,
+   "completion_tokens": 15,
+   "cost": 6.35e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:24",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 371,
+   "completion_tokens": 22,
+   "cost": 0.00011475,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:23",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 169,
+   "completion_tokens": 26,
+   "cost": 6.825e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:22",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 363,
+   "completion_tokens": 99,
+   "cost": 0.00018975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:20",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 181,
+   "completion_tokens": 190,
+   "cost": 0.00023525,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:23",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 158,
+   "completion_tokens": 204,
+   "cost": 0.0002435,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:24",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 356,
+   "completion_tokens": 259,
+   "cost": 0.000348,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:21",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 172,
+   "completion_tokens": 223,
+   "cost": 0.000266,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:22",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 425,
+   "completion_tokens": 237,
+   "cost": 0.00034325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:20",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 383,
+   "completion_tokens": 244,
+   "cost": 0.00033975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:23",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 374,
+   "completion_tokens": 181,
+   "cost": 0.0002745,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:24",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 627,
+   "completion_tokens": 235,
+   "cost": 0.00039175,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:21",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 407,
+   "completion_tokens": 255,
+   "cost": 0.00035675,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:23",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 577,
+   "completion_tokens": 171,
+   "cost": 0.00031525,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:21",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 684,
+   "completion_tokens": 163,
+   "cost": 0.000334,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:20",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 649,
+   "completion_tokens": 281,
+   "cost": 0.00044325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:22",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 674,
+   "completion_tokens": 441,
+   "cost": 0.0006095,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:24",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 884,
+   "completion_tokens": 208,
+   "cost": 0.000429,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:23",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 771,
+   "completion_tokens": 149,
+   "cost": 0.00034175,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:21",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 869,
+   "completion_tokens": 163,
+   "cost": 0.00038025,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:24",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1115,
+   "completion_tokens": 121,
+   "cost": 0.00039975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:20",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 952,
+   "completion_tokens": 230,
+   "cost": 0.000468,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:22",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1137,
+   "completion_tokens": 395,
+   "cost": 0.00067925,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:22",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1554,
+   "completion_tokens": 441,
+   "cost": 0.0008295,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:25",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 171,
+   "completion_tokens": 25,
+   "cost": 6.775e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:27",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 208,
+   "completion_tokens": 26,
+   "cost": 7.8e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:29",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 207,
+   "completion_tokens": 31,
+   "cost": 8.275e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:28",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 243,
+   "completion_tokens": 20,
+   "cost": 8.075e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:25",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 159,
+   "completion_tokens": 197,
+   "cost": 0.00023675,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:28",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 226,
+   "completion_tokens": 269,
+   "cost": 0.0003255,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:27",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 197,
+   "completion_tokens": 252,
+   "cost": 0.00030125,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:29",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 201,
+   "completion_tokens": 262,
+   "cost": 0.00031225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:25",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 369,
+   "completion_tokens": 221,
+   "cost": 0.00031325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:27",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 461,
+   "completion_tokens": 155,
+   "cost": 0.00027025,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:28",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 507,
+   "completion_tokens": 199,
+   "cost": 0.00032575,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:26",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 216,
+   "completion_tokens": 632,
+   "cost": 0.000686,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:29",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 475,
+   "completion_tokens": 251,
+   "cost": 0.00036975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:25",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 612,
+   "completion_tokens": 168,
+   "cost": 0.000321,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:27",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 638,
+   "completion_tokens": 136,
+   "cost": 0.0002955,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:25",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 802,
+   "completion_tokens": 71,
+   "cost": 0.0002715,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:29",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 748,
+   "completion_tokens": 141,
+   "cost": 0.000328,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:28",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 728,
+   "completion_tokens": 232,
+   "cost": 0.000414,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:27",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 796,
+   "completion_tokens": 153,
+   "cost": 0.000352,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:26",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 810,
+   "completion_tokens": 339,
+   "cost": 0.0005415,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:29",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 911,
+   "completion_tokens": 224,
+   "cost": 0.00045175,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:28",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 982,
+   "completion_tokens": 198,
+   "cost": 0.0004435,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:26",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1161,
+   "completion_tokens": 292,
+   "cost": 0.00058225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:26",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1475,
+   "completion_tokens": 255,
+   "cost": 0.00062375,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:26",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1753,
+   "completion_tokens": 3,
+   "cost": 0.00044125,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:34",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 237,
+   "completion_tokens": 15,
+   "cost": 7.425e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:30",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 172,
+   "completion_tokens": 19,
+   "cost": 6.2e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:31",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 171,
+   "completion_tokens": 38,
+   "cost": 8.075e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:32",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 176,
+   "completion_tokens": 26,
+   "cost": 7e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:33",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 200,
+   "completion_tokens": 43,
+   "cost": 9.3e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:30",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 154,
+   "completion_tokens": 176,
+   "cost": 0.0002145,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:31",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 172,
+   "completion_tokens": 214,
+   "cost": 0.000257,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:34",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 215,
+   "completion_tokens": 239,
+   "cost": 0.00029275,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:33",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 206,
+   "completion_tokens": 227,
+   "cost": 0.0002785,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:32",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 165,
+   "completion_tokens": 226,
+   "cost": 0.00026725,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:31",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 398,
+   "completion_tokens": 64,
+   "cost": 0.0001635,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:30",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 342,
+   "completion_tokens": 210,
+   "cost": 0.0002955,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:34",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 466,
+   "completion_tokens": 166,
+   "cost": 0.0002825,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:33",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 445,
+   "completion_tokens": 193,
+   "cost": 0.00030425,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:31",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 484,
+   "completion_tokens": 128,
+   "cost": 0.000249,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:30",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 575,
+   "completion_tokens": 200,
+   "cost": 0.00034375,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:31",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 635,
+   "completion_tokens": 75,
+   "cost": 0.00023375,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:34",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 654,
+   "completion_tokens": 209,
+   "cost": 0.0003725,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:32",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 403,
+   "completion_tokens": 389,
+   "cost": 0.00048975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:30",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 797,
+   "completion_tokens": 46,
+   "cost": 0.00024525,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:32",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 814,
+   "completion_tokens": 127,
+   "cost": 0.0003305,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:34",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 885,
+   "completion_tokens": 152,
+   "cost": 0.00037325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:33",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 660,
+   "completion_tokens": 209,
+   "cost": 0.000374,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:32",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 963,
+   "completion_tokens": 389,
+   "cost": 0.00062975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:33",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 891,
+   "completion_tokens": 218,
+   "cost": 0.00044075,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:35",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 232,
+   "completion_tokens": 20,
+   "cost": 7.8e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:36",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 189,
+   "completion_tokens": 15,
+   "cost": 6.225e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:37",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 198,
+   "completion_tokens": 24,
+   "cost": 7.35e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:39",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 171,
+   "completion_tokens": 8,
+   "cost": 5.075e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:38",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 188,
+   "completion_tokens": 39,
+   "cost": 8.6e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:38",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 190,
+   "completion_tokens": 220,
+   "cost": 0.0002675,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:39",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 142,
+   "completion_tokens": 187,
+   "cost": 0.0002225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:35",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 215,
+   "completion_tokens": 221,
+   "cost": 0.00027475,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:36",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 167,
+   "completion_tokens": 218,
+   "cost": 0.00025975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:39",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 341,
+   "completion_tokens": 47,
+   "cost": 0.00013225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:37",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 185,
+   "completion_tokens": 295,
+   "cost": 0.00034125,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:35",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 448,
+   "completion_tokens": 150,
+   "cost": 0.000262,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:36",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 398,
+   "completion_tokens": 222,
+   "cost": 0.0003215,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:37",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 493,
+   "completion_tokens": 238,
+   "cost": 0.00036125,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:35",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 620,
+   "completion_tokens": 183,
+   "cost": 0.000338,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:36",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 643,
+   "completion_tokens": 158,
+   "cost": 0.00031875,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:37",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 753,
+   "completion_tokens": 132,
+   "cost": 0.00032025,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:38",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 422,
+   "completion_tokens": 171,
+   "cost": 0.0002765,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:39",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 411,
+   "completion_tokens": 173,
+   "cost": 0.00027575,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:36",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 824,
+   "completion_tokens": 59,
+   "cost": 0.000265,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:37",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 908,
+   "completion_tokens": 83,
+   "cost": 0.00031,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:39",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 606,
+   "completion_tokens": 48,
+   "cost": 0.0001995,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:35",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 825,
+   "completion_tokens": 207,
+   "cost": 0.00041325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:38",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 615,
+   "completion_tokens": 319,
+   "cost": 0.00047275,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:38",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 956,
+   "completion_tokens": 249,
+   "cost": 0.000488,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:42",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 193,
+   "completion_tokens": 23,
+   "cost": 7.125e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:44",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 187,
+   "completion_tokens": 33,
+   "cost": 7.975e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:43",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 278,
+   "completion_tokens": 41,
+   "cost": 0.0001105,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:41",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 202,
+   "completion_tokens": 40,
+   "cost": 9.05e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:42",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 179,
+   "completion_tokens": 236,
+   "cost": 0.00028075,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:43",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 282,
+   "completion_tokens": 277,
+   "cost": 0.0003475,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:44",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 183,
+   "completion_tokens": 247,
+   "cost": 0.00029275,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:40",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 240,
+   "completion_tokens": 32,
+   "cost": 9.2e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:42",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 427,
+   "completion_tokens": 193,
+   "cost": 0.00029975,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:43",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 571,
+   "completion_tokens": 201,
+   "cost": 0.00034375,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:41",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 205,
+   "completion_tokens": 230,
+   "cost": 0.00028125,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:44",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 442,
+   "completion_tokens": 278,
+   "cost": 0.0003885,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:40",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 235,
+   "completion_tokens": 289,
+   "cost": 0.00034775,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:42",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 642,
+   "completion_tokens": 220,
+   "cost": 0.0003805,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:43",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 794,
+   "completion_tokens": 152,
+   "cost": 0.0003505,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:42",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 885,
+   "completion_tokens": 52,
+   "cost": 0.00027325,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:43",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 969,
+   "completion_tokens": 155,
+   "cost": 0.00039725,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:44",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 742,
+   "completion_tokens": 325,
+   "cost": 0.0005105,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:41",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 447,
+   "completion_tokens": 309,
+   "cost": 0.00042075,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:40",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 536,
+   "completion_tokens": 386,
+   "cost": 0.00052,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:40",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 944,
+   "completion_tokens": 18,
+   "cost": 0.000254,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:44",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1089,
+   "completion_tokens": 295,
+   "cost": 0.00056725,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:40",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 985,
+   "completion_tokens": 50,
+   "cost": 0.00029625,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:41",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 778,
+   "completion_tokens": 254,
+   "cost": 0.0004485,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:41",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 1054,
+   "completion_tokens": 309,
+   "cost": 0.0005725,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:48",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 189,
+   "completion_tokens": 13,
+   "cost": 6.025e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:49",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 168,
+   "completion_tokens": 16,
+   "cost": 5.8e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:45",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 176,
+   "completion_tokens": 40,
+   "cost": 8.4e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:46",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 209,
+   "completion_tokens": 39,
+   "cost": 9.125e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:49",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 147,
+   "completion_tokens": 166,
+   "cost": 0.00020275,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:48",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 165,
+   "completion_tokens": 230,
+   "cost": 0.00027125,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:46",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 211,
+   "completion_tokens": 250,
+   "cost": 0.00030275,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:45",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 179,
+   "completion_tokens": 252,
+   "cost": 0.00029675,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:47",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 163,
+   "completion_tokens": 24,
+   "cost": 6.475e-05,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:49",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 325,
+   "completion_tokens": 119,
+   "cost": 0.00020025,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:45",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 443,
+   "completion_tokens": 126,
+   "cost": 0.00023675,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:48",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 407,
+   "completion_tokens": 164,
+   "cost": 0.00026575,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:49",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 466,
+   "completion_tokens": 110,
+   "cost": 0.0002265,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:46",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 473,
+   "completion_tokens": 213,
+   "cost": 0.00033125,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:47",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 150,
+   "completion_tokens": 185,
+   "cost": 0.0002225,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:49",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 599,
+   "completion_tokens": 105,
+   "cost": 0.00025475,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:45",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 591,
+   "completion_tokens": 131,
+   "cost": 0.00027875,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:47",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 347,
+   "completion_tokens": 56,
+   "cost": 0.00014275,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:48",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 593,
+   "completion_tokens": 268,
+   "cost": 0.00041625,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:47",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 426,
+   "completion_tokens": 87,
+   "cost": 0.0001935,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:45",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 744,
+   "completion_tokens": 132,
+   "cost": 0.000318,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:47",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 536,
+   "completion_tokens": 83,
+   "cost": 0.000217,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:48",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 883,
+   "completion_tokens": 290,
+   "cost": 0.00051075,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:46",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 708,
+   "completion_tokens": 203,
+   "cost": 0.00038,
+   "provider": "SiliconFlow"
+  },
+  {
+   "tag": "eval:46",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "prompt_tokens": 933,
+   "completion_tokens": 197,
+   "cost": 0.00043025,
+   "provider": "SiliconFlow"
+  }
+ ]
+}

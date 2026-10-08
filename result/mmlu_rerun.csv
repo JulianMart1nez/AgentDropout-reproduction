@@ -1,0 +1,13 @@
+model,method,accuracy,correct,total,eval_prompt_tokens,eval_completion_tokens,all_prompt_tokens,all_completion_tokens,cost,failed_node_calls,providers,minutes,log,completed_at
+meta-llama/llama-3.1-8b-instruct,MAS_round1,0.5800,29,50,203661,57687,203661,57687,0.0064,0,DeepInfra:250,8.9,llama-3.1-8b-instruct_MAS_round1_20261007-231319.log,2026-10-07T23:13:19
+meta-llama/llama-3.1-8b-instruct,MAS_roundT,0.6200,31,50,515530,106273,515530,106273,0.0146,0,DeepInfra:500,15.6,llama-3.1-8b-instruct_MAS_roundT_20261007-231959.log,2026-10-07T23:19:59
+meta-llama/llama-3.1-8b-instruct,AgentPrune,0.6600,33,50,375364,112993,550833,156918,0.0173,0,DeepInfra:700,21.8,llama-3.1-8b-instruct_AgentPrune_20261007-232612.log,2026-10-07T23:26:12
+meta-llama/llama-3.1-8b-instruct,AgentDropout,0.7600,38,50,199449,65913,535666,154904,0.0169,0,DeepInfra:880,23.3,llama-3.1-8b-instruct_AgentDropout_20261007-232740.log,2026-10-07T23:27:40
+qwen/qwen-2.5-72b-instruct,MAS_round1,0.8000,40,50,142221,44881,142221,44881,0.0692,0,DeepInfra:250,10.5,qwen-2.5-72b-instruct_MAS_round1_20261007-233831.log,2026-10-07T23:38:31
+deepseek/deepseek-chat-v3-0324,MAS_round1,0.9000,45,50,126364,42391,126364,42391,0.0740,0,SiliconFlow:250,9.5,deepseek-chat-v3-0324_MAS_round1_20261007-234800.log,2026-10-07T23:48:00
+qwen/qwen-2.5-72b-instruct,MAS_roundT,0.8200,41,50,385581,94214,385581,94214,0.1765,0,DeepInfra:500,29.0,qwen-2.5-72b-instruct_MAS_roundT_20261007-235700.log,2026-10-07T23:57:00
+qwen/qwen-2.5-72b-instruct,AgentPrune,0.8400,42,50,310935,87449,455539,122189,0.2129,0,DeepInfra:700,34.0,qwen-2.5-72b-instruct_AgentPrune_20261008-000202.log,2026-10-08T00:02:02
+qwen/qwen-2.5-72b-instruct,AgentDropout,0.8400,42,50,189691,75442,504326,169073,0.2492,0,DeepInfra:880,34.3,qwen-2.5-72b-instruct_AgentDropout_20261008-000218.log,2026-10-08T00:02:18
+deepseek/deepseek-chat-v3-0324,MAS_roundT,0.8400,42,50,347582,87152,347582,87152,0.1740,0,SiliconFlow:500,17.1,deepseek-chat-v3-0324_MAS_roundT_20261008-000504.log,2026-10-08T00:05:04
+deepseek/deepseek-chat-v3-0324,AgentPrune,0.9200,46,50,312071,96245,460247,135301,0.2504,0,SiliconFlow:700,23.1,deepseek-chat-v3-0324_AgentPrune_20261008-073439.log,2026-10-08T07:34:39
+deepseek/deepseek-chat-v3-0324,AgentDropout,0.8800,44,50,217048,72617,520296,162369,0.2924,0,SiliconFlow:880,20.6,deepseek-chat-v3-0324_AgentDropout_20261008-075516.log,2026-10-08T07:55:16
