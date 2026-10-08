@@ -70,6 +70,8 @@ def parse_args():
     parser.add_argument('--diff',action='store_true')
     parser.add_argument('--dec',action='store_true')
     parser.add_argument('--cot',action='store_true')
+    parser.add_argument('--save_graph', type=str, default=None, help='Team 8: save the learned graph before eval')
+    parser.add_argument('--load_graph', type=str, default=None, help='Team 8: skip training, eval a saved graph')
     args = parser.parse_args()
     result_path = AgentPrune_ROOT / "result"
     os.makedirs(result_path, exist_ok=True)
@@ -108,7 +110,7 @@ async def main():
                     dec=args.dec,
                     **kwargs)
     
-    if args.dec:
+    if args.dec and not args.load_graph:
         graph.optimized_spatial=False
         graph.optimized_temporal=False
         total_solved, total_executed = (0, 0)
@@ -242,7 +244,7 @@ async def main():
     total_solved, total_executed = (0, 0)
     
     
-    if args.optimized_temporal or args.optimized_spatial:
+    if (args.optimized_temporal or args.optimized_spatial) and not args.load_graph:
         graph.optimized_spatial=True
         graph.optimized_temporal=True
         for i_batch in range(4):
@@ -371,6 +373,12 @@ async def main():
             print(f"PromptTokens {PromptTokens.instance().value}")
             print(f"CompletionTokens {CompletionTokens.instance().value}")
 
+    if args.load_graph or args.save_graph:  # Team 8 (Table 6): carry a learned graph across benchmarks
+        from AgentDropout.utils.graph_io import save_graph_state, load_graph_state
+        if args.load_graph:
+            load_graph_state(graph, args.load_graph)
+        if args.save_graph:
+            save_graph_state(graph, args.save_graph, trained_on=args.dataset_json, llm=args.llm_name)
     PromptTokens.instance().reset()
     CompletionTokens.instance().reset()
     total_solved, total_executed = (0, 0)

@@ -50,14 +50,23 @@ def newest_usage(dataset, after):
     return max(files, key=lambda p: p.stat().st_mtime) if files else None
 
 
-async def run(model, ds, method, a, sem, lock, out, logs):
+async def run(model, ds, method, a, sem, lock, out, logs, extra=(), label=""):
+    """extra: flags appended to the cell's command line; label: suffix on the method name in the CSV."""
     async with sem:
+        key = f"{model}|{ds.name}|{method}{label}|{a.mode or ''}"
+        started = out.with_name(out.stem + "_started.txt")
         async with lock:
+            if not a.redo and started.exists() and key in started.read_text(encoding="utf-8").splitlines():
+                print(f"SKIP {model} {ds.name} {method}: already started under tag {a.tag} (use --redo to rerun)", flush=True)
+                return
             left = balance()
+            if left >= a.min_credit:
+                with open(started, "a", encoding="utf-8") as f:
+                    f.write(key + "\n")
         if left < a.min_credit:
             print(f"SKIP {model} {ds.name} {method}: balance ${left:.2f} below ${a.min_credit}", flush=True)
             return
-        cli = grid.build_args(ds, method, model)
+        cli = grid.build_args(ds, method, model) + list(extra)
         mode = "FullConnected"
         if a.mode and "--mode" in cli and cli[cli.index("--mode") + 1] == "FullConnected":
             cli[cli.index("--mode") + 1] = a.mode
@@ -70,11 +79,11 @@ async def run(model, ds, method, a, sem, lock, out, logs):
         stdout, _ = await proc.communicate()
         text = stdout.decode("utf-8", errors="replace")
         logs.mkdir(parents=True, exist_ok=True)
-        log = logs / f"{model.split('/')[-1]}_{ds.name}_{method}_{mode}_{datetime.now():%Y%m%d-%H%M%S}.log"
+        log = logs / f"{model.split('/')[-1]}_{ds.name}_{method}{label}_{mode}_{datetime.now():%Y%m%d-%H%M%S}.log"
         log.write_text(text, encoding="utf-8")
         parsed = grid.parse_cell_output(ds, text)
         if proc.returncode != 0 or parsed is None:
-            print(f"FAILED {model} {ds.name} {method} {mode} (exit {proc.returncode}); see {log.name}", flush=True)
+            print(f"FAILED {model} {ds.name} {method}{label} {mode} (exit {proc.returncode}); see {log.name}", flush=True)
             return
         correct, total, acc, ptok, ctok, cost = parsed
         ev, providers = {"prompt_tokens": "", "completion_tokens": ""}, ""
@@ -83,7 +92,7 @@ async def run(model, ds, method, a, sem, lock, out, logs):
             d = json.loads(u.read_text(encoding="utf-8"))
             ev = d["by_phase"].get("eval", ev)
             providers = ";".join(f"{k}:{v}" for k, v in Counter(c.get("provider") for c in d["calls"]).items())
-        row = dict(model=model, dataset=ds.name, method=method, mode=mode, accuracy=f"{acc:.4f}", correct=correct,
+        row = dict(model=model, dataset=ds.name, method=method + label, mode=mode, accuracy=f"{acc:.4f}", correct=correct,
                    total=total, eval_prompt_tokens=ev["prompt_tokens"], eval_completion_tokens=ev["completion_tokens"],
                    all_prompt_tokens=ptok, all_completion_tokens=ctok, cost=f"{cost:.4f}",
                    failed_node_calls=text.count("Error during execution of node"), providers=providers,
@@ -95,7 +104,7 @@ async def run(model, ds, method, a, sem, lock, out, logs):
                 if new:
                     w.writeheader()
                 w.writerow(row)
-        print(f"DONE {model.split('/')[-1]:22s} {ds.name:10s} {method:13s} {mode:13s} {acc * 100:5.1f}% ({correct}/{total})  "
+        print(f"DONE {model.split('/')[-1]:22s} {ds.name:10s} {method + label:13s} {mode:13s} {acc * 100:5.1f}% ({correct}/{total})  "
               f"${cost:.4f}  failed {row['failed_node_calls']}  {providers}  {row['minutes']} min", flush=True)
 
 
@@ -108,6 +117,7 @@ async def main():
     ap.add_argument("--mode", default=None, help="replace the FullConnected starting graph (e.g. Layered, Random)")
     ap.add_argument("--concurrency", type=int, default=3)
     ap.add_argument("--min_credit", type=float, default=5.0)
+    ap.add_argument("--redo", action="store_true", help="rerun cells already started under this tag")
     a = ap.parse_args()
     out, logs = ROOT / "result" / f"{a.tag}.csv", ROOT / "result" / f"{a.tag}_logs"
     print(f"{a.tag}: balance at start ${balance():.2f}", flush=True)
