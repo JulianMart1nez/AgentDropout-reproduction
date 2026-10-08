@@ -1,0 +1,342 @@
+[
+    {
+        "Question": {
+            "task": " There are 64 students trying out for the school's trivia teams. If 36 of them didn't get picked for the team and the rest were put into 4 groups, how many students would be in each group? ",
+            "step": "",
+            "answer": "7"
+        },
+        "Answer": "7",
+        "Step": "",
+        "Response": [
+            "7"
+        ],
+        "Attempt answer": "7",
+        "Solved": true,
+        "Total solved": 1,
+        "Total executed": 1,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Nancy uploaded 41 pictures to Facebook. She put 37 pics into one album and put the rest into 2 different albums. How many pictures were in each album? ",
+            "step": "",
+            "answer": "2"
+        },
+        "Answer": "2",
+        "Step": "",
+        "Response": [
+            "2"
+        ],
+        "Attempt answer": "2",
+        "Solved": true,
+        "Total solved": 2,
+        "Total executed": 2,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " A magician was selling magic card decks for 2 dollars each. If he started with 5 decks and by the end of the day he had 3 left, how much money did he earn? ",
+            "step": "",
+            "answer": "4"
+        },
+        "Answer": "4",
+        "Step": "",
+        "Response": [
+            "4"
+        ],
+        "Attempt answer": "4",
+        "Solved": true,
+        "Total solved": 3,
+        "Total executed": 3,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Will bought 7 boxes of chocolate candy and gave 3 to his little brother. If each box has 4 pieces inside it, how many pieces did Will still have? ",
+            "step": "",
+            "answer": "16"
+        },
+        "Answer": "16",
+        "Step": "",
+        "Response": [
+            "16"
+        ],
+        "Attempt answer": "16",
+        "Solved": true,
+        "Total solved": 4,
+        "Total executed": 4,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Olivia was making baggies of cookies with 9 cookies in each bag. If she had 13 chocolate chip cookies and 41 oatmeal cookies, how many baggies could she make? ",
+            "step": "",
+            "answer": "6"
+        },
+        "Answer": "6",
+        "Step": "",
+        "Response": [
+            "6"
+        ],
+        "Attempt answer": "6",
+        "Solved": true,
+        "Total solved": 5,
+        "Total executed": 5,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Each chocolate bar in a box cost $4. If a box had 11 bars total and Vanessa sold all but 7 bars, how much money would she have made? ",
+            "step": "",
+            "answer": "16"
+        },
+        "Answer": "16",
+        "Step": "",
+        "Response": [
+            "16"
+        ],
+        "Attempt answer": "16",
+        "Solved": true,
+        "Total solved": 6,
+        "Total executed": 6,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Bianca had 45 coloring books. If she gave away 6 of them, but then bought 20 more, how many would she have total? ",
+            "step": "",
+            "answer": "59"
+        },
+        "Answer": "59",
+        "Step": "",
+        "Response": [
+            "59"
+        ],
+        "Attempt answer": "59",
+        "Solved": true,
+        "Total solved": 7,
+        "Total executed": 7,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Cody bought 7 boxes of chocolate candy and 3 boxes of caramel candy. If each box has 8 pieces inside it, how much candy did he have total? ",
+            "step": "",
+            "answer": "80"
+        },
+        "Answer": "80",
+        "Step": "",
+        "Response": [
+            "80"
+        ],
+        "Attempt answer": "80",
+        "Solved": true,
+        "Total solved": 8,
+        "Total executed": 8,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " April's discount flowers was having a sale where each rose was 9 dollars. If April started with 11 roses and had 8 roses left, how much money did she earn? ",
+            "step": "",
+            "answer": "27"
+        },
+        "Answer": "27",
+        "Step": "",
+        "Response": [
+            "27"
+        ],
+        "Attempt answer": "27",
+        "Solved": true,
+        "Total solved": 9,
+        "Total executed": 9,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Roger was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 10 trays from one table and 2 trays from another, how many trips will he make? ",
+            "step": "",
+            "answer": "3"
+        },
+        "Answer": "3",
+        "Step": "",
+        "Response": [
+            "3"
+        ],
+        "Attempt answer": "3",
+        "Solved": true,
+        "Total solved": 10,
+        "Total executed": 10,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Rachel bought two coloring books. One had 24 pictures and the other had 39. After one week she had already colored 4 of the pictures. How many pictures does she still have to color? ",
+            "step": "",
+            "answer": "59"
+        },
+        "Answer": "59",
+        "Step": "",
+        "Response": [
+            "59"
+        ],
+        "Attempt answer": "59",
+        "Solved": true,
+        "Total solved": 11,
+        "Total executed": 11,
+        "Accuracy": 1.0
+    },
+    {
+        "Question": {
+            "task": " Tiffany was playing a video game where she scores 6 points for each treasure she finds. If she found 3 treasures on the first level and 5 on the second, what would her score be? ",
+            "step": "",
+            "answer": "48"
+        },
+        "Answer": "48",
+        "Step": "",
+        "Response": [
+            "6"
+        ],
+        "Attempt answer": "6",
+        "Solved": false,
+        "Total solved": 11,
+        "Total executed": 12,
+        "Accuracy": 0.9166666666666666
+    },
+    {
+        "Question": {
+            "task": " Megan baked 68 cupcakes for her school's bake sale. If her brother, Todd, ate 32 of them how many packages could she make if she put 6 cupcake in each package? ",
+            "step": "",
+            "answer": "6"
+        },
+        "Answer": "6",
+        "Step": "",
+        "Response": [
+            "6"
+        ],
+        "Attempt answer": "6",
+        "Solved": true,
+        "Total solved": 12,
+        "Total executed": 13,
+        "Accuracy": 0.9230769230769231
+    },
+    {
+        "Question": {
+            "task": " A new building needed 11 windows. The builder had already installed 4 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? ",
+            "step": "",
+            "answer": "56"
+        },
+        "Answer": "56",
+        "Step": "",
+        "Response": [
+            "56"
+        ],
+        "Attempt answer": "56",
+        "Solved": true,
+        "Total solved": 13,
+        "Total executed": 14,
+        "Accuracy": 0.9285714285714286
+    },
+    {
+        "Question": {
+            "task": " Olivia was playing a video game where she scores 8 points for each treasure she finds. If she found 2 treasures on the first level and 2 on the second, what would her score be? ",
+            "step": "",
+            "answer": "32"
+        },
+        "Answer": "32",
+        "Step": "",
+        "Response": [
+            "32"
+        ],
+        "Attempt answer": "32",
+        "Solved": true,
+        "Total solved": 14,
+        "Total executed": 15,
+        "Accuracy": 0.9333333333333333
+    },
+    {
+        "Question": {
+            "task": " A waiter had 33 customers to wait on. If 31 customers left and he got another 26 customers, how many customers would he have? ",
+            "step": "",
+            "answer": "28"
+        },
+        "Answer": "28",
+        "Step": "",
+        "Response": [
+            "28"
+        ],
+        "Attempt answer": "28",
+        "Solved": true,
+        "Total solved": 15,
+        "Total executed": 16,
+        "Accuracy": 0.9375
+    },
+    {
+        "Question": {
+            "task": " A magician was selling magic card decks for 9 dollars each. If he started with 12 decks and by the end of the day he had 7 left, how much money did he earn? ",
+            "step": "",
+            "answer": "45"
+        },
+        "Answer": "45",
+        "Step": "",
+        "Response": [
+            "45"
+        ],
+        "Attempt answer": "45",
+        "Solved": true,
+        "Total solved": 16,
+        "Total executed": 17,
+        "Accuracy": 0.9411764705882353
+    },
+    {
+        "Question": {
+            "task": " Katie uploaded 30 pictures from her phone and 51 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "9"
+        ],
+        "Attempt answer": "9",
+        "Solved": true,
+        "Total solved": 17,
+        "Total executed": 18,
+        "Accuracy": 0.9444444444444444
+    },
+    {
+        "Question": {
+            "task": " Will had 83 dollars. If he spent 47 bucks on a new game, how many 4 dollar toys could he buy with the money he had left? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "9"
+        ],
+        "Attempt answer": "9",
+        "Solved": true,
+        "Total solved": 18,
+        "Total executed": 19,
+        "Accuracy": 0.9473684210526315
+    },
+    {
+        "Question": {
+            "task": " Haley and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Haley recycled 11 pounds and her friends recycled 16 pounds, how many points did they earn? ",
+            "step": "",
+            "answer": "9"
+        },
+        "Answer": "9",
+        "Step": "",
+        "Response": [
+            "9"
+        ],
+        "Attempt answer": "9",
+        "Solved": true,
+        "Total solved": 19,
+        "Total executed": 20,
+        "Accuracy": 0.95
+    }
+]

@@ -19,3 +19,4 @@ _setup_leftovers/
 
 # Unused bulk data (not referenced by any loader; only dev/val/test are used)
 datasets/MMLU/data/auxiliary_train/
+result/_invalid_table3_sigalrm/

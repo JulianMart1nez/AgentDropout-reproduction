@@ -1,0 +1,7225 @@
+{
+ "by_phase": {
+  "opt": {
+   "prompt_tokens": 384874,
+   "completion_tokens": 121443,
+   "calls": 400,
+   "cost_usd": 0.012555199999999989
+  },
+  "eval": {
+   "prompt_tokens": 420090,
+   "completion_tokens": 152077,
+   "calls": 500,
+   "cost_usd": 0.014484880000000006
+  }
+ },
+ "total": {
+  "prompt_tokens": 804964,
+  "completion_tokens": 273520,
+  "calls": 900,
+  "cost_usd": 0.027040079999999994,
+  "total_tokens": 1078484
+ },
+ "calls": [
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 91,
+   "cost": 2.386e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 984,
+   "completion_tokens": 121,
+   "cost": 2.452e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 428,
+   "completion_tokens": 110,
+   "cost": 1.296e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 453,
+   "completion_tokens": 155,
+   "cost": 1.526e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1018,
+   "completion_tokens": 168,
+   "cost": 2.708e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 173,
+   "completion_tokens": 179,
+   "cost": 1.062e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1057,
+   "completion_tokens": 236,
+   "cost": 3.058e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 287,
+   "cost": 3.186e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 166,
+   "completion_tokens": 131,
+   "cost": 8.56e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 981,
+   "completion_tokens": 158,
+   "cost": 2.594e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1018,
+   "completion_tokens": 144,
+   "cost": 2.612e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 135,
+   "cost": 2.566e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1057,
+   "completion_tokens": 148,
+   "cost": 2.706e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 173,
+   "cost": 2.704e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 295,
+   "completion_tokens": 345,
+   "cost": 1.97e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 298,
+   "completion_tokens": 309,
+   "cost": 1.832e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 150,
+   "cost": 2.63e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 89,
+   "cost": 2.382e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 986,
+   "completion_tokens": 112,
+   "cost": 2.42e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 172,
+   "cost": 2.708e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 332,
+   "completion_tokens": 323,
+   "cost": 1.956e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 579,
+   "completion_tokens": 620,
+   "cost": 3.638e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 648,
+   "completion_tokens": 780,
+   "cost": 4.416e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 355,
+   "completion_tokens": 397,
+   "cost": 2.298e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 719,
+   "completion_tokens": 163,
+   "cost": 2.09e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1038,
+   "completion_tokens": 177,
+   "cost": 2.784e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 983,
+   "completion_tokens": 146,
+   "cost": 2.55e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 439,
+   "completion_tokens": 103,
+   "cost": 1.29e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 782,
+   "completion_tokens": 305,
+   "cost": 2.784e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 652,
+   "completion_tokens": 127,
+   "cost": 1.812e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 639,
+   "completion_tokens": 75,
+   "cost": 1.578e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 797,
+   "completion_tokens": 276,
+   "cost": 2.698e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 221,
+   "completion_tokens": 266,
+   "cost": 1.506e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 746,
+   "completion_tokens": 165,
+   "cost": 2.152e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 93,
+   "cost": 2.394e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 992,
+   "completion_tokens": 130,
+   "cost": 2.504e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 990,
+   "completion_tokens": 143,
+   "cost": 2.552e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 606,
+   "completion_tokens": 782,
+   "cost": 4.34e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1216,
+   "completion_tokens": 323,
+   "cost": 3.724e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 912,
+   "completion_tokens": 685,
+   "cost": 4.564e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 819,
+   "completion_tokens": 58,
+   "cost": 1.87e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 796,
+   "completion_tokens": 227,
+   "cost": 2.5e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 994,
+   "completion_tokens": 116,
+   "cost": 2.452e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 181,
+   "cost": 2.748e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 668,
+   "completion_tokens": 86,
+   "cost": 1.68e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1061,
+   "completion_tokens": 257,
+   "cost": 3.15e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 446,
+   "completion_tokens": 160,
+   "cost": 1.532e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 939,
+   "completion_tokens": 214,
+   "cost": 2.734e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 305,
+   "cost": 3.258e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1018,
+   "completion_tokens": 137,
+   "cost": 2.584e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 983,
+   "completion_tokens": 335,
+   "cost": 3.306e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 338,
+   "completion_tokens": 342,
+   "cost": 2.044e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1134,
+   "completion_tokens": 266,
+   "cost": 3.332e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 107,
+   "cost": 2.458e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1279,
+   "completion_tokens": 96,
+   "cost": 2.942e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 144,
+   "cost": 2.606e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 981,
+   "completion_tokens": 101,
+   "cost": 2.366e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1026,
+   "completion_tokens": 179,
+   "cost": 2.768e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 891,
+   "completion_tokens": 76,
+   "cost": 2.086e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 161,
+   "cost": 2.664e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1274,
+   "completion_tokens": 633,
+   "cost": 5.08e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 398,
+   "completion_tokens": 535,
+   "cost": 2.936e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1297,
+   "completion_tokens": 165,
+   "cost": 3.254e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 642,
+   "completion_tokens": 71,
+   "cost": 1.568e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 429,
+   "completion_tokens": 387,
+   "cost": 2.406e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1427,
+   "completion_tokens": 158,
+   "cost": 3.486e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 182,
+   "cost": 2.766e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 264,
+   "cost": 3.098e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1994,
+   "completion_tokens": 353,
+   "cost": 5.4e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 994,
+   "completion_tokens": 114,
+   "cost": 2.444e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1220,
+   "completion_tokens": 265,
+   "cost": 3.5e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1114,
+   "completion_tokens": 131,
+   "cost": 2.752e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 661,
+   "completion_tokens": 287,
+   "cost": 2.47e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 986,
+   "completion_tokens": 322,
+   "cost": 3.26e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 954,
+   "completion_tokens": 291,
+   "cost": 3.072e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1059,
+   "completion_tokens": 174,
+   "cost": 2.814e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1319,
+   "completion_tokens": 1000,
+   "cost": 6.638e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 389,
+   "completion_tokens": 462,
+   "cost": 2.626e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 998,
+   "completion_tokens": 439,
+   "cost": 3.752e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 819,
+   "completion_tokens": 787,
+   "cost": 4.786e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 776,
+   "completion_tokens": 342,
+   "cost": 2.92e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1063,
+   "completion_tokens": 176,
+   "cost": 2.83e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2011,
+   "completion_tokens": 174,
+   "cost": 4.718e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1057,
+   "completion_tokens": 406,
+   "cost": 3.738e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1425,
+   "completion_tokens": 103,
+   "cost": 3.262e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 297,
+   "cost": 3.234e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1704,
+   "completion_tokens": 99,
+   "cost": 3.804e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 574,
+   "completion_tokens": 1000,
+   "cost": 5.148e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1127,
+   "completion_tokens": 405,
+   "cost": 3.874e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 295,
+   "cost": 3.222e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 943,
+   "completion_tokens": 1000,
+   "cost": 5.886e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1266,
+   "completion_tokens": 172,
+   "cost": 3.22e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2763,
+   "completion_tokens": 1000,
+   "cost": 9.526e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1679,
+   "completion_tokens": 449,
+   "cost": 5.154e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 952,
+   "completion_tokens": 1000,
+   "cost": 5.904e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1550,
+   "completion_tokens": 1000,
+   "cost": 7.1e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2715,
+   "completion_tokens": 492,
+   "cost": 7.398e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1454,
+   "completion_tokens": 1000,
+   "cost": 6.908e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1065,
+   "completion_tokens": 120,
+   "cost": 2.61e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:0:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1069,
+   "completion_tokens": 118,
+   "cost": 2.61e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 982,
+   "completion_tokens": 149,
+   "cost": 2.56e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 581,
+   "completion_tokens": 147,
+   "cost": 1.75e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 615,
+   "completion_tokens": 203,
+   "cost": 2.042e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 441,
+   "completion_tokens": 61,
+   "cost": 1.126e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 235,
+   "cost": 2.97e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1020,
+   "completion_tokens": 238,
+   "cost": 2.992e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 569,
+   "completion_tokens": 188,
+   "cost": 1.89e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 637,
+   "completion_tokens": 284,
+   "cost": 2.41e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 166,
+   "completion_tokens": 290,
+   "cost": 1.492e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 179,
+   "cost": 2.746e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 994,
+   "completion_tokens": 162,
+   "cost": 2.636e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 982,
+   "completion_tokens": 148,
+   "cost": 2.556e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 180,
+   "completion_tokens": 221,
+   "cost": 1.244e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 475,
+   "completion_tokens": 271,
+   "cost": 2.034e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 210,
+   "completion_tokens": 295,
+   "cost": 1.6e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 996,
+   "completion_tokens": 181,
+   "cost": 2.716e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 648,
+   "completion_tokens": 182,
+   "cost": 2.024e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 263,
+   "cost": 3.064e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 609,
+   "completion_tokens": 671,
+   "cost": 3.902e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 637,
+   "completion_tokens": 256,
+   "cost": 2.298e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 469,
+   "completion_tokens": 71,
+   "cost": 1.222e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1028,
+   "completion_tokens": 154,
+   "cost": 2.672e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1020,
+   "completion_tokens": 267,
+   "cost": 3.108e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 619,
+   "completion_tokens": 817,
+   "cost": 4.506e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 606,
+   "completion_tokens": 821,
+   "cost": 4.496e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 545,
+   "completion_tokens": 280,
+   "cost": 2.21e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 288,
+   "cost": 3.168e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1139,
+   "completion_tokens": 158,
+   "cost": 2.91e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 487,
+   "completion_tokens": 259,
+   "cost": 2.01e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1030,
+   "completion_tokens": 167,
+   "cost": 2.728e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1050,
+   "completion_tokens": 356,
+   "cost": 3.524e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1022,
+   "completion_tokens": 240,
+   "cost": 3.004e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 479,
+   "completion_tokens": 173,
+   "cost": 1.65e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1073,
+   "completion_tokens": 125,
+   "cost": 2.646e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 859,
+   "completion_tokens": 301,
+   "cost": 2.922e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1024,
+   "completion_tokens": 134,
+   "cost": 2.584e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 287,
+   "cost": 3.186e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 900,
+   "completion_tokens": 143,
+   "cost": 2.372e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 142,
+   "completion_tokens": 221,
+   "cost": 1.168e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 799,
+   "completion_tokens": 99,
+   "cost": 1.994e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1032,
+   "completion_tokens": 278,
+   "cost": 3.176e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 651,
+   "completion_tokens": 301,
+   "cost": 2.506e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 812,
+   "completion_tokens": 288,
+   "cost": 2.776e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 998,
+   "completion_tokens": 126,
+   "cost": 2.5e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 986,
+   "completion_tokens": 151,
+   "cost": 2.576e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 913,
+   "completion_tokens": 426,
+   "cost": 3.53e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 910,
+   "completion_tokens": 58,
+   "cost": 2.052e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 154,
+   "cost": 2.62e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 455,
+   "completion_tokens": 384,
+   "cost": 2.446e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1297,
+   "completion_tokens": 61,
+   "cost": 2.838e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 992,
+   "completion_tokens": 150,
+   "cost": 2.584e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 736,
+   "completion_tokens": 318,
+   "cost": 2.744e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 519,
+   "completion_tokens": 329,
+   "cost": 2.354e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1028,
+   "completion_tokens": 144,
+   "cost": 2.632e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1056,
+   "completion_tokens": 269,
+   "cost": 3.188e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 387,
+   "completion_tokens": 591,
+   "cost": 3.138e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1849,
+   "completion_tokens": 188,
+   "cost": 4.45e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 216,
+   "cost": 2.88e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 682,
+   "completion_tokens": 253,
+   "cost": 2.376e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1020,
+   "completion_tokens": 241,
+   "cost": 3.004e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 269,
+   "cost": 3.114e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1410,
+   "completion_tokens": 197,
+   "cost": 3.608e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 872,
+   "completion_tokens": 221,
+   "cost": 2.628e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1032,
+   "completion_tokens": 246,
+   "cost": 3.048e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1035,
+   "completion_tokens": 223,
+   "cost": 2.962e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 894,
+   "completion_tokens": 62,
+   "cost": 2.036e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 349,
+   "cost": 3.434e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1428,
+   "completion_tokens": 437,
+   "cost": 4.604e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1434,
+   "completion_tokens": 301,
+   "cost": 4.072e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1201,
+   "completion_tokens": 114,
+   "cost": 2.858e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 1000,
+   "cost": 6.042e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1174,
+   "completion_tokens": 955,
+   "cost": 6.168e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 944,
+   "completion_tokens": 116,
+   "cost": 2.352e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 260,
+   "cost": 3.06e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1034,
+   "completion_tokens": 1000,
+   "cost": 6.068e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1024,
+   "completion_tokens": 150,
+   "cost": 2.648e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 331,
+   "cost": 3.37e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1224,
+   "completion_tokens": 348,
+   "cost": 3.84e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1030,
+   "completion_tokens": 1000,
+   "cost": 6.06e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1954,
+   "completion_tokens": 426,
+   "cost": 5.612e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 636,
+   "completion_tokens": 326,
+   "cost": 2.576e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1227,
+   "completion_tokens": 279,
+   "cost": 3.57e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1050,
+   "completion_tokens": 1000,
+   "cost": 6.1e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1318,
+   "completion_tokens": 959,
+   "cost": 6.472e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1895,
+   "completion_tokens": 216,
+   "cost": 4.654e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1209,
+   "completion_tokens": 362,
+   "cost": 3.866e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1034,
+   "completion_tokens": 261,
+   "cost": 3.112e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1054,
+   "completion_tokens": 357,
+   "cost": 3.536e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1040,
+   "completion_tokens": 204,
+   "cost": 2.896e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1514,
+   "completion_tokens": 593,
+   "cost": 5.4e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2556,
+   "completion_tokens": 313,
+   "cost": 6.364e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 658,
+   "completion_tokens": 531,
+   "cost": 3.44e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1764,
+   "completion_tokens": 191,
+   "cost": 4.292e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2883,
+   "completion_tokens": 139,
+   "cost": 6.322e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 255,
+   "cost": 3.058e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2705,
+   "completion_tokens": 66,
+   "cost": 5.674e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1638,
+   "completion_tokens": 1000,
+   "cost": 7.276e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1772,
+   "completion_tokens": 542,
+   "cost": 5.712e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 267,
+   "cost": 3.126e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2967,
+   "completion_tokens": 823,
+   "cost": 9.226e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 192,
+   "completion_tokens": 128,
+   "cost": 8.96e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 453,
+   "completion_tokens": 139,
+   "cost": 1.462e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1007,
+   "completion_tokens": 143,
+   "cost": 2.586e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 170,
+   "completion_tokens": 150,
+   "cost": 9.4e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 456,
+   "completion_tokens": 212,
+   "cost": 1.76e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 220,
+   "cost": 2.906e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 612,
+   "completion_tokens": 227,
+   "cost": 2.132e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 631,
+   "completion_tokens": 286,
+   "cost": 2.406e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 167,
+   "completion_tokens": 185,
+   "cost": 1.074e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1032,
+   "completion_tokens": 184,
+   "cost": 2.8e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 198,
+   "cost": 2.812e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 173,
+   "completion_tokens": 132,
+   "cost": 8.74e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 169,
+   "completion_tokens": 149,
+   "cost": 9.34e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 276,
+   "cost": 3.116e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 472,
+   "completion_tokens": 152,
+   "cost": 1.552e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 623,
+   "completion_tokens": 386,
+   "cost": 2.79e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1034,
+   "completion_tokens": 112,
+   "cost": 2.516e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1007,
+   "completion_tokens": 153,
+   "cost": 2.626e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 134,
+   "cost": 2.562e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1036,
+   "completion_tokens": 145,
+   "cost": 2.652e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 163,
+   "cost": 2.676e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 185,
+   "completion_tokens": 147,
+   "cost": 9.58e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 900,
+   "completion_tokens": 99,
+   "cost": 2.196e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1009,
+   "completion_tokens": 189,
+   "cost": 2.774e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1025,
+   "completion_tokens": 118,
+   "cost": 2.522e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 763,
+   "completion_tokens": 230,
+   "cost": 2.446e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1044,
+   "completion_tokens": 359,
+   "cost": 3.524e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 740,
+   "completion_tokens": 71,
+   "cost": 1.764e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 852,
+   "completion_tokens": 358,
+   "cost": 3.136e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 792,
+   "completion_tokens": 325,
+   "cost": 2.884e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1031,
+   "completion_tokens": 191,
+   "cost": 2.826e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 374,
+   "completion_tokens": 394,
+   "cost": 2.324e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 849,
+   "completion_tokens": 59,
+   "cost": 1.934e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1005,
+   "completion_tokens": 1000,
+   "cost": 6.01e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 813,
+   "completion_tokens": 90,
+   "cost": 1.986e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 769,
+   "completion_tokens": 526,
+   "cost": 3.642e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 939,
+   "completion_tokens": 100,
+   "cost": 2.278e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 808,
+   "completion_tokens": 407,
+   "cost": 3.244e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1040,
+   "completion_tokens": 143,
+   "cost": 2.652e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 114,
+   "cost": 2.482e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 411,
+   "cost": 3.666e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 106,
+   "cost": 2.446e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 852,
+   "completion_tokens": 96,
+   "cost": 2.088e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 431,
+   "completion_tokens": 343,
+   "cost": 2.234e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 185,
+   "completion_tokens": 183,
+   "cost": 1.102e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 368,
+   "completion_tokens": 258,
+   "cost": 1.768e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1005,
+   "completion_tokens": 333,
+   "cost": 3.342e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1036,
+   "completion_tokens": 193,
+   "cost": 2.844e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1034,
+   "completion_tokens": 109,
+   "cost": 2.504e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 971,
+   "completion_tokens": 221,
+   "cost": 2.826e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 129,
+   "cost": 2.574e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 423,
+   "completion_tokens": 186,
+   "cost": 1.59e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 1000,
+   "cost": 6.03e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1036,
+   "completion_tokens": 105,
+   "cost": 2.492e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 112,
+   "cost": 2.506e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 194,
+   "cost": 2.804e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 962,
+   "completion_tokens": 299,
+   "cost": 3.12e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1339,
+   "completion_tokens": 192,
+   "cost": 3.446e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1016,
+   "completion_tokens": 158,
+   "cost": 2.664e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1291,
+   "completion_tokens": 209,
+   "cost": 3.418e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 702,
+   "completion_tokens": 71,
+   "cost": 1.688e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 314,
+   "completion_tokens": 436,
+   "cost": 2.372e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1038,
+   "completion_tokens": 235,
+   "cost": 3.016e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1009,
+   "completion_tokens": 135,
+   "cost": 2.558e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1478,
+   "completion_tokens": 298,
+   "cost": 4.148e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1147,
+   "completion_tokens": 90,
+   "cost": 2.654e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 596,
+   "completion_tokens": 1000,
+   "cost": 5.192e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1039,
+   "completion_tokens": 1000,
+   "cost": 6.078e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1625,
+   "completion_tokens": 1000,
+   "cost": 7.25e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 421,
+   "completion_tokens": 282,
+   "cost": 1.97e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 475,
+   "completion_tokens": 637,
+   "cost": 3.498e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 992,
+   "completion_tokens": 88,
+   "cost": 2.336e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1481,
+   "completion_tokens": 296,
+   "cost": 4.146e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 1000,
+   "cost": 6.03e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1268,
+   "completion_tokens": 513,
+   "cost": 4.588e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1626,
+   "completion_tokens": 229,
+   "cost": 4.168e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 531,
+   "completion_tokens": 291,
+   "cost": 2.226e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1048,
+   "completion_tokens": 367,
+   "cost": 3.564e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 137,
+   "cost": 2.57e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1064,
+   "completion_tokens": 214,
+   "cost": 2.984e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 811,
+   "completion_tokens": 94,
+   "cost": 1.998e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1491,
+   "completion_tokens": 256,
+   "cost": 4.006e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1009,
+   "completion_tokens": 289,
+   "cost": 3.174e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 164,
+   "cost": 2.678e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1493,
+   "completion_tokens": 452,
+   "cost": 4.794e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1484,
+   "completion_tokens": 742,
+   "cost": 5.936e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 223,
+   "cost": 2.912e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 981,
+   "completion_tokens": 811,
+   "cost": 5.206e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1048,
+   "completion_tokens": 250,
+   "cost": 3.096e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1879,
+   "completion_tokens": 352,
+   "cost": 5.166e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 1000,
+   "cost": 6.03e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1101,
+   "completion_tokens": 130,
+   "cost": 2.722e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1050,
+   "completion_tokens": 293,
+   "cost": 3.272e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1201,
+   "completion_tokens": 377,
+   "cost": 3.91e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1007,
+   "completion_tokens": 1000,
+   "cost": 6.014e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 168,
+   "cost": 2.692e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1781,
+   "completion_tokens": 1000,
+   "cost": 7.562e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2968,
+   "completion_tokens": 483,
+   "cost": 7.868e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2340,
+   "completion_tokens": 1000,
+   "cost": 8.68e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 966,
+   "completion_tokens": 63,
+   "cost": 2.184e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 443,
+   "completion_tokens": 52,
+   "cost": 1.094e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 449,
+   "completion_tokens": 143,
+   "cost": 1.47e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 996,
+   "completion_tokens": 125,
+   "cost": 2.492e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1000,
+   "completion_tokens": 323,
+   "cost": 3.292e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 608,
+   "completion_tokens": 247,
+   "cost": 2.204e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 612,
+   "completion_tokens": 247,
+   "cost": 2.212e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 136,
+   "cost": 2.548e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 595,
+   "completion_tokens": 349,
+   "cost": 2.586e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 621,
+   "completion_tokens": 379,
+   "cost": 2.758e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 468,
+   "completion_tokens": 87,
+   "cost": 1.284e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1017,
+   "completion_tokens": 338,
+   "cost": 3.386e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 455,
+   "completion_tokens": 97,
+   "cost": 1.298e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1004,
+   "completion_tokens": 138,
+   "cost": 2.56e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 185,
+   "completion_tokens": 194,
+   "cost": 1.146e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 314,
+   "completion_tokens": 274,
+   "cost": 1.724e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 516,
+   "completion_tokens": 301,
+   "cost": 2.236e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 464,
+   "completion_tokens": 161,
+   "cost": 1.572e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 194,
+   "completion_tokens": 239,
+   "cost": 1.344e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 155,
+   "cost": 2.662e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 91,
+   "cost": 2.368e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 331,
+   "completion_tokens": 213,
+   "cost": 1.514e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 140,
+   "cost": 2.564e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 238,
+   "cost": 2.968e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1025,
+   "completion_tokens": 230,
+   "cost": 2.97e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 150,
+   "cost": 2.646e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 706,
+   "completion_tokens": 171,
+   "cost": 2.096e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1034,
+   "completion_tokens": 236,
+   "cost": 3.012e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 750,
+   "completion_tokens": 92,
+   "cost": 1.868e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 999,
+   "completion_tokens": 105,
+   "cost": 2.418e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 759,
+   "completion_tokens": 198,
+   "cost": 2.31e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 759,
+   "completion_tokens": 257,
+   "cost": 2.546e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 891,
+   "completion_tokens": 137,
+   "cost": 2.33e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 198,
+   "cost": 2.85e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1017,
+   "completion_tokens": 428,
+   "cost": 3.746e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 368,
+   "completion_tokens": 360,
+   "cost": 2.176e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1025,
+   "completion_tokens": 1000,
+   "cost": 6.05e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 735,
+   "completion_tokens": 75,
+   "cost": 1.77e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1068,
+   "completion_tokens": 1000,
+   "cost": 6.136e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1040,
+   "completion_tokens": 158,
+   "cost": 2.712e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 926,
+   "completion_tokens": 215,
+   "cost": 2.712e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 126,
+   "cost": 2.55e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 128,
+   "cost": 2.516e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1025,
+   "completion_tokens": 234,
+   "cost": 2.986e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 497,
+   "completion_tokens": 308,
+   "cost": 2.226e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 974,
+   "completion_tokens": 238,
+   "cost": 2.9e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 228,
+   "completion_tokens": 246,
+   "cost": 1.44e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 991,
+   "completion_tokens": 329,
+   "cost": 3.298e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 922,
+   "completion_tokens": 194,
+   "cost": 2.62e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1645,
+   "completion_tokens": 177,
+   "cost": 3.998e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 123,
+   "cost": 2.496e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 276,
+   "cost": 3.146e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 638,
+   "completion_tokens": 200,
+   "cost": 2.076e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 801,
+   "completion_tokens": 393,
+   "cost": 3.174e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 347,
+   "completion_tokens": 425,
+   "cost": 2.394e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 519,
+   "completion_tokens": 160,
+   "cost": 1.678e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 720,
+   "completion_tokens": 160,
+   "cost": 2.08e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 185,
+   "completion_tokens": 169,
+   "cost": 1.046e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 464,
+   "completion_tokens": 111,
+   "cost": 1.372e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 634,
+   "completion_tokens": 51,
+   "cost": 1.472e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 439,
+   "completion_tokens": 1000,
+   "cost": 4.878e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1000,
+   "completion_tokens": 116,
+   "cost": 2.464e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 150,
+   "cost": 2.612e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1068,
+   "completion_tokens": 428,
+   "cost": 3.848e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 695,
+   "completion_tokens": 62,
+   "cost": 1.638e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 135,
+   "cost": 2.578e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:6",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 849,
+   "completion_tokens": 148,
+   "cost": 2.29e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 452,
+   "completion_tokens": 354,
+   "cost": 2.32e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1027,
+   "completion_tokens": 238,
+   "cost": 3.006e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:5",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 107,
+   "cost": 2.444e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1688,
+   "completion_tokens": 205,
+   "cost": 4.196e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 680,
+   "completion_tokens": 151,
+   "cost": 1.964e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 683,
+   "completion_tokens": 81,
+   "cost": 1.69e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 751,
+   "completion_tokens": 88,
+   "cost": 1.854e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1770,
+   "completion_tokens": 88,
+   "cost": 3.892e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 387,
+   "completion_tokens": 460,
+   "cost": 2.614e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1025,
+   "completion_tokens": 257,
+   "cost": 3.078e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1328,
+   "completion_tokens": 258,
+   "cost": 3.688e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1664,
+   "completion_tokens": 331,
+   "cost": 4.652e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 958,
+   "completion_tokens": 627,
+   "cost": 4.424e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 801,
+   "completion_tokens": 336,
+   "cost": 2.946e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1034,
+   "completion_tokens": 233,
+   "cost": 3e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:9",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1027,
+   "completion_tokens": 164,
+   "cost": 2.71e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 1000,
+   "cost": 6.058e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1068,
+   "completion_tokens": 151,
+   "cost": 2.74e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 641,
+   "completion_tokens": 365,
+   "cost": 2.742e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1285,
+   "completion_tokens": 467,
+   "cost": 4.438e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1493,
+   "completion_tokens": 162,
+   "cost": 3.634e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1072,
+   "completion_tokens": 137,
+   "cost": 2.692e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 1000,
+   "cost": 6.02e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:7",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1040,
+   "completion_tokens": 171,
+   "cost": 2.764e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1572,
+   "completion_tokens": 255,
+   "cost": 4.164e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1106,
+   "completion_tokens": 131,
+   "cost": 2.736e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 1000,
+   "cost": 6.058e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 3020,
+   "completion_tokens": 720,
+   "cost": 8.92e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1491,
+   "completion_tokens": 102,
+   "cost": 3.39e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2035,
+   "completion_tokens": 1000,
+   "cost": 8.07e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 1000,
+   "cost": 6.024e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 233,
+   "cost": 2.96e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:8",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1663,
+   "completion_tokens": 1000,
+   "cost": 7.326e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "opt:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1471,
+   "completion_tokens": 402,
+   "cost": 4.55e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 223,
+   "completion_tokens": 229,
+   "cost": 1.362e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 606,
+   "completion_tokens": 252,
+   "cost": 2.22e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 451,
+   "completion_tokens": 128,
+   "cost": 1.414e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 179,
+   "completion_tokens": 139,
+   "cost": 9.14e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 576,
+   "completion_tokens": 184,
+   "cost": 1.888e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 567,
+   "completion_tokens": 194,
+   "cost": 1.91e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 101,
+   "cost": 2.442e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 140,
+   "completion_tokens": 83,
+   "cost": 6.12e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1063,
+   "completion_tokens": 342,
+   "cost": 3.494e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 436,
+   "completion_tokens": 120,
+   "cost": 1.352e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 111,
+   "cost": 2.486e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 149,
+   "completion_tokens": 135,
+   "cost": 8.38e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 749,
+   "completion_tokens": 146,
+   "cost": 2.082e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 164,
+   "completion_tokens": 413,
+   "cost": 1.98e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 989,
+   "completion_tokens": 130,
+   "cost": 2.498e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 980,
+   "completion_tokens": 333,
+   "cost": 3.292e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1065,
+   "completion_tokens": 269,
+   "cost": 3.206e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 179,
+   "completion_tokens": 156,
+   "cost": 9.82e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 993,
+   "completion_tokens": 120,
+   "cost": 2.466e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 161,
+   "cost": 2.682e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 652,
+   "completion_tokens": 293,
+   "cost": 2.476e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 877,
+   "completion_tokens": 217,
+   "cost": 2.622e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1025,
+   "completion_tokens": 116,
+   "cost": 2.514e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 982,
+   "completion_tokens": 96,
+   "cost": 2.348e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 951,
+   "completion_tokens": 411,
+   "cost": 3.546e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 952,
+   "completion_tokens": 87,
+   "cost": 2.252e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 509,
+   "completion_tokens": 140,
+   "cost": 1.578e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 893,
+   "completion_tokens": 222,
+   "cost": 2.674e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1004,
+   "completion_tokens": 751,
+   "cost": 5.012e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 980,
+   "completion_tokens": 111,
+   "cost": 2.404e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 867,
+   "completion_tokens": 69,
+   "cost": 2.01e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 436,
+   "completion_tokens": 342,
+   "cost": 2.24e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 197,
+   "cost": 2.8e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 984,
+   "completion_tokens": 322,
+   "cost": 3.256e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 820,
+   "completion_tokens": 179,
+   "cost": 2.356e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 445,
+   "completion_tokens": 363,
+   "cost": 2.342e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 351,
+   "completion_tokens": 568,
+   "cost": 2.974e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 989,
+   "completion_tokens": 124,
+   "cost": 2.474e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 123,
+   "cost": 2.486e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1063,
+   "completion_tokens": 212,
+   "cost": 2.974e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 763,
+   "completion_tokens": 297,
+   "cost": 2.714e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 451,
+   "completion_tokens": 125,
+   "cost": 1.402e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1069,
+   "completion_tokens": 165,
+   "cost": 2.798e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 951,
+   "completion_tokens": 188,
+   "cost": 2.654e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 197,
+   "cost": 2.8e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1153,
+   "completion_tokens": 400,
+   "cost": 3.906e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1247,
+   "completion_tokens": 104,
+   "cost": 2.91e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 921,
+   "completion_tokens": 835,
+   "cost": 5.182e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1293,
+   "completion_tokens": 59,
+   "cost": 2.822e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:0:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1007,
+   "completion_tokens": 1000,
+   "cost": 6.014e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 442,
+   "completion_tokens": 85,
+   "cost": 1.224e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 459,
+   "completion_tokens": 107,
+   "cost": 1.346e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 155,
+   "completion_tokens": 121,
+   "cost": 7.94e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 224,
+   "cost": 2.938e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1009,
+   "completion_tokens": 257,
+   "cost": 3.046e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1056,
+   "completion_tokens": 269,
+   "cost": 3.188e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 172,
+   "completion_tokens": 179,
+   "cost": 1.06e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 995,
+   "completion_tokens": 107,
+   "cost": 2.418e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 468,
+   "completion_tokens": 131,
+   "cost": 1.46e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 101,
+   "cost": 2.398e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 169,
+   "completion_tokens": 197,
+   "cost": 1.126e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 149,
+   "cost": 2.62e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 715,
+   "completion_tokens": 137,
+   "cost": 1.978e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 216,
+   "completion_tokens": 366,
+   "cost": 1.896e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 189,
+   "cost": 2.784e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 181,
+   "completion_tokens": 281,
+   "cost": 1.486e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1009,
+   "completion_tokens": 295,
+   "cost": 3.198e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 824,
+   "completion_tokens": 214,
+   "cost": 2.504e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 578,
+   "completion_tokens": 85,
+   "cost": 1.496e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1056,
+   "completion_tokens": 315,
+   "cost": 3.372e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 820,
+   "completion_tokens": 315,
+   "cost": 2.9e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 885,
+   "completion_tokens": 303,
+   "cost": 2.982e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 286,
+   "cost": 3.186e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 404,
+   "completion_tokens": 369,
+   "cost": 2.284e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 912,
+   "completion_tokens": 283,
+   "cost": 2.956e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 683,
+   "completion_tokens": 120,
+   "cost": 1.846e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 120,
+   "cost": 2.474e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 944,
+   "completion_tokens": 463,
+   "cost": 3.74e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 790,
+   "completion_tokens": 410,
+   "cost": 3.22e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 999,
+   "completion_tokens": 138,
+   "cost": 2.55e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 170,
+   "cost": 2.674e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 864,
+   "completion_tokens": 447,
+   "cost": 3.516e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 524,
+   "completion_tokens": 460,
+   "cost": 2.888e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1199,
+   "completion_tokens": 410,
+   "cost": 4.038e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 748,
+   "completion_tokens": 115,
+   "cost": 1.956e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 208,
+   "cost": 2.86e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1169,
+   "completion_tokens": 421,
+   "cost": 4.022e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 727,
+   "completion_tokens": 114,
+   "cost": 1.91e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1018,
+   "completion_tokens": 178,
+   "cost": 2.748e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 892,
+   "completion_tokens": 494,
+   "cost": 3.76e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 712,
+   "completion_tokens": 1000,
+   "cost": 5.424e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 152,
+   "cost": 2.63e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 657,
+   "completion_tokens": 494,
+   "cost": 3.29e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1056,
+   "completion_tokens": 328,
+   "cost": 3.424e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 288,
+   "cost": 3.182e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 239,
+   "cost": 2.998e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1027,
+   "completion_tokens": 222,
+   "cost": 2.942e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1062,
+   "completion_tokens": 320,
+   "cost": 3.404e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1348,
+   "completion_tokens": 373,
+   "cost": 4.188e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:1:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1213,
+   "completion_tokens": 111,
+   "cost": 2.87e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1004,
+   "completion_tokens": 233,
+   "cost": 2.94e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 310,
+   "cost": 3.266e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 460,
+   "completion_tokens": 138,
+   "cost": 1.472e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 451,
+   "completion_tokens": 261,
+   "cost": 1.946e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 603,
+   "completion_tokens": 668,
+   "cost": 3.878e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 164,
+   "completion_tokens": 186,
+   "cost": 1.072e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 173,
+   "completion_tokens": 281,
+   "cost": 1.47e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 599,
+   "completion_tokens": 734,
+   "cost": 4.134e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 176,
+   "completion_tokens": 266,
+   "cost": 1.416e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 1000,
+   "cost": 6.042e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 459,
+   "completion_tokens": 133,
+   "cost": 1.45e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 231,
+   "cost": 2.95e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1004,
+   "completion_tokens": 279,
+   "cost": 3.124e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1016,
+   "completion_tokens": 186,
+   "cost": 2.776e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 172,
+   "completion_tokens": 181,
+   "cost": 1.068e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 942,
+   "completion_tokens": 196,
+   "cost": 2.668e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 945,
+   "completion_tokens": 211,
+   "cost": 2.734e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 856,
+   "completion_tokens": 456,
+   "cost": 3.536e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 859,
+   "completion_tokens": 138,
+   "cost": 2.27e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1162,
+   "completion_tokens": 570,
+   "cost": 4.604e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 181,
+   "completion_tokens": 1000,
+   "cost": 4.362e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1020,
+   "completion_tokens": 195,
+   "cost": 2.82e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 479,
+   "completion_tokens": 314,
+   "cost": 2.214e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1018,
+   "completion_tokens": 122,
+   "cost": 2.524e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 329,
+   "cost": 3.358e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 1000,
+   "cost": 6.024e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 266,
+   "cost": 3.076e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 608,
+   "completion_tokens": 321,
+   "cost": 2.5e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 137,
+   "cost": 2.576e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1016,
+   "completion_tokens": 182,
+   "cost": 2.76e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 601,
+   "completion_tokens": 1000,
+   "cost": 5.202e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1517,
+   "completion_tokens": 361,
+   "cost": 4.478e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 981,
+   "completion_tokens": 218,
+   "cost": 2.834e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 106,
+   "cost": 2.452e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 620,
+   "completion_tokens": 458,
+   "cost": 3.072e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1013,
+   "completion_tokens": 275,
+   "cost": 3.126e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 116,
+   "cost": 2.492e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 944,
+   "completion_tokens": 209,
+   "cost": 2.724e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1641,
+   "completion_tokens": 1000,
+   "cost": 7.282e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 240,
+   "cost": 2.976e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 225,
+   "cost": 2.938e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1500,
+   "completion_tokens": 132,
+   "cost": 3.528e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2094,
+   "completion_tokens": 348,
+   "cost": 5.58e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 64,
+   "cost": 2.278e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 702,
+   "completion_tokens": 383,
+   "cost": 2.936e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 973,
+   "completion_tokens": 502,
+   "cost": 3.954e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1217,
+   "completion_tokens": 1000,
+   "cost": 6.434e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 650,
+   "cost": 4.646e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1001,
+   "completion_tokens": 102,
+   "cost": 2.41e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:2:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1027,
+   "completion_tokens": 324,
+   "cost": 3.35e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 984,
+   "completion_tokens": 186,
+   "cost": 2.712e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 233,
+   "cost": 2.948e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 431,
+   "completion_tokens": 112,
+   "cost": 1.31e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 631,
+   "completion_tokens": 381,
+   "cost": 2.786e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 388,
+   "cost": 3.59e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 455,
+   "completion_tokens": 195,
+   "cost": 1.69e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 491,
+   "completion_tokens": 115,
+   "cost": 1.442e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 144,
+   "completion_tokens": 214,
+   "cost": 1.144e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 204,
+   "completion_tokens": 179,
+   "cost": 1.124e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 984,
+   "completion_tokens": 144,
+   "cost": 2.544e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 168,
+   "completion_tokens": 358,
+   "cost": 1.768e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1044,
+   "completion_tokens": 210,
+   "cost": 2.928e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 789,
+   "completion_tokens": 220,
+   "cost": 2.458e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 165,
+   "completion_tokens": 1000,
+   "cost": 4.33e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 201,
+   "cost": 2.82e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1046,
+   "completion_tokens": 157,
+   "cost": 2.72e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 179,
+   "completion_tokens": 828,
+   "cost": 3.67e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 459,
+   "completion_tokens": 358,
+   "cost": 2.35e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 860,
+   "completion_tokens": 173,
+   "cost": 2.412e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 984,
+   "completion_tokens": 183,
+   "cost": 2.7e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 588,
+   "completion_tokens": 393,
+   "cost": 2.748e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 234,
+   "cost": 2.958e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 988,
+   "completion_tokens": 153,
+   "cost": 2.588e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 438,
+   "cost": 3.79e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1044,
+   "completion_tokens": 182,
+   "cost": 2.816e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1026,
+   "completion_tokens": 128,
+   "cost": 2.564e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 938,
+   "completion_tokens": 199,
+   "cost": 2.672e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1005,
+   "completion_tokens": 1000,
+   "cost": 6.01e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 625,
+   "completion_tokens": 100,
+   "cost": 1.65e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 884,
+   "completion_tokens": 112,
+   "cost": 2.216e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 405,
+   "completion_tokens": 470,
+   "cost": 2.69e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1011,
+   "completion_tokens": 188,
+   "cost": 2.774e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1007,
+   "completion_tokens": 342,
+   "cost": 3.382e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 396,
+   "cost": 3.642e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1348,
+   "completion_tokens": 373,
+   "cost": 4.188e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 859,
+   "completion_tokens": 131,
+   "cost": 2.242e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1048,
+   "completion_tokens": 1000,
+   "cost": 6.096e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 966,
+   "completion_tokens": 578,
+   "cost": 4.244e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2083,
+   "completion_tokens": 243,
+   "cost": 5.138e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 959,
+   "completion_tokens": 135,
+   "cost": 2.458e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1061,
+   "completion_tokens": 184,
+   "cost": 2.858e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1005,
+   "completion_tokens": 173,
+   "cost": 2.702e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 729,
+   "completion_tokens": 1000,
+   "cost": 5.458e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 302,
+   "cost": 3.246e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 345,
+   "cost": 3.422e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1202,
+   "completion_tokens": 1000,
+   "cost": 6.404e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1318,
+   "completion_tokens": 97,
+   "cost": 3.024e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1005,
+   "completion_tokens": 1000,
+   "cost": 6.01e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1022,
+   "completion_tokens": 462,
+   "cost": 3.892e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:3:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1324,
+   "completion_tokens": 658,
+   "cost": 5.28e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 991,
+   "completion_tokens": 176,
+   "cost": 2.686e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 439,
+   "completion_tokens": 187,
+   "cost": 1.626e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 597,
+   "completion_tokens": 262,
+   "cost": 2.242e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 999,
+   "completion_tokens": 323,
+   "cost": 3.29e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 151,
+   "completion_tokens": 158,
+   "cost": 9.34e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 152,
+   "completion_tokens": 152,
+   "cost": 9.12e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 446,
+   "completion_tokens": 67,
+   "cost": 1.16e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 170,
+   "completion_tokens": 258,
+   "cost": 1.372e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 174,
+   "completion_tokens": 551,
+   "cost": 2.552e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 992,
+   "completion_tokens": 168,
+   "cost": 2.656e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 159,
+   "completion_tokens": 212,
+   "cost": 1.166e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 991,
+   "completion_tokens": 322,
+   "cost": 3.27e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 994,
+   "completion_tokens": 155,
+   "cost": 2.608e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 189,
+   "cost": 2.776e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 766,
+   "completion_tokens": 196,
+   "cost": 2.316e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 786,
+   "completion_tokens": 188,
+   "cost": 2.324e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 999,
+   "completion_tokens": 181,
+   "cost": 2.722e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 750,
+   "completion_tokens": 150,
+   "cost": 2.1e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 657,
+   "completion_tokens": 77,
+   "cost": 1.622e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 438,
+   "completion_tokens": 52,
+   "cost": 1.084e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 136,
+   "cost": 2.568e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 941,
+   "completion_tokens": 255,
+   "cost": 2.902e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1143,
+   "completion_tokens": 201,
+   "cost": 3.09e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 994,
+   "completion_tokens": 322,
+   "cost": 3.276e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 362,
+   "completion_tokens": 268,
+   "cost": 1.796e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 993,
+   "completion_tokens": 241,
+   "cost": 2.95e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 170,
+   "completion_tokens": 299,
+   "cost": 1.536e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 1000,
+   "cost": 6.028e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 733,
+   "completion_tokens": 321,
+   "cost": 2.75e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 104,
+   "cost": 2.41e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1074,
+   "completion_tokens": 176,
+   "cost": 2.852e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 169,
+   "cost": 2.696e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 994,
+   "completion_tokens": 105,
+   "cost": 2.408e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 861,
+   "completion_tokens": 69,
+   "cost": 1.998e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 803,
+   "completion_tokens": 595,
+   "cost": 3.986e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1346,
+   "completion_tokens": 226,
+   "cost": 3.596e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1014,
+   "completion_tokens": 100,
+   "cost": 2.428e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 887,
+   "completion_tokens": 79,
+   "cost": 2.09e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1016,
+   "completion_tokens": 348,
+   "cost": 3.424e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 446,
+   "completion_tokens": 156,
+   "cost": 1.516e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 981,
+   "completion_tokens": 463,
+   "cost": 3.814e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 267,
+   "completion_tokens": 349,
+   "cost": 1.93e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1001,
+   "completion_tokens": 130,
+   "cost": 2.522e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 955,
+   "completion_tokens": 152,
+   "cost": 2.518e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1005,
+   "completion_tokens": 415,
+   "cost": 3.67e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1018,
+   "completion_tokens": 1000,
+   "cost": 6.036e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 369,
+   "completion_tokens": 1000,
+   "cost": 4.738e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1016,
+   "completion_tokens": 1000,
+   "cost": 6.032e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2673,
+   "completion_tokens": 1000,
+   "cost": 9.346e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:4:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1877,
+   "completion_tokens": 175,
+   "cost": 4.454e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 163,
+   "cost": 2.698e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 606,
+   "completion_tokens": 259,
+   "cost": 2.248e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 589,
+   "completion_tokens": 227,
+   "cost": 2.086e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 597,
+   "completion_tokens": 237,
+   "cost": 2.142e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 183,
+   "completion_tokens": 210,
+   "cost": 1.206e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 466,
+   "completion_tokens": 173,
+   "cost": 1.624e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 162,
+   "completion_tokens": 91,
+   "cost": 6.88e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 169,
+   "cost": 2.722e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 207,
+   "cost": 2.832e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 805,
+   "completion_tokens": 250,
+   "cost": 2.61e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 707,
+   "completion_tokens": 68,
+   "cost": 1.686e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 751,
+   "completion_tokens": 61,
+   "cost": 1.746e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 170,
+   "completion_tokens": 474,
+   "cost": 2.236e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 179,
+   "completion_tokens": 433,
+   "cost": 2.09e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 605,
+   "completion_tokens": 764,
+   "cost": 4.266e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 163,
+   "cost": 2.672e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 725,
+   "completion_tokens": 141,
+   "cost": 2.014e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 163,
+   "cost": 2.69e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 140,
+   "cost": 2.584e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1012,
+   "completion_tokens": 140,
+   "cost": 2.584e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 178,
+   "completion_tokens": 356,
+   "cost": 1.78e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 277,
+   "cost": 3.154e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 610,
+   "completion_tokens": 945,
+   "cost": 5e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 470,
+   "completion_tokens": 66,
+   "cost": 1.204e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1018,
+   "completion_tokens": 155,
+   "cost": 2.656e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 457,
+   "completion_tokens": 180,
+   "cost": 1.634e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1260,
+   "completion_tokens": 103,
+   "cost": 2.932e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 183,
+   "completion_tokens": 144,
+   "cost": 9.42e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1022,
+   "completion_tokens": 333,
+   "cost": 3.376e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1025,
+   "completion_tokens": 166,
+   "cost": 2.714e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 866,
+   "completion_tokens": 595,
+   "cost": 4.112e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 1000,
+   "cost": 6.012e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1019,
+   "completion_tokens": 178,
+   "cost": 2.75e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 506,
+   "completion_tokens": 419,
+   "cost": 2.688e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 217,
+   "cost": 2.926e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1006,
+   "completion_tokens": 125,
+   "cost": 2.512e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 104,
+   "cost": 2.436e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1023,
+   "completion_tokens": 165,
+   "cost": 2.706e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 803,
+   "completion_tokens": 200,
+   "cost": 2.406e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 697,
+   "completion_tokens": 111,
+   "cost": 1.838e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1848,
+   "completion_tokens": 193,
+   "cost": 4.468e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 946,
+   "completion_tokens": 355,
+   "cost": 3.312e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 449,
+   "completion_tokens": 367,
+   "cost": 2.366e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1144,
+   "completion_tokens": 1000,
+   "cost": 6.288e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 672,
+   "completion_tokens": 263,
+   "cost": 2.396e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1020,
+   "completion_tokens": 161,
+   "cost": 2.684e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1287,
+   "completion_tokens": 439,
+   "cost": 4.33e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1022,
+   "completion_tokens": 186,
+   "cost": 2.788e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1866,
+   "completion_tokens": 70,
+   "cost": 4.012e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:5:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 186,
+   "cost": 2.748e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 995,
+   "completion_tokens": 131,
+   "cost": 2.514e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 442,
+   "completion_tokens": 79,
+   "cost": 1.2e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 155,
+   "completion_tokens": 108,
+   "cost": 7.42e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 150,
+   "completion_tokens": 192,
+   "cost": 1.068e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 995,
+   "completion_tokens": 146,
+   "cost": 2.574e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 155,
+   "completion_tokens": 141,
+   "cost": 8.74e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 175,
+   "completion_tokens": 257,
+   "cost": 1.378e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 990,
+   "completion_tokens": 199,
+   "cost": 2.776e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 995,
+   "completion_tokens": 119,
+   "cost": 2.466e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 745,
+   "completion_tokens": 230,
+   "cost": 2.41e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 120,
+   "cost": 2.474e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 992,
+   "completion_tokens": 218,
+   "cost": 2.856e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 703,
+   "completion_tokens": 212,
+   "cost": 2.254e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 331,
+   "cost": 3.354e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 734,
+   "completion_tokens": 226,
+   "cost": 2.372e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 570,
+   "completion_tokens": 627,
+   "cost": 3.648e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1017,
+   "completion_tokens": 144,
+   "cost": 2.61e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 982,
+   "completion_tokens": 274,
+   "cost": 3.06e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 826,
+   "completion_tokens": 373,
+   "cost": 3.144e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 778,
+   "completion_tokens": 152,
+   "cost": 2.164e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 143,
+   "completion_tokens": 157,
+   "cost": 9.14e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 608,
+   "completion_tokens": 162,
+   "cost": 1.864e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 840,
+   "completion_tokens": 92,
+   "cost": 2.048e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 983,
+   "completion_tokens": 151,
+   "cost": 2.57e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 645,
+   "completion_tokens": 159,
+   "cost": 1.926e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 985,
+   "completion_tokens": 150,
+   "cost": 2.57e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 974,
+   "completion_tokens": 340,
+   "cost": 3.308e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 597,
+   "completion_tokens": 82,
+   "cost": 1.522e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 499,
+   "completion_tokens": 218,
+   "cost": 1.87e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1088,
+   "completion_tokens": 346,
+   "cost": 3.56e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 337,
+   "completion_tokens": 238,
+   "cost": 1.626e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 148,
+   "cost": 2.586e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 990,
+   "completion_tokens": 177,
+   "cost": 2.688e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 445,
+   "completion_tokens": 274,
+   "cost": 1.986e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 995,
+   "completion_tokens": 135,
+   "cost": 2.53e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 999,
+   "completion_tokens": 120,
+   "cost": 2.478e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 994,
+   "completion_tokens": 234,
+   "cost": 2.924e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 969,
+   "completion_tokens": 1000,
+   "cost": 5.938e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 462,
+   "completion_tokens": 73,
+   "cost": 1.216e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 531,
+   "completion_tokens": 542,
+   "cost": 3.23e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1001,
+   "completion_tokens": 150,
+   "cost": 2.602e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 983,
+   "completion_tokens": 150,
+   "cost": 2.566e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 989,
+   "completion_tokens": 147,
+   "cost": 2.566e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 542,
+   "completion_tokens": 264,
+   "cost": 2.14e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 132,
+   "cost": 2.558e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1304,
+   "completion_tokens": 342,
+   "cost": 3.976e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1194,
+   "completion_tokens": 448,
+   "cost": 4.18e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 162,
+   "cost": 2.69e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1169,
+   "completion_tokens": 101,
+   "cost": 2.742e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:6:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 989,
+   "completion_tokens": 454,
+   "cost": 3.794e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 443,
+   "completion_tokens": 156,
+   "cost": 1.51e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 585,
+   "completion_tokens": 225,
+   "cost": 2.07e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 156,
+   "completion_tokens": 246,
+   "cost": 1.296e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 614,
+   "completion_tokens": 287,
+   "cost": 2.376e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 996,
+   "completion_tokens": 208,
+   "cost": 2.824e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 158,
+   "completion_tokens": 168,
+   "cost": 9.88e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 998,
+   "completion_tokens": 189,
+   "cost": 2.752e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 590,
+   "completion_tokens": 920,
+   "cost": 4.86e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 998,
+   "completion_tokens": 200,
+   "cost": 2.796e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 187,
+   "completion_tokens": 341,
+   "cost": 1.738e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 804,
+   "completion_tokens": 312,
+   "cost": 2.856e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1027,
+   "completion_tokens": 304,
+   "cost": 3.27e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 163,
+   "completion_tokens": 328,
+   "cost": 1.638e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1000,
+   "completion_tokens": 356,
+   "cost": 3.424e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 175,
+   "completion_tokens": 1000,
+   "cost": 4.35e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1003,
+   "completion_tokens": 180,
+   "cost": 2.726e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 701,
+   "completion_tokens": 117,
+   "cost": 1.87e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1210,
+   "completion_tokens": 367,
+   "cost": 3.888e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 362,
+   "cost": 3.506e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 378,
+   "cost": 3.542e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 667,
+   "completion_tokens": 109,
+   "cost": 1.77e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1401,
+   "completion_tokens": 316,
+   "cost": 4.066e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 792,
+   "completion_tokens": 135,
+   "cost": 2.124e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1000,
+   "completion_tokens": 331,
+   "cost": 3.324e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1007,
+   "completion_tokens": 172,
+   "cost": 2.702e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1017,
+   "completion_tokens": 217,
+   "cost": 2.902e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1169,
+   "completion_tokens": 291,
+   "cost": 3.502e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 474,
+   "completion_tokens": 96,
+   "cost": 1.332e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 836,
+   "completion_tokens": 429,
+   "cost": 3.388e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 379,
+   "completion_tokens": 401,
+   "cost": 2.362e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1005,
+   "completion_tokens": 180,
+   "cost": 2.73e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 765,
+   "completion_tokens": 330,
+   "cost": 2.85e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 527,
+   "completion_tokens": 506,
+   "cost": 3.078e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 559,
+   "completion_tokens": 655,
+   "cost": 3.738e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 851,
+   "completion_tokens": 930,
+   "cost": 5.422e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1007,
+   "completion_tokens": 185,
+   "cost": 2.754e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 998,
+   "completion_tokens": 125,
+   "cost": 2.496e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1002,
+   "completion_tokens": 182,
+   "cost": 2.732e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 998,
+   "completion_tokens": 437,
+   "cost": 3.744e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1341,
+   "completion_tokens": 820,
+   "cost": 5.962e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1016,
+   "completion_tokens": 694,
+   "cost": 4.808e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1423,
+   "completion_tokens": 805,
+   "cost": 6.066e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 462,
+   "completion_tokens": 180,
+   "cost": 1.644e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1029,
+   "completion_tokens": 1000,
+   "cost": 6.058e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1384,
+   "completion_tokens": 326,
+   "cost": 4.072e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1033,
+   "completion_tokens": 333,
+   "cost": 3.398e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1415,
+   "completion_tokens": 633,
+   "cost": 5.362e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1015,
+   "completion_tokens": 393,
+   "cost": 3.602e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1021,
+   "completion_tokens": 1000,
+   "cost": 6.042e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:7:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2051,
+   "completion_tokens": 397,
+   "cost": 5.69e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1027,
+   "completion_tokens": 193,
+   "cost": 2.826e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 159,
+   "completion_tokens": 101,
+   "cost": 7.22e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 999,
+   "completion_tokens": 94,
+   "cost": 2.374e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1036,
+   "completion_tokens": 382,
+   "cost": 3.6e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 187,
+   "completion_tokens": 195,
+   "cost": 1.154e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1027,
+   "completion_tokens": 223,
+   "cost": 2.946e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1078,
+   "completion_tokens": 246,
+   "cost": 3.14e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 196,
+   "completion_tokens": 128,
+   "cost": 9.04e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 665,
+   "completion_tokens": 192,
+   "cost": 2.098e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 839,
+   "completion_tokens": 331,
+   "cost": 3.002e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 238,
+   "completion_tokens": 240,
+   "cost": 1.436e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1001,
+   "completion_tokens": 1000,
+   "cost": 6.002e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1078,
+   "completion_tokens": 120,
+   "cost": 2.636e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 748,
+   "completion_tokens": 70,
+   "cost": 1.776e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 836,
+   "completion_tokens": 214,
+   "cost": 2.528e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1618,
+   "completion_tokens": 232,
+   "cost": 4.164e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1078,
+   "completion_tokens": 196,
+   "cost": 2.94e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 702,
+   "completion_tokens": 127,
+   "cost": 1.912e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 485,
+   "completion_tokens": 219,
+   "cost": 1.846e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1036,
+   "completion_tokens": 993,
+   "cost": 6.044e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 709,
+   "completion_tokens": 297,
+   "cost": 2.606e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1078,
+   "completion_tokens": 255,
+   "cost": 3.176e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 595,
+   "completion_tokens": 723,
+   "cost": 4.082e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 455,
+   "completion_tokens": 182,
+   "cost": 1.638e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1312,
+   "completion_tokens": 226,
+   "cost": 3.528e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1037,
+   "completion_tokens": 324,
+   "cost": 3.37e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1065,
+   "completion_tokens": 87,
+   "cost": 2.478e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1938,
+   "completion_tokens": 607,
+   "cost": 6.304e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 168,
+   "completion_tokens": 332,
+   "cost": 1.664e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 446,
+   "completion_tokens": 411,
+   "cost": 2.536e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1481,
+   "completion_tokens": 346,
+   "cost": 4.346e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 179,
+   "cost": 2.732e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 838,
+   "completion_tokens": 418,
+   "cost": 3.348e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1027,
+   "completion_tokens": 203,
+   "cost": 2.866e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 496,
+   "completion_tokens": 290,
+   "cost": 2.152e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 239,
+   "cost": 2.976e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 483,
+   "completion_tokens": 145,
+   "cost": 1.546e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 999,
+   "completion_tokens": 127,
+   "cost": 2.506e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1033,
+   "completion_tokens": 212,
+   "cost": 2.914e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1225,
+   "completion_tokens": 172,
+   "cost": 3.138e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1008,
+   "completion_tokens": 204,
+   "cost": 2.832e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1003,
+   "completion_tokens": 130,
+   "cost": 2.526e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1038,
+   "completion_tokens": 111,
+   "cost": 2.52e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1042,
+   "completion_tokens": 113,
+   "cost": 2.536e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 455,
+   "completion_tokens": 222,
+   "cost": 1.798e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1563,
+   "completion_tokens": 577,
+   "cost": 5.434e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 646,
+   "completion_tokens": 452,
+   "cost": 3.1e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1010,
+   "completion_tokens": 259,
+   "cost": 3.056e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1311,
+   "completion_tokens": 341,
+   "cost": 3.986e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:8:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1626,
+   "completion_tokens": 1000,
+   "cost": 7.252e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 584,
+   "completion_tokens": 249,
+   "cost": 2.164e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 588,
+   "completion_tokens": 241,
+   "cost": 2.14e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1048,
+   "completion_tokens": 195,
+   "cost": 2.876e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 444,
+   "completion_tokens": 126,
+   "cost": 1.392e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 448,
+   "completion_tokens": 164,
+   "cost": 1.552e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 157,
+   "completion_tokens": 149,
+   "cost": 9.1e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 579,
+   "completion_tokens": 651,
+   "cost": 3.762e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 439,
+   "completion_tokens": 99,
+   "cost": 1.274e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 163,
+   "cost": 2.646e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 161,
+   "completion_tokens": 289,
+   "cost": 1.478e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 152,
+   "completion_tokens": 111,
+   "cost": 7.48e-06,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 208,
+   "completion_tokens": 461,
+   "cost": 2.26e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1001,
+   "completion_tokens": 188,
+   "cost": 2.754e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1048,
+   "completion_tokens": 153,
+   "cost": 2.708e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 999,
+   "completion_tokens": 162,
+   "cost": 2.646e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1001,
+   "completion_tokens": 317,
+   "cost": 3.27e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1044,
+   "completion_tokens": 1000,
+   "cost": 6.088e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 667,
+   "completion_tokens": 172,
+   "cost": 2.022e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 861,
+   "completion_tokens": 284,
+   "cost": 2.858e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1003,
+   "completion_tokens": 203,
+   "cost": 2.818e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 809,
+   "completion_tokens": 106,
+   "cost": 2.042e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1005,
+   "completion_tokens": 180,
+   "cost": 2.73e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 708,
+   "completion_tokens": 303,
+   "cost": 2.628e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 686,
+   "completion_tokens": 122,
+   "cost": 1.86e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 997,
+   "completion_tokens": 135,
+   "cost": 2.534e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:4",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1182,
+   "completion_tokens": 267,
+   "cost": 3.432e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 992,
+   "completion_tokens": 1000,
+   "cost": 5.984e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 996,
+   "completion_tokens": 139,
+   "cost": 2.548e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 719,
+   "completion_tokens": 185,
+   "cost": 2.178e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 439,
+   "completion_tokens": 99,
+   "cost": 1.274e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 919,
+   "completion_tokens": 756,
+   "cost": 4.862e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 631,
+   "completion_tokens": 1000,
+   "cost": 5.262e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 491,
+   "completion_tokens": 162,
+   "cost": 1.63e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 152,
+   "completion_tokens": 229,
+   "cost": 1.22e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1003,
+   "completion_tokens": 206,
+   "cost": 2.83e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1052,
+   "completion_tokens": 1000,
+   "cost": 6.104e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 724,
+   "completion_tokens": 115,
+   "cost": 1.908e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 994,
+   "completion_tokens": 164,
+   "cost": 2.644e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:2",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 800,
+   "completion_tokens": 295,
+   "cost": 2.78e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:3",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1000,
+   "completion_tokens": 311,
+   "cost": 3.244e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 354,
+   "completion_tokens": 381,
+   "cost": 2.232e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1048,
+   "completion_tokens": 222,
+   "cost": 2.984e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 204,
+   "completion_tokens": 1000,
+   "cost": 4.408e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1044,
+   "completion_tokens": 197,
+   "cost": 2.876e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:0",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 2068,
+   "completion_tokens": 327,
+   "cost": 5.444e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1850,
+   "completion_tokens": 1000,
+   "cost": 7.7e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 620,
+   "completion_tokens": 492,
+   "cost": 3.208e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1046,
+   "completion_tokens": 120,
+   "cost": 2.572e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1523,
+   "completion_tokens": 125,
+   "cost": 3.546e-05,
+   "provider": "DeepInfra"
+  },
+  {
+   "tag": "eval:9:1",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "prompt_tokens": 1048,
+   "completion_tokens": 926,
+   "cost": 5.8e-05,
+   "provider": "DeepInfra"
+  }
+ ]
+}

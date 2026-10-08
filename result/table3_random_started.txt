@@ -1,0 +1,9 @@
+meta-llama/llama-3.1-8b-instruct|GSM8K|MAS_roundT|Random
+meta-llama/llama-3.1-8b-instruct|GSM8K|AgentPrune|Random
+meta-llama/llama-3.1-8b-instruct|GSM8K|AgentDropout|Random
+meta-llama/llama-3.1-8b-instruct|AQuA|MAS_roundT|Random
+meta-llama/llama-3.1-8b-instruct|AQuA|AgentPrune|Random
+meta-llama/llama-3.1-8b-instruct|AQuA|AgentDropout|Random
+meta-llama/llama-3.1-8b-instruct|MultiArith|MAS_roundT|Random
+meta-llama/llama-3.1-8b-instruct|MultiArith|AgentPrune|Random
+meta-llama/llama-3.1-8b-instruct|MultiArith|AgentDropout|Random

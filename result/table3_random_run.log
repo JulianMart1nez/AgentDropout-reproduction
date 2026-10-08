@@ -1,0 +1,7 @@
+table3_random: balance at start $22.54
+DONE llama-3.1-8b-instruct  GSM8K      MAS_roundT    Random         82.0% (41.0/50)  $0.0161  failed 0  DeepInfra:500  30.1 min
+DONE llama-3.1-8b-instruct  GSM8K      AgentDropout  Random         82.0% (41.0/50)  $0.0284  failed 0  DeepInfra:1040  44.4 min
+DONE llama-3.1-8b-instruct  GSM8K      AgentPrune    Random         84.0% (42.0/50)  $0.0270  failed 0  DeepInfra:900  49.2 min
+DONE llama-3.1-8b-instruct  AQuA       MAS_roundT    Random         66.0% (33.0/50)  $0.0132  failed 0  DeepInfra:500  38.0 min
+DONE llama-3.1-8b-instruct  AQuA       AgentPrune    Random         74.0% (37.0/50)  $0.0197  failed 0  DeepInfra:700  42.6 min
+DONE llama-3.1-8b-instruct  MultiArith MAS_roundT    Random        100.0% (50.0/50)  $0.0136  failed 0  DeepInfra:500  29.1 min
